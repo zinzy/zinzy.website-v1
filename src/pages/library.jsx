@@ -1,4 +1,4 @@
-import * as React from "react" 
+import React, { useState } from 'react';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -7,27 +7,48 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
  
 // markup
-const LibraryPage = ({data}) => {
+const LibraryPage = ({data}) => { 
+   
+
+  const posts = data.allMdx.nodes;
+  const [appPosts, setAppPosts] = React.useState(posts); 
+
+  const toggle = event => {
+    setAppPosts(
+      event.target.checked ? appPosts.filter(post => post.frontmatter.listingOnly) : appPosts
+    );
+    console.log(event.target.checked)
+  };
+
   return (
     <Layout>
       <title>Home Page</title>
-      
       
       <div className="row">
           <div className="col-lg-6">
             <h2>The library</h2>
             <p>A collection of more or less opinionated reviews of and thoughts on the things I read, listen to, and watch.</p>
           </div>
-        </div>  
+        </div> 
+
+      <label>
+        <input type="checkbox" onChange={toggle} />
+        Reviews only
+      </label>
 
       <ul class="content-list mt-5">
       {
-        data.allMdx.nodes.map(node => (
+        appPosts.map(node => (
           <li key={node.slug}>
             <a href={node.slug}>
               <div className="row">
                 <div className="col-2">{node.frontmatter.subcategory}</div>
-                <div className="col-7">{node.frontmatter.title}</div>  
+                <div className="col-7">
+                  {node.frontmatter.title}
+                  <span className="text-muted">
+                  {node.frontmatter.listingOnly != null ? `, listing only` : ``}
+                  </span>
+                </div>  
                 <div className="col-3 text-end">{node.frontmatter.date}</div> 
               </div>  
             </a>
@@ -37,7 +58,7 @@ const LibraryPage = ({data}) => {
       </ul>
     </Layout>
   )
-}
+} 
 
 export const query = graphql`
 query LibraryQuery {
@@ -53,6 +74,7 @@ query LibraryQuery {
           title 
           category
           subcategory  
+          listingOnly
         }
       }
     }

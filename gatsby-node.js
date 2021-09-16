@@ -47,3 +47,42 @@ exports.onCreateNode = ({ actions: { createNodeField }, node }) => {
     })
   }
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    """
+    Markdown Node
+    """
+    type MarkdownRemark implements Node @infer {
+      frontmatter: Frontmatter
+    }
+
+    """
+    Markdown Frontmatter
+    """
+    type Frontmatter @infer {
+      title: String
+      date: Date @dateformat
+      tags: [String]
+      aliases: [String]
+      slug: String
+      subcategory: String
+      listingOnly: Boolean
+      featuredImage: String
+    }
+  `
+  createTypes(typeDefs);
+};
+
+
+exports.onCreateNode = ({ actions: { createNodeField }, node }) => {
+  const type = node.internal.type;
+  if (type === 'mdx') {
+    createNodeField({
+      node,
+      name: `lastModified`,
+      value: `parent.mtime`
+    })
+  }
+}
