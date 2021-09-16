@@ -7,17 +7,27 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
-    "gatsby-plugin-mdx",
+    "gatsby-plugin-sitemap", 
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-double-brackets-link`, 
+          }
+        ],
       },
-      __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [ 
+          `Inter` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
     },
     {
       resolve: "gatsby-source-filesystem",
@@ -27,5 +37,37 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "library",
+        path: "./_notes/the-library",
+      },
+      __key: "library",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "garden",
+        path: "./_notes/garden",
+      },
+      __key: "garden",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "changelog",
+        path: "./_notes/changelog",
+      },
+      __key: "changelog",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "essays",
+        path: "./_notes/essays",
+      },
+      __key: "essays",
+    }
   ],
 };

@@ -1,0 +1,102 @@
+$black: #000;
+
+// @import "../styles/utilities/tufte.scss";
+
+
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('../fonts/MonumentGrotesk-Regular.eot');
+    src: url('../fonts/MonumentGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MonumentGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/MonumentGrotesk-Regular.woff') format('woff'),
+        url('../fonts/MonumentGrotesk-Regular.ttf') format('truetype'),
+        url('../fonts/MonumentGrotesk-Regular.svg#MonumentGrotesk-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body, html {
+    font-size: 18px;
+    @media screen and (min-width: 1200px) {
+        font-size: 22px;
+    }
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Monument Grotesk';
+    font-feature-settings: "liga", "kern";
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    padding: 5%;
+    // @media screen and (min-width: 992px) {
+    //     padding: 0;
+    // }
+}
+
+#header {
+    margin-bottom: 5rem;
+    h1 {
+        font-size: 100%;
+        margin-bottom: 2rem;
+    }
+    a {
+        color: $black;
+        text-decoration: none;
+    }
+    nav {
+        ul {
+            li {
+                margin-right: 2rem;
+                a { 
+                }
+            }
+        }
+    }
+}
+ 
+.category-icon {
+    background-color: rgb(240, 240, 240);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 2rem;
+}
+
+
+.content-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+        border-bottom: 1px solid rgba($black,0.1);
+        padding: 1rem 0;
+        transition: 0.2s ease-in-out; 
+        a {
+            color: $black;
+            text-decoration: none; 
+        }
+    }
+}
+
+.content-list-links {
+    li {
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+}
+
+a {
+    color: $black;
+    &:hover {
+        color: $black;
+    }
+}
