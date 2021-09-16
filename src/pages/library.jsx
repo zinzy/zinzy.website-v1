@@ -29,10 +29,18 @@ const LibraryPage = ({data}) => {
           </div>
         </div>  
 
-      <label>
-        <input type="checkbox" onChange={toggle} />
-        Reviews only
-      </label>
+
+        <div class="d-flex">
+          <div class="flex-grow-1">Flex item</div>
+          <div class="">
+            <div class="form-check form-switch">
+              <input class="form-check-input" onChange={toggle} type="checkbox"/> 
+              <label class="form-check-label" for="flexSwitchCheckDefault">Reviews only</label> 
+            </div>
+          </div>
+        </div> 
+         
+ 
 
       <ul class="content-list content-list-links mt-5">
       {
