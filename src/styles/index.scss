@@ -102,3 +102,16 @@ a {
         color: $black;
     }
 }
+ 
+
+.form-check-input {
+    width: 1.7rem !important;
+    height: .9rem;
+    &:checked {
+        background-color: $black;
+        border-color: $black;
+    }
+    &:focus {
+        outline: none !important;
+    }
+}

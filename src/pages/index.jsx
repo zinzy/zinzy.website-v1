@@ -108,7 +108,7 @@ TO DO
                     <div className="row">
                       <div className="col-3 col-md-2">{node.frontmatter.subcategory}</div>
                       <div className="col-9 col-md-7">{node.frontmatter.title}</div>  
-                      <div className="d-none col-md-3 text-end">{node.frontmatter.date}</div> 
+                      <div className="d-none d-md-block col-md-3 text-end">{node.frontmatter.date}</div> 
                     </div>  
                   </a>
                 </li>

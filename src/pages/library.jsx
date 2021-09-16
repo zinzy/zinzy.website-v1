@@ -15,8 +15,7 @@ const LibraryPage = ({data}) => {
     setAppPosts(
       event.target.checked ? data.allMdx.nodes.filter(post => post.frontmatter.listingOnly == null) : data.allMdx.nodes
     );
-    console.log(event.target.checked)
-  };
+  }; 
 
   return (
     <Layout>
@@ -30,8 +29,8 @@ const LibraryPage = ({data}) => {
         </div>  
 
 
-        <div class="d-flex">
-          <div class="flex-grow-1">Flex item</div>
+        <div class="d-flex mt-5">
+          <div class="flex-grow-1"></div>
           <div class="">
             <div class="form-check form-switch">
               <input class="form-check-input" onChange={toggle} type="checkbox"/> 
@@ -48,20 +47,20 @@ const LibraryPage = ({data}) => {
           <li key={node.slug}> 
             <a href={node.slug} className={node.frontmatter.listingOnly == null ? `d-block` : `d-none`}>
               <div className="row">
-                <div className="col-2">{node.frontmatter.subcategory}</div>
-                <div className="col-7">
+                <div className="col-3 col-md-2">{node.frontmatter.subcategory}</div>
+                <div className="col-9 col-md-7">
                   {node.frontmatter.title}
                 </div>  
-                <div className="col-3 text-end">{node.frontmatter.date}</div> 
+                <div className="d-none d-md-block col-md-3 text-end">{node.frontmatter.date}</div> 
               </div>  
             </a>
             <div className={node.frontmatter.listingOnly != null ? `d-block text-muted` : `d-none`}>
               <div className="row">
-                <div className="col-2">{node.frontmatter.subcategory}</div>
-                <div className="col-7">
+                <div className="col-3 col-md-2">{node.frontmatter.subcategory}</div>
+                <div className="col-9 col-md-7">
                   {node.frontmatter.title}
                 </div>  
-                <div className="col-3 text-end">{node.frontmatter.date}</div> 
+                <div className="d-none d-md-block col-md-3 text-end">{node.frontmatter.date}</div> 
               </div>  
             </div>
 
