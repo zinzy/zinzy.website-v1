@@ -15,7 +15,7 @@ const LibraryPage = ({data}) => {
 
   const toggle = event => {
     setAppPosts(
-      event.target.checked ? appPosts.filter(post => post.frontmatter.listingOnly) : appPosts
+      event.target.checked ? appPosts.filter(post => post.frontmatter.listingOnly == null) : appPosts
     );
     console.log(event.target.checked)
   };
@@ -40,18 +40,26 @@ const LibraryPage = ({data}) => {
       {
         appPosts.map(node => (
           <li key={node.slug}>
-            <a href={node.slug}>
+
+            <a href={node.slug} className={node.frontmatter.listingOnly == null ? `d-block` : `d-none`}>
               <div className="row">
                 <div className="col-2">{node.frontmatter.subcategory}</div>
                 <div className="col-7">
                   {node.frontmatter.title}
-                  <span className="text-muted">
-                  {node.frontmatter.listingOnly != null ? `, listing only` : ``}
-                  </span>
                 </div>  
                 <div className="col-3 text-end">{node.frontmatter.date}</div> 
               </div>  
             </a>
+            <div className={node.frontmatter.listingOnly != null ? `d-block text-muted` : `d-none`}>
+              <div className="row">
+                <div className="col-2">{node.frontmatter.subcategory}</div>
+                <div className="col-7">
+                  {node.frontmatter.title}
+                </div>  
+                <div className="col-3 text-end">{node.frontmatter.date}</div> 
+              </div>  
+            </div>
+
           </li>
         ))
       }
