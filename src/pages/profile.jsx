@@ -14,19 +14,18 @@ const ProfilePage = () => {
         <div className="row">
           <div className="col-lg-8 offset-lg-4">
             <h2>Zinzy Nev Geene is a design manager, linguist, and queer facilitator in Amsterdam.</h2>
-            <p>Heya pal, welcome to my little island on the Internet. I'm the design and product manager of <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>, a Dutch startup in education technology.
-              
-              thank you for visiting my personal website! I'm </p>
-            <p>I've been maintaining this space, across a variety of domains and genres, since 2003. This space contains soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+            <p>Heya pal, welcome to my little island on the Internet. I'm the design and product manager of <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>, a Dutch startup in education technology.</p>
           </div>
         </div>  
      
-      <section className=""> 
-        <p><span className="h6">Zinzy Waleson Geene</span> is a design manager, linguist, and queer facilitator in Amsterdam. This website is a collection of soft stances, lived experiences, and critical notes on the things she holds dear.</p>
+      <section className="my-5 py-5">  
 
-        <div className="row g-0 my-5">
-          <div className="col-6"><img src="../zinzy-3.jpg" alt="" className="img-fluid" /></div>
-          <div className="col-6"><img src="../zinzy-4.jpg" alt="" className="img-fluid" /></div>
+        <div className="bg-primary p-4 p-lg-5">
+        <div className="row"> 
+          <div className="col-4"><img src="../zinzy-2.jpg" alt="" className="img-fluid mt-5 p-lg-1 pt-lg-5" /></div>
+          <div className="col-4"><img src="../zinzy-3.jpg" alt="" className="img-fluid p-lg-3" /></div>
+          <div className="col-4"><img src="../zinzy-4.jpg" alt="" className="img-fluid mt-4 p-lg-2 pt-lg-5" /></div>
+        </div>
         </div>
 
         <p>I like to answer questions and question answers. I currently practice this as design and product manager at <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>, a startup in education technology.</p>

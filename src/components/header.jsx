@@ -17,10 +17,10 @@ export default function Header({ title }) {
 
       <header id="header">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-6 col-lg-4">
             <h1><Link to="/">Zinzy Nev Geene</Link></h1>
           </div>
-          <div className="col-lg-8">
+          <div className="col-6 col-lg-8">
             <nav>
               <ul className="list-inline">
                 <li className="list-inline-item"><Link to="/profile">Profile</Link></li>

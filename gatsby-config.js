@@ -16,6 +16,9 @@ module.exports = {
         remarkPlugins: [
           {
             resolve: `gatsby-remark-double-brackets-link`, 
+            options: {
+              titleToURLPath: `${__dirname}/resolve-url.js`
+            },
           }
         ],
       },

@@ -1,5 +1,7 @@
 $black: #000;
 
+$primary: rgb(237, 116, 213);
+
 // @import "../styles/utilities/tufte.scss";
 
 
@@ -114,4 +116,8 @@ a {
     &:focus {
         outline: none !important;
     }
+}
+
+.bg-primary {
+    background-color: $primary !important;
 }

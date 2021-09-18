@@ -50,7 +50,6 @@ TO DO
       </section>
 
       <div className="border-bottom"></div>
- 
 
       <section className="my-3 py-3 my-md-4 py-md-4"> 
         <div className="row">
@@ -219,7 +218,7 @@ query IndexQuery {
         category
         date(formatString: "dddd DD MMMM YYYY")
         excerpt
-        growthStage
+        growthStage 
       }
       slug  
       parent {
@@ -242,6 +241,7 @@ query IndexQuery {
         title 
         category
         subcategory 
+        listingOnly
       }
       parent {
         ... on File {

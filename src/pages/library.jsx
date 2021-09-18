@@ -7,6 +7,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 // markup
 const LibraryPage = ({data}) => {  
+  
  
   const posts = data.allMdx.nodes;
   const [appPosts, setAppPosts] = React.useState(data.allMdx.nodes); 
@@ -16,6 +17,7 @@ const LibraryPage = ({data}) => {
       event.target.checked ? data.allMdx.nodes.filter(post => post.frontmatter.listingOnly == null) : data.allMdx.nodes
     );
   }; 
+ 
 
   return (
     <Layout>
@@ -38,8 +40,7 @@ const LibraryPage = ({data}) => {
             </div>
           </div>
         </div> 
-         
- 
+          
 
       <ul class="content-list content-list-links mt-5">
       {
