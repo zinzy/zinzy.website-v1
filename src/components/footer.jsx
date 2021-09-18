@@ -1,7 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Helmet } from "react-helmet"  
-import siteConfig from "../../gatsby-config"
 
 export default function Footer({ title }) { 
 

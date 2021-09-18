@@ -1,20 +1,7 @@
 import * as React from "react" 
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import { Link } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx" 
- 
-// data
-const links = [  
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
-]
+  
 
 // markup
 const IndexPage = ({data}) => {
@@ -58,7 +45,7 @@ TO DO
           </div>
           <div className="col-lg-8 offset-lg-1">
             <h3>Digital garden</h3> 
-            <ul class="content-list content-list-links mt-3 mt-lg-5">
+            <ul className="content-list content-list-links mt-3 mt-lg-5">
             {
               data.garden.nodes.map(node => (
                 <li key={node.slug}>
@@ -99,7 +86,7 @@ TO DO
           <div className="col-lg-8 offset-lg-1">
             <h3>Library</h3> 
 
-            <ul class="content-list content-list-links mt-3 mt-lg-5">
+            <ul className="content-list content-list-links mt-3 mt-lg-5">
             {
               data.library.nodes.map(node => (
                 <li key={node.slug}>
@@ -131,7 +118,7 @@ TO DO
           <div className="col-lg-8 offset-lg-1">
             <h3>Changelog</h3>
 
-            <ul class="content-list mt-3 mt-lg-5">
+            <ul className="content-list mt-3 mt-lg-5">
             {
               data.changelog.nodes.map(node => (
                 <li key={node.slug}>

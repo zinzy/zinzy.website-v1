@@ -1,15 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import { Link } from "gatsby"
-import { MDXProvider } from "@mdx-js/react"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 // markup
 const LibraryPage = ({data}) => {  
-  
- 
-  const posts = data.allMdx.nodes;
+   
   const [appPosts, setAppPosts] = React.useState(data.allMdx.nodes); 
  
   const toggle = event => {
