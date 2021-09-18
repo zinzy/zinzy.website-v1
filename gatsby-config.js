@@ -11,6 +11,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: "gatsby-source-lastfm",
+      options: {
+        api_key: '65f42e91d1664077fdd470c5ce5e7813',
+        username: 'zinzynevgeene',
+        limit: 10, // the maximum number of playbacks to pull in
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
@@ -18,6 +26,15 @@ module.exports = {
             resolve: `gatsby-remark-double-brackets-link`,
           },
         ],
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_blank",
+            rel: "noopener noreferrer"
+          }
+        }
+        ]
       },
     },
     {
@@ -60,14 +77,6 @@ module.exports = {
         path: "./_notes/changelog",
       },
       __key: "changelog",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "essays",
-        path: "./_notes/essays",
-      },
-      __key: "essays",
     }
   ],
 };

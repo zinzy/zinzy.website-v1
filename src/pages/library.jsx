@@ -71,7 +71,7 @@ const LibraryPage = ({data}) => {
 export const query = graphql`
 query LibraryQuery {
     allMdx(
-      sort: {fields: frontmatter___title}
+      sort: {fields: frontmatter___date, order: DESC}
       filter: {fileAbsolutePath: {regex: "/library/"}}
     ) {
       nodes { 

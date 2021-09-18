@@ -216,18 +216,19 @@ query IndexQuery {
     }
   }
 
-  library: allMdx(
-    sort: {fields: frontmatter___title}
-    filter: {fileAbsolutePath: {regex: "/the-library/"}}
+  library: 
+  allMdx(
+    sort: {fields: frontmatter___date, order: DESC}
+    filter: {fileAbsolutePath: {regex: "/library/"}, frontmatter: {listingOnly: {ne: true}}}
     limit: 3
   ) {
     nodes {
       slug
       frontmatter {
         date(formatString: "MMM YYYY")
-        title 
+        title
         category
-        subcategory 
+        subcategory
         listingOnly
       }
       parent {

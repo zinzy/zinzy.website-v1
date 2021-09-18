@@ -10,7 +10,7 @@ export default function Layout({ children }) {
           <div className="col-xl-12">   
             <main className="">
               <Header/>  
-              <main className="my-5 py-5">{children}</main>
+              <main className="my-4 py-4">{children}</main>
               <Footer/>  
             </main>
           </div>

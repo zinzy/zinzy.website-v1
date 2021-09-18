@@ -1,4 +1,36 @@
-const path = require("path")
+const path = require(`path`)
+const makeSlug = require("./src/utils/make-slug")
+const _ = require('lodash')
+const { createFilePath } = require(`gatsby-source-filesystem`)
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  if (node.internal.type === `MarkdownRemark`) {
+  	const { createNodeField } = actions
+    const title = node.frontmatter.title ? node.frontmatter.title : createFilePath({ node, getNode, basePath: `_notes` }).replace(/^\/(.+)\/$/, '$1')
+    const slug = node.slug ? makeSlug(node.slug) : makeSlug(title)
+    const fileNode = getNode(node.parent)
+    const date = node.frontmatter.date ? node.frontmatter.date : fileNode.ctime
+
+    createNodeField({
+      node,
+      name: `slug`,
+      value: `/${slug}`
+    })
+    createNodeField({
+      node,
+      name: `date`,
+      value: date
+    })
+    createNodeField({
+      node,
+      name: `title`,
+      value: title.replace(/\//g,'')
+    })
+
+    // :TODO: Add tags. Ideally, every supported frontmatter should be added as a field.
+  }
+}
+
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   // destructure the createPage function from the actions object
@@ -34,18 +66,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       context: { id: node.id },
     })
   })
-}
-
-
-exports.onCreateNode = ({ actions: { createNodeField }, node }) => {
-  const type = node.internal.type;
-  if (type === 'mdx') {
-    createNodeField({
-      node,
-      name: `lastModified`,
-      value: `parent.mtime`
-    })
-  }
 }
 
 exports.createSchemaCustomization = ({ actions }) => {
