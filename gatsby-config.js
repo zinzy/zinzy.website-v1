@@ -41,7 +41,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "library",
-        path: "./_notes/the-library",
+        path: "./_notes/library",
       },
       __key: "library",
     },

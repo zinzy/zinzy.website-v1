@@ -79,10 +79,17 @@ exports.createSchemaCustomization = ({ actions }) => {
 exports.onCreateNode = ({ actions: { createNodeField }, node }) => {
   const type = node.internal.type;
   if (type === 'mdx') {
-    createNodeField({
-      node,
-      name: `lastModified`,
-      value: `parent.mtime`
-    })
+    createNodeField(
+      {
+        node,
+        name: `lastModified`,
+        value: `parent.mtime`
+      },
+      {
+        node,
+        name: "slug",
+        value: slug.replace(/^\/[0-9a-z]+\//, '/'),
+      }
+    ) 
   }
 }
