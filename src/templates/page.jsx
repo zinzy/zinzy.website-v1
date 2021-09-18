@@ -7,7 +7,11 @@ import Layout from "../components/layout"
 
 export default function PageTemplate({ data: { mdx } }) {
 
-  const featuredImg = mdx.frontmatter.featuredImage
+  const featuredImg = mdx.frontmatter.featuredImage 
+  const linkingHere = mdx.inboundReferences.nodes;
+
+  console.log('refs', linkingHere)
+
   return (
     <> 
       <Helmet> 
@@ -18,22 +22,36 @@ export default function PageTemplate({ data: { mdx } }) {
       </Helmet>
       <Layout>
 
+        <article className="page">
         <div className="row">
           <div className="col-lg-3">
               <img className={featuredImg != null ? `rounded img-fluid` : `d-none`} src={mdx.frontmatter.featuredImage} alt="{ mdx.frontmatter.title }" />
           </div>
           <div className="col-lg-8 offset-lg-1">
-        <div>
-          <header className="mb-5">
-            <h2 className="h1">{mdx.frontmatter.title}</h2>
-            <p className="lead">{mdx.frontmatter.excerpt}</p>
-          </header>
-          <MDXProvider>
-            <MDXRenderer>{mdx.body}</MDXRenderer>
-          </MDXProvider>
-        </div> 
+            <div>
+              <header className="mb-5">
+                <h2 className="h1">{mdx.frontmatter.title}</h2>
+                <p className="lead">{mdx.frontmatter.excerpt}</p>
+              </header>
+              <MDXProvider>
+                <MDXRenderer>{mdx.body}</MDXRenderer>
+              </MDXProvider>
+              <footer>
+                <h3>Linking here</h3>
+                <ul className="list-unstyled">
+                  {
+                    mdx.inboundReferences.map(node => (
+                      <li key={node.slug}>   
+                      {node.frontmatter.title}
+                      </li>
+                    ))
+                  }
+                  </ul>
+              </footer>
+            </div> 
           </div>
         </div>
+        </article>
  
       </Layout>
     </>
@@ -56,6 +74,16 @@ export const pageQuery = graphql`
         growthStage
       }
       timeToRead
+      inboundReferences {
+        ... on Mdx {
+          id
+          slug
+          frontmatter {
+            title
+          }
+        }
+      }
     }
   }
 `
+

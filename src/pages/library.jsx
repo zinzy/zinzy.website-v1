@@ -27,7 +27,11 @@ const LibraryPage = ({data}) => {
 
 
         <div class="d-flex mt-5">
-          <div class="flex-grow-1"></div>
+          <div class="flex-grow-1">
+
+
+
+          </div>
           <div class="">
             <div class="form-check form-switch">
               <input class="form-check-input" onChange={toggle} type="checkbox"/> 
@@ -86,9 +90,7 @@ query LibraryQuery {
         }
       }
     }
-  }
-  
-
+  } 
 `
 
 export default LibraryPage

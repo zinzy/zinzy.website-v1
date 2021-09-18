@@ -25,16 +25,15 @@ module.exports = {
           {
             resolve: `gatsby-remark-double-brackets-link`,
           },
-        ],
-        plugins: [
-        {
-          resolve: "gatsby-remark-external-links",
-          options: {
-            target: "_blank",
-            rel: "noopener noreferrer"
-          }
-        }
-        ]
+        ], 
+      },
+    }, 
+    'gatsby-transformer-mdx',
+    // after a markdown or Mdx transformer
+    {
+      resolve: `gatsby-transformer-markdown-references`,
+      options: {
+        types: ["Mdx"], // or ["MarkdownRemark"] (or both)
       },
     },
     {

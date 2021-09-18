@@ -102,7 +102,7 @@ exports.onCreateNode = ({ actions: { createNodeField }, node }) => {
     createNodeField(
       {
         node,
-        name: `lastModified`,
+        name: `changeTime`,
         value: `parent.mtime`
       },
       {

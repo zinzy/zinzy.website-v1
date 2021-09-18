@@ -8,23 +8,8 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <title>Home Page</title>
-
-
-{/* 
-TO DO 
-- Template per content type
-- Slugs
-- Bidirectional links
-- Bidirectional previews
-- Animation
-- Favicon
-- Contact form
-
-
-*/}
-
-
-
+ 
+ 
       <section className="mb-3 pb-3 mb-md-4 pb-md-4"> 
         <div className="row">
           <div className="col-lg-4">
