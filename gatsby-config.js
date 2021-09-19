@@ -20,22 +20,20 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-mdx`,
-      options: {
+      options: { 
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-double-brackets-link`,
           },
+          {
+            resolve: `gatsby-transformer-markdown-references`,
+            options: {
+              types: ["Mdx"], // or ["MarkdownRemark"] (or both)
+            },
+          },
         ], 
       },
-    }, 
-    'gatsby-transformer-mdx',
-    // after a markdown or Mdx transformer
-    {
-      resolve: `gatsby-transformer-markdown-references`,
-      options: {
-        types: ["Mdx"], // or ["MarkdownRemark"] (or both)
-      },
-    },
+    },  
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

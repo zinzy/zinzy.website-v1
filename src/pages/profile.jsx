@@ -165,8 +165,8 @@ const ProfilePage = ({data}) => {
             </div>
             <div className="col-lg-8 offset-lg-1 d-flex align-items-center mt-3 mt-lg-0">
             <div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
-</div>
+              <span className="font-weight-bold">Good to know</span>
+            </div>
             </div>
           </div>
         </section>

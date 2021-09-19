@@ -36,7 +36,7 @@ const IndexPage = ({data}) => {
                 <li key={node.slug}>
                   <a href={node.slug}>
                     <div className="row">
-                      <div className="col-1">
+                      <div className="col-3 col-md-2">
                         {(() => { 
                           switch (node.frontmatter.growthStage) {
                             case 'Sprout': return (<span role="img" aria-label="Category">🌱</span>) 
@@ -46,8 +46,8 @@ const IndexPage = ({data}) => {
                           } 
                         })()} 
                       </div>
-                      <div className="col-6">{node.frontmatter.title}</div>  
-                      <div className="col-5 text-end">{node.parent.modifiedTime}</div>  
+                      <div className="col-9 col-md-7">{node.frontmatter.title}</div>  
+                      <div className="d-none d-md-block col-md-3 text-end">{node.parent.modifiedTime}</div>  
                     </div>  
                   </a>
                 </li>

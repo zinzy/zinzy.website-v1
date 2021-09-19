@@ -36,17 +36,25 @@ export default function PageTemplate({ data: { mdx } }) {
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
               </MDXProvider>
-              <footer>
-                <h3>Linking here</h3>
-                <ul className="list-unstyled">
+              <footer className="my-5 py-5">
+                <h3 className="h5">Linking here</h3>
+                {/* <ul className="content-list mt-3">
                   {
                     mdx.inboundReferences.map(node => (
-                      <li key={node.slug}>   
-                      {node.frontmatter.title}
-                      </li>
+                      <li key={node.slug}>
+                  <a href={node.slug}>
+                    <div className="row">
+                      <div className="col-3 col-md-2">
+                        cd
+                      </div>
+                      <div className="col-9 col-md-7">{node.frontmatter.title}</div>  
+                      <div className="d-none d-md-block col-md-3 text-end">{node.parent.modifiedTime}</div>  
+                    </div>  
+                  </a>
+                </li>
                     ))
                   }
-                  </ul>
+                  </ul> */}
               </footer>
             </div> 
           </div>
@@ -74,15 +82,6 @@ export const pageQuery = graphql`
         growthStage
       }
       timeToRead
-      inboundReferences {
-        ... on Mdx {
-          id
-          slug
-          frontmatter {
-            title
-          }
-        }
-      }
     }
   }
 `
