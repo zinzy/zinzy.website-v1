@@ -11,7 +11,7 @@ const BlogIndex = ({ data }) => {
         <div className="row">
           <div className="col-lg-6">
             <h2>The digital garden</h2>
-            <p>I maintain this≈ space as a digital garden; a public, one-person wiki of sorts, containing a variety of subjects. Its contents are subject to change.</p>
+            <p>I maintain this space as a digital garden; a public, one-person wiki of sorts, containing a variety of subjects. Its contents are subject to change.</p>
           </div>
         </div>  
  

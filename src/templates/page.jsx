@@ -8,9 +8,9 @@ import Layout from "../components/layout"
 export default function PageTemplate({ data: { mdx } }) {
 
   const featuredImg = mdx.frontmatter.featuredImage 
-  const linkingHere = mdx.inboundReferences.nodes;
+  // const linkingHere = mdx.inboundReferences.nodes;
 
-  console.log('refs', linkingHere)
+  // console.log('refs', linkingHere)
 
   return (
     <> 

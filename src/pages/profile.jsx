@@ -135,12 +135,14 @@ const ProfilePage = ({data}) => {
                         <li key={node.id}>   
                           <a href="{node.track.url}" target="_blank" rel="noopener noreferrer">
                             <div className="row mb-4">
-                              <div className="col-2">
+                              <div className="col-2 d-flex align-items-center">
                                 <img src={node.track.image[2].text} className="img-fluid rounded" alt="{node.track.name}" />
                               </div>
-                              <div className="col-10">
-                              <div className="text-white">{node.track.name}</div> 
-                              <div className="text-muted">{node.track.artist.name}</div> 
+                              <div className="col-10 d-flex align-items-center">
+                                <div>
+                                  <div className="text-white">{node.track.name}</div> 
+                                  <div className="text-muted">{node.track.artist.name}</div> 
+                                </div>
                               </div>
                             </div>
                           </a>
