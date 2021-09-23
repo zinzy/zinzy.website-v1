@@ -23,7 +23,8 @@ $primary: rgb(237, 116, 213);
 
 
 body, html {
-    font-size: 18px;
+    
+    font-size: 22px;
     @media screen and (min-width: 1200px) {
         font-size: 22px;
     }
@@ -101,8 +102,10 @@ body {
 
 a {
     color: $black;
+    text-decoration: none;
     &:hover {
         color: $black;
+        text-decoration: underline;
     }
 }
  
@@ -260,4 +263,8 @@ mark {
      h4 { margin-top: 2.5rem;}
      h5 { margin-top: 2rem;}
      h6 { margin-top: 1.5rem;}
+ }
+
+ h1 {
+     font-size: 100%;
  }

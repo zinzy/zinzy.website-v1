@@ -1,9 +1,9 @@
-import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import React, { useState, useEffect } from 'react';
 
 const BlogIndex = ({ data }) => {
-
+ 
   return (
     <Layout>
       <div>
@@ -12,8 +12,9 @@ const BlogIndex = ({ data }) => {
           <div className="col-lg-6">
             <h2>The digital garden</h2>
             <p>I maintain this space as a digital garden; a public, one-person wiki of sorts, containing a variety of subjects. Its contents are subject to change.</p>
-          </div>
-        </div>  
+ 
+
+
  
 
         <ul class="content-list mt-5">
@@ -45,6 +46,8 @@ const BlogIndex = ({ data }) => {
               ))
             }
             </ul>
+    </div>
+    </div>
     </div>
     </Layout>
   )

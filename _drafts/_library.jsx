@@ -60,7 +60,7 @@ const LibraryPage = ({data}) => {
                 <div className="col-9 col-md-7">
                   {node.frontmatter.title}
                 </div>  
-                <div className="d-none d-md-block col-md-3 text-end">{node.frontmatter.date}</div> 
+                <div className="d-none d-md-block col-md-3 text-end">{node.parent.changeTime}</div> 
               </div>  
             </div>
 
@@ -81,6 +81,11 @@ query LibraryQuery {
       nodes { 
         body
         slug
+        parent {
+          ... on File {
+            changeTime(formatString: "MMM D, YYYY")
+          }
+        }
         frontmatter {
           date(formatString: "MMM YYYY")
           title 

@@ -1,6 +1,6 @@
 import * as React from "react" 
 import { graphql } from 'gatsby'
-import Layout from "../components/layout"
+import Layout from "../src/components/layout"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
