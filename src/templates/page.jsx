@@ -71,15 +71,10 @@ export const pageQuery = graphql`
     mdx(id: { eq: $id }) {
       id
       body
-      frontmatter {
-        tags
+      frontmatter { 
         title
         excerpt
         date(formatString: "MMM YYYY") 
-        category
-        subcategory
-        featuredImage
-        growthStage
       }
       timeToRead
     }

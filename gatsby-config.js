@@ -38,7 +38,9 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [ 
-          `Inter` // you can also specify font weights and styles
+          `Inter`,
+          `Fredoka+One`,
+          `IM Fell French Canon SC` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
@@ -54,26 +56,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "library",
-        path: "./_notes/library",
+        name: "writing",
+        path: "./_writing",
       },
-      __key: "library",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "garden",
-        path: "./_notes/garden",
-      },
-      __key: "garden",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "changelog",
-        path: "./_notes/changelog",
-      },
-      __key: "changelog",
+      __key: "writing",
     }
   ],
 };
