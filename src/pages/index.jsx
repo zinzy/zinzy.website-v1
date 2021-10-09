@@ -9,23 +9,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 const IndexPage = ({data}) => {
   return (
     <Layout> 
-      <article>
-        {
-          data.allMdx.nodes.map(node => (
-            <div key={node.slug}>
-              <header className="text-center text-md-start">
-                <div className="text-muted">The week on Sunday</div>
-                <h2>{node.frontmatter.title} </h2>
-                <time className="text-muted">{node.frontmatter.date}</time>
-              </header>
-              
-              <MDXProvider>
-                <MDXRenderer>{node.body}</MDXRenderer>
-              </MDXProvider>
-            </div>
-          ))
-        }
-        </article>
+      <a href="mailto:zinzy@pm.me">Hello</a>
     </Layout>
   )
 }

@@ -7,15 +7,7 @@ export default function Layout({ children }) {
     <div>
       { 
       <div>
-        <div className="p-2 pt-3 p-lg-0">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-6 offset-xl-3">
-              <main>{children}</main> 
-            </div>
-          </div> 
-        </div> 
-        </div>
+        <main>{children}</main> 
         <Footer/> 
       </div>
       }
