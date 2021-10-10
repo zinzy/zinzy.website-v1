@@ -16,20 +16,8 @@ export default function Header({ title }) {
       </Helmet> 
 
       <header id="header">
-        <div className="row">
-          <div className="col-6 col-lg-4">
-            <h1><Link to="/">Zinzy Nev Geene</Link></h1>
-          </div>
-          <div className="col-6 col-lg-8">
-            <nav>
-              <ul className="list-inline">
-                <li className="list-inline-item"><Link to="/profile">Profile</Link></li>
-                <li className="list-inline-item"><Link to="/garden">Digital garden</Link></li> 
-                <li className="list-inline-item"><Link to="/library">Library</Link></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
+        <h1><Link to="/">Zinzy Nev Geene</Link></h1>
+        <p className="m-0">Design manager, linguist, queer facilitator</p>
       </header>
 
 

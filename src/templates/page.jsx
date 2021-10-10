@@ -23,42 +23,27 @@ export default function PageTemplate({ data: { mdx } }) {
       <Layout>
 
         <article className="page">
-        <div className="row">
-          <div className="col-lg-3">
-              <img className={featuredImg != null ? `rounded img-fluid` : `d-none`} src={mdx.frontmatter.featuredImage} alt="{ mdx.frontmatter.title }" />
-          </div>
-          <div className="col-lg-8 offset-lg-1">
-            <div>
               <header className="mb-5">
                 <h2 className="h1">{mdx.frontmatter.title}</h2>
-                <p className="lead">{mdx.frontmatter.excerpt}</p>
               </header>
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
-              </MDXProvider>
-              <footer className="my-5 py-5">
-                <h3 className="h5">Linking here</h3>
-                {/* <ul className="content-list mt-3">
+              </MDXProvider> 
+ 
+              {/* <footer className={mdx.inboundReferences != null ? `my-5 py-5` : `d-none`}>
+                <p className="text-muted m-0">Linking here</p>
+                <ul className="content-list mt-2">
                   {
                     mdx.inboundReferences.map(node => (
                       <li key={node.slug}>
-                  <a href={node.slug}>
-                    <div className="row">
-                      <div className="col-3 col-md-2">
-                        cd
-                      </div>
-                      <div className="col-9 col-md-7">{node.frontmatter.title}</div>  
-                      <div className="d-none d-md-block col-md-3 text-end">{node.parent.modifiedTime}</div>  
-                    </div>  
-                  </a>
-                </li>
+                        <a href={node.slug}>
+                        {node.frontmatter.title}  
+                        </a>
+                      </li>
                     ))
                   }
-                  </ul> */}
-              </footer>
-            </div> 
-          </div>
-        </div>
+                  </ul>
+              </footer> */}
         </article>
  
       </Layout>
@@ -73,10 +58,24 @@ export const pageQuery = graphql`
       body
       frontmatter { 
         title
-        excerpt
-        date(formatString: "MMM YYYY") 
       }
       timeToRead
+      inboundReferences {
+        ... on Mdx {
+          frontmatter {
+            title
+          }
+          slug
+        }
+      }
+      outboundReferences {
+        ... on Mdx {
+          frontmatter {
+            title
+          }
+          slug
+        }
+      }
     }
   }
 `

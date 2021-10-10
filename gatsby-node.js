@@ -4,7 +4,7 @@ const _ = require('lodash')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === `Mdx`) {
   	const { createNodeField } = actions
     const title = node.frontmatter.title ? node.frontmatter.title : createFilePath({ node, getNode, basePath: `_notes` }).replace(/^\/(.+)\/$/, '$1')
     const slug = node.slug ? makeSlug(node.slug) : makeSlug(title)
@@ -100,11 +100,6 @@ exports.onCreateNode = ({ actions: { createNodeField }, node }) => {
   const type = node.internal.type;
   if (type === 'mdx') {
     createNodeField(
-      {
-        node,
-        name: `changeTime`,
-        value: `parent.mtime`
-      },
       {
         node,
         name: "slug",

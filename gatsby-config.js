@@ -24,16 +24,16 @@ module.exports = {
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-double-brackets-link`,
-          },
-          {
-            resolve: `gatsby-transformer-markdown-references`,
-            options: {
-              types: ["Mdx"], // or ["MarkdownRemark"] (or both)
-            },
-          },
+          }, 
         ], 
       },
-    },  
+    }, 
+    {
+      resolve: `gatsby-transformer-markdown-references`,
+      options: {
+        types: ["Mdx"], // or ["MarkdownRemark"] (or both)
+      },
+    }, 
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

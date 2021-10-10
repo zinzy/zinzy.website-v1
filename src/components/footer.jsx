@@ -6,7 +6,7 @@ export default function Footer({ title }) {
   return (
     <> 
 
-      <footer className=" ">
+      <footer id="footer">
         Okay good talk
      </footer>
     </>
