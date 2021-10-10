@@ -4,6 +4,8 @@ import Helmet from "react-helmet"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout" 
+const makeSlug = require("../utils/make-slug")
+const moment = require('moment')  
 
 export default function PageTemplate({ data: { mdx } }) {
 
