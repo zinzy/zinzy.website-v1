@@ -9,6 +9,47 @@ $gray-300: rgba(0, 0, 0, 0.3);
 $gray-200: rgba(0, 0, 0, 0.2);
 $gray-100: rgba(0, 0, 0, 0.1);
 
+@font-face {
+    font-family: 'Untitled Sans Bold';
+    src: url('../fonts/UntitledSans-Bold.eot');
+    src: url('../fonts/UntitledSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UntitledSans-Bold.woff2') format('woff2'),
+        url('../fonts/UntitledSans-Bold.woff') format('woff'),
+        url('../fonts/UntitledSans-Bold.ttf') format('truetype'),
+        url('../fonts/UntitledSans-Bold.svg#UntitledSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Untitled Sans Regular';
+    src: url('../fonts/UntitledSans-Regular.eot');
+    src: url('../fonts/UntitledSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UntitledSans-Regular.woff2') format('woff2'),
+        url('../fonts/UntitledSans-Regular.woff') format('woff'),
+        url('../fonts/UntitledSans-Regular.ttf') format('truetype'),
+        url('../fonts/UntitledSans-Regular.svg#UntitledSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Untitled Sans Medium';
+    src: url('../fonts/UntitledSans-Medium.eot');
+    src: url('../fonts/UntitledSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UntitledSans-Medium.woff2') format('woff2'),
+        url('../fonts/UntitledSans-Medium.woff') format('woff'),
+        url('../fonts/UntitledSans-Medium.ttf') format('truetype'),
+        url('../fonts/UntitledSans-Medium.svg#UntitledSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 html {
     text-rendering: optimizelegibility;
     overflow-x: hidden;
@@ -29,7 +70,9 @@ body {
     background-color: white;
     color: $gray-600; 
     font-size: 1rem;
-    font-family: apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol; 
+    // font-family: apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol; 
+
+    font-family: 'Untitled Sans Regular';
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
