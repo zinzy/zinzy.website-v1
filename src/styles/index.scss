@@ -137,8 +137,27 @@ a {
 
 #header {
     margin-bottom: 100px;
+    position: relative;
 }
 
 #footer {
     margin-top: 100px;
+}
+
+.memoji {
+    display: none;
+    @media screen and (min-width: 992px) {
+        display: block;
+        width: 80px;
+        position: absolute;
+        left: -100px;
+        top: -15px;
+    }
+    @media screen and (min-width: 1200px) {
+        display: block;
+        width: 100px;
+        position: absolute;
+        left: -150px;
+        top: -25px;
+    }
 }
