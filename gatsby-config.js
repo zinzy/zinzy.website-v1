@@ -38,9 +38,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [ 
-          `Inter`,
+          `Inter\:400,500,`,
           `Fredoka+One`,
-          `IM Fell French Canon SC` // you can also specify font weights and styles
+          `IM Fell French Canon SC`,
+          `Work Sans` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
