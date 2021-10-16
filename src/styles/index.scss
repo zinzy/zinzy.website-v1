@@ -9,47 +9,6 @@ $gray-300: rgba(0, 0, 0, 0.3);
 $gray-200: rgba(0, 0, 0, 0.2);
 $gray-100: rgba(0, 0, 0, 0.1);
 
-@font-face {
-    font-family: 'Untitled Sans Bold';
-    src: url('../fonts/UntitledSans-Bold.eot');
-    src: url('../fonts/UntitledSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/UntitledSans-Bold.woff2') format('woff2'),
-        url('../fonts/UntitledSans-Bold.woff') format('woff'),
-        url('../fonts/UntitledSans-Bold.ttf') format('truetype'),
-        url('../fonts/UntitledSans-Bold.svg#UntitledSans-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Untitled Sans Regular';
-    src: url('../fonts/UntitledSans-Regular.eot');
-    src: url('../fonts/UntitledSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/UntitledSans-Regular.woff2') format('woff2'),
-        url('../fonts/UntitledSans-Regular.woff') format('woff'),
-        url('../fonts/UntitledSans-Regular.ttf') format('truetype'),
-        url('../fonts/UntitledSans-Regular.svg#UntitledSans-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Untitled Sans Medium';
-    src: url('../fonts/UntitledSans-Medium.eot');
-    src: url('../fonts/UntitledSans-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/UntitledSans-Medium.woff2') format('woff2'),
-        url('../fonts/UntitledSans-Medium.woff') format('woff'),
-        url('../fonts/UntitledSans-Medium.ttf') format('truetype'),
-        url('../fonts/UntitledSans-Medium.svg#UntitledSans-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
 html {
     text-rendering: optimizelegibility;
     overflow-x: hidden;
@@ -71,22 +30,19 @@ body {
     color: $gray-600; 
     font-size: 1rem;
     // font-family: apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol; 
-
-    // font-family: 'Untitled Sans Regular';
-    font-family: 'Inter', sans-serif;
-    text-rendering: optimizelegibility;
-    -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif; 
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; 
-    word-wrap: break-word;
-    font-kerning: normal;
+    text-rendering: optimizelegibility; 
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";  
+    word-wrap: break-word;
+    font-kerning: normal; 
     padding: 10%; 
     @media screen and (min-width: 768px) {
         padding: 0;
@@ -184,13 +140,31 @@ a {
         width: 80px;
         position: absolute;
         left: -100px;
-        top: -15px;
+        top: -5px;
     }
     @media screen and (min-width: 1200px) {
         display: block;
         width: 100px;
         position: absolute;
         left: -150px;
-        top: -25px;
+        top: -15px;
     }
+}
+
+.text-muted {
+    color: $gray-500 !important;
+    a {
+        font-weight: normal;
+        color: $gray-500 !important;
+    }
+} 
+
+.list-inline {
+    .list-inline-item {
+        margin-right: 2rem;
+    }
+}
+
+section {
+    margin-top: 5rem;
 }

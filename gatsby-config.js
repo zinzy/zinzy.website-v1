@@ -10,6 +10,7 @@ module.exports = {
     "gatsby-plugin-sitemap", 
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    `gatsby-buildtime-timezone`,
     {
       resolve: "gatsby-source-lastfm",
       options: {

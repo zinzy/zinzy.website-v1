@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { Helmet } from "react-helmet"  
 import siteConfig from "../../gatsby-config"
 
-export default function Header({ title }) { 
+export default function Header({title,data}) { 
 
   return (
     <>
@@ -19,14 +19,19 @@ export default function Header({ title }) {
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1633782178/me/memoji_u5mrct.png" className="memoji" alt="" />
         <h1><Link to="/">Zinzy Nev Geene</Link></h1>
         <p className="m-0">Design manager, linguist, queer facilitator</p>
+
+      {data.site.buildTime}
       </header>
-
-
-
-
-
-
-
+ 
     </>
   )
 } 
+
+
+export const header = graphql`
+  query header { 
+    site {
+      buildTime(formatString: "YYYY MMMM DD")
+    }
+  }
+`
