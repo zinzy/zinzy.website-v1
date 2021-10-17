@@ -25,13 +25,4 @@ export default function Header({title,data}) {
  
     </>
   )
-} 
-
-
-export const header = graphql`
-  query header { 
-    site {
-      buildTime(formatString: "YYYY MMMM DD")
-    }
-  }
-`
+}  
