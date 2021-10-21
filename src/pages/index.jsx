@@ -37,7 +37,7 @@ const IndexPage = ({data}) => {
         <p>I maintain a list of things I'm focused on right now. If there's any topic that interests you, feel free to reach out and tell me about it.</p>
         <ul>
           <li>Starting Reading Club back up at Vine & Fig</li>
-          <li>Reading _House of Leaves_ yet again</li>
+          <li>Reading <em>House of Leaves</em> yet again</li>
           <li>Enjoying the weather changing</li>
           <li>Adjusting to no longer working from home</li>
         </ul>
