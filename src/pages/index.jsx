@@ -12,7 +12,7 @@ const IndexPage = ({data}) => {
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1633782178/me/memoji_u5mrct.png" className="memoji" alt="" />
         <h1>Zinzy Nev Geene</h1>
         <ul className="list-unstyled">
-          <li>Design manager, linguist, queer facilitator</li>
+          <li>Design manager, linguist, queer (Christian) facilitator</li>
           <li>Last updated on {data.site.buildTime}</li>
         </ul> 
       </header>
@@ -36,8 +36,8 @@ const IndexPage = ({data}) => {
         <h2>Now</h2>
         <p>I maintain a list of things I'm focused on right now. If there's any topic that interests you, feel free to reach out and tell me about it.</p>
         <ul>
-          <li>Speech acts: how do they contribute to sexism, racism, and other forms of oppression</li>
-          <li>Reading up on startup design management</li>
+          <li>Starting Reading Club back up at Vine & Fig</li>
+          <li>Reading _House of Leaves_ yet again</li>
           <li>Enjoying the weather changing</li>
           <li>Adjusting to no longer working from home</li>
         </ul>
