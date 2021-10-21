@@ -94,17 +94,3 @@ exports.createSchemaCustomization = ({ actions }) => {
   `
   createTypes(typeDefs);
 };
-
-
-exports.onCreateNode = ({ actions: { createNodeField }, node }) => {
-  const type = node.internal.type;
-  if (type === 'mdx') {
-    createNodeField(
-      {
-        node,
-        name: "slug",
-        value: slug.replace(/^\/[0-9a-z]+\//, '/'),
-      }
-    ) 
-  }
-}
