@@ -19,9 +19,9 @@ html {
 }
 
 body, html { 
-    font-size: 18px;
-    @media screen and (min-width: 1200px) {
-        // font-size: 22px;
+    font-size: 16px;
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
     }
 }
 
@@ -46,7 +46,7 @@ body {
     padding: 10%; 
     @media screen and (min-width: 768px) {
         padding: 0;
-        max-width: 600px;
+        max-width: 700px;
         margin: 200px auto;
     }
 }
@@ -89,36 +89,19 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     color: $black;
     font-size: 100%; 
-    font-weight: 500;
-    margin: 0 0 4px 0;
+    font-weight: 400;
+    margin: 0 0 2rem 0;
     padding: 0;
     a {
         color: $black;
         text-decoration: none;
     }
-}
-
-article {
-
-    h3 { 
-        margin-top: 3rem;  
-    }
-    h4 { 
-        margin-top: 2.5rem;  
-    }
-    h5 { 
-        margin-top: 2rem; 
-    }
-    h6 { 
-        margin-top: 1.5rem; 
-    }
-
 } 
 
 a {
-    color: $black;
-    text-decoration: none;
-    font-weight: 500;
+    color: $gray-600; 
+    text-decoration: underline;
+    font-weight: 400;
     &:hover {
         color: $gray-600;
     }
@@ -134,21 +117,7 @@ a {
 }
 
 .memoji {
-    display: none;
-    @media screen and (min-width: 992px) {
-        display: block;
-        width: 80px;
-        position: absolute;
-        left: -100px;
-        top: -5px;
-    }
-    @media screen and (min-width: 1200px) {
-        display: block;
-        width: 100px;
-        position: absolute;
-        left: -150px;
-        top: -15px;
-    }
+    width: 60px;
 }
 
 .text-muted {
@@ -167,4 +136,33 @@ a {
 
 section {
     margin-top: 5rem;
+}
+
+.tile { 
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px; 
+    line-height: 60px;  
+    color: $black !important;
+    @media screen and (min-width: 768px) { 
+    font-size: 50px;
+    width: 100px;
+    height: 100px; 
+    line-height: 100px;  
+    }
+}
+
+.tile-green {
+    background-color: #fff9e1;
+}
+
+.tile-red {
+    background-color: #fff5f5;
+}
+
+.tile-blue {
+    background-color: #edecff;
 }
