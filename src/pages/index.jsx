@@ -9,23 +9,16 @@ const IndexPage = ({data}) => {
   return (
     <Layout>  
       <header id="header">
-        <div className="row">
-          <div className="col-9 col-md-10">
             <h1 className="mb-1 p-0">Zinzy Nev Geene</h1> 
             <ul className="list-unstyled">
               <li>Design & Product Manager</li>
               <li>Queer facilitator</li>
             </ul>
-          </div>
-          <div className="col-3 col-md-2 text-end"> 
-        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1635344340/me/zinzy-1_zarupx.jpg" className="img-fluid rounded-circle" alt="" />
-          </div>
-        </div> 
       </header>
 
       <section>
-        <h2>Hello</h2>
-        <p>I'm Zinzy, a designer with 14 years of experience shipping products and projects in a variety of industries. At the moment I lead product and design at edtech startup <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>. I couldn't wish for better colleagues if I wanted to.</p>
+        <h2>About</h2>
+        <p>I'm a designer with 14 years of experience shipping products and projects in a variety of industries. At the moment I manage product and design at education technology startup <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>. I couldn't wish for better colleagues if I wanted to.</p>
         <p>Outside of work I create resonant queer spaces. I'm on the leadership team of <a href="https://www.vineandfig.co" target="_blank" rel="noopener noreferrer">Vine & Fig</a>, an international organization for queer Catholics. Every last Sunday of the month I host <a href="https://www.queersalon.us" target="_blank" rel="noopener noreferrer">Queer Salon</a> in Amsterdam.</p>
         {/* <p>It makes me proud to contribute to a global queer community that is inclusive, intersectional, and not scared of vulnerability.</p> */}
         <p>You may find me on the Amsterdam East side tending to the home and garden I share with <a href="https://twitter.com/anjawaleson" target="_blank" rel="noopener noreferrer">Anja</a>. I enjoy making music, learning the love language of cooking, and exploring the worlds of theology, sociolinguistics, and psychology. I'm a fan of Barbra Streisand, garbage television, and mediocre cinema.</p>
@@ -49,7 +42,7 @@ const IndexPage = ({data}) => {
             </div>
             <div className="flex-grow-1 align-items-center">
               <div>
-              <h3 className="h6 mb-1">The working crowd</h3>
+              <h3 className="h6 mb-1">Serving teachers</h3>
               <p className="m-0 p-0">I build tools that help people solve problems at work. At Leeruniek, we cultivate collaborative skills in learning analytics in Dutch primary schools.</p>
               </div>
             </div> 
@@ -62,7 +55,7 @@ const IndexPage = ({data}) => {
             </div>
             <div className="flex-grow-1 align-items-center">
               <div>
-              <h3 className="h6 mb-1">Strategy</h3>
+              <h3 className="h6 mb-1">Strategy and management</h3>
               <p className="m-0 p-0">My team and I work to gain a deep understanding of users, and align with business and technology to define our biggest challenges. I turn big dreams into snackable chunks.</p>
               </div>
             </div> 
@@ -75,7 +68,7 @@ const IndexPage = ({data}) => {
             </div>
             <div className="flex-grow-1 align-items-center">
               <div>
-              <h3 className="h6 mb-1">DesignOps</h3>
+              <h3 className="h6 mb-1">DesignOps and facilitation</h3>
               <p className="m-0 p-0">I give designers and researchers methods and tools to collaborate well across the company, so that they can focus on what they do best: make an impact.</p>
               </div>
             </div> 
@@ -97,7 +90,7 @@ const IndexPage = ({data}) => {
 
 
       <section>
-      <p className="text-muted">Last updated on {data.site.buildTime}</p>
+      <p className="text-muted small">Last updated on {data.site.buildTime}</p>
       </section>
 
 {/* 
