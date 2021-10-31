@@ -1,6 +1,6 @@
 import * as React from "react" 
 import { graphql } from "gatsby"
-import Layout from "../components/layout" 
+import Layout from "../components/layout"  
 
   
 
@@ -14,7 +14,7 @@ const IndexPage = ({data}) => {
               <li>Design & Product Manager</li>
               <li>Queer facilitator</li>
             </ul>
-      </header>
+      </header> 
 
       <section>
         <h2>About</h2>
