@@ -88,6 +88,16 @@ const IndexPage = ({data}) => {
         </ul>
       </section>
 
+      <section>
+        <h2>Changelog</h2>
+        <div className="mb-5">
+          <div className="row">
+            <div className="col-md-3 text-muted">Week 44, 2021</div>
+            <div className="col-md-9">Celebrating one year at Leeruniek with gratitude and pride. Quite enjoyed the Wallstreet Journal's <a href="https://www.wsj.com/podcasts/the-journal" target="_blank" rel="noopener noreferrer">podcast episodes</a> on the Facebook Files. Loved every bit of <em><a href="https://www.imdb.com/title/tt4104022/" target="_blank" rel="noopener noreferrer">People Places Things</a></em>. Realized there's a thought experiment in "we shouldn't apologize for <a href="https://www.trouw.nl/binnenland/waarom-juist-de-koning-excuses-zou-moeten-maken-voor-de-slavernij~b34ab441/" target="_blank" rel="noopener noreferrer">our role in slavery</a>" that I think we haven't conducted yet.</div>
+          </div>
+        </div>
+      </section>
+
 
       <section>
       <p className="text-muted small">Last updated on {data.site.buildTime}</p>
