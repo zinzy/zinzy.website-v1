@@ -38,7 +38,7 @@ const IndexPage = ({data}) => {
         <div className="mt-5 ">
           <div className="d-md-flex align-items-center">
             <div>
-            <div className="tile tile-green mb-4 mb-md-0">🧑‍🏫</div>
+            <div className="tile tile-yellow mb-4 mb-md-0">🧑‍🏫</div>
             </div>
             <div className="flex-grow-1 align-items-center">
               <div>
@@ -76,27 +76,59 @@ const IndexPage = ({data}) => {
        </div>
       </section>
 
+      <section>
+        <h2>My volunteering</h2>
+        <div className="mt-5 ">
+          <div className="d-md-flex align-items-center">
+            <div>
+            <div className="tile tile-green mb-4 mb-md-0">🪴</div>
+            </div>
+            <div className="flex-grow-1 align-items-center">
+              <div>
+              <h3 className="h6 mb-1">Cultivating communities</h3>
+              <p className="m-0 p-0">I bring people together on the Internet and in Amsterdam to create intersectional communities that help people connect, recharge, and learn from one another.</p>
+              </div>
+            </div> 
+          </div>
+       </div>
+        <div className="mt-5 ">
+          <div className="d-md-flex align-items-center">
+            <div>
+            <div className="tile tile-brown mb-4 mb-md-0">🍩</div>
+            </div>
+            <div className="flex-grow-1 align-items-center">
+              <div>
+              <h3 className="h6 mb-1">Facilitating gatherings</h3>
+              <p className="m-0 p-0">I host Reading Clubs, prayer sessions, panel discussions, holiday marathons, and conversations that thrive on lived experiences, vulnerability, and generous assumptions.</p>
+              </div>
+            </div> 
+          </div>
+       </div>
+        <div className="mt-5 ">
+          <div className="d-md-flex align-items-center">
+            <div>
+            <div className="tile tile-yellow mb-4 mb-md-0">📣</div>
+            </div>
+            <div className="flex-grow-1 align-items-center">
+              <div>
+              <h3 className="h6 mb-1">Writing and speaking</h3>
+              <p className="m-0 p-0">I write Scripture reflections, poetry, and essays, produce podcasts series, and speak about what it means to be a queer Afropean Catholic embracing the uncomfortable.</p>
+              </div>
+            </div> 
+          </div>
+       </div>
+      </section>
 
       <section>
         <h2>Now</h2>
         <p>I maintain a short list of things I'm focused on right now. If there's any topic that interests you, feel free to reach out and tell me about it.</p>
         <ul>
-          <li>Transitioning to a pescetarian diet</li>
-          <li>Reading the entire Bible front to back</li>
-          <li>Taking delight in the leaves turning red</li>
-          <li>Adjusting to no longer working from home</li>
+          <li>Working at <a href="https://www.spacesworks.com/" target="_blank" rel="noopener noreferrer">Spaces</a> and enjoying it</li>
+          <li>Growing the team at Vine & Fig</li>
+          <li>Experimenting with RICE scoring at work</li>
+          <li>Listening to <a href="https://www.theguardian.com/books/2020/mar/22/the-discomfort-of-evening-by-marieke-lucas-rijneveld-review" target="_blank" rel="noopener noreferrer"><em>The Discomfort of Evening</em></a>, which seems a much easier task than reading it</li>
         </ul>
-      </section>
-
-      <section>
-        <h2>Changelog</h2>
-        <div className="mb-5">
-          <div className="row">
-            <div className="col-md-3 text-muted">Week 44, 2021</div>
-            <div className="col-md-9">Celebrating one year at Leeruniek with gratitude and pride. Quite enjoyed the Wallstreet Journal's <a href="https://www.wsj.com/podcasts/the-journal" target="_blank" rel="noopener noreferrer">podcast episodes</a> on the Facebook Files. Loved every bit of <em><a href="https://www.imdb.com/title/tt4104022/" target="_blank" rel="noopener noreferrer">People Places Things</a></em>. Realized there's a thought experiment in "we shouldn't apologize for <a href="https://www.trouw.nl/binnenland/waarom-juist-de-koning-excuses-zou-moeten-maken-voor-de-slavernij~b34ab441/" target="_blank" rel="noopener noreferrer">our role in slavery</a>" that I think we haven't conducted yet.</div>
-          </div>
-        </div>
-      </section>
+      </section> 
 
 
       <section>
