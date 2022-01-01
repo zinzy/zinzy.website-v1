@@ -28,17 +28,13 @@ const IndexPage = ({data}) => {
       <section className="border-bottom small text-muted">
         <ul className="list-inline">
           <li className="list-inline-item">Available on:</li>
-          <li className="list-inline-item"><a href="mailto:zinzy@pm.me">Email</a></li>
+          <li className="list-inline-item"><a href="mailto:zinzy@pm.me" rel="me">Email</a></li>
           <li className="list-inline-item"><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </section>
 
       <section>
-<<<<<<< HEAD
         <h2>My work</h2>
-=======
-        <h2>Me at work</h2>
->>>>>>> parent of 4601665 (Installed Jekyll)
         <div className="mt-5 ">
           <div className="d-md-flex align-items-center">
             <div>
@@ -81,11 +77,7 @@ const IndexPage = ({data}) => {
       </section>
 
       <section>
-<<<<<<< HEAD
         <h2>My volunteering</h2>
-=======
-        <h2>I enjoy volunteering</h2>
->>>>>>> parent of 4601665 (Installed Jekyll)
         <div className="mt-5 ">
           <div className="d-md-flex align-items-center">
             <div>
@@ -127,20 +119,6 @@ const IndexPage = ({data}) => {
        </div>
       </section>
 
-<<<<<<< HEAD
-      <section>
-        <h2>Now</h2>
-        <p>I maintain a short list of things I'm focused on right now. If there's any topic that interests you, feel free to reach out and tell me about it.</p>
-        <ul>
-          <li>Working at <a href="https://www.spacesworks.com/" target="_blank" rel="noopener noreferrer">Spaces</a> and enjoying it</li>
-          <li>Growing the team at Vine & Fig</li>
-          <li>Experimenting with RICE scoring at work</li>
-          <li>Listening to <a href="https://www.theguardian.com/books/2020/mar/22/the-discomfort-of-evening-by-marieke-lucas-rijneveld-review" target="_blank" rel="noopener noreferrer"><em>The Discomfort of Evening</em></a>, which seems a much easier task than reading it</li>
-        </ul>
-      </section> 
-
-=======
->>>>>>> parent of 4601665 (Installed Jekyll)
 
       <section>
       <p className="text-muted small">Last updated on {data.site.buildTime}</p>
