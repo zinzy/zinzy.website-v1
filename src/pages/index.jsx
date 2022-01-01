@@ -12,7 +12,8 @@ const IndexPage = ({data}) => {
             <h1 className="mb-1 p-0">Zinzy Nev Geene</h1> 
             <ul className="list-unstyled">
               <li>Design & Product Manager</li>
-              <li>Queer facilitator</li>
+              <li>Queer Catholic facilitator</li>
+              <li>Last updated on {data.site.buildTime}</li>
             </ul>
       </header> 
 
@@ -118,12 +119,7 @@ const IndexPage = ({data}) => {
             </div> 
           </div>
        </div>
-      </section> 
-
-
-      <section>
-      <p className="text-muted small">Last updated on {data.site.buildTime}</p>
-      </section>
+      </section>  
 
 {/* 
       <p>Hello, I'm Zinzy, a designer with 13 years of skin in the game. I deploy my multidisciplinary skillset in leadership, design thinking, and operations to help teams do better. I'm specialized in building tools that help people solve problems at work. At the moment I lead product and design at edtech startup <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>. Literally couldn't wish for better colleagues.</p>
