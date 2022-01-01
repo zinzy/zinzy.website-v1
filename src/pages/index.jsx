@@ -29,7 +29,7 @@ const IndexPage = ({data}) => {
         <ul className="list-inline">
           <li className="list-inline-item">Available on:</li>
           <li className="list-inline-item"><a href="mailto:zinzy@pm.me" rel="me">Email</a></li>
-          <li className="list-inline-item"><a href="https://indieweb.org/User:Www.zinzy.website" rel="me">IndieWeb</a></li>
+          <li className="list-inline-item"><a href="https://indieweb.org/User:Www.zinzy.website" rel="me" target="_blank">IndieWeb</a></li>
           <li className="list-inline-item"><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </section> 
