@@ -17,9 +17,9 @@ const IndexPage = ({data}) => {
       </header> 
 
       <section>
-        <h2>About</h2>
-        <p>I'm a designer with 14 years of experience shipping products and projects in a variety of industries. At the moment I manage product and design at education technology startup <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>. I couldn't wish for better colleagues if I wanted to.</p>
-        <p>Outside of work I create resonant queer spaces. I'm on the leadership team of <a href="https://www.vineandfig.co" target="_blank" rel="noopener noreferrer">Vine & Fig</a>, an international organization for queer Catholics. Every last Sunday of the month I host <a href="https://www.queersalon.us" target="_blank" rel="noopener noreferrer">Queer Salon</a> in Amsterdam.</p>
+        <h2>Welcome</h2>
+        <p>Hello, thanks for visiting my personal website. I'm a designer with 15 years of experience shipping products and projects in education, journalism, travel, and health care. At present, I’m the Design + Product Manager of <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>, a scale-up in education technology. I love organizing skill sets and relationships to demonstrate how caring for users is good for business.</p>
+        <p>Outside of work I create resonant queer spaces. I'm on the leadership team of <a href="https://www.vineandfig.co" target="_blank" rel="noopener noreferrer">Vine & Fig</a>, an international organization for LGBTQIA+ Catholics. As soon as global health permits, I'll continue to host <a href="https://www.queersalon.us" target="_blank" rel="noopener noreferrer">Queer Salon</a> in Amsterdam every last Sunday of the month.</p>
         {/* <p>It makes me proud to contribute to a global queer community that is inclusive, intersectional, and not scared of vulnerability.</p> */}
         <p>You may find me on the Amsterdam East side tending to the home and garden I share with <a href="https://twitter.com/anjawaleson" target="_blank" rel="noopener noreferrer">Anja</a>. I enjoy making music, learning the love language of cooking, and exploring the worlds of theology, sociolinguistics, and psychology. I'm a fan of Barbra Streisand, garbage television, and mediocre cinema.</p>
         <p>Life is quite good.</p>
@@ -29,9 +29,10 @@ const IndexPage = ({data}) => {
         <ul className="list-inline">
           <li className="list-inline-item">Available on:</li>
           <li className="list-inline-item"><a href="mailto:zinzy@pm.me" rel="me">Email</a></li>
+          <li className="list-inline-item"><a href="https://indieweb.org/User:Www.zinzy.website" rel="me">IndieWeb</a></li>
           <li className="list-inline-item"><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
-      </section>
+      </section> 
 
       <section>
         <h2>My work</h2>
@@ -42,7 +43,7 @@ const IndexPage = ({data}) => {
             </div>
             <div className="flex-grow-1 align-items-center">
               <div>
-              <h3 className="h6 mb-1">Serving teachers</h3>
+              <h3 className="h6 mb-1">Rooting for teachers</h3>
               <p className="m-0 p-0">I build tools that help people solve problems at work. At Leeruniek, we cultivate collaborative skills in learning analytics in Dutch primary schools.</p>
               </div>
             </div> 
@@ -117,7 +118,7 @@ const IndexPage = ({data}) => {
             </div> 
           </div>
        </div>
-      </section>
+      </section> 
 
 
       <section>
