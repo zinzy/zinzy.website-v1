@@ -19,18 +19,17 @@ const IndexPage = ({data}) => {
 
       <section>
         <h2>Welcome</h2>
-        <p>Hello, thanks for visiting my personal website. I'm a designer with 15 years of experience shipping products and projects in education, journalism, travel, and health care. At present, I’m the Design + Product Manager of <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>, a scale-up in education technology. I love organizing skill sets and relationships to demonstrate how caring for users is good for business.</p>
-        <p>Outside of work I create resonant queer spaces. I'm on the leadership team of <a href="https://www.vineandfig.co" target="_blank" rel="noopener noreferrer">Vine & Fig</a>, an international organization for LGBTQIA+ Catholics. As soon as global health permits, I'll continue to host <a href="https://www.queersalon.us" target="_blank" rel="noopener noreferrer">Queer Salon</a> in Amsterdam every last Sunday of the month.</p>
-        {/* <p>It makes me proud to contribute to a global queer community that is inclusive, intersectional, and not scared of vulnerability.</p> */}
-        <p>You may find me on the Amsterdam East side tending to the home and garden I share with <a href="https://twitter.com/anjawaleson" target="_blank" rel="noopener noreferrer">Anja</a>. I enjoy making music, learning the love language of cooking, and exploring the worlds of theology, sociolinguistics, and psychology. I'm a fan of Barbra Streisand, garbage television, and mediocre cinema.</p>
-        <p>Life is quite good.</p>
+        <p>I'm a designer with 15 years of experience shipping products and leading design as well as product teams. I am specialized in making tools for people at work. My work is focused on organizing skill sets and relationships to demonstrate how caring for users is good for business.</p>
+        <p>At present, I serve as Design & Product Manager of <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>, a scale-up in education technology. Previously, I spent five years in travel technology at <a href="https://www.airtrade.com" target="_blank" rel="noopener noreferrer">Airtrade</a>, where I led research and design on enterprise and consumer platforms. Before that, I ran Studio Zinzy for eight years, offering design and development across academia, journalism, health care, and other industries.</p>
+        <p>Unprofessionally, I create resonant queer spaces. I'm on the leadership team of <a href="https://www.vineandfig.co" target="_blank" rel="noopener noreferrer">Vine & Fig</a>, an international organization for LGBTQIA+ Catholics. Every last Sunday of the month when Covid doesn't restrict intimate gatherings, I host <a href="https://www.queersalon.us" target="_blank" rel="noopener noreferrer">Queer Salon</a> in Amsterdam. I take pleasure in cultivating environments that are intersectional, curious, and kind.</p>
+        <p>You may find me on the Amsterdam East side tending to the home and garden I share with <a href="https://twitter.com/anjawaleson" target="_blank" rel="noopener noreferrer">Anja</a>. I enjoy making music, learning the love language of cooking, and exploring the worlds of theology, sociolinguistics, and psychology. I'm a fan of Barbra Streisand, monster movies, and audio books.</p>
+        <p>Life is truly good.</p>
       </section>
 
       <section className="border-bottom small text-muted">
         <ul className="list-inline">
           <li className="list-inline-item">Available on:</li>
           <li className="list-inline-item"><a href="mailto:zinzy@pm.me" rel="me">Email</a></li>
-          <li className="list-inline-item"><a href="https://indieweb.org/User:Www.zinzy.website" rel="me" target="_blank">IndieWeb</a></li>
           <li className="list-inline-item"><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </section> 
@@ -45,7 +44,7 @@ const IndexPage = ({data}) => {
             <div className="flex-grow-1 align-items-center">
               <div>
               <h3 className="h6 mb-1">Rooting for teachers</h3>
-              <p className="m-0 p-0">I build tools that help people solve problems at work. At Leeruniek, we cultivate collaborative skills in learning analytics in Dutch primary schools.</p>
+              <p className="m-0 p-0">I build tools that help people solve problems at work. At Leeruniek, we cultivate collaborative skills in learning analytics in Dutch primary schools so that pupils can thrive.</p>
               </div>
             </div> 
           </div>
@@ -58,7 +57,7 @@ const IndexPage = ({data}) => {
             <div className="flex-grow-1 align-items-center">
               <div>
               <h3 className="h6 mb-1">Strategy and management</h3>
-              <p className="m-0 p-0">My team and I work to gain a deep understanding of users, and align with business and technology to define our biggest challenges. I turn big dreams into snackable chunks.</p>
+              <p className="m-0 p-0">My team works to gain a deep understanding of users, and aligns with business and technology to define challenges. I turn big dreams into snackable chunks, and mentor along the way.</p>
               </div>
             </div> 
           </div>
@@ -120,6 +119,16 @@ const IndexPage = ({data}) => {
           </div>
        </div>
       </section>  
+
+      <section>
+        <h2>Availability</h2>
+        <p>At the time of writing, I am not available for design or research efforts. I do, however, have  limited availability to take on projects that require design, research or product consulting. Shoot me an <a href="mailto:zinzy@pm.me">email</a> to tell me about your project.</p>
+      </section>
+
+      <footer className="small text-muted">
+        <p>This one-pager is built using <a href="https://www.gatsbyjs.com/" target="_blank" rel="noopener noreferrer">Gatsby</a>, hands, and infinite appreciation for simplicity, the <a href="https://indieweb.org/" target="_blank" rel="noopener noreferrer">IndieWeb</a>, as well as the quieter days of personal sites.</p>
+      </footer>
+
 
 {/* 
       <p>Hello, I'm Zinzy, a designer with 13 years of skin in the game. I deploy my multidisciplinary skillset in leadership, design thinking, and operations to help teams do better. I'm specialized in building tools that help people solve problems at work. At the moment I lead product and design at edtech startup <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>. Literally couldn't wish for better colleagues.</p>
