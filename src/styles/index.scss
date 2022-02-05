@@ -21,7 +21,7 @@ html {
 body, html { 
     font-size: 18px;
     @media screen and (min-width: 768px) {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -43,12 +43,72 @@ body {
     word-wrap: break-word;
     font-kerning: normal; 
     padding: 10%; 
+    line-height: 165%;
     @media screen and (min-width: 768px) {
-        padding: 0;
-        max-width: 700px;
-        margin: 200px auto;
+        padding: 0; 
+        max-width: 600px;
+        margin: 50px auto;
+    }
+    @media screen and (min-width: 1400px) {
+        font-size: 1.3rem;
+        max-width: 850px;
+        margin: 100px auto;
     }
 }
+
+header { 
+    h1 {
+        display: inline;
+        font-size: 100% !important;
+    }
+    ul {
+        li {
+            margin: 0 !important;
+            padding: 0 !important;
+            font-size: 100% !important;
+            font-weight: 500;
+            color: $black;
+            &:not(:last-child):after {
+                content: "•";
+                color: $gray-200;
+                margin: 0 1rem;
+            }
+        }
+    }
+    h2 {
+        font-size: 3rem;
+        margin: 100px 0;
+        @media screen and (min-width: 1400px) {
+            font-size: 3.5rem;
+            margin: 200px 0 100px 0;
+        }
+        @media screen and (min-width: 1600px) { 
+            font-size: 4rem;
+        }
+    }
+}
+
+section {
+    margin: 100px 0;
+    @media screen and (min-width: 1400px) {
+        margin: 200px 0;
+    }
+
+}
+
+span.br {
+    @media screen and (min-width: 1400px) {
+        display: block;
+    }
+}
+
+
+mark {
+    font-weight: 500;
+}
+
+
+
 
 .main {
     animation: fadeIn linear 1s;
@@ -86,16 +146,20 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: $black;
-    font-size: 100%; 
+    color: $black; 
     font-weight: 500;
     margin: 0 0 2rem 0;
     padding: 0;
     a {
         color: $black;
         text-decoration: none;
+        font-weight: 500;
     }
 } 
+
+p {
+    margin-bottom: 2rem;
+}
 
 a {
     color: $gray-600; 
@@ -104,19 +168,6 @@ a {
     &:hover {
         color: $gray-600;
     }
-}
-
-#header {
-    margin-bottom: 100px;
-    position: relative;
-}
-
-#footer {
-    margin-top: 100px;
-}
-
-.memoji {
-    width: 60px;
 }
 
 
@@ -156,12 +207,12 @@ section, footer {
     }
 }
 
-.tile-yellow {
-    background-color: #fff9e1;
+.tile-moss {
+    background-color: #e3eeea;
 }
 
 .tile-red {
-    background-color: #fff5f5;
+    background-color: #ffe9e9;
 }
 
 .tile-blue {
@@ -183,3 +234,4 @@ section, footer {
     display: -ms-flexbox;
     display: flex;
 }
+
