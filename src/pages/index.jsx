@@ -73,7 +73,7 @@ const IndexPage = ({data}) => {
 
       <section>
         <h3>Life is good</h3>
-      <p>You may find me on the Amsterdam East side tending to the home and garden I share with <a href="https://twitter.com/anjawaleson" target="_blank" rel="noopener noreferrer">Anja</a>. I enjoy making music, learning the love language of cooking, and exploring the worlds of theology, sociolinguistics, and psychology. I'm a fan of Barbra Streisand, monster movies, and terribly television. Life is truly good.</p>
+      <p>You may find me on the Amsterdam East side tending to the home and garden I share with <a href="https://twitter.com/anjawaleson" target="_blank" rel="noopener noreferrer">Anja</a>. I enjoy making music, learning the love language of cooking, and exploring the worlds of theology, sociolinguistics, and technology ethics. I'm a fan of Barbra Streisand, monster movies, and terribly television. Life is truly good.</p>
       </section>
 
       <section>
