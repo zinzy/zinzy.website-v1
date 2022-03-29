@@ -10,15 +10,14 @@ export default function Header({title,data}) {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          {(siteConfig.siteMetadata.title || "Zinzy Nev Geene") +
+          {(siteConfig.siteMetadata.title || "Zinzy Waleson | Design & Product Manager") +
             (title ? ` : ${title}` : "")}
         </title>
       </Helmet> 
 
       <header id="header">
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1633782178/me/memoji_u5mrct.png" className="memoji" alt="" />
-        <h1><Link to="/">Zinzy Nev Geene</Link></h1>
-        <p className="m-0">Design manager, linguist, queer facilitator</p>
+        <h1><Link to="/">Zinzy Waleson</Link></h1>
 
       {data.site.buildTime}
       </header>

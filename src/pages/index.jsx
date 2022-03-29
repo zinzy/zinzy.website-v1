@@ -11,7 +11,7 @@ const IndexPage = ({data}) => {
 
       <header>
         <ul class="list-inline">
-          <li class="list-inline-item"><h1>Zinzy Nev Geene</h1></li>
+          <li class="list-inline-item"><h1>Zinzy Waleson</h1></li>
           <li class="list-inline-item">Amsterdam</li>
         </ul>
 
