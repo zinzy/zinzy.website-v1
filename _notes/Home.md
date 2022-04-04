@@ -1,7 +1,7 @@
 ---
 title: Hello
 tags:
-  - About me
+  - me
 slug: "home"
 excerpt: "I'm Zinzy. I build digital products, and resonant queer spaces. I live and work in Amsterdam. This here is my personal site, which I use to think and link. "
 ---
