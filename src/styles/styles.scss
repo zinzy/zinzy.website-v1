@@ -1,0 +1,166 @@
+$black: #13202F;
+$gray-900: #1F3044;
+$gray-800: #30445A;
+$gray-700: #596A7C;
+$gray-600: #768392;
+$gray-500: #8B95A1;
+$gray-400: #9AA5B0;
+$gray-300: #B7C1CC;
+$gray-200: #CED9E4;
+$gray-100: #E7EEF4;
+$gray-50: #F5F7F9;
+
+body, html {
+    font-size: 17px;
+}
+
+body {
+    background: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    -ms-font-feature-settings: "kern","liga","clig","calt";
+    -webkit-font-feature-settings: "kern","liga","clig","calt";
+    font-feature-settings: "kern","liga","clig","calt";
+    word-wrap: break-word;
+    color: $gray-800; 
+    font-family:Inter, system-sans, system-ui, sans-serif;
+    padding: 100px 0 0 0;
+    line-height: 165%;
+    font-size: 1rem;
+    @media screen and (min-width: 992px) {
+        padding: 10px;
+    }
+}
+
+body.dark {
+    background: black;
+}
+
+main { 
+    @media screen and (min-width: 992px) {
+        padding: 10%;
+    }
+}
+
+.note-meta {
+    margin: 100px 0;
+    color: $gray-600;
+    border: 1px solid $gray-100;
+    padding: 1rem;
+    a {
+        color: $gray-500;
+        border-bottom: 1px solid $gray-400;
+        padding-bottom: 1px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.tags-list { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline;
+        &:not(:last-child):after { 
+            content: ", "
+        }
+    }
+}
+
+footer {
+    margin-top: 100px;
+    @media screen and (min-width: 992px) {
+        margin-top: 200px;
+    }
+    a {
+        color: $gray-600;
+        &:hover {
+            color: $gray-500;
+            border-bottom: 1px solid $gray-400;
+            padding-bottom: 1px;
+            text-decoration: none;
+        }
+    }
+    .list-unstyled {
+        text-align: right;
+    }
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: $black;
+    font-size: 120%;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+// h3 { margin-top: 3rem; }
+// h4 { margin-top: 2.5rem; }
+// h5 { margin-top: 2rem; }
+// h6 { margin-top: 1.5rem; }
+
+a {
+    color: $gray-800;
+    text-decoration: none;
+    &:hover {
+        color: $black;
+        border-bottom: 1px solid $black;
+        text-decoration: none;
+    }
+}
+
+p {
+    a {
+        border-bottom: 1px solid $gray-800;
+        padding-bottom: 1px;
+        &:hover {
+            color: $black;
+            border-bottom: 1px solid $black;
+            text-decoration: none;
+        }
+    }
+}
+
+.tippy-box {
+    background: white;
+    border: 1px solid $gray-100;
+    padding: 1rem;
+    height: 200px;
+    width: 300px !important;
+    overflow:hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 45px 0px rgba(31,48,68,0.1);
+-moz-box-shadow: 0px 10px 45px 0px rgba(31,48,68,0.1);
+box-shadow: 0px 10px 45px 0px rgba(31,48,68,0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.btn {
+    border: 1px solid $gray-100;
+    &:hover {
+        background-color: $gray-50;
+    }
+}
+
+.note-list-item {
+    border-top: 1px solid $gray-100;
+    padding: 10px 0;
+}
+
+.text-muted {
+    color: $gray-600;
+}
