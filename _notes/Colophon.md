@@ -12,3 +12,14 @@ This space has been around since 2004, in a variety of shapes and under a lot of
 
 ## Setup
 For some time now I've been maintaining my site using Gatsby. I host its contents on Github, and publish using Netlify.
+
+## To do
+- Update site automatically with content from Obsidian
+- Dark mode
+- Note list sorted descending by date
+- Search
+- Photo archive
+- Refactor code
+- Mobile typography
+- Mobile bottom menu
+- Now archive
