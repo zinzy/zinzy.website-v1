@@ -15,7 +15,8 @@ This space has been around since 2004, in a variety of shapes and under a lot of
 For some time now I've been maintaining my site using Gatsby. I host its contents on Github, and publish using Netlify.
 
 ## To do
-- Update site automatically with content from Obsidian
+- ~Update site automatically with content from Obsidian~
+- Dropbox integration
 - Dark mode
 - Note list sorted descending by date
 - Search
@@ -26,3 +27,6 @@ For some time now I've been maintaining my site using Gatsby. I host its content
 - Now archive
 - Link archive
 - [Open external link in new tab eith normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
+- Last.fm feed
+- 
+- 
