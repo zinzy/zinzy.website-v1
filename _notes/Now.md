@@ -5,7 +5,7 @@ tags:
   - now
 excerpt: "The things that are keeping my busy"
 ---
-It has been snowing in Amsterdam. As the years go by, I'm having trouble understanding whether I'm experiencing the effects of global warming, or whether I've never paid attention to what was alaays in front of me until now. It is likely a combination of the two. Either way, it is sad to see Amsterdammers retreat into their homes after two weeks of shorts and drinks in the sun.
+It has been snowing in Amsterdam. As the years go by, I'm having trouble understanding whether I'm experiencing the effects of global warming, or whether I've never paid attention to what was always in front of me until now. It is likely a combination of the two. Either way, it is sad to see Amsterdammers retreat into their homes after two weeks of shorts and drinks in the sun.
 
 
 ## At work

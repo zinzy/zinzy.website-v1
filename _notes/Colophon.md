@@ -23,3 +23,4 @@ For some time now I've been maintaining my site using Gatsby. I host its content
 - Mobile typography
 - Mobile bottom menu
 - Now archive
+- Link archive
