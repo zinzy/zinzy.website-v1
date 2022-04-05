@@ -1,5 +1,6 @@
 ---
 title: Colophon
+date: 2019-07-04
 tags:
   - site
   - design
