@@ -25,3 +25,4 @@ For some time now I've been maintaining my site using Gatsby. I host its content
 - Mobile bottom menu
 - Now archive
 - Link archive
+- [Open external link in new tab eith normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
