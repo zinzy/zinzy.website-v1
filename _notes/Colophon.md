@@ -1,6 +1,6 @@
 ---
 title: Colophon
-date: 2019-07-04
+startdate: "2019-07-04"
 tags:
   - site
   - design
@@ -15,18 +15,16 @@ This space has been around since 2004, in a variety of shapes and under a lot of
 For some time now I've been maintaining my site using Gatsby. I host its contents on Github, and publish using Netlify.
 
 ## To do
-- ~Update site automatically with content from Obsidian~
-- Dropbox integration
-- Dark mode
-- Note list sorted descending by date
-- Search
-- Photo archive
-- Refactor code
-- Mobile typography
-- Mobile bottom menu
-- Now archive
-- Link archive
-- [Open external link in new tab eith normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
-- Last.fm feed
-- 
-- 
+- ~~Update site automatically with content from Obsidian~~
+- [ ] Dropbox integration
+- [ ] Dark mode
+- [x] Note list sorted descending by date
+- [ ] Search
+- [ ] Refactor code
+- [x] Update and creation dates
+- [ ] Mobile typography
+- [ ] Mobile bottom menu
+- [ ] Now archive
+- [ ] Link archive
+- [ ] [Open external link in new tab with normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
+- [ ] Last.fm feed

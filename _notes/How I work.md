@@ -1,5 +1,6 @@
 ---
 title: How I work
+startdate: "2022-04-05"
 tags:
   - career
   - design

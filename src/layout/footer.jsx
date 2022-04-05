@@ -83,7 +83,7 @@ export default function Footer({ title, type, description }) {
                   <li><a href="/">Home</a></li> 
                   <li><a href="/sitemap">Sitemap</a></li>
                   {/* <li><a href="/tags">Tags</a></li> */}
-                  {/* <li><a href="">Colophon</a></li> */}
+                  <li><a href="/colophon">Colophon</a></li>
                 </ul>
               </div>
               <div className="col-6 col-md-4">

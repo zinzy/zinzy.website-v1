@@ -115,10 +115,10 @@ export default function Note({ pageContext, data }) {
               </Link>
             </div> */}
 
-            <div className="mb-5">
-            <h1 className="m-0">{post.fields.title}</h1>
-            <div className="text-muted">First written on {' '} {moment(new Date(post.frontmatter.date)).format('MMMM D, YYYY')}</div>
-            </div>
+            <header>
+              <h1 className="m-0">{post.fields.title}</h1>
+              <div className="text-muted">Updated {' '} {moment(new Date(post.fields.date)).fromNow()}, created on {post.frontmatter.startdate}</div>
+            </header>
             <div className="note-content">
               {/*<MDXRenderer>{post.body}</MDXRenderer>*/}
               <MDXProvider components={{ a: TooltipLink }}>
@@ -230,7 +230,7 @@ export const query = graphql`
       frontmatter {
         tags
         source
-        date
+        startdate(formatString: "MMMM D YYYY")
       }
     }
   }

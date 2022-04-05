@@ -19,6 +19,7 @@ export default function Home() {
         }
         frontmatter {
           tags
+          startdate(formatString: "MMMM D YYYY")
         }
       }
       notes: allMdx(
@@ -36,6 +37,7 @@ export default function Home() {
             }
             frontmatter {
               tags
+              startdate(formatString: "MMMM D YYYY")
             }
           }
         }
@@ -53,14 +55,12 @@ export default function Home() {
 
   return data.homeNote ? (
     <Layout title={data.homeNote.fields.title} type="home">
-      <div className="column is-half">
-        <div className="note-area">
+      <article>
+        <header>
           <h1 className="note-title">{data.homeNote.fields.title}</h1>
-          <div className="note-content">
-            <MDXRenderer>{ data.homeNote.body }</MDXRenderer>
-          </div>
-        </div>
-      </div>
+        </header>
+           <MDXRenderer>{ data.homeNote.body }</MDXRenderer>
+      </article>
     </Layout>
   ) : (
     <Layout title="Home" type="home">

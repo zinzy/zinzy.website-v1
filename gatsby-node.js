@@ -18,6 +18,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       : makeSlug(fileName)
     const fileNode = getNode(node.parent)
     const date = node.frontmatter.date ? node.frontmatter.date : fileNode.mtime
+    const startdate = node.frontmatter.startdate ? node.frontmatter.startdate : fileNode.mtime
     const visibility = node.frontmatter.visibility
       ? node.frontmatter.visibility
       : 'public'
@@ -41,6 +42,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       name: `date`,
       value: date,
+    })
+    createNodeField({
+      node,
+      name: `startdate`,
+      value: startdate,
     })
     createNodeField({
       node,
@@ -81,6 +87,7 @@ exports.createPages = async ({ graphql, actions }) => {
               tags
               title
               date
+              startdate
               aliases
             }
             excerpt

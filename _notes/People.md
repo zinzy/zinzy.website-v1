@@ -1,6 +1,6 @@
 ---
 title: People
-date: 2022-04-05
+startdate: "2022-01-01"
 tags:
   - internet
 excerpt: "The friends and heroes I know on the Internet."
