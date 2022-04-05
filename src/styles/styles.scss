@@ -102,10 +102,23 @@ h1 {
     margin-bottom: 3rem;
 }
 
-// h3 { margin-top: 3rem; }
-// h4 { margin-top: 2.5rem; }
-// h5 { margin-top: 2rem; }
-// h6 { margin-top: 1.5rem; }
+article {
+    h2 { margin-top: 3rem; }
+    h3 { margin-top: 2.5rem; }
+    h4 { margin-top: 2rem; }
+    h5 { margin-top: 1.5rem; }
+    h6 { margin-top: 1.25rem; }
+
+    a {
+        border-bottom: 1px solid $gray-800;
+        padding-bottom: 1px;
+        &:hover {
+            color: $black;
+            border-bottom: 1px solid $black;
+            text-decoration: none;
+        }
+    }
+}
 
 a {
     color: $gray-800;
@@ -163,4 +176,10 @@ img {
 
 .text-muted {
     color: $gray-600;
+}
+
+.footnotes {
+    margin-top: 100px;
+    color: $gray-600;
+    font-size: 80%;
 }

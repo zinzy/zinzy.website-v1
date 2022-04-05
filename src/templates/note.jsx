@@ -91,10 +91,10 @@ export default function Note({ pageContext, data }) {
 
   return (
     <Layout title={post.fields.title} type="note">
-      <div className="column is-three-fifths">
+      <article className="column is-three-fifths">
         <div>
           <div className="note-area note-page-section">
-            <div className="buttons for-back-home">
+            {/* <div className="buttons for-back-home">
               <Link className="button is-text button__page-back" to="/">
                 <span className="icon is-small">
                   <svg
@@ -113,9 +113,12 @@ export default function Note({ pageContext, data }) {
                   </svg>
                 </span>
               </Link>
-            </div>
+            </div> */}
 
-            <h1>{post.fields.title}</h1>
+            <div className="mb-5">
+            <h1 className="m-0">{post.fields.title}</h1>
+            <div className="text-muted">First written on {' '} {moment(new Date(post.frontmatter.date)).format('MMMM D, YYYY')}</div>
+            </div>
             <div className="note-content">
               {/*<MDXRenderer>{post.body}</MDXRenderer>*/}
               <MDXProvider components={{ a: TooltipLink }}>
@@ -123,9 +126,9 @@ export default function Note({ pageContext, data }) {
               </MDXProvider>
             </div>
 
-            <div className="note-meta">
+            {/* <div className="note-meta">
 
-              {/* {post.frontmatter.tags ? (  
+              {post.frontmatter.tags ? (  
                 <div>
                   <ul className="tags-list">Tags:{' '}
                     {post.frontmatter.tags.map((tag, index) => (
@@ -135,11 +138,12 @@ export default function Note({ pageContext, data }) {
                     ))}
                   </ul>
                 </div>
-              ) : null} */}
+              ) : null}
 
-              <div>Originally published on {' '} {moment(new Date(post.fields.date)).format('Do MMMM, YYYY')}</div>
+              <div>First written on {' '} {moment(new Date(post.frontmatter.date)).format('MMMM D, YYYY')}</div>
+              <div>Last tended to on {' '} {moment(new Date(post.fields.date)).format('MMMM D, YYYY')}</div>
                   
-            </div>
+            </div> */}
 
 
 
@@ -163,7 +167,7 @@ export default function Note({ pageContext, data }) {
               ) : null}
           </div>
         </div>
-      </div>
+      </article>
     </Layout>
   )
 }
@@ -226,6 +230,7 @@ export const query = graphql`
       frontmatter {
         tags
         source
+        date
       }
     }
   }

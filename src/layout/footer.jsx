@@ -74,10 +74,10 @@ export default function Footer({ title, type, description }) {
         <footer>
           
             <div className="row">
-              <div className="col-8 col-md-4 mb-5 mb-md-0">
+              <div className="col-12 col-md-4 mb-5 mb-md-0">
                 <p className="m-0">Zinzy Waleson is a designer and facilitator working and living in Amsterdam.</p>
               </div>
-              <div className="col-4 col-md-8">
+              <div className="col-6 col-md-4">
                 <ul className="list-unstyled text-end">
                   Site 
                   <li><a href="/">Home</a></li> 
@@ -86,7 +86,7 @@ export default function Footer({ title, type, description }) {
                   {/* <li><a href="">Colophon</a></li> */}
                 </ul>
               </div>
-              <div className="col-6 col-md-4 d-none">
+              <div className="col-6 col-md-4">
                 <ul className="list-unstyled text-end">
                   Info
                   {/* <li><a href="/about">About</a></li> */}
