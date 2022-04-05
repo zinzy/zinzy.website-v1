@@ -90,7 +90,7 @@ export default function Footer({ title, type, description }) {
                 <ul className="list-unstyled text-end">
                   Info
                   {/* <li><a href="/about">About</a></li> */}
-                  <li><a href="/now">Now</a></li>
+                  <li><a href="/now">Now</a> & <a href="/then">Then</a></li>
                   {/* <li><a href="/mentoring">Mentoring</a></li> */}
                   {/* <li><a href="/contact">Contact</a></li> */}
                 </ul>
