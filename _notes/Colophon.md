@@ -25,6 +25,8 @@ For some time now I've been maintaining my site using Gatsby. I host its content
 - [ ] Mobile typography
 - [ ] Mobile bottom menu
 - [ ] Now archive
-- [ ] Link archive
+- [ ] Indieweb post types
+  - [ ] Bookmarks archive
+  - [ ] Replies archive
 - [ ] [Open external link in new tab with normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
 - [ ] Last.fm feed
