@@ -107,25 +107,6 @@ module.exports = {
               titleToURL: require(`${__dirname}/src/utils/make-slug.js`)
             }
           },
-          {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-              plugins: [
-                {
-                  resolve: `gatsby-remark-table-of-contents`,
-                  options: {
-                    exclude: "Table of Contents",
-                    tight: false,
-                    ordered: false,
-                    fromHeading: 1,
-                    toHeading: 6,
-                    className: "table-of-contents"
-                  },
-                },
-                `gatsby-remark-autolink-headers`
-              ],
-            },
-          },
         ],
       },
     },
