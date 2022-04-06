@@ -79,7 +79,7 @@ export default function Footer({ title, type, description }) {
           </div>
           <div class="flex-grow-1">
             <div className="">
-              <p className="m-0"><a href="https://www.zinzy.website" className="p-name">Zinzy Waleson</a> is a designer and facilitator working and living in <span className="p-locality">Amsterdam</span>. <a rel="me" class="u-url">zinzy.website</a> is her personal site, a place she comes to link and think. You may contact her via <a href="mailto:zinzy@pm.me" rel="me" className="u-email">email</a>.</p>
+              <p className="m-0 p-note"><a href="https://www.zinzy.website" className="p-name">Zinzy Waleson</a> is a designer and facilitator working and living in <span className="p-locality">Amsterdam</span>. <a rel="me" class="u-url">zinzy.website</a> is her personal site, a place she comes to link and think. You may contact her via <a href="mailto:zinzy@pm.me" rel="me" className="u-email">email</a>.</p>
             </div>
           </div> 
         </div>
