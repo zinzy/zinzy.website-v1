@@ -7,7 +7,6 @@ excerpt: "The things that are keeping my busy"
 ---
 It has been snowing in Amsterdam. As the years go by, I'm having trouble understanding whether I'm experiencing the effects of global warming, or whether I've never paid attention to what was always in front of me until now. It is likely a combination of the two. Either way, it is sad to see Amsterdammers retreat into their homes after two weeks of shorts and drinks in the sun.
 
-
 ## At work
 Leeruniek's Product team is hiring, and I've been the one taking care of the recruitment process for two engineering and one design role. So far, I've found a new front-end engineer as well as a designer within two months, so I suppose you could say I've been busy. If this process has been teaching me anything new, it's that 1) I very much enjoy meeting people and learning about their (work) life stories, 2) there is such value in building strong relationships with recruiters who make you smile, and 3) it takes two weeks of introdutory chats before I begin to regret having to listen to my own voice give the same pitch over and over again.
 
@@ -21,3 +20,6 @@ A while ago, we found some new recipes that we've enjoyed refining:
 
 ## Watching
 I've been watching a lot of Dutch documentaries on the effects Internet culture has on children. [2doc](https://www.2doc.nl/documentaires/collecties/themas/toekomst/internet.html) has a selection. I particularly enjoyed _My Daughter, the Vlogger_. I can't imagine what it's like to raise a child, and I can't imagine what it would be like in 2022. Still, "all her peers will have a YouTube channel by the time they are six, she might as well get a leg up" sounds sad coming out of the mouth of a 3-year-old's mother.
+
+## Listening
+I've been playing [[Heardle]] and loving it.

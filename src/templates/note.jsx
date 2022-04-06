@@ -151,9 +151,13 @@ export default function Note({ pageContext, data }) {
                 <div className="related note-references">
                   <h5 className="h6">Linking here</h5>
 
-                  <div className="related-wrapper">
+                  <div className="related-wrapper ">
                     {pageContext.referredBy.map((note, index, excerpt) => (
                       <div key={index} className="related-group block-box">
+
+
+
+                        
                       <Tooltip content={ note.body }>
                         <Link to={`/${makeSlug(note.title)}`}>
                           <div>{note.title}</div>
