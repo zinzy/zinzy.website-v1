@@ -227,7 +227,7 @@ exports.createPages = async ({ graphql, actions }) => {
   paginate({
     createPage,
     items: allNotes,
-    itemsPerPage: 1000,
+    itemsPerPage: 10,
     pathPrefix: `/sitemap`,
     component: path.resolve(`./src/templates/sitemap.jsx`),
   })
