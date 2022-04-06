@@ -29,7 +29,7 @@ export default function NoteList({ notes }) {
           </div> 
 
           <div className="text-muted">
-            {moment(new Date(data.node.frontmatter.startdate)).fromNow()}
+            {moment(new Date(data.node.fields.date)).fromNow()}
           </div>
         </div>
         </div>

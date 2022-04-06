@@ -117,7 +117,10 @@ export default function Note({ pageContext, data }) {
 
             <header>
               <h1 className="m-0">{post.fields.title}</h1>
-              <div className="text-muted">Updated {' '} {moment(new Date(post.fields.date)).fromNow()}, created on {post.frontmatter.startdate}</div>
+              <div className="text-muted mt-1">
+                <div>Updated {' '} {moment(new Date(post.fields.date)).fromNow()}</div>
+                <div>Created on {post.frontmatter.startdate}</div>
+              </div>
             </header>
             <div className="note-content">
               {/*<MDXRenderer>{post.body}</MDXRenderer>*/}
@@ -126,49 +129,56 @@ export default function Note({ pageContext, data }) {
               </MDXProvider>
             </div>
 
-            {/* <div className="note-meta">
-
+            <footer>
+              <h6>Thank you for reading</h6>
               {post.frontmatter.tags ? (  
-                <div>
-                  <ul className="tags-list">Tags:{' '}
-                    {post.frontmatter.tags.map((tag, index) => (
-                      <li className="" key={index}>
-                        <Link to={`/tags/${makeSlug(tag)}`}>{tag}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-
-              <div>First written on {' '} {moment(new Date(post.frontmatter.date)).format('MMMM D, YYYY')}</div>
-              <div>Last tended to on {' '} {moment(new Date(post.fields.date)).format('MMMM D, YYYY')}</div>
-                  
-            </div> */}
+                    <div className="">
+                    <p>If you liked this note, perhaps you'd like to read more about
+                      <ul className="tags-list">
+                        {post.frontmatter.tags.map((tag, index) => (
+                          <li key={index}>
+                            <Link to={`/tags/${makeSlug(tag)}`}>{tag}</Link>
+                          </li>
+                        ))}
+                      </ul>. I appreciate you taking the time to rummage around on my personal site. If you have any thoughts on what you read, feel free to let me know. You can reach me by <a href="mailto:zinzy@pm.me">email</a>.</p>
+                    </div>
+                  ) : null}
 
 
 
-            {pageContext.referredBy.length ? (
-                <div className="related note-references">
-                  <h5 className="h6">Linking here</h5>
 
-                  <div className="related-wrapper ">
+              {pageContext.referredBy.length ? (
+                <div className="related note-references mt-5">
+                  <h6 className="mb-3">Notes leading here</h6>
+
+                  <div className="related-wrapper">
                     {pageContext.referredBy.map((note, index, excerpt) => (
-                      <div key={index} className="related-group block-box">
+                      <div key={index} role="button">
 
 
-
-                        
                       <Tooltip content={ note.body }>
-                        <Link to={`/${makeSlug(note.title)}`}>
-                          <div>{note.title}</div>
-                          {/* <p className="related-excerpt muted-text">{note.excerpt}</p> */}
+
+                      <Link to={`/${makeSlug(note.title)}`} className="note-list-item d-flex">
+
+                        <div className="note-title flex-grow-1"> 
+                            {note.title} 
+                        </div> 
+
+                        <div className="text-muted">
+                        {moment(new Date(post.fields.date)).fromNow()}
+                        </div>
+
+
                         </Link>
                       </Tooltip>
+
+                        
                       </div>
                     ))}
                   </div>
                 </div>
               ) : null}
+            </footer>
           </div>
         </div>
       </article>

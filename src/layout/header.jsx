@@ -33,13 +33,15 @@ export default function Header({ title, type, description }) {
 
       <title>{pageTitle}</title>
 
-      <link rel="apple-touch-icon" href="/img/favicon.png" />
+      {/* <link rel="apple-touch-icon" href="/img/favicon.png" />
       <link
         rel="icon"
         href="/img/favicon.png"
         type="image/png"
         sizes="16x16"
-      />
+      /> */}
+
+      <link rel="icon" href="https://emojicdn.elk.sh/😌" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

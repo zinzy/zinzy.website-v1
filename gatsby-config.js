@@ -31,7 +31,7 @@ module.exports = {
     `gatsby-remark-images`,
     `gatsby-plugin-remove-trailing-slashes`,
     // `gatsby-plugin-dark-mode`,
-    `gatsby-plugin-sass`,
+    `gatsby-plugin-sass`, 
     // { // Enable this if you want to have an RSS Feed. The `siteMetadata.siteUrl` property should be present for this to work
     //   resolve: `gatsby-plugin-feed`,
     //   options: {
@@ -106,7 +106,26 @@ module.exports = {
             options: {
               titleToURL: require(`${__dirname}/src/utils/make-slug.js`)
             }
-          }
+          },
+          {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+              plugins: [
+                {
+                  resolve: `gatsby-remark-table-of-contents`,
+                  options: {
+                    exclude: "Table of Contents",
+                    tight: false,
+                    ordered: false,
+                    fromHeading: 1,
+                    toHeading: 6,
+                    className: "table-of-contents"
+                  },
+                },
+                `gatsby-remark-autolink-headers`
+              ],
+            },
+          },
         ],
       },
     },

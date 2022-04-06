@@ -48,34 +48,9 @@ main {
     }
 }
 
-.note-meta {
-    margin: 100px 0;
-    color: $gray-600;
-    border: 1px solid $gray-100;
-    padding: 1rem;
-    a {
-        color: $gray-500;
-        border-bottom: 1px solid $gray-400;
-        padding-bottom: 1px;
-        &:hover {
-            text-decoration: none;
-        }
-    }
-}
+ 
 
-.tags-list { 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    li {
-        display: inline;
-        &:not(:last-child):after { 
-            content: ", "
-        }
-    }
-}
-
-footer {
+#footer {
     margin-top: 100px;
     @media screen and (min-width: 992px) {
         margin-top: 200px;
@@ -89,10 +64,25 @@ footer {
             text-decoration: none;
         }
     }
-    .list-unstyled {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
         text-align: right;
+        li {
+            display: block;
+            margin-right: 1rem;
+            @media screen and (min-width: 1200px) { 
+                display: inline-block;
+            }
+        }
     }
+
 }
+
+ 
+
+
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -121,10 +111,51 @@ article {
             text-decoration: none;
         }
     }
-    header {
+    header, footer {
         margin: 100px 0;
     }
+    footer {
+        color: $gray-600;
+        border-top: 1px solid $gray-100;
+        padding-top: 4rem;
+        a {
+            &.note-list-item {
+                color: $gray-600;
+                text-decoration: none;
+                &:hover { 
+                    text-decoration: none;
+                    border: 0;
+                    border-top: 1px solid $gray-100;
+                }
+            }
+        } 
+    }
 }
+
+.tags-list { 
+    list-style-type: none;
+    display: inline;
+    margin: 0 0 0 .4rem;
+    padding: 0;
+    li {
+        display: inline;
+        &:not(:last-child):after {
+            content: ', '; 
+        }
+        &:nth-last-child(2):after {
+            content: ' or '; 
+        }
+        a {
+            border-color: $gray-600;
+            &:hover {
+                border-color: $black;
+            }
+        }
+    }
+}
+
+
+ 
 
 a {
     color: $gray-800;
@@ -189,6 +220,9 @@ img {
     font-size: 80%;
 }
 
-.related {
-    margin: 100px 0;
+
+.note-list-item {
+        text-decoration: none;
+        border: 0;
+        border-top: 1px solid $gray-100;
 }
