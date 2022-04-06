@@ -72,13 +72,19 @@ export default function Footer({ title, type, description }) {
       </Helmet>
 
         <footer id="footer">
-          
-            <div className="row">
-              <div className="col-7 col-md-6 mb-5 mb-md-0">
-                <p className="m-0"><a class="h-card" href="https://www.zinzy.website">Zinzy Waleson</a> is a designer and facilitator working and living in Amsterdam. You may contact her via <a href="mailto:zinzy@pm.me" rel="me">email</a>.</p>
-              </div>
-              <div className="col-5 col-md-6">
-                <ul className=""> 
+
+        <div class="d-flex">
+          <div class="d-none">
+            <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1649240297/me/FullSizeRender_copy_y5whli.jpg" alt="" className="u-photo" />
+          </div>
+          <div class="flex-grow-1">
+            <div className="">
+              <p className="m-0"><a class="h-card" href="https://www.zinzy.website">Zinzy Waleson</a> is a designer and facilitator working and living in Amsterdam. This is her personal site, a place she comes to link and think. You may contact her via <a href="mailto:zinzy@pm.me" rel="me">email</a>.</p>
+            </div>
+          </div> 
+        </div>
+
+        <ul className="mt-3"> 
                   <li><a href="/">Home</a></li> 
                   <li><a href="/sitemap">Sitemap</a></li>
                   <li><a href="/now">Now</a></li>
@@ -88,8 +94,6 @@ export default function Footer({ title, type, description }) {
                   {/* <li><a href="/tags">Tags</a></li> */}
                   {/* <li><a href="/contact">Contact</a></li> */}
                 </ul>
-              </div> 
-            </div>
           
         </footer>
 
