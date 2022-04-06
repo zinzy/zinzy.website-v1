@@ -55,7 +55,7 @@ export default function Header({ title, type, description }) {
       */}
     </Helmet>
 
-      {/* <div className="d-flex justify-content-end"><DarkMode /></div> */}
+      {/* <div className="dark-mode-toggle"><DarkMode /></div> */}
     </>
   )
 }

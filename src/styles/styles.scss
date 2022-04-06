@@ -71,7 +71,7 @@ main {
         text-align: right;
         li {
             display: block;
-            margin-right: 1rem;
+            margin-left: 1rem;
             @media screen and (min-width: 1200px) { 
                 display: inline-block;
             }
@@ -225,4 +225,11 @@ img {
         text-decoration: none;
         border: 0;
         border-top: 1px solid $gray-100;
+}
+
+
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
 }

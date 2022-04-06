@@ -131,6 +131,7 @@ export default function Note({ pageContext, data }) {
 
             <footer>
               <h6>Thank you for reading</h6>
+
               {post.frontmatter.tags ? (  
                     <div className="">
                     <p>If you liked this note, perhaps you'd like to read more about
@@ -143,10 +144,7 @@ export default function Note({ pageContext, data }) {
                       </ul>. I appreciate you taking the time to rummage around on my personal site. If you have any thoughts on what you read, feel free to let me know. You can reach me by <a href="mailto:zinzy@pm.me">email</a>.</p>
                     </div>
                   ) : null}
-
-
-
-
+ 
               {pageContext.referredBy.length ? (
                 <div className="related note-references mt-5">
                   <h6 className="mb-3">Notes leading here</h6>
