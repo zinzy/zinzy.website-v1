@@ -85,15 +85,21 @@ export default function Footer({ title, type, description }) {
         </div>
 
         <ul className="mt-3"> 
-                  <li><a href="/">Home</a></li> 
-                  <li><a href="/sitemap">Sitemap</a></li>
-                  <li><a href="/now">Now</a></li>
-                  <li><a href="/colophon">Colophon</a></li>
-                  {/* <li><a href="/about">About</a></li> */} 
-                  {/* <li><a href="/mentoring">Mentoring</a></li> */}
-                  {/* <li><a href="/tags">Tags</a></li> */}
-                  {/* <li><a href="/contact">Contact</a></li> */}
-                </ul>
+          <li><a href="/">Home</a></li> 
+          <li><a href="/sitemap">Sitemap</a></li>
+          <li><a href="/now">Now</a></li>
+          <li><a href="/colophon">Colophon</a></li>
+          {/* <li><a href="/about">About</a></li> */} 
+          {/* <li><a href="/mentoring">Mentoring</a></li> */}
+          {/* <li><a href="/tags">Tags</a></li> */}
+          {/* <li><a href="/contact">Contact</a></li> */}
+        </ul>
+
+        <div className="mt-5">
+          <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a> 
+          <span className="mx-5">🕸💍 </span>
+          <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+        </div>
           
         </footer>
 
