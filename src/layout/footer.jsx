@@ -73,13 +73,13 @@ export default function Footer({ title, type, description }) {
 
         <footer id="footer">
 
-        <div class="d-flex">
+        <div class="d-flex h-card">
           <div class="d-none">
             <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1649240297/me/FullSizeRender_copy_y5whli.jpg" alt="" className="u-photo" />
           </div>
           <div class="flex-grow-1">
             <div className="">
-              <p className="m-0"><a class="h-card" href="https://www.zinzy.website">Zinzy Waleson</a> is a designer and facilitator working and living in Amsterdam. This is her personal site, a place she comes to link and think. You may contact her via <a href="mailto:zinzy@pm.me" rel="me">email</a>.</p>
+              <p className="m-0"><a href="https://www.zinzy.website" className="p-name">Zinzy Waleson</a> is a designer and facilitator working and living in <span className="p-locality">Amsterdam</span>. This is her personal site, a place she comes to link and think. You may contact her via <a href="mailto:zinzy@pm.me" rel="me" className="u-email">email</a>.</p>
             </div>
           </div> 
         </div>
