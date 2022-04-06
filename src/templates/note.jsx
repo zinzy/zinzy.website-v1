@@ -116,7 +116,7 @@ export default function Note({ pageContext, data }) {
             </div> */}
 
             <header>
-              <h1 className="m-0">{post.fields.title}</h1>
+              <h1 className="m-0 p-name">{post.fields.title}</h1>
               <div className="text-muted mt-1">
                 <div>Updated {' '} {moment(new Date(post.fields.date)).fromNow()}</div>
                 <div>Created on <span className="dt-published">{post.frontmatter.startdate}</span></div>
