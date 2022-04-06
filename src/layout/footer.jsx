@@ -74,10 +74,10 @@ export default function Footer({ title, type, description }) {
         <footer id="footer">
           
             <div className="row">
-              <div className="col-8 col-md-6 mb-5 mb-md-0">
+              <div className="col-7 col-md-6 mb-5 mb-md-0">
                 <p className="m-0">Zinzy Waleson is a designer and facilitator working and living in Amsterdam.</p>
               </div>
-              <div className="col-4 col-md-6">
+              <div className="col-5 col-md-6">
                 <ul className=""> 
                   <li><a href="/">Home</a></li> 
                   <li><a href="/sitemap">Sitemap</a></li>
