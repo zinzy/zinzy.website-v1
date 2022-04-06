@@ -37,6 +37,7 @@ export const query = graphql`
         frontmatter: { tags: { in: [$tag] } }
         fields: { visibility: { eq: "public" } }
       }
+      sort: {fields: fields___date, order: DESC}
     ) {
       totalCount
       edges {

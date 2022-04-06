@@ -37,7 +37,7 @@ export const query = graphql`
       skip: $skip
       limit: $limit
       filter: { fields: { visibility: { eq: "public" } } }
-      sort: {fields: frontmatter___startdate, order: DESC}
+      sort: {fields: fields___date, order: DESC}
     ) {
       edges {
         node {
