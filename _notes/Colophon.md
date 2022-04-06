@@ -24,11 +24,10 @@ For some time now I've been maintaining my site using Gatsby. I host its content
 - [x] Update and creation dates
 - [ ] Mobile typography
 - [ ] Mobile bottom menu
-- [ ] Now archive
 - [ ] Indieweb post types
   - [ ] Bookmarks archive
   - [ ] Replies archive
 - [ ] [Open external link in new tab with normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
 - [ ] Last.fm feed
 - [ ] Optional table of content
-- [ ] Then archive
+- [ ] Then archive with appropriate routing
