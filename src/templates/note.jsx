@@ -234,7 +234,7 @@ export const query = graphql`
       frontmatter {
         tags
         source
-        startdate(formatString: "MMMM D YYYY")
+        startdate(formatString: "MMMM D, YYYY")
       }
     }
   }

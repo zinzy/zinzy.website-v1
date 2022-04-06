@@ -32,13 +32,6 @@ module.exports = {
     `gatsby-plugin-remove-trailing-slashes`,
     // `gatsby-plugin-dark-mode`,
     `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `./src/data/`,
-      },
-    },
-    `gatsby-transformer-gitinfo`,
     // { // Enable this if you want to have an RSS Feed. The `siteMetadata.siteUrl` property should be present for this to work
     //   resolve: `gatsby-plugin-feed`,
     //   options: {
