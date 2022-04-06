@@ -75,7 +75,7 @@ export default function Footer({ title, type, description }) {
           
             <div className="row">
               <div className="col-7 col-md-6 mb-5 mb-md-0">
-                <p className="m-0">Zinzy Waleson is a designer and facilitator working and living in Amsterdam. You may contact her via <a href="mailto:zinzy@pm.me" rel="me">email</a>.</p>
+                <p className="m-0"><a class="h-card" href="https://www.zinzy.website">Zinzy Waleson</a> is a designer and facilitator working and living in Amsterdam. You may contact her via <a href="mailto:zinzy@pm.me" rel="me">email</a>.</p>
               </div>
               <div className="col-5 col-md-6">
                 <ul className=""> 
