@@ -91,7 +91,7 @@ export default function Note({ pageContext, data }) {
 
   return (
     <Layout title={post.fields.title} type="note">
-      <article className="h-entry">
+      <article className="column is-three-fifths">
         <div>
           <div className="note-area note-page-section">
             {/* <div className="buttons for-back-home">
@@ -119,13 +119,13 @@ export default function Note({ pageContext, data }) {
               <h1 className="m-0">{post.fields.title}</h1>
               <div className="text-muted mt-1">
                 <div>Updated {' '} {moment(new Date(post.fields.date)).fromNow()}</div>
-                <div>Created on <span className="dt-published">{post.frontmatter.startdate}</span></div>
+                <div>Created on {post.frontmatter.startdate}</div>
               </div>
             </header>
             <div className="note-content">
               {/*<MDXRenderer>{post.body}</MDXRenderer>*/}
               <MDXProvider components={{ a: TooltipLink }}>
-                <MDXRenderer><div className="e-content">{post.body}</div></MDXRenderer>
+                <MDXRenderer>{post.body}</MDXRenderer>
               </MDXProvider>
             </div>
 
