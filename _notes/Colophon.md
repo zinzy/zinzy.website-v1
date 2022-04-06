@@ -7,15 +7,18 @@ tags:
   - internet
 excerpt: "Some notes on this website and how and why I maintain it."
 ---
-zinzy.website is my personal site. A quiet corner of the Internet where I come to think aloud. It reminds me of the days when the things we share on the web were less of a monolith.
+zinzy.website is my personal site. A quiet corner of the Internet where I come to think aloud. It reminds me of the days when sharing things online was less about personal branding and rather an exploratory kind of goofing off.
 
-This space has been around since 2004, in a variety of shapes and under a lot of different names. It has been a blog, a photo blog, a portfolio, and a one-pager. Its first name was doyoulikemytightsweater.com. At present, it is a collection of loosely-related notes, maintained in public. 
+This space has been around since 2004, in a variety of shapes and under a lot of different names. It has been a blog, a photo blog, a portfolio, a directory, and a one-pager. Its first name was doyoulikemytightsweater.com. At present, it is a collection of loosely-related notes, maintained in public. 
 
 ## Principles
-When it comes to publishing things online, I enjoy the idea of owning my data, making my own things, and learning while I'm doing so.
+When it comes to publishing things online, I enjoy the idea of owning my data, making my own things, and learning while doing so. I appreciate concepts such as the IndieWeb and slow web. I like to think the Internet deserves to be liberated from our tendencies to turn things into a monolith. My aim with this space is to grow it incrementally and retroactively. I hope to have it be part of the long web.
 
 ## Setup
-For some time now I've been maintaining my site using Gatsby. I host its contents on Github, and publish using Netlify.
+- I build this site using Gatsby, with which I'm familiar enough to be able to use it, and unfamiliar enough that it makes me slightly uncomfortable. Before this, I used Jelyll for years.
+- bHosted has been my webhost since 2005.
+- The code for this website is stored on Github.
+- This website is hosted on Netlify
 
 ## To do
 - ~~Update site automatically with content from Obsidian~~
@@ -30,7 +33,10 @@ For some time now I've been maintaining my site using Gatsby. I host its content
 - [ ] Indieweb post types
   - [ ] Bookmarks archive
   - [ ] Replies archive
+  - [ ] Watched archive
 - [ ] [Open external link in new tab with normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
 - [ ] Last.fm feed
 - [ ] Optional table of content
 - [x] Then archive with appropriate routing
+- [ ] Tippy URL tooltips
+- [ ] Tippy note previews
