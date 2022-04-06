@@ -130,18 +130,27 @@ export default function Note({ pageContext, data }) {
             </div>
 
             <footer>
-              <h6>Thank you for reading</h6>
+
+                <div className="mb-5">
+                {post.frontmatter.tags.includes("now") ? <a href="/then" className="btn">← See my Now archive</a> : null }
+                </div>
+
+                <h6>Thank you for reading</h6>
 
               {post.frontmatter.tags ? (  
-                    <div className="">
-                    <p>If you liked this note, perhaps you'd like to read more about
+                <div className="">
+                    <p>
+                      
+                    {post.frontmatter.tags.includes("now") ? null : <div>If you liked this note, perhaps you'd like to read more about
                       <ul className="tags-list">
                         {post.frontmatter.tags.map((tag, index) => (
                           <li key={index}>
                             <Link to={`/tags/${makeSlug(tag)}`}>{tag}</Link>
                           </li>
                         ))}
-                      </ul>. I appreciate you taking the time to rummage around on my personal site. If you have any thoughts on what you read, feel free to let me know. You can reach me by <a href="mailto:zinzy@pm.me">email</a>.</p>
+                      </ul>.</div> }
+                      
+                       I appreciate you taking the time to rummage around on my personal site. If you have any thoughts on what you read, feel free to let me know. You can reach me by <a href="mailto:zinzy@pm.me">email</a>.</p>
                     </div>
                   ) : null}
  
