@@ -46,3 +46,4 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Tippy note preview 
 - [ ] webmentions
 - [ ] Weeknotes?
+- [ ] Filter home note out of linked references
