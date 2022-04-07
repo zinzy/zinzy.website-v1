@@ -33,26 +33,14 @@ export default function Header({ title, type, description }) {
 
       <title>{pageTitle}</title>
 
-      {/* <link rel="apple-touch-icon" href="/img/favicon.png" />
-      <link
-        rel="icon"
-        href="/img/favicon.png"
-        type="image/png"
-        sizes="16x16"
-      /> */}
-
+      {/* Favicon */}
       <link rel="icon" href="https://emojicdn.elk.sh/😌" />
 
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-      {/*
-        These are included using gatsby-browser.js - if I include these like shown here, there is a horrible FOUC
-      <link href="/css/style.css" rel="stylesheet" media="all" className="default" />
-      <link href="/css/main.css" rel="stylesheet" media="all" className="default" />
-      <link href="/css/custom.css" rel="stylesheet" media="all" className="default" />
-      <link href="/css/Util.css" rel="stylesheet" media="all" className="default" />
-      */}
+      {/* Micropub authorization */}
+      <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+      <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+      <link rel="micropub" href="https://www.zinzy.website/micropub" />
+
     </Helmet>
 
       {/* <div className="dark-mode-toggle"><DarkMode /></div> */}

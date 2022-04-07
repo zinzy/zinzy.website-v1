@@ -28,7 +28,7 @@ export default function NoteList({ notes }) {
             </Link>
           </div> 
 
-          <div className="text-muted">
+          <div className="text-muted d-none d-md-block">
             {moment(new Date(data.node.fields.date)).fromNow()}
           </div>
         </div>
