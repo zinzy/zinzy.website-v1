@@ -12,12 +12,12 @@ export default function Layout({ children, title, type }) {
           <div className="col-12 col-lg-8 offset-lg-2"> 
             <section className="section">
               <div className="columns is-centered">{children}</div>
-            </section> 
-            <Footer title={title} type={type} />
+            </section>  
           </div>
         </div>
-      </div>
+      </div> 
       </main>
+      <Footer title={title} type={type} />
     </>
   )
 }
