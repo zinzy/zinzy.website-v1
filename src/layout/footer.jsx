@@ -95,9 +95,9 @@ export default function Footer({ title, type, description }) {
           {/* <li><a href="/contact">Contact</a></li> */}
         </ul>
 
-        <div className="mt-5">
+        <div className="mt-5 text-center">
           <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a> 
-          <span className="mx-5">🕸💍 </span>
+          <span className="mx-5">Visit other IndieWeb sites</span>
           <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
         </div>
           

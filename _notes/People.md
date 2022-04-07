@@ -9,6 +9,12 @@ I like to remind myself that the Internet is a vast land of curious creativity. 
 
 - [Jacky Alcine](https://jacky.wtf/)
 - [Ben Borgers](https://benborgers.com/)
+- [David Foley](https://www.dfoley.ie)
 - [Jacob Hall](https://jacobhall.net/)
+- [Kimberly Hirsch](https://kimberlyhirsh.com)
+- [Paul Houlihan](https://pauho.net)
+- [Sylvia Maggi](https://silviamaggidesign.com)
 - [Mylou Oord](https://mylouoord.com/)
+- [Seirdy](https://seirdy.one)
+- [Mark Sutherland](https://marksuth.dev)
 - [Annelie Wambeek](https://www.anneliewambeek.com/)
