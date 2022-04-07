@@ -1,5 +1,5 @@
 ---
-title: "Now: snow in April and home improvement"
+title: "Now"
 startdate: "2020-04-05"
 tags:
   - now
