@@ -37,7 +37,7 @@ export default function Footer({ title, type, description }) {
         <footer id="footer">
 
         <div>
-        <div className="container">
+        <div className="container h-card">
           <div className="row">
             <div className="col-12 col-lg-8 offset-lg-2"> 
               <div className="row d-flex align-items-center">
