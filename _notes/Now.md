@@ -5,21 +5,8 @@ tags:
   - now
 excerpt: "The things that are keeping my busy"
 ---
-It has been snowing in Amsterdam. As the years go by, I'm having trouble understanding whether I'm experiencing the effects of global warming, or whether I've never paid attention to what was always in front of me until now. It is likely a combination of the two. Either way, it is sad to see Amsterdammers retreat into their homes after two weeks of shorts and drinks in the sun.
+This page exists to tell you what I'm doing these days.
+
 
 ## At work
-Leeruniek's Product team is hiring, and I've been the one taking care of the recruitment process for two engineering and one design role. So far, I've found a new front-end engineer as well as a designer within two months, so I suppose you could say I've been busy. If this process has been teaching me anything new, it's that 1) I very much enjoy meeting people and learning about their (work) life stories, 2) there is such value in building strong relationships with recruiters who make you smile, and 3) it takes two weeks of introdutory chats before I begin to regret having to listen to my own voice give the same pitch over and over again.
-
-## At home
-A secret blessing of Covid has been the ability to spend more time at home, which, for me, immediately translates to the ability to better consider how I value my home environment. We've been churning through a pretty long list of home improvement projects, the absolute highlight so far having been installing a projector and theatre screen in the living room. Last weekend, we finished most of the work on our kitchen remodelling by putting in new counter tops. 
-
-## Cooking
-A while ago, we found some new recipes that we've enjoyed refining:
-- [Tartine’s Quiche, Potato Crusted](https://alexandracooks.com/2016/04/25/tartines-quiche-potato-crusted/) by Alexandra Stafford, which is great in itself but will be even better with a thicker crust 
-- [Spring Fattoush Salad](https://alexandracooks.com/2019/05/17/spring-fattoush-salad/), also by Alexandra Stafford, which is quite likely the best salad I've ever had. I've had it with Namiko Hirasawa Chen's [teriyaki salmon](https://www.justonecookbook.com/teriyaki-salmon-recipe/) and it is simply divine.
-
-## Watching
-I've been watching a lot of Dutch documentaries on the effects Internet culture has on children. [2doc](https://www.2doc.nl/documentaires/collecties/themas/toekomst/internet.html) has a selection. I particularly enjoyed _My Daughter, the Vlogger_. I can't imagine what it's like to raise a child, and I can't imagine what it would be like in 2022. Still, "all her peers will have a YouTube channel by the time they are six, she might as well get a leg up" sounds sad coming out of the mouth of a 3-year-old's mother.
-
-## Listening
-I've been playing [[Heardle]] and loving it.
+I'm at Leeruniek focused on creating a user-focused mode of collaboration. It's great fun work with collewgues from outside the product team, and develop a shared understanding of what we and what we do mean to our customers. Part of this effort involves cultivating a culture of receiving and giving feedback, something I find very refreshing. We're also hiring in the product team and we've already found a new engineer and a new designer. I'm looking forward to exploring our new team setup.
