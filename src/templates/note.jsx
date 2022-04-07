@@ -147,7 +147,7 @@ export default function Note({ pageContext, data }) {
                     {post.frontmatter.tags.includes("now") ? null : <div>If you liked this note, perhaps you'd like to read more about
                       <ul className="tags-list">
                         {post.frontmatter.tags.map((tag, index) => (
-                          <li key={index}>
+                          <li key={index} className="p-category">
                             <Link to={`/tags/${makeSlug(tag)}`}>{tag}</Link>
                           </li>
                         ))}
