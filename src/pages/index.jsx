@@ -55,9 +55,9 @@ export default function Home() {
 
   return data.homeNote ? (
     <Layout title={data.homeNote.fields.title} type="home">
-      <article>
+      <article clasName="h-entry">
         <header>
-          <h1 className="note-title">{data.homeNote.fields.title}</h1>
+          <h1 className="note-title p-name">{data.homeNote.fields.title}</h1>
         </header>
            <MDXRenderer>{ data.homeNote.body }</MDXRenderer>
       </article>
