@@ -40,7 +40,7 @@ export default function Footer({ title, type, description }) {
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-8 offset-lg-2"> 
-              <div className="row">
+              <div className="row d-flex align-items-center">
               <div className="col-md-2 portrait mb-5 mb-md-0">
                 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1635344340/me/zinzy-1_zarupx.jpg" alt="" className="u-photo" />
               </div>

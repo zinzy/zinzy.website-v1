@@ -131,9 +131,12 @@ export default function Note({ pageContext, data }) {
 
             <footer>
 
-                <div className="mb-5">
-                {post.frontmatter.tags.includes("now") ? <a href="/then" className="btn">← See my Now archive</a> : null }
-                </div>
+                 
+                {post.frontmatter.tags.includes("now") ? 
+                  <div className="mb-5 text-center">
+                    <a href="/then" className="btn mb-5">← See my Now archive</a>
+                  </div> : null }
+                
 
                 <h6>Thank you for reading</h6>
 
