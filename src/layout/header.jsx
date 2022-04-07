@@ -37,7 +37,7 @@ export default function Header({ title, type, description }) {
       <link rel="icon" href="https://emojicdn.elk.sh/😌" />
 
       {/* Micropub authorization */}
-      <link rel="authorization_endpoint" href="https://zinzys-endpoint.herokuapp.com/" />
+      <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
       <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
       <link rel="micropub" href="https://www.zinzy.website/micropub" /> 
     </Helmet>
