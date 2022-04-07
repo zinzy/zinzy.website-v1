@@ -29,7 +29,7 @@ export default function Header({ title, type, description }) {
       ) : (
         <meta content="website" property="og:type"></meta>
       )}
- 
+
 
       <title>{pageTitle}</title>
 
@@ -37,10 +37,9 @@ export default function Header({ title, type, description }) {
       <link rel="icon" href="https://emojicdn.elk.sh/😌" />
 
       {/* Micropub authorization */}
-      <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+      <link rel="authorization_endpoint" href="https://zinzys-endpoint.herokuapp.com/" />
       <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
-      <link rel="micropub" href="https://www.zinzy.website/micropub" />
-
+      <link rel="micropub" href="https://www.zinzy.website/micropub" /> 
     </Helmet>
 
       {/* <div className="dark-mode-toggle"><DarkMode /></div> */}
