@@ -12,7 +12,7 @@ export default function Footer({ title }) {
 <div>
   <div className="h-card">
 
-    <div className="d-flex align-items-center">
+    <div className="d-lg-flex align-items-center">
       <div className="flex-shrink-1">
         <div className="portrait mb-3">
           <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1635344340/me/zinzy-1_zarupx.jpg" alt="" className="u-photo" />
