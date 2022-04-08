@@ -25,7 +25,7 @@ const notesIndex = ({ data }) => {
             {
               data.allMdx.nodes.map(node => (
                 <li key={node.slug}>
-                  <a href={node.slug}>
+                  <a href={`/${node.slug}/`}>
                     <div className="d-flex">
                       <div className="flex-grow-1">{node.frontmatter.title}</div>  
                       <div className="">{node.parent.changeTime}</div>  
