@@ -21,14 +21,17 @@ const IndexPage = ({data}) => {
                 <article className="h-entry" key={node.slug}>
                   <header>
                     <h3 className="h6 p-name">{node.frontmatter.title}</h3>
-                    <div className="text-muted">Updated {node.parent.changeTime}</div> 
-                    <div className="text-muted">Created on {node.frontmatter.startdate}</div>  
+                    <p className="text-muted">{node.frontmatter.excerpt}</p>  
                   </header>
                   <div className="e-content">
                     <MDXProvider>
                       <MDXRenderer>{node.body}</MDXRenderer>
                     </MDXProvider>
                   </div> 
+                  <footer className="text-muted">
+                    <div>Updated {node.parent.changeTime}</div> 
+                    <div>Created on {node.frontmatter.startdate}</div> 
+                  </footer>
                 </article>  
               ))
             }

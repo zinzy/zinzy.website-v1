@@ -29,12 +29,16 @@ export default function PageTemplate({ data: { mdx } }) {
           <div className="">
             <div>
               <header className="">
-                <h2 className="h1">{mdx.frontmatter.title}</h2>
+                <h2 className="h1">{mdx.frontmatter.title}</h2> 
                 <p className="text-muted">{mdx.frontmatter.excerpt}</p>
               </header>
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
-              </MDXProvider>
+              </MDXProvider> 
+              <footer className="text-muted">
+                <div>Updated {mdx.parent.changeTime}</div> 
+                <div>Created on {mdx.frontmatter.startdate}</div> 
+              </footer>
              {/*  <footer className="my-5 py-5"> 
                  <ul className="content-list mt-3">
                 <h3 className="h5">Linking here</h3>
@@ -73,13 +77,19 @@ export const pageQuery = graphql`
         tags
         title
         excerpt
-        date(formatString: "MMM YYYY") 
+        startdate(formatString: "MMMM D, YYYY") 
         category
         subcategory
         featuredImage
         growthStage
       }
       timeToRead 
+      slug
+      parent {
+        ... on File {
+          changeTime(fromNow: true)
+        }
+      }
     }
   }
 `

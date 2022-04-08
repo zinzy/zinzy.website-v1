@@ -60,6 +60,10 @@ main {
         margin: 200px 0 100px 0;
     } 
 }
+
+.text-dark {
+    color: $black;
+}
  
 .category-icon {
     background-color: rgb(240, 240, 240);
@@ -269,6 +273,9 @@ mark {
     margin-bottom: 100px;
      header {
          margin-bottom: 100px;
+     }
+     footer {
+         margin-top: 100px;
      }
  }
  

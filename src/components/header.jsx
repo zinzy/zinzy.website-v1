@@ -19,12 +19,12 @@ export default function Header({ title }) {
       <header id="header">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-4">
+            <div className="col-6 col-md-4">
             <h1 className="p-name">
               <a rel="me" href="/" class="u-url">Zinzy Waleson</a>
             </h1>
             </div>
-            <div className="col-8">
+            <div className="col-6 col-md-8">
             <ul className=""> 
               {/* <li><a href="/notes">About</a></li>  */}
               <li><a href="/notes">Notes</a></li> 
