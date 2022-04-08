@@ -45,7 +45,7 @@ const LibraryPage = ({data}) => {
       {
         appPosts.map(node => (
           <li key={node.slug}> 
-            <a href={node.slug} className={node.frontmatter.listingOnly == null ? `d-block` : `d-none`}>
+            <a href={`/${node.slug}/`} className={node.frontmatter.listingOnly == null ? `d-block` : `d-none`}>
               <div className="row">
                 <div className="col-3 col-md-2">{node.frontmatter.subcategory}</div>
                 <div className="col-9 col-md-7">
