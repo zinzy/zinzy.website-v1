@@ -1,90 +1,72 @@
-import React from 'react'
-import { graphql, useStaticQuery, Link } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-import Layout from '../layout/layout'
-import siteConfig from '../../gatsby-config'
-import NoteList from '../components/note-list'
-import Search from '../components/search'
-// import '../styles/index.css'
-import { DefaultMenuStructure, MenuRoot } from '../utils/menu-structure'
+import * as React from "react" 
+import { graphql } from 'gatsby' 
+import Layout from "../components/layout"
+import { MDXProvider } from "@mdx-js/react"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+  
 
-export default function Home() {
-  const data = useStaticQuery(graphql`
-    query HomeQuery {
-      homeNote: mdx(frontmatter: {slug: {eq: "home"}}) {
-        body
-        fields {
-          title
-          date
-        }
-        frontmatter {
-          tags
-          startdate(formatString: "MMMM D YYYY")
-        }
-      }
-      notes: allMdx(
-        filter: { fields: { visibility: { eq: "public" } } }
-        limit: 5
-        sort: { fields: fields___date, order: DESC }
-      ) {
-        edges {
-          node {
-            excerpt
-            fields {
-              slug
-              title
-              date
+// markup
+const IndexPage = ({data}) => {
+  return (
+    <Layout>
+      <title>Home Page</title>
+ 
+ 
+      <section className=""> 
+ 
+
+          <div className="content-list content-list-links mt-3 mt-lg-5">
+            {
+              data.allMdx.nodes.map(node => ( 
+                <article className="h-entry" key={node.slug}>
+                  <header>
+                    <h3 className="h6 p-name">{node.frontmatter.title}</h3>
+                    <div className="text-muted">Updated {node.parent.changeTime}</div> 
+                    <div className="text-muted">Created on {node.frontmatter.startdate}</div>  
+                  </header>
+                  <div className="e-content">
+                    <MDXProvider>
+                      <MDXRenderer>{node.body}</MDXRenderer>
+                    </MDXProvider>
+                  </div> 
+                </article>  
+              ))
             }
-            frontmatter {
-              tags
-              startdate(formatString: "MMMM D YYYY")
-            }
-          }
-        }
-      }
-    }
-  `)
+            </div>
 
-  let tagList = DefaultMenuStructure('tag-list')
-  tagList.push({ // Add a link to a page that shows all tags.
-    type:'page',
-    item:'tags',
-    title: '...',
-    liClassName: 'pill'
-  })
 
-  return data.homeNote ? (
-    <Layout title={data.homeNote.fields.title} type="home">
-      <article clasName="h-entry">
-        <header>
-          <h1 className="note-title p-name">{data.homeNote.fields.title}</h1>
-        </header>
-           <MDXRenderer>{ data.homeNote.body }</MDXRenderer>
-      </article>
-    </Layout>
-  ) : (
-    <Layout title="Home" type="home">
-      <div className="column is-half">
-        <div className="block">
-          <h1>{siteConfig.siteMetadata.title}</h1>
-          <p className="lead">{siteConfig.siteMetadata.description}</p>
-        </div>
+      </section>
 
-        <div className="block tag-list">
-          <MenuRoot menu={tagList} />
-        </div>
-
-        <div className="block">
-          <Search size="medium" showExcerpt={true} />
-        </div>
-
-        <div className="block">
-          <NoteList notes={data.notes.edges} />
-        </div>
-
-        <br />
-        <Link to="/sitemap">All Notes...</Link>
-      </div>
+ 
+ 
     </Layout>
   )
 }
+
+export const query = graphql`
+query IndexQuery { 
+  allMdx(
+    sort: {fields: frontmatter___date, order: DESC}
+    filter: {frontmatter: {title: {eq: "Hello"}}}
+    limit: 1
+  ) {
+    nodes {
+      frontmatter {
+        title
+        category
+        startdate(formatString: "MMMM D, YYYY")
+      }
+      slug
+      parent {
+        ... on File {
+          changeTime(fromNow: true)
+        }
+      }
+      body
+    }
+  }
+ 
+} 
+`
+
+export default IndexPage
