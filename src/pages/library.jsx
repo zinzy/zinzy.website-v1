@@ -87,6 +87,7 @@ query LibraryQuery {
           category
           subcategory  
           listingOnly
+          slug
         }
       }
     }

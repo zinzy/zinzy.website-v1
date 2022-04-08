@@ -58,6 +58,7 @@ query IndexQuery {
         title
         category
         startdate(formatString: "MMMM D, YYYY")
+        slug
       }
       slug
       parent {

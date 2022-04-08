@@ -52,6 +52,7 @@ export const pageQuery = graphql`
         frontmatter {
           title
           growthStage
+          slug
         }
         slug 
         parent {
