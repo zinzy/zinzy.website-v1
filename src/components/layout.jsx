@@ -7,10 +7,10 @@ export default function Layout({ children }) {
     <div className="">   
       <div className="container">
         <div className="row">
-          <div className="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">   
+          <div className="col-12">   
             <main className="">
               <Header/>  
-              <main className="">{children}</main> 
+              <div className="">{children}</div> 
               <Footer/>    
             </main>
           </div>
@@ -39,7 +39,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </div>
- 
+      <script async="" src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
     </div>
   )
 }

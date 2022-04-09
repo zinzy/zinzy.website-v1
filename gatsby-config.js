@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.zinzy.website",
     title: "zinzy.website",
+    micropub_endpoint: "https://zinzy-endpoint.herokuapp.com/micropub"
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -10,6 +11,7 @@ module.exports = {
     "gatsby-plugin-sitemap", 
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-dark-mode",
     {
       resolve: "gatsby-source-lastfm",
       options: {
@@ -23,25 +25,19 @@ module.exports = {
       options: { 
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-double-brackets-link`,
-          },
-          {
-            resolve: `gatsby-transformer-markdown-references`,
+            resolve: `gatsby-remark-double-brackets-link`, 
             options: {
-              types: ["Mdx"], // or ["MarkdownRemark"] (or both)
-            },
-          },
+              stripBrackets: true
+            }
+          }, 
         ], 
       },
     },  
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-transformer-markdown-references`,
       options: {
-        fonts: [ 
-          `Inter` // you can also specify font weights and styles
-        ],
-        display: 'swap'
-      }
+        types: ["Mdx", "MarkdownRemark"], // or ["MarkdownRemark"] (or both)
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
