@@ -557,5 +557,17 @@ body.dark {
         color: $gray-600 !important;
         }
     }
+    .font-weight-bold {
+        color: $white;
+    }
+    a {
+        color: $gray-400;
+    }
+    .masonry {
+        color: $gray-400;
+        li {
+            border: 1px solid $gray-900;
+        }
+    }
   }
 
