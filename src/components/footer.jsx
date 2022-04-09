@@ -6,7 +6,8 @@ export default function Footer({ title }) {
     <> 
 <footer id="footer">
 
-<div>
+<div className="row">
+  <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
   <div className="h-card">
 
     <div className="d-lg-flex align-items-center">
@@ -24,6 +25,7 @@ export default function Footer({ title }) {
 
      
       </div>
+  </div> 
       </div> 
       </footer> 
     </>

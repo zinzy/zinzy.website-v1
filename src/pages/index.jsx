@@ -13,7 +13,9 @@ const IndexPage = ({data}) => {
  
  
       <section className=""> 
- 
+
+      <div className="row">
+        <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
 
           <div className="content-list content-list-links mt-3 mt-lg-5">
             {
@@ -36,6 +38,9 @@ const IndexPage = ({data}) => {
               ))
             }
             </div>
+        </div>
+      </div>
+  
 
 
       </section>
