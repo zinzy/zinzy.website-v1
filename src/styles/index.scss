@@ -512,9 +512,11 @@ a[target="_blank"] { color: dodgerblue; font-weight: normal; }
 
 
 .masonry-page {
+   @media screen and (min-width:1200px) {
     -webkit-column-count: 3;
     -moz-column-count:3;
     column-count: 3;
+   }
 }
 
 .references {
