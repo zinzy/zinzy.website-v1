@@ -9,9 +9,9 @@ export default function Header({ title }) {
   return (
     <>
       <Helmet>
-        <link rel="authorization_endpoint" href="https://zinzy-endpoint.herokuapp.com/auth" />
-        <link rel="token_endpoint" href="https://zinzy-endpoint.herokuapp.com/token" />
-        <link rel="micropub" href="https://zinzy-endpoint.herokuapp.com/micropub" />
+        <link rel="authorization_endpoint" href="https://endpoint-for-zinzy.herokuapp.com/auth" />
+        <link rel="token_endpoint" href="https://endpoint-for-zinzy.herokuapp.com/token" />
+        <link rel="micropub" href="https://endpoint-for-zinzy.herokuapp.com/micropub" />
 
         <meta charSet="utf-8" />
         <title>
