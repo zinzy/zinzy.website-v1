@@ -34,8 +34,10 @@ const LibraryPage = ({data}) => {
           </div>
           <div class="">
             <div class="form-check form-switch">
+
+            <label class="form-check-label" for="flexSwitchCheckDefault">Reviews only
               <input class="form-check-input" onChange={toggle} type="checkbox"/> 
-              <label class="form-check-label" for="flexSwitchCheckDefault">Reviews only</label> 
+              </label> 
             </div>
           </div>
         </div> 

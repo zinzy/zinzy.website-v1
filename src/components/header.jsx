@@ -1,11 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Helmet } from "react-helmet"  
 import siteConfig from "../../gatsby-config"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
-import { FaClock, FaHandshake, FaPencilAlt } from "react-icons/fa"
-import { BiCoffeeTogo, BiNews } from "react-icons/bi"
-import { BsLightbulb, BsLightbulbOff } from "react-icons/bs";
 import { MdOutlineLightMode, MdOutlineWbTwilight } from "react-icons/md";
 
 export default function Header({ title }) { 
@@ -23,12 +19,12 @@ export default function Header({ title }) {
       <header id="header">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-6 col-md-4">
+            <div className="col-5 col-md-4">
             <h1 className="p-name">
               <a rel="me" href="/" class="u-url">Zinzy Waleson</a>
             </h1>
             </div>
-            <div className="col-6 col-md-8">
+            <div className="col-7 col-md-8">
             <ul className=""> 
               {/* <li><a href="/notes">About</a></li>  */}
               <li><a href="/notes">Notes</a></li> 
@@ -42,7 +38,7 @@ export default function Header({ title }) {
                         onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
                         checked={theme === 'dark'}
                       />{' '}
-                      {theme == 'dark' ? <MdOutlineLightMode />  : <MdOutlineWbTwilight /> }
+                      {theme === 'dark' ? <MdOutlineLightMode />  : <MdOutlineWbTwilight /> }
                     </label>
                   )}
                 </ThemeToggler>

@@ -24,7 +24,7 @@ module.exports = {
       options: { 
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-double-brackets-link`,
+            resolve: `gatsby-remark-double-brackets-link`, 
           },
           {
             resolve: `gatsby-transformer-markdown-references`,
