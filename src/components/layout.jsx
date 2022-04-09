@@ -10,7 +10,7 @@ export default function Layout({ children }) {
           <div className="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">   
             <main className="">
               <Header/>  
-              <main className="">{children}</main> 
+              <div className="">{children}</div> 
               <Footer/>    
             </main>
           </div>

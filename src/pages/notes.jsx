@@ -41,28 +41,29 @@ const notesIndex = ({ data }) => {
 }
 
 export const pageQuery = graphql`
-  query notesIndex {
-    allMdx( 
-      filter: {fileAbsolutePath: {regex: "/notes/"}}
-    ) {
-      nodes { 
-        body
-        id
-        excerpt
-        frontmatter {
-          title
-          growthStage
-          slug
-        }
-        slug 
-        parent {
-          ... on File {
-            changeTime(fromNow: true)
-          }
+query notesIndex {
+  allMdx(
+    filter: {fileAbsolutePath: {regex: "/notes/"}, frontmatter: {slug: {ne: "hello"}}}
+  ) {
+    nodes {
+      body
+      id
+      excerpt
+      frontmatter {
+        title
+        growthStage
+        slug
+      }
+      slug
+      parent {
+        ... on File {
+          changeTime(fromNow: true)
         }
       }
     }
   }
+}
+
 `
 
 export default notesIndex
