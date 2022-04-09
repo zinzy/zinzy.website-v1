@@ -24,7 +24,9 @@ export default function PageTemplate({ data: { mdx } }) {
       </Helmet>
       <Layout>
 
-        <article className="page">
+        <div className="row">
+          <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+          <article className="page">
           {/* <div className="col-lg-3">
               <img className={featuredImg != null ? `rounded img-fluid` : `d-none`} src={mdx.frontmatter.featuredImage} alt="{ mdx.frontmatter.title }" />
           </div> */}
@@ -41,21 +43,34 @@ export default function PageTemplate({ data: { mdx } }) {
                 <div className="text-muted">
                   <div>Updated {mdx.parent.changeTime}</div> 
                   <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
-                </div>  
-                <ul className="content-list">
-                {mdx.inboundReferences.length > 0 ? <p>Referenced in:</p> : ""}
-                  {mdx.inboundReferences.map(ref => (
-                    <li>
-                      <Link to={`/notes/${ref.slug}`}>{ref.frontmatter.title}</Link>
-                    </li>
-                  ))}
-                </ul>
+                </div>
+
+                {mdx.inboundReferences.length > 0 ?  
+                  <div className="references">
+                    <h6>Pages linking here</h6>
+                    <ul class="masonry masonry-page mt-3">   
+                          {mdx.inboundReferences.map(ref => (
+                            <li key={ref.slug}>
+                              <a href={`/${ref.slug}`}>
+                                <div className="">
+                                  <div className="font-weight-bold">{ref.frontmatter.title}</div> 
+                                  <div className="">{ref.frontmatter.excerpt}</div> 
+                                  <div className="text-muted small mt-3">{ref.parent.changeTime}</div>  
+                                </div>  
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                  </div>
+                : ""} 
               </footer>
 
                
             </div> 
           </div>
         </article>
+          </div>
+        </div>
  
       </Layout>
     </>
@@ -87,11 +102,16 @@ export const pageQuery = graphql`
       inboundReferences {
         ... on Mdx {
           id
+          slug
           parent {
             id
+            ... on File {
+              changeTime(fromNow: true)
+            }
           }
           frontmatter {
             title
+            excerpt
           }
         }
       }

@@ -7,36 +7,34 @@ const notesIndex = ({ data }) => {
 
   return (
     <Layout>
-      <div>
-
+      <section>
         <div className="row">
-          <div className="col-lg-8">
-            <h2>Notes</h2>
-            <p>I maintain this space to link and think. You'll find soft stances, lived experiences, and critical notes on the things I hold dear. Its contents are subject to change.</p>
-          </div>
-        </div>  
- 
+          <div className="col-md-8 offset-md-2 col-xl-10 offset-xl-1">
+            <div className="row">
+              <div className="col-lg-8">
+                <h2>Notes</h2>
+                <p>I maintain this space to link and think. You'll find soft stances, lived experiences, and critical notes on the things I hold dear. Its contents are subject to change.</p>
+              </div>
+            </div>  
 
-        <ul class="content-list content-list-links mt-5">
-
-        <div className="text-muted text-end"> 
-        <p>Last tended to</p>
-        </div>  
-
-            {
-              data.allMdx.nodes.map(node => (
-                <li key={node.slug}>
-                  <a href={`/${node.slug}/`}>
-                    <div className="d-flex">
-                      <div className="flex-grow-1">{node.frontmatter.title}</div>  
-                      <div className="">{node.parent.changeTime}</div>  
-                    </div>  
-                  </a>
-                </li>
-              ))
-            }
+            <ul class="masonry mt-5">  
+                {
+                  data.allMdx.nodes.map(node => (
+                    <li key={node.slug}>
+                      <a href={`/${node.slug}/`}>
+                        <div className="">
+                          <div className="font-weight-bold">{node.frontmatter.title}</div> 
+                          <div className="">{node.frontmatter.excerpt}</div> 
+                          <div className="text-muted small mt-3">{node.parent.changeTime}</div>  
+                        </div>  
+                      </a>
+                    </li>
+                  ))
+                }
             </ul>
-    </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }
@@ -54,6 +52,7 @@ query notesIndex {
         title
         growthStage
         slug
+        excerpt
       }
       slug
       parent {

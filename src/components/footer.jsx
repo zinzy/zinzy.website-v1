@@ -4,8 +4,6 @@ export default function Footer({ title }) {
 
   return (
     <> 
-
-     
 <footer id="footer">
 
 <div>

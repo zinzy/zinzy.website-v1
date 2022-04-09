@@ -15,10 +15,14 @@ const LibraryPage = ({data}) => {
  
 
   return (
-    <Layout>
-      <title>Home Page</title>
+    <Layout> 
       
-      <div className="row">
+      <section>
+
+        <div className="row">
+          <div className="col-md-8 offset-md-2 col-xl-10 offset-xl-1">
+
+          <div className="row">
           <div className="col-lg-8">
             <h2>Library</h2>
             <p>A collection of more or less opinionated reviews of and thoughts on the things I read, listen to, and watch.</p>
@@ -43,33 +47,41 @@ const LibraryPage = ({data}) => {
         </div> 
           
 
-      <ul class="content-list content-list-links mt-5">
+      <ul class="masonry mt-5">
       {
         appPosts.map(node => (
-          <li key={node.slug}> 
-            <a href={`/${node.slug}/`} className={node.frontmatter.listingOnly == null ? `d-block` : `d-none`}>
-              <div className="row">
-                <div className="col-3 col-md-2">{node.frontmatter.subcategory}</div>
-                <div className="col-9 col-md-7">
-                  {node.frontmatter.title}
-                </div>  
-                <div className="d-none d-md-block col-md-3 text-end">{node.frontmatter.date}</div> 
-              </div>  
-            </a>
-            <div className={node.frontmatter.listingOnly != null ? `d-block text-muted` : `d-none`}>
-              <div className="row">
-                <div className="col-3 col-md-2">{node.frontmatter.subcategory}</div>
-                <div className="col-9 col-md-7">
-                  {node.frontmatter.title}
-                </div>  
-                <div className="d-none d-md-block col-md-3 text-end">{node.frontmatter.date}</div> 
-              </div>  
-            </div>
+          <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
 
+            {node.frontmatter.listingOnly == null ? 
+
+              <a href={`/${node.slug}/`}>
+                <div className="">
+                  <div className="font-weight-bold">{node.frontmatter.title}</div> 
+                  <div className="text-muted">{node.frontmatter.subcategory}</div> 
+                  <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
+                </div> 
+              </a> 
+
+            
+             : 
+             
+             <div className="">
+               <div className="font-weight-bold">{node.frontmatter.title}</div> 
+               <div className="text-muted">{node.frontmatter.subcategory}</div> 
+               <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
+             </div> 
+             }
+
+ 
           </li>
         ))
       }
       </ul>
+          </div>
+        </div>
+
+
+      </section>
     </Layout>
   )
 } 
@@ -90,6 +102,11 @@ query LibraryQuery {
           subcategory  
           listingOnly
           slug
+        }
+        parent {
+          ... on File {
+            changeTime(fromNow: true)
+          }
         }
       }
     }
