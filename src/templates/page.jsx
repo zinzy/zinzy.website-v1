@@ -37,19 +37,22 @@ export default function PageTemplate({ data: { mdx } }) {
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
               </MDXProvider> 
-              <footer className="text-muted">
-                <div>Updated {mdx.parent.changeTime}</div> 
-                <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
-              </footer>
-
-              {mdx.inboundReferences.length > 0 ? <p>Referenced in:</p> : ""}
-                <ul>
+              <footer className="">
+                <div className="text-muted">
+                  <div>Updated {mdx.parent.changeTime}</div> 
+                  <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
+                </div>  
+                <ul className="content-list">
+                {mdx.inboundReferences.length > 0 ? <p>Referenced in:</p> : ""}
                   {mdx.inboundReferences.map(ref => (
                     <li>
                       <Link to={`/notes/${ref.slug}`}>{ref.frontmatter.title}</Link>
                     </li>
                   ))}
                 </ul>
+              </footer>
+
+               
             </div> 
           </div>
         </article>
