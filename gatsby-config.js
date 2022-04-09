@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.zinzy.website",
     title: "zinzy.website",
+    micropub_endpoint: "https://zinzy-endpoint.herokuapp.com/micropub"
   },
   plugins: [
     "gatsby-plugin-sass",

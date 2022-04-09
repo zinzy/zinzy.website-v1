@@ -11,7 +11,7 @@ export default function Header({ title }) {
       <Helmet>
         <link rel="authorization_endpoint" href="https://zinzy-endpoint.herokuapp.com/auth" />
         <link rel="token_endpoint" href="https://zinzy-endpoint.herokuapp.com/token" />
-        <link rel="micropub" href="https://www.zinzy.website/micropub" />
+        <link rel="micropub" href="https://zinzy-endpoint.herokuapp.com/micropub" />
 
         <meta charSet="utf-8" />
         <title>
