@@ -3,7 +3,9 @@ import { graphql } from "gatsby"
 import Helmet from "react-helmet"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import Layout from "../components/layout" 
+import Layout from "../components/layout"  
+import Tippy from '@tippyjs/react';
+import { Link } from "gatsby"
 
 export default function PageTemplate({ data: { mdx } }) {
 
@@ -39,26 +41,15 @@ export default function PageTemplate({ data: { mdx } }) {
                 <div>Updated {mdx.parent.changeTime}</div> 
                 <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
               </footer>
-             {/*  <footer className="my-5 py-5"> 
-                 <ul className="content-list mt-3">
-                <h3 className="h5">Linking here</h3>
-                  {
-                    mdx.inboundReferences.map(node => (
-                      <li key={node.slug}>
-                  <a href={node.slug}>
-                    <div className="row">
-                      <div className="col-3 col-md-2">
-                        cd
-                      </div>
-                      <div className="col-9 col-md-7">{node.frontmatter.title}</div>  
-                      <div className="d-none d-md-block col-md-3 text-end">{node.parent.modifiedTime}</div>  
-                    </div>  
-                  </a>
-                </li>
-                    ))
-                  }
-                  </ul> 
-              </footer>*/} 
+
+              {mdx.inboundReferences.length > 0 ? <p>Referenced in:</p> : ""}
+                <ul>
+                  {mdx.inboundReferences.map(ref => (
+                    <li>
+                      <Link to={`/notes/${ref.slug}`}>{ref.frontmatter.title}</Link>
+                    </li>
+                  ))}
+                </ul>
             </div> 
           </div>
         </article>
@@ -88,6 +79,17 @@ export const pageQuery = graphql`
       parent {
         ... on File {
           changeTime(fromNow: true)
+        }
+      }
+      inboundReferences {
+        ... on Mdx {
+          id
+          parent {
+            id
+          }
+          frontmatter {
+            title
+          }
         }
       }
     }

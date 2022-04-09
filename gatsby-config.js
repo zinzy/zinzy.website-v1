@@ -29,24 +29,15 @@ module.exports = {
             options: {
               stripBrackets: true
             }
-          },
-          {
-            resolve: `gatsby-transformer-markdown-references`,
-            options: {
-              types: ["Mdx"], // or ["MarkdownRemark"] (or both)
-            },
-          },
+          }, 
         ], 
       },
     },  
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-transformer-markdown-references`,
       options: {
-        fonts: [ 
-          `Inter` // you can also specify font weights and styles
-        ],
-        display: 'swap'
-      }
+        types: ["Mdx", "MarkdownRemark"], // or ["MarkdownRemark"] (or both)
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
