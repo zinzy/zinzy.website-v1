@@ -567,6 +567,10 @@ body.dark {
         color: $gray-400;
         li {
             border: 1px solid $gray-900;
+            &.listing-only {
+                background-color: rgba($gray-700,0.3);
+                opacity: .5;
+            }
         }
     }
   }
