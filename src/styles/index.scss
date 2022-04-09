@@ -129,7 +129,9 @@ a {
 } 
 
 .bio {
-    padding-left: 2rem;
+    @media screen and (min-width:992px) {
+        padding-left: 2rem;
+    }
 }
 
 

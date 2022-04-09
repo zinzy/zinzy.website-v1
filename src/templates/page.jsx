@@ -37,7 +37,7 @@ export default function PageTemplate({ data: { mdx } }) {
               </MDXProvider> 
               <footer className="text-muted">
                 <div>Updated {mdx.parent.changeTime}</div> 
-                <div>Created on {mdx.frontmatter.startdate}</div> 
+                <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
               </footer>
              {/*  <footer className="my-5 py-5"> 
                  <ul className="content-list mt-3">
