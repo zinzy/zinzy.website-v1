@@ -1,5 +1,5 @@
 const path = require(`path`)
-const makeSlug = require("./src/utils/make-slug")
+//const makeSlug = require("./src/utils/make-slug")
 const _ = require('lodash')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -7,7 +7,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   if (node.internal.type === `Mdx`) {
   	const { createNodeField } = actions
     const title = node.frontmatter.title ? node.frontmatter.title : createFilePath({ node, getNode, basePath: `_garden` }).replace(/^\/(.+)\/$/, '$1')
-    const slug = node.slug ? makeSlug(node.slug) : makeSlug(title)
+    //const slug = node.slug ? makeSlug(node.slug) : makeSlug(title)
     const fileNode = getNode(node.parent)
     const date = node.frontmatter.date ? node.frontmatter.date : fileNode.mtime
 

@@ -9,13 +9,13 @@ export default function Header({ title }) {
   return (
     <>
       <Helmet>
-        <link rel="authorization_endpoint" href="https://zinzy-endpoint.herokuapp.com//auth" />
-        <link rel="token_endpoint" href="https://zinzy-endpoint.herokuapp.com//token" />
+        <link rel="authorization_endpoint" href="https://zinzy-endpoint.herokuapp.com/auth" />
+        <link rel="token_endpoint" href="https://zinzy-endpoint.herokuapp.com/token" />
         <link rel="micropub" href="https://www.zinzy.website/micropub" />
 
         <meta charSet="utf-8" />
         <title>
-          {(siteConfig.siteMetadata.title || "Zinzy Nev Geene") +
+          {(siteConfig.siteMetadata.title || "Zinzy Waleson") +
             (title ? ` : ${title}` : "")}
         </title>
       </Helmet> 
