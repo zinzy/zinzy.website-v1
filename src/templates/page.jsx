@@ -6,28 +6,8 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"  
 import Tippy from '@tippyjs/react';
 import { Link } from "gatsby"
-import ReactTimeAgo from "react-time-ago"
-import JavascriptTimeAgo from 'javascript-time-ago'
-import TimeAgo from 'javascript-time-ago'
-import en from 'javascript-time-ago/locale/en.json'
 
 export default function PageTemplate({ data: { mdx } }) {
-  TimeAgo.addDefaultLocale(en)
-
-  // Create formatter (English).
-  const timeAgo = new TimeAgo('en-US')
-  
-  timeAgo.format(new Date())
-  // "just now"
-  
-  timeAgo.format(Date.now() - 60 * 1000)
-  // "1 minute ago"
-  
-  timeAgo.format(Date.now() - 2 * 60 * 60 * 1000)
-  // "2 hours ago"
-  
-  timeAgo.format(Date.now() - 24 * 60 * 60 * 1000)
-  // "1 day ago"
 
   // const featuredImg = mdx.frontmatter.featuredImage 
   // const linkingHere = mdx.inboundReferences.nodes;
@@ -61,7 +41,7 @@ export default function PageTemplate({ data: { mdx } }) {
               </MDXProvider> 
               <footer className="">
                 <div className="text-muted">
-                  <div>Updated <ReactTimeAgo date={mdx.parent.changeTime}/></div> 
+                  <div>Updated {mdx.parent.changeTime}</div> 
                   <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
                 </div>
 

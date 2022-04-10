@@ -1,28 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import ReactTimeAgo from "react-time-ago"
-import JavascriptTimeAgo from 'javascript-time-ago'
-import TimeAgo from 'javascript-time-ago'
-import en from 'javascript-time-ago/locale/en.json'
 
-const notesIndex = ({ data }) => { 
-  TimeAgo.addDefaultLocale(en)
-
-// Create formatter (English).
-const timeAgo = new TimeAgo('en-US')
-
-timeAgo.format(new Date())
-// "just now"
-
-timeAgo.format(Date.now() - 60 * 1000)
-// "1 minute ago"
-
-timeAgo.format(Date.now() - 2 * 60 * 60 * 1000)
-// "2 hours ago"
-
-timeAgo.format(Date.now() - 24 * 60 * 60 * 1000)
-// "1 day ago"
+const notesIndex = ({ data }) => {  
   return (
     <Layout>
       <section>

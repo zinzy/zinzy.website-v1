@@ -39,12 +39,10 @@
     "gatsby-source-openweathermap": "^1.0.5",
     "gatsby-transformer-markdown-references": "^0.1.8",
     "gatsby-transformer-sharp": "^3.13.0",
-    "javascript-time-ago": "^2.3.13",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
-    "react-time-ago": "^7.1.9",
     "sass": "^1.39.2"
   },
   "devDependencies": {
