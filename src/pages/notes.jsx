@@ -7,7 +7,7 @@ const notesIndex = ({ data }) => {
     <Layout>
       <section>
         <div className="row">
-          <div className="col-md-8 offset-md-2 col-xl-10 offset-xl-1">
+          <div className=" col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
             <div className="row">
               <div className="col-lg-8">
                 <h2>Notes</h2>

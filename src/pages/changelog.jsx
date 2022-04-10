@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import { FaClock, FaHandshake, FaPencilAlt } from "react-icons/fa"
+import { FaClock, FaHandshake, FaPencilAlt, FaComment } from "react-icons/fa"
 import { BiCoffeeTogo, BiNews } from "react-icons/bi"
 import { BsGearWideConnected,BsBookmarkFill } from "react-icons/bs";
 
@@ -51,7 +51,7 @@ export default function ChangelogPage({data}) {
                       case 'Technical': return ( <BsGearWideConnected />  ) 
                       case 'Writer': return ( <FaPencilAlt />  ) 
                       case 'Bookmark': return ( <BsBookmarkFill />  ) 
-                      case 'Reply': return ( <FaPencilAlt />  ) 
+                      case 'Reply': return ( <FaComment />  ) 
                       default: return ( <BiNews />  )  
                     } 
                   })()} 
