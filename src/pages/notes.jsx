@@ -1,10 +1,28 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import ReactTimeAgo from "react-time-ago"
+import JavascriptTimeAgo from 'javascript-time-ago'
+import TimeAgo from 'javascript-time-ago'
+import en from 'javascript-time-ago/locale/en.json'
 
+const notesIndex = ({ data }) => { 
+  TimeAgo.addDefaultLocale(en)
 
-const notesIndex = ({ data }) => {
+// Create formatter (English).
+const timeAgo = new TimeAgo('en-US')
 
+timeAgo.format(new Date())
+// "just now"
+
+timeAgo.format(Date.now() - 60 * 1000)
+// "1 minute ago"
+
+timeAgo.format(Date.now() - 2 * 60 * 60 * 1000)
+// "2 hours ago"
+
+timeAgo.format(Date.now() - 24 * 60 * 60 * 1000)
+// "1 day ago"
   return (
     <Layout>
       <section>
@@ -25,7 +43,9 @@ const notesIndex = ({ data }) => {
                         <div className="">
                           <div className="font-weight-bold">{node.frontmatter.title}</div> 
                           <div className="">{node.frontmatter.excerpt}</div> 
-                          <div className="text-muted small mt-3">{node.parent.changeTime}</div>  
+                          <div className="text-muted small mt-3">
+                            <ReactTimeAgo date={node.parent.changeTime}/>
+                          </div>  
                         </div>  
                       </a>
                     </li>
@@ -57,7 +77,7 @@ query notesIndex {
       slug
       parent {
         ... on File {
-          changeTime(fromNow: true)
+          changeTime
         }
       }
     }

@@ -24,7 +24,7 @@ const LibraryPage = ({data}) => {
 
       <div className="row">
           <div className="col-lg-8">
-            <h2>Library</h2>
+            <h2 className="header-link-switch">Library <span className="text-light"> | </span> <a href="/antilibrary" className="text-light">Antilibrary</a></h2>
             <p>A collection of more or less opinionated reviews of and thoughts on the things I read, listen to, and watch.</p>
           </div>
         </div>  
@@ -90,7 +90,7 @@ export const query = graphql`
 query LibraryQuery {
     allMdx(
       sort: {fields: frontmatter___date, order: DESC}
-      filter: {fileAbsolutePath: {regex: "/library/"}}
+      filter: {fileAbsolutePath: {regex: "/the-library/"}}
     ) {
       nodes { 
         body

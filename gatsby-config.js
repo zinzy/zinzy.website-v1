@@ -51,7 +51,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "library",
-        path: "./_garden/library",
+        path: "./_garden/the-library",
       },
       __key: "library",
     },
@@ -70,6 +70,23 @@ module.exports = {
         path: "./_garden/changelog",
       },
       __key: "changelog",
-    }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "antilibrary",
+        path: "./_garden/antilibrary",
+      },
+      __key: "antilibrary",
+    },
+    {
+      resolve: `gatsby-source-dropbox`,
+      options: {
+        accessToken: `sl.BFcPm5wJQthk62ykLtPzoQk1Mi1hWMaVVlu86lCJ-e1z9y0Hr_e4MSjh_7lw9DJKXeJfUHuy8MnDa07eTTtTtfNW6gCPoHybVD519kMdazlP1f1Bnuce9wciC5ayUKlzcffPsIk`,
+        extensions: ['.pdf', '.jpg', '.png', '.md'],
+        recursive: false,
+        createFolderNodes: true,
+      },
+    },
   ],
 };

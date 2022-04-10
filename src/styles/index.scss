@@ -229,6 +229,12 @@ mark {
     color: $gray-600 !important;
     }
 }
+.text-light {
+    color: $gray-500 !important;
+    a {
+    color: $gray-500 !important;
+    }
+}
 
 .fade-box {
     max-height: 530px;
@@ -265,6 +271,7 @@ mark {
  h1, h2, h3, h4, h5, h6,
  .h1, .h2, .h3, .h4, .h5, .h6 {
      font-size: 120%;
+     font-weight: 600;
      color: $black !important; 
  }
 
@@ -580,16 +587,17 @@ body.dark {
     .masonry {
         color: $gray-400;
         li {
-            border-color: $gray-800;
+            border-color: $gray-800; 
             &:hover {
-                border-color: $gray-700;
-                -webkit-box-shadow: none;
-                -moz-box-shadow: none;
-                box-shadow: none;
+                border-color: $gray-600;
             }
             &.listing-only {
-                background-color: rgba($gray-700,0.3);
+                background-color: $gray-800;
                 opacity: .7;
+                border-color: $gray-800; 
+                &:hover {
+                    border-color: $gray-800;
+                }
             }
         }
     }.changelog {
@@ -606,9 +614,16 @@ body.dark {
         }  
     }
 
-.badge {
-    background-color: $gray-800;
-    color: $white;
-}
-  }
+    .badge {
+        background-color: $gray-800;
+        color: $white;
+    }
 
+    .text-light {
+        color: $gray-500 !important;
+        a {
+        color: $gray-500 !important;
+        }
+    }
+
+  }

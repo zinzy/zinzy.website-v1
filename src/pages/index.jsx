@@ -15,9 +15,8 @@ const IndexPage = ({data}) => {
       <section className=""> 
 
       <div className="row">
-        <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
-
-          <div className="content-list content-list-links mt-3 mt-lg-5">
+        <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3"> 
+          <div className="mt-3 mt-lg-5">
             {
               data.allMdx.nodes.map(node => ( 
                 <article className="h-entry" key={node.slug}>
@@ -30,18 +29,15 @@ const IndexPage = ({data}) => {
                       <MDXRenderer>{node.body}</MDXRenderer>
                     </MDXProvider>
                   </div> 
-                  <footer className="text-muted">
-                    <div>Updated {node.parent.changeTime}</div> 
-                    <div>Created on {node.frontmatter.startdate}</div> 
-                  </footer>
                 </article>  
               ))
             }
             </div>
+
         </div>
       </div>
-  
-
+ 
+ 
 
       </section>
 
