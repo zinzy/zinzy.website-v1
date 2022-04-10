@@ -22,7 +22,7 @@ const LibraryPage = ({data}) => {
         <div className="row">
           <div className="col-md-8 offset-md-2 col-xl-10 offset-xl-1">
 
-          <div className="row">
+      <div className="row">
           <div className="col-lg-8">
             <h2>Library</h2>
             <p>A collection of more or less opinionated reviews of and thoughts on the things I read, listen to, and watch.</p>

@@ -1,4 +1,5 @@
 $black: #111115;
+$gray-950: #1b1b1f;
 $gray-900: #222227;
 $gray-800: #343439;
 $gray-700: #5C5C62;
@@ -317,7 +318,9 @@ mark {
 
  #footer {
     border-top: 1px solid $gray-100;
-    padding-top: 100px;
+    border-bottom: 1px solid $gray-100;
+    padding: 100px 0;
+    margin-bottom: 10px;
     ul {
         list-style: none;
         margin: 0;
@@ -340,10 +343,8 @@ mark {
     padding: 10px 0 8px 0;
     width: 100%;
     position: absolute;
-    left: 0;
-    border-top: 1px solid $gray-100;
+    left: 0; 
     color: $gray-600;
-    font-size: 90%;
     a {
         font-weight: normal;
         color: $gray-600;
@@ -359,6 +360,10 @@ mark {
         }
     }
 } 
+
+.bottom-nav {
+    font-size: 90%;
+}
  
 img {
     max-width: 100%;
@@ -497,15 +502,22 @@ a[target="_blank"] { color: dodgerblue; font-weight: normal; }
     }
     li {
         padding: 10px;
-        border: 1px solid $gray-100;
+        border: 1px solid;
+        border-color: $gray-100;
         border-radius: 5px;
         margin-bottom: 1rem;
         -webkit-column-break-inside: avoid;
                   page-break-inside: avoid;
                        break-inside: avoid;
+        &:hover {
+            border-color: $gray-300;
+        }
         &.listing-only {
             background-color: rgba($gray-300,0.3);
-            opacity: .5;
+            opacity: .7;
+            &:hover {
+                border-color: transparent;
+            }
         }
     }
 }
@@ -525,21 +537,21 @@ a[target="_blank"] { color: dodgerblue; font-weight: normal; }
 
 
 body.dark {
-    background: $black;
+    background: $gray-900;
     color: $gray-500;
     h1, h2, h3, h4, h5, h6,
     .h1, .h2, .h3, .h4, .h5, .h6 {
         color: $white !important; 
     }
     #header {
-        border-bottom: 1px solid $gray-900;
-        background:rgba($black, 0.4);
+        border-bottom: 1px solid $gray-800;
+        background:rgba($gray-900, 0.4);
     }
     a, .p-name {
         color: $white;
     }
     #footer, .bottom {
-        border-top: 1px solid $gray-900;
+        border-color:  $gray-800;
     } 
     .bottom {
         a {
@@ -548,7 +560,7 @@ body.dark {
     }
     .content-list {
         li {
-        border-top: 1px solid $gray-900;
+        border-top: 1px solid $gray-800;
         }
     }
     .text-muted {
@@ -566,10 +578,16 @@ body.dark {
     .masonry {
         color: $gray-400;
         li {
-            border: 1px solid $gray-900;
+            border-color: $gray-800;
+            &:hover {
+                border-color: $gray-700;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+            }
             &.listing-only {
                 background-color: rgba($gray-700,0.3);
-                opacity: .5;
+                opacity: .7;
             }
         }
     }
