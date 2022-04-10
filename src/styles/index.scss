@@ -590,6 +590,23 @@ body.dark {
                 opacity: .7;
             }
         }
+    }.changelog {
+        li {
+            .date {
+                color: $white; 
+            } 
+            .timeline {
+                color: $gray-700;
+                .line { 
+                    background: $gray-700;
+                }
+            }
+        }  
     }
+
+.badge {
+    background-color: $gray-800;
+    color: $white;
+}
   }
 
