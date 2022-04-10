@@ -31,17 +31,21 @@ export default function Footer({ title }) {
    
         <div className="container-fluid bottom-nav">
             <div className="row">
-              <div className="col-6">
+              <div className="col-4">
                 <div className="indiewebring">
                   <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-                  <span className="mx-3">IndieWeb</span>
+                  <span className="mx-3">
+                    <span className="d-none d-md-inline">IndieWeb</span>
+                    <span className="d-md-none">🕸️</span>
+                  </span>
                   <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-8">
                 <ul className=""> 
                   {/* <li><a href="/changelog">Changelog</a></li>  */}
                   <li><a href="/Now">Now</a></li> 
+                  <li><a href="/changelog">Changelog</a></li>
                   <li><a href="/Colophon">Colophon</a></li>
                 </ul>
   
