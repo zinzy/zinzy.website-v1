@@ -31,8 +31,7 @@ export default function ChangelogPage({data}) {
             data.allMdx.nodes.map(node => (
               <li key={node.slug} className="h-entry">
               <div className="row">
-
-              <div className="date dt-published">{node.frontmatter.date}</div> 
+ 
                 <div className="col-1">
                   <div className="timeline">
                     <FaClock />  
@@ -40,6 +39,7 @@ export default function ChangelogPage({data}) {
                   </div>
                 </div>
                 <div className="col-11">
+                <div className="date dt-published mb-3 mb-md-0">{node.frontmatter.date}</div> 
                   <span className="badge d-flex align-items-center">
                   <span className="icon">
                   {(() => { 

@@ -410,14 +410,16 @@ h1 {
     li {
         position: relative;
         .date {
-            position: absolute;
-            margin-left: -170px;
-            max-width: 150px;
-            text-align: right;
             font-weight: 500;
             font-size: 90%;
             color: $black;
+            @media screen and (min-width: 992px) {
+                position: absolute;
+            margin-left: -170px;
+            max-width: 150px;
+            text-align: right;  
             line-height: 28px;
+            }
         }
         .what {
             margin-left: 4px;
