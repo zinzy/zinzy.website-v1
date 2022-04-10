@@ -44,7 +44,7 @@ timeAgo.format(Date.now() - 24 * 60 * 60 * 1000)
                           <div className="font-weight-bold">{node.frontmatter.title}</div> 
                           <div className="">{node.frontmatter.excerpt}</div> 
                           <div className="text-muted small mt-3">
-                            <div>{node.parent.modifiedTime}</div>
+                            <div>{node.parent.changeTime}</div>
                           </div>  
                         </div>  
                       </a>
@@ -77,7 +77,7 @@ query notesIndex {
       slug
       parent {
         ... on File {
-          changeTime
+          changeTime(fromNow: true)
           modifiedTime
         }
       }

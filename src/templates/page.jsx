@@ -61,7 +61,7 @@ export default function PageTemplate({ data: { mdx } }) {
               </MDXProvider> 
               <footer className="">
                 <div className="text-muted">
-                  <div>Updated <ReactTimeAgo date={mdx.parent.modifiedTime}/></div> 
+                  <div>Updated <ReactTimeAgo date={mdx.parent.changeTime}/></div> 
                   <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
                 </div>
 
@@ -75,7 +75,7 @@ export default function PageTemplate({ data: { mdx } }) {
                                 <div className="">
                                   <div className="font-weight-bold">{ref.frontmatter.title}</div> 
                                   <div className="">{ref.frontmatter.excerpt}</div> 
-                                  <div className="text-muted small mt-3">{ref.parent.modifiedTime}</div>  
+                                  <div className="text-muted small mt-3">{ref.parent.changeTime}</div>  
                                 </div>  
                                 </a>
                             </li>
@@ -116,7 +116,7 @@ export const pageQuery = graphql`
       slug
       parent {
         ... on File {
-          changeTime
+          changeTime(fromNow: true)
           ctime
           modifiedTime
         }
