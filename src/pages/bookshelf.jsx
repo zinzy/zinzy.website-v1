@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 
 // markup
-const LibraryPage = ({data}) => {  
+const BookshelfPage = ({data}) => {  
    
   const [appPosts, setAppPosts] = React.useState(data.allMdx.nodes); 
  
@@ -24,7 +24,7 @@ const LibraryPage = ({data}) => {
 
       <div className="row">
           <div className="col-lg-8">
-            <h2 className="header-link-switch">Library <span className="text-light"> | </span> <a href="/antilibrary" className="text-light">Antilibrary</a></h2>
+            <h2 className="header-link-switch">Bookshelf <span className="text-light"> | </span> <a href="/antilibrary" className="text-light">Antilibrary</a></h2>
             <p>A collection of more or less opinionated reviews of and thoughts on the things I read, listen to, and watch.</p>
           </div>
         </div>  
@@ -87,10 +87,10 @@ const LibraryPage = ({data}) => {
 } 
 
 export const query = graphql`
-query LibraryQuery {
+query BookshelfQuery {
     allMdx(
       sort: {fields: frontmatter___date, order: DESC}
-      filter: {fileAbsolutePath: {regex: "/the-library/"}}
+      filter: {fileAbsolutePath: {regex: "/bookshelf/"}}
     ) {
       nodes { 
         body
@@ -113,4 +113,4 @@ query LibraryQuery {
   } 
 `
 
-export default LibraryPage
+export default BookshelfPage

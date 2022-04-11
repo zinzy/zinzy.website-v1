@@ -24,7 +24,7 @@ const AntilibraryPage = ({data}) => {
 
       <div className="row">
           <div className="col-lg-8">
-            <h2 className="header-link-switch"><a href="/library" className="text-light">Library</a> <span className="text-light"> | </span> Antilibrary</h2>
+            <h2 className="header-link-switch"><a href="/bookshelf" className="text-light">Bookshelf</a> <span className="text-light"> | </span> Antilibrary</h2>
             <p>A collection of things I want to read, watch, listen to at some point in the future.</p>
           </div>
         </div>  

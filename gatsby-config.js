@@ -23,6 +23,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: { 
+        extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-double-brackets-link`, 
@@ -50,16 +51,16 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "library",
-        path: "./_garden/the-library",
+        name: "bookshelf",
+        path: "../../Dropbox/Garden/2. Areas/Website/bookshelf",
       },
-      __key: "library",
+      __key: "bookshelf",
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "notes",
-        path: "./_garden/notes",
+        path: "../../Dropbox/Garden/2. Areas/Website/notes",
       },
       __key: "notes",
     },
@@ -67,7 +68,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "changelog",
-        path: "./_garden/changelog",
+        path: "../../Dropbox/Garden/2. Areas/Website/changelog",
       },
       __key: "changelog",
     },
@@ -75,7 +76,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "antilibrary",
-        path: "./_garden/antilibrary",
+        path: "../../Dropbox/Garden/2. Areas/Website/antilibrary",
       },
       __key: "antilibrary",
     }
