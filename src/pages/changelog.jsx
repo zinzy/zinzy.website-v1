@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import { FaClock, FaHandshake, FaPencilAlt, FaComment } from "react-icons/fa"
+import { FaClock, FaHandshake, FaPencilAlt, FaComment, FaHeart } from "react-icons/fa"
 import { BiCoffeeTogo, BiNews } from "react-icons/bi"
 import { BsGearWideConnected,BsBookmarkFill } from "react-icons/bs";
 
@@ -19,13 +19,7 @@ export default function ChangelogPage({data}) {
         <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
 
 
-        <h2>Changelog</h2>
-
-          <div className="mb-5">
- 
-          </div>
-
-
+        <h2>Changelog</h2> 
           <ul class="list-unstyled changelog mt-5">
           {
             data.allMdx.nodes.map(node => (
@@ -39,7 +33,7 @@ export default function ChangelogPage({data}) {
                   </div>
                 </div>
                 <div className="col-11">
-                <div className="date dt-published mb-3 mb-md-0">{node.frontmatter.date}</div> 
+                <div className="date dt-published mb-3 mb-lg-0">{node.frontmatter.date}</div> 
                   <span className="badge d-flex align-items-center">
                   <span className="icon">
                   {(() => { 
@@ -47,6 +41,7 @@ export default function ChangelogPage({data}) {
                       case 'Development': return ( <FaClock /> )  
                       case 'Joined': return ( <FaHandshake />  ) 
                       case 'Left': return ( <FaHandshake />  ) 
+                      case 'Like': return ( <FaHeart />  ) 
                       case 'Mentor': return ( <BiCoffeeTogo />  ) 
                       case 'Technical': return ( <BsGearWideConnected />  ) 
                       case 'Writer': return ( <FaPencilAlt />  ) 
@@ -62,6 +57,7 @@ export default function ChangelogPage({data}) {
                       case 'Development': return ("Updated website")  
                       case 'Joined': return ("Joined" ) 
                       case 'Left': return ("Left") 
+                      case 'Like': return ("Liked") 
                       case 'Mentor': return ("Mentored") 
                       case 'Technical': return ("Updated website") 
                       case 'Writer': return ("Published") 
@@ -83,11 +79,16 @@ export default function ChangelogPage({data}) {
                             {node.frontmatter.title}
                           </Link>
                         ) 
+                        case 'Like': return ( 
+                          <Link className="u-like-of" to={node.frontmatter.likeOf}>
+                            {node.frontmatter.title}
+                          </Link>
+                        ) 
                         case 'Reply': return ( 
                           <Link className="u-in-reply-to" to={node.frontmatter.replyTo}>
                             {node.frontmatter.title}
                           </Link>
-                          ) 
+                        )  
                         default: return ( null )  
                       } 
                     })()} 
@@ -129,6 +130,7 @@ query ChangelogQuery {
         what
         replyTo
         bookmarkOf
+        likeOf
       }
       body 
     }

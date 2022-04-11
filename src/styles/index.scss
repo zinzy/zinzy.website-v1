@@ -50,15 +50,15 @@ body {
 
 main {  
     padding: 10px; 
-    margin: 100px 0 100px 0;
+    margin: 100px 30px;
     @media screen and (min-width: 1200px) {
         padding: 0;
-        margin: 200px 0 100px 0;
+        // margin: 200px 0 100px 0;
     } 
 }
 
 section {
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
 }
 
 .text-dark {
@@ -135,7 +135,7 @@ a {
 
 .bio {
     @media screen and (min-width:992px) {
-        padding-left: 2rem;
+        // padding-left: 2rem;
     }
 }
 
@@ -277,7 +277,6 @@ mark {
 
 
  article {
-    margin-bottom: 100px;
      header {
          margin-bottom: 100px;
      }
@@ -323,10 +322,10 @@ mark {
     }
  }
 
- #footer {
+ .footer-main {
     border-top: 1px solid $gray-100;
     border-bottom: 1px solid $gray-100;
-    padding: 100px 0;
+    padding: 50px 30px;
     margin-bottom: 10px;
     ul {
         list-style: none;
@@ -346,12 +345,13 @@ mark {
     padding-left: 2rem;
 }
 
-.bottom {
-    padding: 10px 0 8px 0;
+.footer-bottom {
+    padding: 10px 10px 15px 10px;
     width: 100%;
     position: absolute;
     left: 0; 
     color: $gray-600;
+    font-size: 90%;
     a {
         font-weight: normal;
         color: $gray-600;
@@ -367,10 +367,6 @@ mark {
         }
     }
 } 
-
-.bottom-nav {
-    font-size: 90%;
-}
  
 img {
     max-width: 100%;
@@ -383,11 +379,9 @@ img {
     img {
         max-width: 150px;
         border-radius: 150px;
-        margin-bottom: 50px;
         @media screen and (min-width: 992px) {
             max-width: 100px;
             border-radius: 100px;
-            margin-bottom: 0;
         }
     }
 } 
@@ -553,10 +547,10 @@ body.dark {
     a, .p-name {
         color: $white;
     }
-    #footer, .bottom {
+    .footer-main, .footer-bottom {
         border-color:  $gray-800;
     } 
-    .bottom {
+    .footer-bottom {
         a {
             color: $gray-600;
         }
