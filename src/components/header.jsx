@@ -32,7 +32,7 @@ export default function Header({ title }) {
             <ul className=""> 
               {/* <li><a href="/notes">About</a></li>  */}
               <li><a href="/notes">Notes</a></li> 
-              <li><a href="/bookshelf">Bookshelf</a></li>
+              <li><a href="/library">Library</a></li>
               <li className="theme-toggler">
                 <ThemeToggler>
                   {({ theme, toggleTheme }) => (
