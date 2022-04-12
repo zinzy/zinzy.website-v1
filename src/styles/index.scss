@@ -53,7 +53,10 @@ main {
     margin: 100px 30px;
     @media screen and (min-width: 1200px) {
         padding: 0;
-        // margin: 200px 0 100px 0;
+        margin: 200px 0;
+    } 
+    @media screen and (min-width: 1400px) {
+        margin: 300px 0;
     } 
 }
 
@@ -135,7 +138,7 @@ a {
 
 .bio {
     @media screen and (min-width:992px) {
-        // padding-left: 2rem;
+        padding-left: 2rem;
     }
 }
 

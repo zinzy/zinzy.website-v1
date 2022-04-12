@@ -45,38 +45,36 @@ const LibraryPage = ({data}) => {
             </div>
           </div>
         </div> 
-          
-
-      <ul class="masonry mt-5">
-      {
-        appPosts.map(node => (
-          <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
-
-            {node.frontmatter.listingOnly == null ? 
-
-              <a href={`/${node.slug}/`}>
-                <div className="">
-                  <div className="font-weight-bold">{node.frontmatter.title}</div> 
-                  <div className="text-muted">{node.frontmatter.subcategory}</div> 
-                  <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
-                </div> 
-              </a> 
-
             
-             : 
-             
-             <div className="">
-               <div className="font-weight-bold">{node.frontmatter.title}</div> 
-               <div className="text-muted">{node.frontmatter.subcategory}</div> 
-               <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
-             </div> 
-             }
 
- 
-          </li>
-        ))
-      }
-      </ul>
+        <ul class="masonry mt-5">
+        {
+          appPosts.map(node => (
+            <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
+
+              {node.frontmatter.listingOnly == null ? 
+
+                <a href={`/${node.slug}/`}>
+                  <div className="">
+                    <div className="font-weight-bold">{node.frontmatter.title}</div> 
+                    <div className="text-muted">{node.frontmatter.subcategory}</div> 
+                    <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
+                  </div> 
+                </a> 
+
+              : 
+              
+              <div className="">
+                <div className="font-weight-bold">{node.frontmatter.title}</div> 
+                <div className="text-muted">{node.frontmatter.subcategory}</div> 
+                <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
+              </div> 
+              }
+  
+            </li>
+          ))
+        }
+        </ul>
           </div>
         </div>
 
