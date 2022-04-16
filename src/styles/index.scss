@@ -20,7 +20,7 @@ $white: #fff;
 
 
 body, html {
-    font-size: 16px ;
+    font-size: 18px;
     @media screen and (min-width: 1200px) {
         // font-size: 22px;
     }
@@ -34,7 +34,7 @@ body {
     font-feature-settings: "liga", "kern";
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
-    color: $gray-700; 
+    color: $black; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizelegibility;
@@ -55,7 +55,7 @@ main {
         padding: 0;
         margin: 200px 0;
     } 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1800px) {
         margin: 300px 0;
     } 
 }
@@ -97,6 +97,9 @@ section {
  
 
 a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol"; 
     color: $black;
     font-weight: 600;
     text-decoration: none;
@@ -266,16 +269,16 @@ mark {
    opacity: 0.7;
  }
 
- article.page {
-     h3 { margin-top: 3rem;}
-     h4 { margin-top: 2.5rem;}
-     h5 { margin-top: 2rem;}
-     h6 { margin-top: 1.5rem;}
+ article.page { 
+     h3 { margin-top: 3rem; font-size: 1.5rem; }
+     h4 { margin-top: 2.5rem; font-size: 1.25rem;}
+     h5 { margin-top: 2rem; font-size: 1.15rem;}
+     h6 { margin-top: 1.5rem; font-size: 1rem;}
  }
 
  h1, h2, h3, h4, h5, h6,
  .h1, .h2, .h3, .h4, .h5, .h6 {
-     font-size: 120%;
+     // font-size: 120%;
      font-weight: 600;
      color: $black !important; 
  }
@@ -290,7 +293,12 @@ mark {
          .content-list {
             margin-top: 100px;
         }
-     }
+     } 
+ }
+
+
+ p {
+    // font-family: 'Source Serif Pro', serif;
  }
  
  
@@ -454,11 +462,22 @@ h1 {
     }
 }
 
+p {
+    &.lead {
+        color: $gray-700;
+        font-size: 100%;
+        font-weight: 400;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+              Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+              "Segoe UI Symbol"; 
+    }
+}
+
 
 a[target="_blank"] { 
     &:after {
         content: '↗';
-        margin-left: .5rem;
+        margin-left: .2rem;
     }
 }  
 
@@ -466,6 +485,9 @@ a[target="_blank"] {
 .theme-toggler {
     padding-left: 1rem;
     label {
+        &:hover {
+            cursor: pointer;
+        }
         input {
             display: none;
         }
@@ -494,9 +516,9 @@ a[target="_blank"] {
         column-count: 3;
     }
     @media screen and (min-width: 1400px) {
-        -webkit-column-count: 5;
-        -moz-column-count:5;
-        column-count: 5; 
+        -webkit-column-count: 4;
+        -moz-column-count:4;
+        column-count: 4; 
     }
     margin: 1.5em;
     padding: 0;

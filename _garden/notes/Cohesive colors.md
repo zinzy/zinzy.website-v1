@@ -1,10 +1,11 @@
 ---
 title: "Cohesive colors"
+excerpt: "A nifty little trick Erica Schoonmaker taught me"
 date: "2022-04-11"
 tags:
   - design
   - tools
-excerpt: "A nifty little trick Erica Schoonmaker taught me"
+ 
 ---
 In order to achieve a well-balanced color scheme, Erica Schoonmaker introduced [Cohesive Colors](https://dribbble.com/shots/166246-My-Secret-for-Color-Schemes) in a 2016 Dribbble shot. To ensure that a color scheme doesn't consist of both harsh and soft tones, which usually doesn't work outside of [brutalist design](https://brutalistwebsites.com), she overlays a central color on the others with reduced opacity, and chooses the colors that result from it.
 

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
-const notesIndex = ({ data }) => {  
+const notesIndex = ({ data }) => {   
   return (
     <Layout>
       <section>
@@ -19,10 +19,10 @@ const notesIndex = ({ data }) => {
                 {
                   data.allMdx.nodes.map(node => (
                     <li key={node.slug}>
-                      <a href={`/${node.slug}/`}>
+                      <a href={`/${node.slug}`}>
                         <div className="">
                           <div className="font-weight-bold">{node.frontmatter.title}</div> 
-                          <div className="">{node.frontmatter.excerpt}</div> 
+                          {/* <div className="">{node.frontmatter.excerpt}</div>  */}
                           <div className="text-muted small mt-3">
                             <div>{node.parent.changeTime}</div>
                           </div>  

@@ -56,9 +56,8 @@ const LibraryPage = ({data}) => {
 
                 <a href={`/${node.slug}/`}>
                   <div className="">
-                    <div className="font-weight-bold">{node.frontmatter.title}</div> 
-                    <div className="text-muted">{node.frontmatter.subcategory}</div> 
-                    <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
+                    <div className="font-weight-bold">{node.frontmatter.title}</div>  
+                    <div className="text-muted small mt-3">{node.frontmatter.subcategory} · {node.frontmatter.date}</div>  
                   </div> 
                 </a> 
 
@@ -66,8 +65,7 @@ const LibraryPage = ({data}) => {
               
               <div className="">
                 <div className="font-weight-bold">{node.frontmatter.title}</div> 
-                <div className="text-muted">{node.frontmatter.subcategory}</div> 
-                <div className="text-muted small mt-3">{node.frontmatter.date}</div>  
+                    <div className="text-muted small mt-3">{node.frontmatter.subcategory} · {node.frontmatter.date}</div>  
               </div> 
               }
   
@@ -94,7 +92,7 @@ query LibraryQuery {
         body
         slug
         frontmatter {
-          date(formatString: "MMMM YYYY")
+          date(formatString: "MMM YYYY")
           title 
           category
           subcategory  

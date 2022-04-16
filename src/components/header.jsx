@@ -18,6 +18,11 @@ export default function Header({ title }) {
           {(siteConfig.siteMetadata.title || "Zinzy Waleson") +
             (title ? ` : ${title}` : "")}
         </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet" />
+        
       </Helmet> 
 
       <header id="header">

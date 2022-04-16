@@ -3,9 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import { FaClock, FaHandshake, FaPencilAlt, FaComment, FaHeart } from "react-icons/fa"
-import { BiCoffeeTogo, BiNews } from "react-icons/bi"
-import { BsGearWideConnected,BsBookmarkFill } from "react-icons/bs";
+import { FaClock } from "react-icons/fa" 
 
 // markup
 export default function NowPage({data}) {

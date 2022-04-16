@@ -1,10 +1,9 @@
 ---
 title: "Weeknotes #2"
-date: "2020-04-10"
-slug: "weeknotes-no2"
+excerpt: "Snow and home improvement"
+date: "2020-04-10" 
 tags:
-  - weeknotes
-excerpt: "Dreams of Norway and assassins"
+  - weeknotes 
 ---
 The tourists are back in town. Lots of Germans with face masks. I suppose we're all beginning to venture out into the world again, just a bit closer to home. Anja and I are considering taking the ferry to Norway. Apparently you can camp virtually anywhere in that country, as long as you "leave it cleaner than you found it" and make sure you're gone after two days. At this point, we're vastly underestimating how attached we are to luxury. I can still hear myself whining "Bonsoihoir". This was the catch-all name we used anyone who would come to the door of our Parisian hotel room with a bucket of ice, "no, not for champagne, just for the drinks". I also really don't like ticks, and I simply can't imagine that Norway somehow doesn't have the national health crisis taunting its neighbor.
 
