@@ -31,9 +31,16 @@ module.exports = {
               stripBrackets: true
             }
           }, 
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "noopener noreferrer"
+            },
+          }
         ], 
       },
-    },  
+    },    
     {
       resolve: `gatsby-transformer-markdown-references`,
       options: {

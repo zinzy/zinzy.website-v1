@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "now/now-2021-12-15.md",
+            "file": "notes/Colophon.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "now/now-2021-12-15.md",
+                "file": "notes/Colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "3c14d45ef41d4642",
   "lastOpenFiles": [
+    "notes/Colophon.md",
     "now/now-2021-12-15.md",
     "now/now-2021-09-12.md",
     "notes/Hello.md",
@@ -97,7 +98,6 @@
     "changelog/2022-04-16-obsidian-integration.md",
     "changelog/2021-09-12-gatsby-3.md",
     "the-library/Dare to Lead on the advice trap.md",
-    "notes/Cohesive colors.md",
-    "notes/Colophon.md"
+    "notes/Cohesive colors.md"
   ]
 }

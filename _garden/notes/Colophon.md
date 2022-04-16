@@ -39,7 +39,7 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Changelog with Indieweb post types (2022-04-10)
   - [x] Replies
   - [x] Bookmarks
-- [ ] [Open external link in new tab with normal Markdown syntax](https://danielgregory.dev/articles/open-links-in-new-tab-gatsby-mdx)
+- [x] Open external link in new tab with normal Markdown syntax (2022-04-16)
 - [ ] Last.fm feed
 - [ ] Optional table of content
 - [ ] Then archive with appropriate routing
