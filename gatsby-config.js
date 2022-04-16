@@ -23,6 +23,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: { 
+        extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-double-brackets-link`, 
@@ -30,9 +31,16 @@ module.exports = {
               stripBrackets: true
             }
           }, 
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "noopener noreferrer"
+            },
+          }
         ], 
       },
-    },  
+    },    
     {
       resolve: `gatsby-transformer-markdown-references`,
       options: {
@@ -74,10 +82,18 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "now",
+        path: "./_garden/now",
+      },
+      __key: "now",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "antilibrary",
         path: "./_garden/antilibrary",
       },
       __key: "antilibrary",
-    }
+    },
   ],
 };

@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "c94fc910019e387c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c14d45ef41d4642",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "now/now-2022-05-16.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac9419f234c4cf20",
+    "type": "split",
+    "children": [
+      {
+        "id": "077507d266d12d7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6227e4b155a9ccf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8e62de728fe1fb12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 517.9999980926514
+  },
+  "right": {
+    "id": "76aca31d468cd637",
+    "type": "split",
+    "children": [
+      {
+        "id": "d856d9c0354ca121",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99633036447334c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "now/now-2022-05-16.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3c14d45ef41d4642",
+  "lastOpenFiles": [
+    "now/now-2022-05-16.md",
+    "now/now-2021-09-13.md",
+    "now/now-2021-12-15.md",
+    "now/now-2021-09-12.md",
+    "notes/Weeknotes #3.md",
+    "notes/Weeknotes #2.md",
+    "notes/Colophon.md",
+    "notes/Queer Salon.md",
+    "notes/Vine & Fig.md",
+    "notes/Leeruniek.md"
+  ]
+}

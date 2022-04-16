@@ -36,7 +36,7 @@ const AntilibraryPage = ({data}) => {
 
             <div className="">
                <div className="font-weight-bold">{node.frontmatter.title}</div> 
-               <div className="text-muted">{node.frontmatter.subcategory}</div> 
+                    <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
              </div> 
  
           </li>

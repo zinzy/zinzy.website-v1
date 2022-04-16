@@ -1,10 +1,9 @@
 ---
 title: "Rotterdam"
-startdate: 2022-01-01
-slug: "people"
-tags:
-  - cities
 excerpt: ""
+date: "2022-01-01"
+tags:
+  - cities 
 ---
 ## To visit
 - Mittwoch

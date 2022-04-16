@@ -11,7 +11,6 @@ export default function Footer({ title }) {
     <div className="row">
       <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
         <div className="h-card">
-
           <div className="d-lg-flex align-items-center">
             <div className="flex-shrink-1">
               <div className="portrait mb-5 mb-md-0">
@@ -19,7 +18,7 @@ export default function Footer({ title }) {
               </div> 
             </div>
             <div className="bio">
-              <p className="p-note m-0 p-0"><span className="p-name">Zinzy Waleson</span> is a designer, facilitator, and linguist working and living in <span className="p-locality">Amsterdam</span>. <a rel="me" href="https://www.zinzy.website" class="u-url">zinzy.website</a> is her personal site, a place for her to link and think.</p>
+              <p className="p-note m-0 p-0"><span className="p-name">Zinzy Waleson</span> is a designer, facilitator, and linguist working and living in <span className="p-locality">Amsterdam</span>. <a rel="me" href="https://www.zinzy.website" class="u-url">zinzy.website</a> is her personal site, a place for her to link and think. You are invited to send her an <a href="mailto:zinzy@pm.me">email</a> or connect with her on <a href="https://www.linkedin.com/in/zinzy" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
             </div>
           </div>
           
@@ -44,7 +43,7 @@ export default function Footer({ title }) {
           <div className="col-8">
             <ul className=""> 
               {/* <li><a href="/changelog">Changelog</a></li>  */}
-              <li><a href="/Now">Now</a></li> 
+              <li><a href="/now">Now</a></li> 
               <li><a href="/changelog">Changelog</a></li>
               <li><a href="/Colophon">Colophon</a></li>
             </ul>
