@@ -33,7 +33,7 @@ export default function PageTemplate({ data: { mdx } }) {
           <div className="">
             <div>
               <header className="">
-                <h2 className="h1">{mdx.frontmatter.title}</h2> 
+                <h2 className="">{mdx.frontmatter.title}</h2> 
                 {/* <p className="lead">{mdx.frontmatter.excerpt}</p> */}
               </header>
               <MDXProvider>

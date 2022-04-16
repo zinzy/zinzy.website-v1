@@ -270,10 +270,22 @@ mark {
  }
 
  article.page { 
-     h3 { margin-top: 3rem; font-size: 1.5rem; }
-     h4 { margin-top: 2.5rem; font-size: 1.25rem;}
-     h5 { margin-top: 2rem; font-size: 1.15rem;}
-     h6 { margin-top: 1.5rem; font-size: 1rem;}
+    h3 { 
+        margin-top: 3rem; 
+        // font-size: 1.5rem;
+    }
+    h4 { 
+        margin-top: 2.5rem;
+        // font-size: 1.25rem;
+    }
+    h5 { 
+        margin-top: 2rem;
+        // font-size: 1.15rem;
+    }
+    h6 { 
+        margin-top: 1.5rem;
+        // font-size: 1rem;
+    }
  }
 
  h1, h2, h3, h4, h5, h6,
