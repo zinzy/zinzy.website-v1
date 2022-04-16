@@ -137,7 +137,9 @@ a {
 } 
 
 .bio {
+    padding-top: 2rem;
     @media screen and (min-width:992px) {
+        padding-top: 0;
         padding-left: 2rem;
     }
 }
@@ -611,9 +613,9 @@ body.dark {
     }
 
     .text-light {
-        color: $gray-500 !important;
+        color: $gray-700 !important;
         a {
-        color: $gray-500 !important;
+        color: $gray-700 !important;
         }
     }
 

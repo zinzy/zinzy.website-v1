@@ -1,9 +1,7 @@
 ---
 title: "Now"
-excerpt: A regularly-updated broader horizon of what I'm working on, curious about, and interested in.
-category: "Note"
-growthStage: "Seedling"
-startdate: 2019-12-15
+excerpt: "A regularly-updated broader horizon of what I'm working on, curious about, and interested in."
+date: "2019-12-15"
 featuredImage: 
 slug: "now"
 tags:

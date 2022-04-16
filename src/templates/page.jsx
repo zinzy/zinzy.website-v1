@@ -42,7 +42,7 @@ export default function PageTemplate({ data: { mdx } }) {
               <footer className="">
                 <div className="text-muted">
                   <div>Updated {mdx.parent.changeTime}</div> 
-                  <div>Created on <span className="dt-published">{mdx.frontmatter.startdate}</span></div> 
+                  <div>Created on <span className="dt-published">{mdx.frontmatter.date}</span></div> 
                 </div>
 
                 {mdx.inboundReferences.length > 0 ?  
@@ -86,7 +86,7 @@ export const pageQuery = graphql`
         tags
         title
         excerpt
-        startdate(formatString: "MMMM D, YYYY") 
+        date(formatString: "MMMM D, YYYY") 
         category
         subcategory
         featuredImage

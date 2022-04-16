@@ -58,7 +58,7 @@ query IndexQuery {
       frontmatter {
         title
         category
-        startdate(formatString: "MMMM D, YYYY")
+        date(formatString: "MMMM D, YYYY")
         slug
       }
       slug

@@ -1,6 +1,6 @@
 ---
 title: "Rotterdam"
-startdate: 2022-01-01
+date: "2022-01-01"
 slug: "people"
 tags:
   - cities

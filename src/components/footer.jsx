@@ -19,7 +19,7 @@ export default function Footer({ title }) {
               </div> 
             </div>
             <div className="bio">
-              <p className="p-note m-0 p-0"><span className="p-name">Zinzy Waleson</span> is a designer, facilitator, and linguist working and living in <span className="p-locality">Amsterdam</span>. <a rel="me" href="https://www.zinzy.website" class="u-url">zinzy.website</a> is her personal site, a place for her to link and think.</p>
+              <p className="p-note m-0 p-0"><span className="p-name">Zinzy Waleson</span> is a designer, facilitator, and linguist working and living in <span className="p-locality">Amsterdam</span>. <a rel="me" href="https://www.zinzy.website" class="u-url">zinzy.website</a> is her personal site, a place for her to link and think. You are invited to send her an <a href="mailto:zinzy@pm.me">email</a> or connect with her on <a href="https://www.linkedin.com/in/zinzy" target="_blank" rel="noopener noreferrer"></a></p>
             </div>
           </div>
           

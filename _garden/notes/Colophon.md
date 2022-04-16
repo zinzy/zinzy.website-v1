@@ -1,6 +1,6 @@
 ---
 title: "Colophon"
-startdate: "2019-07-04"
+date: "2019-07-04"
 tags:
   - site
   - design

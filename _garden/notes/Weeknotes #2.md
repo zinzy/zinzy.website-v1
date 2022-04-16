@@ -1,6 +1,6 @@
 ---
 title: "Weeknotes #2"
-startdate: 2020-04-10
+date: "2020-04-10"
 slug: "weeknotes-no2"
 tags:
   - weeknotes

@@ -2,9 +2,7 @@
 title: "Hello"
 excerpt: "Welcome to my personal website"
 category: "Note"
-growthStage: "Seedling"
-featuredImage: 
-startdate: 2017-03-04
+date: "2017-03-04"
 slug: "hello"
 tags:
  - info
