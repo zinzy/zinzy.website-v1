@@ -455,7 +455,12 @@ h1 {
 }
 
 
-a[target="_blank"] { color: dodgerblue; font-weight: normal; }  
+a[target="_blank"] { 
+    &:after {
+        content: '↗';
+        margin-left: .5rem;
+    }
+}  
 
 
 .theme-toggler {

@@ -75,6 +75,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "now",
+        path: "./_garden/now",
+      },
+      __key: "now",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "antilibrary",
         path: "./_garden/antilibrary",
       },

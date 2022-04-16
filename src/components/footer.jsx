@@ -44,7 +44,7 @@ export default function Footer({ title }) {
           <div className="col-8">
             <ul className=""> 
               {/* <li><a href="/changelog">Changelog</a></li>  */}
-              <li><a href="/Now">Now</a></li> 
+              <li><a href="/now">Now</a></li> 
               <li><a href="/changelog">Changelog</a></li>
               <li><a href="/Colophon">Colophon</a></li>
             </ul>
