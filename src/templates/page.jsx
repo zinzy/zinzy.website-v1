@@ -34,7 +34,7 @@ export default function PageTemplate({ data: { mdx } }) {
             <div>
               <header className="">
                 <h2 className="h1">{mdx.frontmatter.title}</h2> 
-                <p className="lead">{mdx.frontmatter.excerpt}</p>
+                {/* <p className="lead">{mdx.frontmatter.excerpt}</p> */}
               </header>
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>

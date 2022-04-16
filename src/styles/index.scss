@@ -22,7 +22,7 @@ $white: #fff;
 body, html {
     font-size: 16px;
     @media screen and (min-width: 1200px) {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
@@ -34,7 +34,7 @@ body {
     font-feature-settings: "liga", "kern";
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
-    color: $black; 
+    color: $gray-700; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizelegibility;
@@ -101,7 +101,7 @@ a {
           Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
           "Segoe UI Symbol"; 
     color: $black;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     &:hover {
         color: $black;
@@ -278,9 +278,10 @@ mark {
 
  h1, h2, h3, h4, h5, h6,
  .h1, .h2, .h3, .h4, .h5, .h6 {
-     // font-size: 120%;
-     font-weight: 600;
+     font-size: 120%;
+     font-weight: 500;
      color: $black !important; 
+     line-height: 155%;
  }
 
 
@@ -301,6 +302,18 @@ mark {
     // font-family: 'Source Serif Pro', serif;
  }
  
+
+ .btn {
+     border: 1px solid $gray-200;
+     font-size: 90%;
+     font-weight: 500;
+     display: inline-block;
+     color: $gray-800;
+     &:hover {
+        border: 1px solid $gray-400;
+        color: $gray-800;
+     }
+ }
  
  #header {
     position: fixed;
@@ -321,12 +334,11 @@ mark {
         margin: 0;
     }
     a {
-        font-weight: 600;
+        font-weight: 500;
     }
     ul {
         padding: 0;
-        margin: 0;
-        text-align: right;
+        margin: 0; 
         list-style-type: none;
         li {
             display: inline-block;
@@ -400,7 +412,7 @@ img {
 } 
 
 .p-name {
-    font-weight: 600;
+    font-weight: 500;
     color: $black;
     line-height: 100%;
 }
@@ -413,9 +425,10 @@ h1 {
 .badge {
     background-color: $gray-100;
     color: $black;
-    font-size: 90%;
+    font-size: 80%;
     display: inline-block !important;
     font-weight: 600; 
+    border-radius: 20px;
     .icon {
         margin-right: 10px;
     }
@@ -483,7 +496,7 @@ a[target="_blank"] {
 
 
 .theme-toggler {
-    padding-left: 1rem;
+    padding-right: .7rem;
     label {
         &:hover {
             cursor: pointer;
@@ -591,6 +604,14 @@ body.dark {
             color: $gray-600;
         }
     }
+    .btn {
+        border: 1px solid $gray-800;
+        color: $white;
+        &:hover {
+        border: 1px solid $gray-700;
+        color: $white;
+        }
+    }
     .content-list {
         li {
         border-top: 1px solid $gray-800;
@@ -604,9 +625,6 @@ body.dark {
     }
     .font-weight-bold {
         color: $white;
-    }
-    a {
-        color: $gray-400;
     }
     .masonry {
         color: $gray-400;
