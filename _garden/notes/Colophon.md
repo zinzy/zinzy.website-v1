@@ -62,3 +62,4 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Inbound references (2022-04-09)
 - [x] Responsive masonry for notes
 - [ ] Detail slider for changelog
+- [ ] Extended spacing utilities

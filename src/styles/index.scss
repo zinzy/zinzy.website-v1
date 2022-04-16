@@ -20,9 +20,9 @@ $white: #fff;
 
 
 body, html {
-    font-size: 18px;
+    font-size: 16px;
     @media screen and (min-width: 1200px) {
-        // font-size: 22px;
+        font-size: 18px;
     }
 }
 
@@ -562,6 +562,10 @@ a[target="_blank"] {
 
 .references {
     margin-top: 100px;
+}
+
+.mt-10 {
+    margin-top: 6rem;
 }
 
 
