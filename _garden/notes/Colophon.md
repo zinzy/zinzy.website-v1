@@ -2,6 +2,7 @@
 title: "Colophon"
 excerpt: "Some notes on this website and how and why I maintain it."
 date: "2019-07-04"
+category: "Meta"
 tags:
   - site
   - design
@@ -64,3 +65,4 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Responsive masonry for notes
 - [ ] Detail slider for changelog
 - [ ] Extended spacing utilities
+- [ ] Notes sorted by category

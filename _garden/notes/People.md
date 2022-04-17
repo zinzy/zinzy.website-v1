@@ -2,6 +2,7 @@
 title: "People"
 excerpt: "The friends and heroes I know on the Internet."
 date: "2022-01-01"
+category: "Lists"
 tags:
   - internet 
 ---

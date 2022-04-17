@@ -153,7 +153,7 @@ query LibraryQuery {
         }
       }
     }
-  } 
+  }
 `
 
 export default LibraryPage

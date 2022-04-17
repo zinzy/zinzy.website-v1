@@ -2,6 +2,7 @@
 title: "Weeknotes #1"
 excerpt: "Snow and home improvement"
 date: "2020-04-03" 
+category: "Logs"
 tags:
   - weeknotes 
 ---

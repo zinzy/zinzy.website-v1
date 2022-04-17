@@ -2,6 +2,7 @@
 title: "Blogroll"
 excerpt: "My favorite sites" 
 date: "2022-04-16"
+category: "lists"
 tags:
  - "links"
 ---
