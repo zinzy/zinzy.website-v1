@@ -2,6 +2,7 @@
 title: "Challah"
 excerpt: "How I've been making my challah" 
 date: "2022-04-02"
+category: "Recipe"
 tags:
  - recipes
 ---

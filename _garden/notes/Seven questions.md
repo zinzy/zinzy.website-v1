@@ -1,9 +1,7 @@
 ---
 title: "Seven questions"
 excerpt: "What we can do instead of giving advice"
-category: "Note"
-growthStage: "Seedling"
-featuredImage: 
+category: "Communication"
 date: "2021-11-09"
 tags:
  - interpersonal

@@ -2,6 +2,7 @@
 title: "Cohesive colors"
 excerpt: "A nifty little trick Erica Schoonmaker taught me"
 date: "2022-04-11"
+category: "Design"
 tags:
   - design
   - tools

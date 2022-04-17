@@ -2,6 +2,7 @@
 title: "Vine & Fig"
 excerpt: "The queer Catholic community I joined in 2020."
 date: "2021-01-13"
+category: "Queer Catholicism"
 tags:
   - facilitation
   - queer Catholicism 

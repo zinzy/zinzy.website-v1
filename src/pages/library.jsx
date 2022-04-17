@@ -31,7 +31,7 @@ const LibraryPage = ({data}) => {
           </div>  
  
           <div className="row mt-5">
-            <div className="col-9">
+            <div className="col-9 d-none d-md-block">
               {fruits.map(f => (
                 <>
                   <div className="form-check form-check-inline">
@@ -48,7 +48,7 @@ const LibraryPage = ({data}) => {
                 </>
               ))} 
             </div>
-            <div className="col-3 d-flex justify-content-end">
+            <div className="col-md-3 d-flex justify-content-end">
               <div className="form-check">
               <input class="form-check-input" onChange={toggle} type="checkbox"/>
               <label class="form-check-label" for="flexSwitchCheckDefault"> 
@@ -153,7 +153,7 @@ query LibraryQuery {
         }
       }
     }
-  } 
+  }
 `
 
 export default LibraryPage

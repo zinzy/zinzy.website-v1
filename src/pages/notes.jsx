@@ -1,8 +1,13 @@
-import React from "react"
+import React, { useState } from 'react';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Form from 'react-bootstrap/Form'
 
-const notesIndex = ({ data }) => {   
+const NotesIndex = ({data}) => {   
+ 
+  const [checked, setChecked] = useState(false);
+
+ 
   return (
     <Layout>
       <section>
@@ -13,16 +18,51 @@ const notesIndex = ({ data }) => {
                 <h2>Notes</h2>
                 <p>I maintain this space to link and think. You'll find soft stances, lived experiences, and critical notes on the things I hold dear. Its contents are subject to change.</p>
               </div>
+              <div className="col-12 mt-3 d-flex justify-content-end">
+              <Form>
+                <Form.Check 
+                  type="switch"
+                  id="custom-switch"
+                  label="Categories"
+                  onChange={(e) => setChecked(e.target.checked)}
+                />
+              </Form>
+              </div>
             </div>  
 
+
+        {checked ? 
+              <div className="category-section mt-5">
+              {data.categorized.group.map(( { fieldValue, edges } ) => {
+                return (
+                  <>
+                    <ul className="category-lists list-unstyled">
+                      <li>
+                        <div className="text-muted">{fieldValue}</div>
+                        <ul className=" list-unstyled">
+                          {edges.map(( { node } ) => {
+                            return (
+                              <li key={node.slug}>
+                                <a href={`/${node.slug}`}>{node.frontmatter.title}</a>
+                              </li>
+                            )    
+                          })}
+                        </ul>
+                      </li>
+                    </ul>
+                  </>   
+                )    
+                })}
+              </div>
+            :
+            <div>
             <ul class="masonry mt-5">  
                 {
-                  data.allMdx.nodes.map(node => (
+                  data.default.nodes.map(node => (
                     <li key={node.slug}>
                       <a href={`/${node.slug}`}>
                         <div className="">
-                          <div className="font-weight-bold">{node.frontmatter.title}</div> 
-                          {/* <div className="">{node.frontmatter.excerpt}</div>  */}
+                          <div className="font-weight-bold">{node.frontmatter.title}</div>  
                           <div className="text-muted small mt-3">
                             <div>{node.parent.changeTime}</div>
                           </div>  
@@ -33,6 +73,18 @@ const notesIndex = ({ data }) => {
                 }
             </ul>
           </div>
+        }
+
+
+
+
+
+           
+
+
+
+             
+          </div>
         </div>
       </section>
     </Layout>
@@ -40,31 +92,46 @@ const notesIndex = ({ data }) => {
 }
 
 export const pageQuery = graphql`
-query notesIndex {
-  allMdx(
-    filter: {fileAbsolutePath: {regex: "/notes/"}, frontmatter: {slug: {ne: "hello"}}}
+query Notes {
+  categorized:allMdx(filter: {fileAbsolutePath: {regex: "/notes/"}}) {
+    group(field: frontmatter___category) {
+      fieldValue
+      totalCount
+      edges {
+        node {
+          body
+          id
+          slug
+          frontmatter {
+            title
+            category
+            date(fromNow: true)
+            excerpt
+          }
+        }
+      } 
+    }
+  }
+  default:allMdx(
+    sort: {fields: frontmatter___date, order: DESC}
+    filter: {fileAbsolutePath: {regex: "/notes/"}}
   ) {
-    nodes {
+    nodes { 
       body
-      id
-      excerpt
-      frontmatter {
-        title
-        growthStage
-        slug
-        excerpt
-      }
       slug
+      frontmatter {
+        date(formatString: "MMMM D, YYYY")
+        title 
+        category
+      }
       parent {
         ... on File {
           changeTime(fromNow: true)
-          modifiedTime
         }
       }
     }
   }
 }
-
 `
 
-export default notesIndex
+export default NotesIndex
