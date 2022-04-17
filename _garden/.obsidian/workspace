@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "the-library/Dare to Lead on the advice trap.md",
+            "file": "notes/Colophon.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-library/Dare to Lead on the advice trap.md",
+                "file": "notes/Colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "d17a4ca079517bbf",
   "lastOpenFiles": [
+    "notes/Colophon.md",
     "the-library/Dare to Lead on the advice trap.md",
     "the-library/Moon Palace.md",
     "the-library/Midsommar.md",
@@ -97,7 +98,6 @@
     "the-library/Titanic.md",
     "the-library/The Father.md",
     "the-library/The Fall.md",
-    "the-library/Sound of Metal.md",
-    "the-library/Riverdale.md"
+    "the-library/Sound of Metal.md"
   ]
 }

@@ -8,7 +8,7 @@ tags:
   - internet 
 ---
 ### Why this site exists
-zinzy.website is my personal site. A quiet corner of the Internet where I come to think aloud. One may wonder, if I'm not selling anything or promoting myself, why this site needs to be here at all. Personal sites remind me of the days when sharing things online was not about branding and rather an exploratory kind of goofing off.
+zinzy.website is my personal site. A quiet corner of the Internet where I come to link and think. One may wonder, if I'm not selling anything or promoting myself, why this site needs to be here at all. Personal sites remind me of the days when sharing things online was an exploratory kind of goofing off, not personal branding or highlight reels.
 
 This space has been around since 2004, in a variety of shapes and under a lot of different names. It has been a blog, a photo blog, a portfolio, a directory, and a one-pager. Its first name was doyoulikemytightsweater.com. At present, it is a collection of loosely-related notes, maintained in public. 
 
@@ -48,6 +48,7 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Filter home note out of linked references (2022-04-09)
 - [ ] Make backlinks to now page link to correct version
 - [x] Library (2022-04-08)
+- [x] Library categories (2022-04-17)
 - [x] Antilibrary (2022-04-10)
 - [ ] Upgrade to Gatsby 4 and fix plugins
 - [ ] Make slugs case-insensitive
