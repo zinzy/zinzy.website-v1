@@ -2,7 +2,7 @@
 title: "Hereditary"
 slug: hereditary
 excerpt: ""
-category: "Review"
+category: "Watch"
 subcategory: "Film"
 featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177264/titles/hereditary_r6z8yh.png
 growthStage: "Sprout"

@@ -2,10 +2,8 @@
 title: "The Father"
 slug: the-father
 excerpt: ""
-category: "Review"
+category: "Watch"
 subcategory: "Film"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177298/titles/the-father_imdp5e.png
-growthStage: "Sprout"
 date: 2021-09-01
 tags:
  - film

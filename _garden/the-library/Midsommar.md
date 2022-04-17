@@ -1,6 +1,7 @@
 ---
 title: "Midsommar"
 excerpt: ""
+category: "Watch"
 subcategory: "Film"
 date: "2019-07-14"
 listingOnly: false

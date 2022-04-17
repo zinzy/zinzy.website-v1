@@ -3,7 +3,8 @@ title: "Tossed pasta"
 excerpt: "A home-tested pasta recipe that's so simple it's ridiculous, and so tasty it's scary"
 category: "Note"
 growthStage: "Budding"
-featuredImage: 
+featuredImage:
+date: "2021-06-12"
 tags:
  - recipes
 ---

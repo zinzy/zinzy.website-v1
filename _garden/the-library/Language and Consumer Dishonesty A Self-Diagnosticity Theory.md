@@ -2,10 +2,8 @@
 title: "Language and Consumer Dishonesty A Self-Diagnosticity Theory" 
 excerpt: "How does foreign language inﬂuence consumer dishonesty?"
 slug: language-and-consumer-dishonesty
-category: "Review"
+category: "Read"
 subcategory: "Paper"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177249/titles/language-and-consumer-dishonesty_smve31.png
-growthStage: "Sprout"
 date: 2021-08-01
 tags:
  - linguistics

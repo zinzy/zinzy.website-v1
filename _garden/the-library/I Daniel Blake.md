@@ -2,7 +2,7 @@
 title: "I, Daniel Blake" 
 excerpt: "I will never look the same at a can of pasta sauce ever again"
 slug: i-daniel-blake
-category: "Review"
+category: "Watch"
 subcategory: "Film"
 featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177268/titles/i-daniel-blake_dl3qsv.png
 growthStage: "Seedling"

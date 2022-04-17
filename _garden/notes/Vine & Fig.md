@@ -6,4 +6,6 @@ tags:
   - facilitation
   - queer Catholicism 
 ---
-Nothing to see here yet, come back later.
+In April 2020 I joined the leadership team of Vine & Fig, an international online community for queer Catholics. I remember when I first found their website, hopeful and lonely about having begun to remember how much the Catholic Church feels like home, despite every single thing. 
+
+At Vine & Fig, I was involved in social media for a while, and I facilitated live events. In the beginning of 2020 I pivoted away from social media, realizing how much it's begun to feel like work. Now I only focus on facilitation and gathering.

@@ -2,10 +2,8 @@
 title: "Posttraumatic Stress Disorder and Racial Trauma" 
 excerpt: ""
 slug: posttraumatic-stress-disorder-and-racial-trauma
-category: "Review"
+category: "Read"
 subcategory: "Paper"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177253/titles/ptsd-and-racial-trauma_tidjxi.png
-growthStage: "Sprout"
 date: 2021-08-01
 tags:
  - racism

@@ -2,10 +2,8 @@
 title: "Klassen"
 excerpt: "A documentary on the experiences of Dutch pupils"
 slug: klassen
-category: "Review"
-subcategory: "Docu"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177270/titles/klassen_poy8sq.png
-growthStage: "Seedling"
+category: "Watch"
+subcategory: "Series"
 date: 2020-12-01
 tags:
  - documentary

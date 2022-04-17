@@ -2,10 +2,8 @@
 title: "The Fall"
 excerpt: "This television series goes to show that, if I weren't a lesbian, I would probably be at risk of writing men in prison."
 slug: sound-of-metal
-category: "Review"
+category: "Watch"
 subcategory: "Series"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177296/titles/the-fall_xxm7zp.png
-growthStage: "Sprout"
 date: 2020-12-01
 tags:
  - television

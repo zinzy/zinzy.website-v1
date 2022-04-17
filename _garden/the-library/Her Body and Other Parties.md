@@ -2,7 +2,7 @@
 title: "Her Body and Other Parties"
 slug: her-body-and-other-parties
 excerpt: ""
-category: "Review"
+category: "Read"
 subcategory: "Book"
 growthStage: "Sprout"
 listingOnly: 

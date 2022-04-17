@@ -2,10 +2,8 @@
 title: "Nomadland"
 excerpt: "I didn't know there were so many middle-aged and older Americans living this life"
 slug: nomadland
-category: "Review"
+category: "Watch"
 subcategory: "Film"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177276/titles/nomadland_h735zj.png
-growthStage: "Seedling"
 date: 2021-06-01
 tags:
  - film

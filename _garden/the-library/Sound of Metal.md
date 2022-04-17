@@ -2,10 +2,8 @@
 title: "Sound of Metal"
 excerpt: "When I think of going deaf I think of the other option in the thought experiment: going blind."
 slug: sound-of-metal
-category: "Review"
+category: "Watch"
 subcategory: "Film"
-growthStage: "Seedling"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177293/titles/sound-of-metal_jdirhp.png
 date: 2021-07-01
 tags:
  - film
