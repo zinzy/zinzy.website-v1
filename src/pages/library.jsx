@@ -109,7 +109,7 @@ const LibraryPage = ({data}) => {
                   
                   <div className="">
                     <div className="font-weight-bold">{node.frontmatter.title}</div> 
-                        <div className="text-muted small mt-3">{node.frontmatter.subcategory} · {node.frontmatter.date}</div>  
+                        <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
                   </div> 
                   }
       
