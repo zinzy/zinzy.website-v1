@@ -42,8 +42,8 @@ const IndexPage = ({data}) => {
           </section> */}
 
           <section className="mt-10">
-            <h3>About this website</h3>
-            <p>This is my home on the Internet. In lieu of social media, I use this space to share my thoughts and work in a way that feels less performative. I maintain a growing collection of loose <a href="/notes">notes</a>, some more refined than others. I also maintain a  <a href="/library">library</a> of things I read, watch, and hear. You can read more about why and how I make this website, feel free to visit my <a href="/Colophon">colophon</a>.</p>
+            <h3>A digital garden</h3>
+            <p>This is my home on the Internet. In lieu of social media, I use this space to share my thoughts and work in a way that feels less performative. I maintain a growing collection of loose <a href="/notes">notes</a>, some more refined than others. I also have a  <a href="/library">library</a> of things I read, watch, and hear. You can learn more about why and how I make this website. Feel free to visit my <a href="/Colophon">colophon</a>.</p>
 
           </section> 
         </div>

@@ -2,10 +2,8 @@
 title: "Dare to Lead on the advice trap"
 slug: dare-to-lead-on-the-advice-trap
 excerpt: "Notes on why we give advice, how bad it often is, and what we can do about it"
-category: "Review"
+category: "Listen"
 subcategory: "Podcast"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177238/titles/dare-to-lead-stanier_rmk2tq.png
-growthStage: "Seedling"
 date: "2021-09-23"
 listingOnly:
 tags:

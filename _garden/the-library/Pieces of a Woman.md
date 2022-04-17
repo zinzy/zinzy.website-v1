@@ -2,7 +2,7 @@
 title: "Pieces of a Woman"
 excerpt: "The first film that made me feel like someone was actually giving birth on screen"
 slug: pieces-of-a-woman
-category: "Review"
+category: "Watch"
 subcategory: "Film"
 featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177280/titles/pieces-of-a-woman_ljypu1.png
 growthStage: "Sprout"

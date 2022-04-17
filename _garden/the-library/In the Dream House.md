@@ -2,10 +2,8 @@
 title: "In the Dream House" 
 excerpt: "A beautiful memoir about the hidden truths of lesbian partner abuse"
 slug: in-the-dream-house
-category: "Review"
+category: "Read"
 subcategory: "Book"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177245/titles/in-the-dream-house_jvhu2m.png
-growthStage: "Sprout"
 date: 2019-12-11
 tags:
  - book

@@ -2,10 +2,8 @@
 title: "Titanic"
 slug: titanic
 excerpt: "My desert island movie"
-category: "Review"
+category: "Watch"
 subcategory: "Film"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177300/titles/titanic_jql4cs.png
-growthStage: "Sprout"
 mediatype: "Film"
 date: 1998-01-01
 tags:

@@ -3,7 +3,7 @@ title: Vallen is als vliegen
 date: 2021-05-04 
 excerpt: "What this book does really well is present a form that distorts and confuses almost as much as abuse does." 
 slug: vallen-is-als-vliegen
-category: "Review"
+category: "Read"
 subcategory: "Book"
 growthStage: "Seedling" 
 featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177256/titles/vallen-is-als-vliegen_f14nky.png

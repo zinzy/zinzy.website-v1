@@ -2,10 +2,8 @@
 title: "Promising Young Woman" 
 excerpt: "A movie"
 slug: promising-young-woman
-category: "Review"
+category: "Watch"
 subcategory: "Film"
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177285/titles/promising-young-woman_tllnhb.png
-growthStage: "Seedling"
 date: 2021-03-01
 tags:
  - film

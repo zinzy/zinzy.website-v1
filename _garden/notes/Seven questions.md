@@ -4,6 +4,7 @@ excerpt: "What we can do instead of giving advice"
 category: "Note"
 growthStage: "Seedling"
 featuredImage: 
+date: "2021-11-09"
 tags:
  - interpersonal
  - leadership
