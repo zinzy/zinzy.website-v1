@@ -1,9 +1,8 @@
 ---
 title: "Write to remember"
 excerpt: "On why I keep a digital notes"
-category: "Note"
-growthStage: "Sprout"
-featuredImage: 
+category: "Practice"
+date: "2020-11-24"
 tags:
  - productivity
  - personal-archive

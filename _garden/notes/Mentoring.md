@@ -1,17 +1,11 @@
 ---
 title: "Mentoring"
 excerpt: "Should we work together?"
-category: "Note"
-growthStage: "Seedling"
-featuredImage: 
+category: "Work"
+date: "2015-01-28"
 tags:
  - career
 ---
 As [Diana Kimball Berlin](https://dianaberlin.com/) wrote on her original [/mentoring page](https://github.com/dianakimball/mentoring-is): "every major step forward in my life so far has been inspired and encouraged by the mentors I’ve been fortunate enough to have. I believe that hopes, dreams, and advice are best shared in ongoing, personal relationships, and it’s important to me to make myself available as a mentor to others."
 
-At the moment, I have limited availability to provide guidance to people who are interested in it. Reach out to me with an email at [zinzy@pm.me](mailto:zinzy@pm.me) answering the following questions, and I'll get back to you!
-
-1. Who are you, what's your story, and where do you want to go?
-2. What do you hope to gain from speaking with me?
-3. What's something that inspired you recently?
-
+In March 2022 I became a mentor on [ADPList](https://adplist.org/mentors/zinzy-nev-geene), with availability on Tuesday evenings Amsterdam time. If you'd like to brainstorm with me about how you can better meet your current (or future) challenges, feel free to book a session.

@@ -3,6 +3,7 @@ title: "Academic opportunities"
 slug: academic-opportunities
 excerpt: "Brewing thoughts on the Dutch educational system"
 category: "Education"
+date: "2021-04-30"
 ---
 The Dutch education system ranks number one in Europe when it comes to early segregation of pupils into levels: the split happens at age 12.
 

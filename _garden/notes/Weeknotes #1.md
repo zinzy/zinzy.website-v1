@@ -23,4 +23,4 @@ A while ago, we found some new recipes that we've enjoyed refining:
 I've been watching a lot of Dutch documentaries on the effects Internet culture has on children. [2doc](https://www.2doc.nl/documentaires/collecties/themas/toekomst/internet.html) has a selection. I particularly enjoyed _My Daughter, the Vlogger_. I can't imagine what it's like to raise a child, and I can't imagine what it would be like in 2022. Still, "all her peers will have a YouTube channel by the time they are six, she might as well get a leg up" sounds sad coming out of the mouth of a 3-year-old's mother.
 
 ### Listening
-I've been playing [[Heardle]] and loving it.
+I've been playing [[heardle]] and loving it.

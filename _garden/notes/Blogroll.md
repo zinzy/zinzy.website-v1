@@ -26,7 +26,7 @@ If I've learnt one thing in life, it's that "I just see what's in the cupboards 
 
 ### Games
 - [Wordle](https://www.nytimes.com/games/wordle/index.html): I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me. I like how it's a part of the slow web without ever saying the word.
-- [Heardle](https://heardle.app): I already [[Heardle|wrote about it]], but it deserves a mention here as well. I love Heardle, because it reminds me of great songs and because I find delight in being able to recognize them instantly. Knowing I'm not the only one, I think I am very good at it. : I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me.
+- [Heardle](https://heardle.app): I already [[heardle|wrote about it]], but it deserves a mention here as well. I love Heardle, because it reminds me of great songs and because I find delight in being able to recognize them instantly. Knowing I'm not the only one, I think I am very good at it. : I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me.
 
 ### People on the web
 - [Ana Rodrigues](https://ohhelloana.blog)

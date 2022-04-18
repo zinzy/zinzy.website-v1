@@ -1,7 +1,7 @@
 ---
 title: "Vine & Fig"
 excerpt: "The queer Catholic community I joined in 2020."
-date: "2021-01-13"
+date: "2020-04-09"
 category: "Queerdom"
 tags:
   - facilitation

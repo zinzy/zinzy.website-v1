@@ -52,7 +52,7 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Library categories (2022-04-17)
 - [x] Antilibrary (2022-04-10)
 - [ ] Upgrade to Gatsby 4 and fix plugins
-- [ ] Make slugs case-insensitive
+- [x] Make slugs case-insensitive (2022-04-18)
 - [x] Fix display of bidirectional links (2022-04-09)
 - [ ] Figure out why page flashes on load
 - [ ] Remove unnecessary Javascript
@@ -65,4 +65,15 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Responsive masonry for notes
 - [ ] Detail slider for changelog
 - [ ] Extended spacing utilities
-- [x] Notes sorted by category (2022-04-17)
+
+- [ ] Bidirectional preview popovers
+- [ ] Tooltips for external links
+- [ ] Sorting notes by modifiedTime on index page  
+- [ ] Lowcase slugs
+- [ ] Webmentions
+- [ ] Correct last tended to date in Library
+- [ ] Correct last tended to date in page.jsx
+- [ ] Correct last tended to date in index
+- [ ] siteconfig data
+- [ ] correct `title`s 
+- [ ] Contact form

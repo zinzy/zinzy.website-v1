@@ -1,5 +1,5 @@
 ---
-title: "Dare to Lead on the advice trap"
+title: "Alicante: Lifecoaches"
 slug: alicante-lifecoaches
 excerpt: ""
 category: "Listen"

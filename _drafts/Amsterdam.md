@@ -2,8 +2,6 @@
 title: "Amsterdam"
 excerpt: "Things I like about the place I call home"
 category: "Note"
-growthStage: "Seedling"
-featuredImage: 
 tags:
  - places
 ---

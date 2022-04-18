@@ -1,9 +1,8 @@
 ---
 title: "Lemon meringue pie bars"
 excerpt: "A work in progress "
-category: "Note"
-growthStage: "Sprout"
-featuredImage: 
+category: "Recipe"
+date: "2021-11-03"
 tags:
  - recipes
 ---

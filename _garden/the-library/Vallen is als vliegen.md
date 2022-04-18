@@ -15,4 +15,4 @@ I read this book over a quiet Spring break by the sea. It follows an adult woman
 
 Much like most people on Earth, I experience great discomfort when I read detailed accounts of child sexual abuse. Next to the "ewww, I don't want to think about that stuff" there is the ever so peculiar fear that one may find the content entertaining, or worse, arousing. Luckily, I don't and haven't ever. Nevertheless, the fear sits in me like a hot potato that I swallowed too soon.
 
-What this book does really well is present a form that distorts and confuses almost as much as abuse does. Another story that does this well is Carmen Maria Machado's _[[In the Dream House]]_. After all, the only way to demonstrate that trauma evades language and reason is by slicing it in puzzling fragments.
+What this book does really well is present a form that distorts and confuses almost as much as abuse does. Another story that does this well is Carmen Maria Machado's _[[in the dream house]]_. After all, the only way to demonstrate that trauma evades language and reason is by slicing it in puzzling fragments.

@@ -1,11 +1,8 @@
 ---
 title: "Femtech"
 excerpt: "Anja and I took a course in DIY construction projects"
-category: "Note"
-growthStage: "Sprout"
-featuredImage: 
-tags:
- - diy
+category: "Building"
+date: "2021-10-28"
 ---
 Anja and I took a course in DIY construction projects, taught by a woman, for women only. It was enlightening and fun, in part because our teacher is a great storyteller. 
 

@@ -7,13 +7,13 @@ featuredImage:
 tags:
  - mental health
 ---
-If you've visited my website before, you know I don't shy away from writing about things that indicate I try to take care of my mental health. I do that, in public, as a way to [[Write to remember]], and also as a way to remind myself that shame cannot survive if it's spoken.
+If you've visited my website before, you know I don't shy away from writing about things that indicate I try to take care of my mental health. I do that, in public, as a way to [[write to remember]], and also as a way to remind myself that shame cannot survive if it's spoken.
 
 Much like most other humans, my childhood formed a blueprint, some of the aspects of which require work to change into something more constructive, positive, and useful. In this list below, you'll find some things that have helped raise my awareness of challenging topics such as trauma, emotional neglect, chronic shame, and alcohol abuse.
 
 ### Trauma
 - Many people I know have benefited from the work of [Bessel van der Kolk](https://www.besselvanderkolk.com/), a Dutch thought leader in the field of trauma work. I can highly recommend _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_.
-- [[Posttraumatic Stress Disorder and Racial Trauma]]
+- [[posttraumatic stress disorder and racial trauma]]
 
 ### Emotional neglect and chronic shame
 - School of Life's video [_What Is Emotional Neglect? And How to Cope_](https://www.youtube.com/watch?v=aJJ7YpW--dQ)

@@ -1,9 +1,8 @@
 ---
 title: "My name"
 excerpt: "The origin of my name"
-category: "Note"
-growthStage: "Seedling"
-featuredImage: 
+category: "Meta"
+date: "2018-03-11"
 tags:
  - info
 ---

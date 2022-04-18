@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/Grilled vegetable base.md",
+            "file": "changelog/like-2022-04-15-neske-beks-interview.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dare to",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Grilled vegetable base.md",
+                "file": "changelog/like-2022-04-15-neske-beks-interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "d17a4ca079517bbf",
   "lastOpenFiles": [
-    "notes/Grilled vegetable base.md",
-    "notes/Favorite recipes.md",
-    "notes/Facilitator.md",
-    "notes/Digital garden.md",
-    "notes/Erasing Racism in Riverdale.md",
-    "notes/Erasing racism.md",
-    "notes/Bookmarks.md",
-    "notes/Blogroll.md",
-    "notes/Amsterdam.md",
-    "notes/academic-opportunities.md"
+    "changelog/like-2022-04-15-neske-beks-interview.md",
+    "changelog/bookmark-2022-04-10-dr-amy-guy.md",
+    "changelog/2022-04-16-are-you-sisters.md",
+    "changelog/2021-04-01-vine-and-fig.md",
+    "changelog/2020-11-01-leeruniek.md",
+    "notes/colophon.md",
+    "notes/seven questions.md",
+    "the-library/dare-to-lead-the-advice-trap.md",
+    "notes/academic-opportunities.md",
+    "notes/amsterdam.md"
   ]
 }

@@ -2,6 +2,7 @@
 title: "Amsterdam"
 excerpt: "Things I like about the place I call home"
 category: "Lists" 
+date: "2016-01-19"
 tags:
  - places
 ---

@@ -9,4 +9,4 @@ tags:
  - film
  - mental health
 ---
-This 2020 masterpiece by Florian Zeller has been able to give me what [[Hereditary]] hadn't: an impeccable film about mental health issues and family ties that doesn't involve the occult.
+This 2020 masterpiece by Florian Zeller has been able to give me what [[hereditary]] hadn't: an impeccable film about mental health issues and family ties that doesn't involve the occult.

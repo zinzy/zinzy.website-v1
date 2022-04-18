@@ -1,15 +1,14 @@
 ---
 title: "Places"
 excerpt: "Where I've been, where I'm going"
-category: "Note"
-growthStage: "Budding"
-featuredImage: 
+category: "Lists"
+date: "2019-05-08"
 tags:
  - places
 ---
 
 ### Lived in
-- [[Amsterdam]], the Netherlands 
+- [[amsterdam]], the Netherlands 
 - Eindhoven, the Netherlands 
 - Haarlem, the Netherlands 
 - Roermond, the Netherlands
@@ -24,7 +23,7 @@ tags:
 - London, England
 - Linköping, Sweden
 - Lisbon, Portugal
-- [[Paris]], France
+- [[paris]], France
 - Rouen, France
 - Roubaix, France
 - Warsaw, Poland
@@ -32,7 +31,7 @@ tags:
 - Stockholm, Sweden
 
 ### Enjoy nationally
-- [[Maastricht]]
+- [[maastricht]]
 
 ### Want to visit 
 - Ao Island, Japan
