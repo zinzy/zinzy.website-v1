@@ -60,16 +60,15 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Library categories (2022-04-17) 
 - [x] Make slugs case-insensitive (2022-04-18) 
 - [x] Detail slider for changelog (2022-04-18)
+- [x] Last.fm feed (2022-04-18)
 - [ ] Note list sorted descending by updated date
 - [ ] Search
 - [ ] Upgrade to Gatsby 4 and fix plugins 
 - [ ] Refactor code 
-- [ ] Last.fm feed
 - [ ] Optional table of content
 - [ ] Then archive with appropriate routing
 - [ ] Tippy URL tooltips
 - [ ] Tippy note preview 
-- [ ] ~~Webmentions~~  
 - [ ] Figure out why page flashes on load
 - [ ] Remove unnecessary Javascript
 - [ ] Minimize project size

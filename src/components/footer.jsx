@@ -7,6 +7,10 @@ export default function Footer({ title }) {
 
 <footer id="footer">
   <div className="footer-main">
+    
+
+
+
     <div className="container">
     <div className="row">
       <div className="col-lg-10 offset-lg-1 col-xl-6 offset-xl-3">
@@ -43,7 +47,7 @@ export default function Footer({ title }) {
           <div className="col-8">
             <ul className=""> 
               {/* <li><a href="/changelog">Changelog</a></li>  */}
-              <li><a href="/playlist">Playlist</a></li> 
+              <li><a href="/now">Now</a></li> 
               <li><a href="/changelog">Changelog</a></li>
               <li><a href="/colophon">Colophon</a></li>
             </ul>

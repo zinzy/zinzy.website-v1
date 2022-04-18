@@ -668,6 +668,13 @@ strong {
         color: $white;
         }
     }
+    .playlist {
+        li {
+            &:nth-child(odd) {
+                background-color: rgba($gray-800, 0.5);
+            }
+        }
+    }
     .content-list {
         li {
         border-top: 1px solid $gray-800;

@@ -24,7 +24,7 @@ const PlaylistPage = ({data}) => {
 
 
         <div className="mt-5">
-          <h3>What I just played</h3>
+          <h3>Recent tracks</h3>
         </div>
 
 
