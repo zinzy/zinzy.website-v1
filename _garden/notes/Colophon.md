@@ -62,13 +62,9 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Micropub
 - [x] Inbound references (2022-04-09)
 - [x] Responsive masonry for notes
-- [x] Detail slider for changelog
+- [x] Detail slider for changelog (2022-04-18)
 - [ ] Extended spacing utilities
-- [ ] Lowcase slugs
 - [ ] Webmentions
-- [ ] Correct last tended to date in Library
-- [ ] Correct last tended to date in page.jsx
-- [ ] Correct last tended to date in index
 - [ ] siteconfig data
 - [ ] correct `title`s 
 - [ ] Contact form

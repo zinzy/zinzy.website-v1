@@ -30,6 +30,7 @@ export default function ChangelogPage({data}) {
               min="1"
               max="5"
               step="1"
+              variant='secondary'
               onChange={changeEvent => setValue(changeEvent.target.value)}
             />
             <div className="row small text-muted">
