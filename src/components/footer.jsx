@@ -34,7 +34,7 @@ export default function Footer({ title }) {
   <div className="footer-bottom">  
     <div className="container-fluid bottom-nav">
         <div className="row">
-          <div className="col-2 col-md-4">
+          <div className="col-3 col-md-4">
             <div className="indiewebring">
               <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
               <span className="mx-3">
@@ -44,7 +44,7 @@ export default function Footer({ title }) {
               <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
             </div>
           </div>
-          <div className="col-10 col-md-8">
+          <div className="col-9 col-md-8">
             <ul className=""> 
               {/* <li><a href="/changelog">Changelog</a></li>  */}
               <li><a href="/playlist">Playlist</a></li> 

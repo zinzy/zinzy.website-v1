@@ -108,8 +108,8 @@ export const pageQuery = graphql`
           parent {
             id
             ... on File {
-              changeTime(fromNow: true)
-              ctime(fromNow: true)
+              changeTime(formatString: "MMMM D, YYYY") 
+              ctime(formatString: "MMMM D, YYYY") 
               modifiedTime
             }
           }
