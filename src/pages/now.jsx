@@ -18,7 +18,7 @@ export default function NowPage({data}) {
 
         <div className="mb-5">
           <h2>Now</h2> 
-          <p>Inspired by Internet hero <a href="https://sive.rs" target="_blank" rel="noopener noreferrer">Derek Sivers</a>, this page contains an irregularly-updated broader horizon of what I'm working on, reading and watching, thinking about, and interesting in. Less ranty than a Twitter feed, more unreliable than an About page.</p>
+          <p>Inspired by Internet hero <a href="https://sive.rs" target="_blank" rel="noopener noreferrer">Derek Sivers</a>, this page contains an irregularly-updated broader horizon of what I'm working on, reading and watching, thinking about, and interesting in.</p>
         </div>
 
 

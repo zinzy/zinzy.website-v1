@@ -178,7 +178,7 @@ const ProfilePage = ({data}) => {
 }
  
 export const query = graphql`
-query lastfmQuery {
+query lastfmQueries {
   allLastfmPlayback {
     nodes {
       track {

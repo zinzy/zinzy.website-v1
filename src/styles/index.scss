@@ -130,14 +130,6 @@ a {
     left: 50%;
 }
 
-.listening-history {
-    list-style-type: none;
-    li {
-        width: 300px;
-        background: yellow;
-        display: inline-block;
-    }
-} 
 
 .bio {
     padding-top: 2rem;
@@ -356,7 +348,7 @@ mark {
     position:fixed;
     z-index:999999;
     padding: 10px 0 8px 0;
-    border-bottom: 1px solid $gray-100;
+    border-bottom: 0;
     background:rgba(255, 255, 255, 0.4);
     -webkit-backdrop-filter:saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
@@ -397,6 +389,32 @@ mark {
 
 }
 
+.playlist {
+    li {
+        padding: .5rem;
+        border-radius: .5rem;
+        &:nth-child(odd) {
+            background-color: rgba($gray-100, 0.5);
+        }
+        a {
+            &[target="_blank"] { 
+                &:after {
+                    content: '';
+                    margin-left:0;
+                }
+            } 
+            .text-muted {
+                font-weight: 400;
+            }
+        } 
+    }
+}
+
+
+strong {
+    color: $black;
+    font-weight: 500;
+}
 
 .p-note {
     padding-left: 2rem;
@@ -619,6 +637,10 @@ a[target="_blank"] {
 body.dark {
     background: $gray-900;
     color: $gray-500;
+
+strong {
+    color: $white;
+}
     h1, h2, h3, h4, h5, h6,
     .h1, .h2, .h3, .h4, .h5, .h6 {
         color: $white !important; 

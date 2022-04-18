@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import Form from 'react-bootstrap/Form'
 
 // markup
 const LibraryPage = ({data}) => {  
@@ -49,12 +50,15 @@ const LibraryPage = ({data}) => {
               ))} 
             </div>
             <div className="col-md-3 d-flex justify-content-end">
-              <div className="form-check">
-              <input class="form-check-input" onChange={toggle} type="checkbox"/>
-              <label class="form-check-label" for="flexSwitchCheckDefault"> 
-                Reviews only
-              </label> 
-            </div>
+
+            <Form>
+                <Form.Check 
+                  type="switch"
+                  id="custom-switch"
+                  label="Reviews only"
+                  onChange={toggle}
+                />
+              </Form>
             </div>
           </div>
             

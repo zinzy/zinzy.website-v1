@@ -16,7 +16,7 @@ module.exports = {
       resolve: "gatsby-source-lastfm",
       options: {
         api_key: '65f42e91d1664077fdd470c5ce5e7813',
-        username: 'zinzynevgeene',
+        username: 'zinzywaleson',
         limit: 10, // the maximum number of playbacks to pull in
       },
     },
