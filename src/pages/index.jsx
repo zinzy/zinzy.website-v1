@@ -15,7 +15,7 @@ const IndexPage = ({data}) => {
       <section className=""> 
 
       <div className="row">
-        <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3"> 
+        <div className="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3"> 
 
           <h2>Hey, I'm Zinzy Waleson. I make digital products and resonant queer communities. I live and work in Amsterdam, currently managing product and design at Leeruniek.</h2>
 

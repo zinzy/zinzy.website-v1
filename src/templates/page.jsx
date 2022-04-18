@@ -25,7 +25,7 @@ export default function PageTemplate({ data: { mdx } }) {
       <Layout>
 
         <div className="row">
-          <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+          <div className="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
           <article className="page">
           {/* <div className="col-lg-3">
               <img className={featuredImg != null ? `rounded img-fluid` : `d-none`} src={mdx.frontmatter.featuredImage} alt="{ mdx.frontmatter.title }" />
