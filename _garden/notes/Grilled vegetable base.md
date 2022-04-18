@@ -2,7 +2,7 @@
 title: "Grilled vegetable base"
 excerpt: "There is a casual combination of things I use to make a lot of things, and it's a quiet hit at dinner parties"
 category: "Recipe"
-date: "2022-04-12
+date: "2022-04-12"
 ---
 _Serves God knows how many, takes 2-3 hours_
 
