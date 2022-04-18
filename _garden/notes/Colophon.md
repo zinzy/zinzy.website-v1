@@ -47,7 +47,6 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] ~~Webmentions~~
 - [x] Weeknotes
 - [x] Filter home note out of linked references (2022-04-09)
-- [ ] Make backlinks to now page link to correct version
 - [x] Library (2022-04-08)
 - [x] Library categories (2022-04-17)
 - [x] Antilibrary (2022-04-10)
@@ -63,12 +62,8 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Micropub
 - [x] Inbound references (2022-04-09)
 - [x] Responsive masonry for notes
-- [ ] Detail slider for changelog
+- [x] Detail slider for changelog
 - [ ] Extended spacing utilities
-
-- [ ] Bidirectional preview popovers
-- [ ] Tooltips for external links
-- [ ] Sorting notes by modifiedTime on index page  
 - [ ] Lowcase slugs
 - [ ] Webmentions
 - [ ] Correct last tended to date in Library

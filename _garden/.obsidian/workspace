@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d17a4ca079517bbf",
+        "id": "cb30e066df56fe36",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "changelog/like-2022-04-15-neske-beks-interview.md",
+            "file": "notes/colophon.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "changelog/like-2022-04-15-neske-beks-interview.md",
+                "file": "notes/colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d17a4ca079517bbf",
+  "active": "cb30e066df56fe36",
   "lastOpenFiles": [
-    "changelog/like-2022-04-15-neske-beks-interview.md",
-    "changelog/bookmark-2022-04-10-dr-amy-guy.md",
-    "changelog/2022-04-16-are-you-sisters.md",
-    "changelog/2021-04-01-vine-and-fig.md",
-    "changelog/2020-11-01-leeruniek.md",
     "notes/colophon.md",
-    "notes/seven questions.md",
-    "the-library/dare-to-lead-the-advice-trap.md",
-    "notes/academic-opportunities.md",
-    "notes/amsterdam.md"
+    "changelog/2020-11-01-leeruniek.md",
+    "changelog/podcast-2020-04-09-tabard-inn.md",
+    "changelog/like-2022-04-13-internetvampiers.md",
+    "changelog/bookmark-2022-04-10-sylvia-maggi.md",
+    "changelog/bookmark-2022-04-10-dr-amy-guy.md",
+    "changelog/2022-04-16-obsidian-integration.md",
+    "changelog/2022-04-16-are-you-sisters.md",
+    "changelog/2021-09-12-gatsby-3.md",
+    "changelog/2021-04-01-vine-and-fig.md"
   ]
 }

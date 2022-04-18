@@ -45,9 +45,8 @@ export default function Footer({ title }) {
               {/* <li><a href="/changelog">Changelog</a></li>  */}
               <li><a href="/now">Now</a></li> 
               <li><a href="/changelog">Changelog</a></li>
-              <li><a href="/Colophon">Colophon</a></li>
+              <li><a href="/colophon">Colophon</a></li>
             </ul>
-
           </div>
         </div>
     </div>

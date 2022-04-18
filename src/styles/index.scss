@@ -237,10 +237,6 @@ mark {
     background-size: 100% 100%;
 }
 
-.icon {
-    width: 100px;
-    height: 100px; 
-  }
 
 .bg-green { background-color: #f2faed; } 
 .bg-yellow { background-color: #fcf7cd; } 
@@ -466,7 +462,10 @@ h1 {
     font-weight: 600; 
     border-radius: 20px;
     .icon {
-        margin-right: 10px;
+        svg {
+            max-height: 13px;
+            margin-right: 5px;
+        }
     }
 }
 
@@ -487,7 +486,7 @@ h1 {
             }
         }
         .what {
-            margin-left: 4px;
+            margin-left: 0;
         }
         .timeline {
             color: $gray-300;
@@ -541,6 +540,11 @@ a[target="_blank"] {
             display: none;
         }
     }
+}
+
+
+input[type=range].range-slider { 
+    color: red !important;
 }
 
 

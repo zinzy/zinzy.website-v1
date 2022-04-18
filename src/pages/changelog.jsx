@@ -3,14 +3,16 @@ import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import { FaClock, FaHandshake, FaPencilAlt, FaComment, FaHeart } from "react-icons/fa"
-import { BiCoffeeTogo, BiNews } from "react-icons/bi"
+import { FaClock, FaHandshake, FaPencilAlt, FaComment, FaHeart, FaMicrophoneAlt } from "react-icons/fa"
+import { BiCoffeeTogo, BiNews, BiCodeAlt } from "react-icons/bi"
 import { BsGearWideConnected,BsBookmarkFill } from "react-icons/bs";
+import { useState } from 'react';
+import RangeSlider from 'react-bootstrap-range-slider';
 
 // markup
 export default function ChangelogPage({data}) {
 
-  
+  const [ value, setValue ] = useState(3);  
 
   return (
     <Layout>
@@ -20,11 +22,28 @@ export default function ChangelogPage({data}) {
 
 
         <h2>Changelog</h2> 
+
+          <div className="my-5">
+            <RangeSlider
+              value={value}
+              tooltip="off"
+              min="1"
+              max="5"
+              step="1"
+              onChange={changeEvent => setValue(changeEvent.target.value)}
+            />
+            <div className="row small text-muted">
+              <div className="col-6">Just the big picture</div>
+              <div className="col-6 text-end">TMI</div>
+            </div>
+          </div>
+
           <ul class="list-unstyled changelog mt-5">
           {
             data.allMdx.nodes.map(node => (
-              <li key={node.slug} className="h-entry">
-              <div className="row">
+              <li key={node.slug} className={node.frontmatter.detailLevel <= value ? `d-block`: `d-none`}>
+
+              <div className="row h-entry">
  
                 <div className="col-1">
                   <div className="timeline">
@@ -34,38 +53,23 @@ export default function ChangelogPage({data}) {
                 </div>
                 <div className="col-11">
                 <div className="date dt-published mb-3 mb-lg-0">{node.frontmatter.date}</div> 
-                  <span className="badge d-flex align-items-center">
-                  <span className="icon">
+                  <span className="badge">
+                  <span>
                   {(() => { 
                     switch (node.frontmatter.category) { 
-                      case 'Development': return ( <FaClock /> )  
-                      case 'Joined': return ( <FaHandshake />  ) 
-                      case 'Left': return ( <FaHandshake />  ) 
-                      case 'Like': return ( <FaHeart />  ) 
-                      case 'Mentor': return ( <BiCoffeeTogo />  ) 
-                      case 'Technical': return ( <BsGearWideConnected />  ) 
-                      case 'Writer': return ( <FaPencilAlt />  ) 
-                      case 'Bookmark': return ( <BsBookmarkFill />  ) 
-                      case 'Reply': return ( <FaComment />  ) 
-                      default: return ( <BiNews />  )  
+                      case 'Technical': return ( <span className="icon"><BiCodeAlt /> Updated website</span> )  
+                      case 'Bookmark': return ( <span className="icon"><BsBookmarkFill /> Bookmark</span>  ) 
+                      case 'Reply': return ( <span className="icon"><FaComment /> Replied to </span>  ) 
+                      case 'Like': return ( <span className="icon"><FaHeart /> Like</span>  )  
+                      case 'Mentor': return ( <span className="icon"><BiCoffeeTogo /> Mentoring</span>  ) 
+                      case 'Writer': return ( <span className="icon"><FaPencilAlt /> Published an essay </span>  ) 
+                      case 'Podcast': return ( <span className="icon"><FaMicrophoneAlt /> Spoke on </span>  ) 
+                      case 'Joined': return ( <span className="icon"><FaHandshake /> Joined </span>  ) 
+                      case 'Left': return ( <span className="icon"><FaHandshake /> Left</span>  ) 
+                      default: return ( <span className="icon"><BiNews /> Update</span> )  
                     } 
                   })()} 
-                  </span>
-
-                  {(() => { 
-                    switch (node.frontmatter.category) { 
-                      case 'Development': return ("Updated website")  
-                      case 'Joined': return ("Joined" ) 
-                      case 'Left': return ("Left") 
-                      case 'Like': return ("Liked") 
-                      case 'Mentor': return ("Mentored") 
-                      case 'Technical': return ("Updated website") 
-                      case 'Writer': return ("Published") 
-                      case 'Bookmark': return ("Bookmarked") 
-                      case 'Reply': return ("Replied") 
-                      default: return ("Update")  
-                    } 
-                  })()} 
+                  </span> 
                   
                   <span className="what">{node.frontmatter.what}</span>
 
@@ -116,6 +120,8 @@ export default function ChangelogPage({data}) {
   )
 }
 
+
+
 export const query = graphql`
 query ChangelogQuery {
   allMdx(
@@ -126,6 +132,7 @@ query ChangelogQuery {
       frontmatter {
         title
         category
+        detailLevel
         date(formatString: "MMM D, YYYY")
         what
         replyTo
