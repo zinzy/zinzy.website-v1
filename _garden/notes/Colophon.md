@@ -65,4 +65,4 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Responsive masonry for notes
 - [ ] Detail slider for changelog
 - [ ] Extended spacing utilities
-- [ ] Notes sorted by category
+- [x] Notes sorted by category (2022-04-17)

@@ -2,9 +2,7 @@
 title: "Weeknotes #3"
 excerpt: "Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday."
 date: "2022-04-16" 
-
-tags:
-  - weeknotes 
+category: "Logs"
 ---
 Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.
 

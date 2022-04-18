@@ -93,7 +93,10 @@ const NotesIndex = ({data}) => {
 
 export const pageQuery = graphql`
 query Notes {
-  categorized:allMdx(filter: {fileAbsolutePath: {regex: "/notes/"}}) {
+  categorized:allMdx(
+    filter: {fileAbsolutePath: {regex: "/notes/"}}
+    sort: {fields: frontmatter___title, order: ASC}
+  ) {
     group(field: frontmatter___category) {
       fieldValue
       totalCount

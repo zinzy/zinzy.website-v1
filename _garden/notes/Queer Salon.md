@@ -2,7 +2,7 @@
 title: "Queer Salon"
 excerpt: "I've been hosting intimate queer gatherings since May 2018"
 date: "2019-08-27"
-category: "Life"
+category: "Queerdom"
 tags:
   - facilitation
   - queerdom
