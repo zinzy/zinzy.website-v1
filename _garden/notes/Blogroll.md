@@ -82,3 +82,5 @@ If I've learnt one thing in life, it's that "I just see what's in the cupboards 
 - [Seirdy](https://seirdy.one)
 - [Mark Sutherland](https://marksuth.dev)
 - [Annelie Wambeek](https://www.anneliewambeek.com/)
+- [Chris Handy](https://chrishandy.blog)
+- [https://john.philpin.com](https://john.philpin.com/)
