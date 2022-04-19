@@ -108,7 +108,7 @@ query Notes {
           frontmatter {
             title
             category
-            date(fromNow: true)
+            date(formatString: "MMMM D, YYYY")
             excerpt
           }
         }
@@ -129,7 +129,7 @@ query Notes {
       }
       parent {
         ... on File {
-          changeTime(fromNow: true)
+          changeTime(formatString: "MMMM D, YYYY")
         }
       }
     }
