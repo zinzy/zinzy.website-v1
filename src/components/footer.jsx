@@ -31,7 +31,10 @@ export default function Footer({ title }) {
     </div> 
     </div>
   </div>
-  <div className="footer-bottom">  
+   
+</footer> 
+
+<div className="footer-bottom">  
     <div className="container-fluid bottom-nav">
         <div className="row">
           <div className="col-3 col-md-4">
@@ -55,7 +58,6 @@ export default function Footer({ title }) {
         </div>
     </div>
   </div>
-</footer> 
  
     </>
   )

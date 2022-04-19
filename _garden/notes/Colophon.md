@@ -40,6 +40,7 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 ### To do    
 - ~~Update site automatically with content from Obsidian~~
 - [ ] ~~Dropbox integration~~
+- [ ] ~~Then archive with appropriate routing~~
 - [x] Indiewebify 
 - [x] Responsive masonry for notes 
 - [x] Weeknotes
@@ -66,7 +67,6 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Upgrade to Gatsby 4 and fix plugins 
 - [ ] Refactor code 
 - [ ] Optional table of content
-- [ ] Then archive with appropriate routing
 - [ ] Tippy URL tooltips
 - [ ] Tippy note preview 
 - [ ] Figure out why page flashes on load

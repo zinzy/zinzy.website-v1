@@ -34,12 +34,12 @@ const PlaylistPage = ({data}) => {
               <li key={node.id}>   
                 <a href="{node.track.url}" target="_blank" rel="noopener noreferrer">
                   <div className="row">
-                    <div className="col-1 d-flex align-items-center">
+                    <div className="col-2 col-md-1 d-flex align-items-center">
                       <img src={node.track.image[2].text} className="img-fluid rounded" alt="{node.track.name}" />
                     </div>
-                    <div className="col-11 d-flex">
-                        <div className="flex-grow-1">{node.track.name}</div> 
-                        <div className="text-muted text-end">{node.track.artist.name}</div> 
+                    <div className="col-10 col-md-11 d-md-flex">
+                        <div className="flex-md-grow-1">{node.track.name}</div> 
+                        <div className="text-muted text-md-end">{node.track.artist.name}</div> 
                     </div>
                   </div>
                 </a>
