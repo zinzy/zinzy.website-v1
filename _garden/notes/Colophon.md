@@ -41,6 +41,7 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - ~~Update site automatically with content from Obsidian~~
 - [ ] ~~Dropbox integration~~
 - [ ] ~~Then archive with appropriate routing~~
+- [ ] ~~Show updated date as relative to actual time and not build time~~
 - [x] Indiewebify 
 - [x] Responsive masonry for notes 
 - [x] Weeknotes
@@ -72,7 +73,6 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Figure out why page flashes on load
 - [ ] Remove unnecessary Javascript
 - [ ] Minimize project size
-- [ ] Show updated date as relative to actual time and not build time
 - [ ] Stop retaining scroll position 
 - [ ] Micropub 
 - [ ] Extended spacing utilities

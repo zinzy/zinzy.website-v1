@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/colophon.md",
+            "file": "the-library/het-kruis-van-tegelen.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/colophon.md",
+                "file": "the-library/het-kruis-van-tegelen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "cb30e066df56fe36",
   "lastOpenFiles": [
+    "the-library/het-kruis-van-tegelen.md",
+    "notes/blogroll.md",
     "notes/colophon.md",
     "notes/2020 in music.md",
     "notes/2019 in music.md",
@@ -96,8 +98,6 @@
     "notes/2017 in music.md",
     "notes/2016 in music.md",
     "notes/2015 in music.md",
-    "notes/blogroll.md",
-    "notes/digital garden.md",
-    "changelog/2020-11-01-leeruniek.md"
+    "notes/digital garden.md"
   ]
 }

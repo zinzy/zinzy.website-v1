@@ -1,5 +1,5 @@
 ---
-title: "Het kruis van tegelen"
+title: "Het kruis van Tegelen"
 excerpt: ""
 slug: het-kruis-van-tegelen
 category: "Watch"

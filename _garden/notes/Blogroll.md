@@ -1,7 +1,7 @@
 ---
 title: "Blogroll"
 excerpt: "My favorite sites" 
-date: "2022-04-16"
+date: "2016-09-16"
 category: "Lists"
 tags:
  - "links"
@@ -28,7 +28,17 @@ If I've learnt one thing in life, it's that "I just see what's in the cupboards 
 - [Wordle](https://www.nytimes.com/games/wordle/index.html): I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me. I like how it's a part of the slow web without ever saying the word.
 - [Heardle](https://heardle.app): I already [[heardle|wrote about it]], but it deserves a mention here as well. I love Heardle, because it reminds me of great songs and because I find delight in being able to recognize them instantly. Knowing I'm not the only one, I think I am very good at it. : I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me.
 
+
+### Friends
+- [Annelie Wambeek](https://www.anneliewambeek.com/)
+- [Max Kuzma](https://maxwellkuzma.com)
+- [Patrick Flores](https://www.realphototexas.com/)
+- [Patrick "Pickles" Weston](http://patrickfweston.com)  
+
+
 ### People on the web
+This is a growing list of people whose websites I visit from time to time.
+
 - [Ana Rodrigues](https://ohhelloana.blog)
 - [Andy Matuschak](https://notes.andymatuschak.org/)
 - [Aral Balkan](https://ar.al)
@@ -39,48 +49,41 @@ If I've learnt one thing in life, it's that "I just see what's in the cupboards 
 - [Brian Lovin](https://brianlovin.com/)
 - [Calum Ryan](https://calumryan.com)
 - [Chris Bowler](https://chrisbowler.com)
+- [Chris Handy](https://chrishandy.blog)
 - [Dan Eden](https://www.daneden.me)
 - [Dan & Richard & You](https://danandrichardandyou.com)
 - [Daniel Eatock](https://eatock.com)
+- [David Foley](https://www.dfoley.ie)
 - [Evan Travers](http://evantravers.com)
 - [Glynnis Ritchie](https://glynn.is)
 - [Harry Cresswell](https://harrycresswell.com/)
 - [Jacob Hall](https://jacobhall.net)
+- [Jacky Alcine](https://jacky.wtf/)
 - [Jan-Lukas Else](https://jlelse.blog)
 - [Jeremy P. Beasley](https://blog.jeremypbeasley.com) 
 - [Joel Hooks](https://joelhooks.com)
 - [Jon Kyle](https://www.jon-kyle.com)  
 - [Jonas Downey](https://jonas.do/)  
+- [Kimberly Hirsch](https://kimberlyhirsh.com)
 - [Laura Kalbag](https://laurakalbag.com)  
 - [Levi Wintering](http://leviwintering.com)  
 - [Lined and Unlined](https://linedandunlined.com/)
-- [Max Kuzma](https://maxwellkuzma.com)
+- [Mark Sutherland](https://marksuth.dev)
 - [Maxime Vaillancourt](https://maximevaillancourt.com)
+- [Mylou Oord](https://mylouoord.com/)
 - [The Nap Ministry](https://thenapministry.wordpress.com)
 - [Other Internet](https://otherinter.net)
 - [Patrick Rhone](https://www.patrickrhone.net)
-- [Patrick "Pickles" Weston](http://patrickfweston.com) 
+- [Paul Houlihan](https://pauho.net)
 - [Ru Singh](https://rusingh.com)
 - [Salim Virani](https://salimvirani.com)  
 - [Savannah Million](http://savannahmillion.com)
 - [Scott Jack](https://scojjac.com)
+- [Seirdy](https://seirdy.one)
 - [Simplifier](https://simplifier.neocities.org/)
+- [Sylvia Maggi](https://silviamaggidesign.com)
 - [Toby Shorin](https://tobyshorin.com)
 - [Tom Critchlow](https://tomcritchlow.com) 
 - [Tom Hackshaw](https://tom.so)  
 - [Thomasorus](https://thomasorus.com) 
-    
-- [Jacky Alcine](https://jacky.wtf/)
-- [Ben Borgers](https://benborgers.com/)
-- [David Foley](https://www.dfoley.ie)
-- [Jacob Hall](https://jacobhall.net/)
-- [Kimberly Hirsch](https://kimberlyhirsh.com)
-- [Paul Houlihan](https://pauho.net)
 - [Troy Kitsch](https://www.troykitch.com)
-- [Sylvia Maggi](https://silviamaggidesign.com)
-- [Mylou Oord](https://mylouoord.com/)
-- [Seirdy](https://seirdy.one)
-- [Mark Sutherland](https://marksuth.dev)
-- [Annelie Wambeek](https://www.anneliewambeek.com/)
-- [Chris Handy](https://chrishandy.blog)
-- [https://john.philpin.com](https://john.philpin.com/)
