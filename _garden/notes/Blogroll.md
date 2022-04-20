@@ -24,6 +24,9 @@ If I've learnt one thing in life, it's that "I just see what's in the cupboards 
 ### Shops
 - [Jetpens](https://www.jetpens.com/): I swear, if it weren't for Jetpens, I'd finally be able to embrace a minimalist mindset. The bulk of my office supplies come from this store. I love their guides and large collection. 
 
+## Productivity
+- https://thesweetsetup.com/
+
 ### Games
 - [Wordle](https://www.nytimes.com/games/wordle/index.html): I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me. I like how it's a part of the slow web without ever saying the word.
 - [Heardle](https://heardle.app): I already [[heardle|wrote about it]], but it deserves a mention here as well. I love Heardle, because it reminds me of great songs and because I find delight in being able to recognize them instantly. Knowing I'm not the only one, I think I am very good at it. : I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me.
@@ -87,3 +90,5 @@ This is a growing list of people whose websites I visit from time to time.
 - [Tom Hackshaw](https://tom.so)  
 - [Thomasorus](https://thomasorus.com) 
 - [Troy Kitsch](https://www.troykitch.com)
+- https://uxderrick.com/
+- https://www.youbee.in/

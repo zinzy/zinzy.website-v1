@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cb30e066df56fe36",
+        "id": "42d57a73acf53b43",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "the-library/het-kruis-van-tegelen.md",
+            "file": "notes/work.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-library/het-kruis-van-tegelen.md",
+                "file": "notes/work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cb30e066df56fe36",
+  "active": "42d57a73acf53b43",
   "lastOpenFiles": [
-    "the-library/het-kruis-van-tegelen.md",
+    "notes/work.md",
+    "notes/write to remember.md",
     "notes/blogroll.md",
+    "notes/speech act.md",
+    "the-library/het-kruis-van-tegelen.md",
     "notes/colophon.md",
     "notes/2020 in music.md",
     "notes/2019 in music.md",
     "notes/2018 in music.md",
-    "notes/2017 in music.md",
-    "notes/2016 in music.md",
-    "notes/2015 in music.md",
-    "notes/digital garden.md"
+    "notes/2017 in music.md"
   ]
 }

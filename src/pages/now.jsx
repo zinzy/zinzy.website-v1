@@ -39,7 +39,7 @@ export default function NowPage({data}) {
                 
                   <div className="mb-5"> 
 
-                  <h3 className="">{node.frontmatter.title}</h3>
+                  <h3 className="h5">{node.frontmatter.title}</h3>
 
                     <div className="p-content">
                       <MDXProvider>
