@@ -29,7 +29,7 @@ export default function Header({ title }) {
       
       </Helmet> 
 
-      <header id="header">
+      {/* <header id="header">
         <div className="">
           <div className="row">
             <div className="col-10">
@@ -75,7 +75,7 @@ export default function Header({ title }) {
           </div>
         </div>
 
-      </header>
+      </header> */}
     </>
   )
 } 

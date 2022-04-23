@@ -95,3 +95,6 @@ This is a growing list of people whose websites I visit from time to time.
 - https://www.youbee.in/
 - https://premgkumar.com/
 - https://seeking-maintainers.net/
+- https://indieblog.page/
+- https://personalsit.es/personalsit.es
+- https://macwright.com/

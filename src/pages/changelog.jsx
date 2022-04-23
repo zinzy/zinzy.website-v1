@@ -17,8 +17,8 @@ export default function ChangelogPage({data}) {
   return (
     <Layout>
       
-      <div className="row">
-        <div className="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+      <div className="">
+        <div className="">
 
 
         <h2>Changelog</h2> 

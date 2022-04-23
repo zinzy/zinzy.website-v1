@@ -83,6 +83,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "weeknotes",
+        path: "./_garden/weeknotes",
+      },
+      __key: "weeknotes",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "now",
         path: "./_garden/now",
       },

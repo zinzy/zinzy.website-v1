@@ -11,14 +11,14 @@ const NotesIndex = ({data}) => {
   return (
     <Layout>
       <section>
-        <div className="row">
-          <div className=" col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-            <div className="row">
-              <div className="col-lg-8">
+        <div className="">
+          <div className="">
+            <div className="">
+              <div className="">
                 <h2>Notes</h2>
                 <p>I maintain this space to link and think. You'll find soft stances, lived experiences, and critical notes on the things I hold dear. Its contents are subject to change.</p>
               </div>
-              <div className="col-12 mt-3 d-flex justify-content-end">
+              <div className="mt-3">
               <Form>
                 <Form.Check 
                   type="switch"

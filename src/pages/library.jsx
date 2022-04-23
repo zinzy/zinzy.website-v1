@@ -21,18 +21,18 @@ const LibraryPage = ({data}) => {
       
       <section>
 
-        <div className="row">
-          <div className="col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+        <div className="">
+          <div className="">
 
-          <div className="row">
-            <div className="col-lg-8">
+          <div className="">
+            <div className="">
               <h2 className="header-link-switch">Library <span className="text-light"> | </span> <a href="/antilibrary" className="text-light">Antilibrary</a></h2>
               <p>A collection of more or less opinionated reviews of and thoughts on the things I read, listen to, and watch.</p>
             </div>
           </div>  
  
           <div className="row mt-5">
-            <div className="col-9 d-none d-md-block">
+            <div className="col-8 d-none d-md-block">
               {fruits.map(f => (
                 <>
                   <div className="form-check form-check-inline">
@@ -49,7 +49,7 @@ const LibraryPage = ({data}) => {
                 </>
               ))} 
             </div>
-            <div className="col-md-3 d-flex justify-content-end">
+            <div className="col-md-4 d-flex justify-content-end">
 
             <Form>
                 <Form.Check 

@@ -3,7 +3,7 @@ title: Digital garden
 slug: digital-garden
 excerpt: "The culmination of the folder plain text files I’ve been maintaining since around 2005"
 date: "2019-10-30"
-category: "Tools"
+category: "Internet"
 ---
 The digital garden is the latest trend in online publishing: a publicly available collection of notes in various stages of refinement, tended to and updated online for everyone to see. It sits snuggly in between a blog and a one-person wiki. 
 

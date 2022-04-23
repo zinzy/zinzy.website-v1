@@ -62,18 +62,16 @@ body, html {
 
 body {
     font-size: 1rem;
-    font-family: $font-default; 
-    font-feature-settings: "liga", "kern";
-    text-rendering: optimizelegibility;
-    -webkit-font-smoothing: antialiased;
-    color: $gray-700; 
+    font-family: $font-default;  
+    color: $gray-800; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizelegibility;
+    font-feature-settings: "kern","liga","clig","calt";
     -ms-font-feature-settings: "kern","liga","clig","calt";
     -webkit-font-feature-settings: "kern","liga","clig","calt";
     font-feature-settings: "kern","liga","clig","calt";
-    word-wrap: break-word;
+    word-wrap: break-word; 
     // @media screen and (min-width: 992px) {
     //     padding: 0;
     // }
@@ -81,14 +79,24 @@ body {
 
 
 main {  
-    padding: 10px; 
-    margin: 100px 30px;
+    padding: 20px; 
+    // margin: 100px 30px;
     @media screen and (min-width: 1200px) {
         padding: 0;
         margin: 200px 0;
     } 
     @media screen and (min-width: 1800px) {
         margin: 300px 0;
+    } 
+}
+
+#footer {
+    margin-top: 100px;
+    @media screen and (min-width: 1200px) {
+        margin-top: 200px;
+    } 
+    @media screen and (min-width: 1800px) {
+        margin-top: 300px;
     } 
 }
 
@@ -128,8 +136,7 @@ section {
 }
  
 
-a {
-    font-family: $font-bold; 
+a { 
     color: $black;
     font-weight: 500;
     text-decoration: none;
@@ -180,15 +187,15 @@ a {
                        break-inside: avoid;
     }
     @media screen and (min-width: 768px) {
-        -webkit-column-count: 3;
-        -moz-column-count:3;
-        column-count: 3;
+        -webkit-column-count: 2;
+        -moz-column-count:2;
+        column-count: 2;
     }
-    @media screen and (min-width: 1400px) {
-        -webkit-column-count: 4;
-        -moz-column-count:4;
-        column-count: 4; 
-    } 
+    // @media screen and (min-width: 1400px) {
+    //     -webkit-column-count: 4;
+    //     -moz-column-count:4;
+    //     column-count: 4; 
+    // } 
 }
 
 
@@ -266,6 +273,7 @@ mark {
     margin-right: 1rem;
     border-radius: 5px;
 }
+ 
 
 .tile { 
     text-align: center;
@@ -283,6 +291,7 @@ mark {
     line-height: 100px;  
     }
 }
+
 
 .tile-yellow {
     background-color: #fff9e1;
@@ -378,6 +387,7 @@ mark {
     }
     h6 { 
         margin-top: 1.5rem;
+        margin-bottom: 0;
         font-size: 1rem;
     }
  }
@@ -385,11 +395,19 @@ mark {
  h1, h2, h3, h4, h5, h6,
  .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: $font-bold;
-     // font-size: 120%;
+    //  font-size: 130%;
      font-weight: 500;
-     color: $black !important; 
-     // line-height: 155%;
+     color: $black !important;  
+     line-height: 155%;
+     a {
+         text-decoration: none;
+     }
  }
+
+ h1 {
+     font-size: 1.4rem;
+ }
+ 
 
 
  article {
@@ -501,15 +519,17 @@ strong {
 }
 
 .footer-bottom {
-    padding: 10px 10px 15px 10px;
+    padding: 15px 10px;
     width: 100%;
     position: absolute;
     left: 0; 
     color: $gray-600;
     font-size: 90%;
+    border-top: 1px solid $gray-200;
     a {
         font-weight: normal;
         color: $gray-600;
+        text-decoration: none;
     }
     ul {
         padding: 0;
@@ -557,8 +577,10 @@ h1 {
     color: $black;
     font-size: 80%;
     display: inline-block !important;
-    font-weight: 600; 
+    font-weight: normal; 
     border-radius: 20px;
+    font-family: $font-bold;
+    padding: .6rem;
     .icon {
         svg {
             max-height: 13px;
@@ -652,14 +674,14 @@ a[target="_blank"] {
 
 .masonry { /* Masonry container */ 
     @media screen and (min-width: 768px) {
-        -webkit-column-count: 3;
-        -moz-column-count:3;
-        column-count: 3;
+        -webkit-column-count: 2;
+        -moz-column-count:2;
+        column-count: 2;
     }
     @media screen and (min-width: 1400px) {
-        -webkit-column-count: 4;
-        -moz-column-count:4;
-        column-count: 4; 
+        -webkit-column-count: 3;
+        -moz-column-count:3;
+        column-count: 3; 
     }
     margin: 1.5em;
     padding: 0;
