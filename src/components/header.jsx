@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from 'react';
 import { Helmet } from "react-helmet"  
 import siteConfig from "../../gatsby-config"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
@@ -7,6 +7,9 @@ import DropdownButton from 'react-bootstrap/DropdownButton'
 import Form from 'react-bootstrap/Form'
 
 export default function Header({ title }) { 
+ 
+  const [checked, setChecked] = useState(false);
+
 
   return (
     <>
@@ -24,10 +27,32 @@ export default function Header({ title }) {
 
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;600&family=Manrope:wght@400;600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;600&family=Manrope:wght@400;600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet" />
       
       </Helmet> 
+
+      <header>
+
+
+
+         
+
+      <ThemeToggler>
+          {({ theme, toggleTheme }) => ( 
+          <Form id="theme">
+            <Form.Check 
+              type="switch"
+              id="custom-switch"
+              label=""
+              checked={theme === 'dark'}
+              onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+            />
+          </Form>
+          )}
+      </ThemeToggler>
+
+      </header>
 
       {/* <header id="header">
         <div className="">
@@ -56,20 +81,7 @@ export default function Header({ title }) {
                 )}
               </Form>
       
-
-            <ThemeToggler>
-                {({ theme, toggleTheme }) => (
-                <label>
-                    <input
-                    type="checkbox"
-                    onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                    checked={theme === 'dark'}
-                    />{' '}
-                    {theme === 'dark' ? <MdOutlineLightMode />  : <MdOutlineWbTwilight /> }
-                </label>
-                )}
-            </ThemeToggler>
-
+ 
               </div>
             </div>
           </div>
