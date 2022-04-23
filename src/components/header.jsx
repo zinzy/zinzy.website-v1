@@ -33,7 +33,7 @@ export default function Header({ title }) {
             <div className="col-10">
             <ul>
                     <li><a href="/">Home</a></li>
-                    {/* <li><a href="/work">Work</a></li> */}
+                    <li><a href="/work">Work</a></li>
                     <li><a href="/notes">Notes</a></li>
                     <li><a href="/library">Library</a></li>
                     <li><a href="/now">Now</a></li>

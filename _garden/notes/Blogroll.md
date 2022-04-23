@@ -90,5 +90,8 @@ This is a growing list of people whose websites I visit from time to time.
 - [Tom Hackshaw](https://tom.so)  
 - [Thomasorus](https://thomasorus.com) 
 - [Troy Kitsch](https://www.troykitch.com)
+- https://christian.hockenberger.us
 - https://uxderrick.com/
 - https://www.youbee.in/
+- https://premgkumar.com/
+- https://seeking-maintainers.net/

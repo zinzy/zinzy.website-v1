@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "42d57a73acf53b43",
+        "id": "0b9bd6cb1e60ab7a",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 517.9999980926514
+    "width": 380.0019226074219
   },
   "right": {
     "id": "76aca31d468cd637",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "42d57a73acf53b43",
+  "active": "0b9bd6cb1e60ab7a",
   "lastOpenFiles": [
     "notes/work.md",
+    "changelog/reply-2022-04-20-radiolab-null.md",
+    "changelog/reply-2022-04-10-nyc-rent-cost.md",
+    "the-library/radiolab.md",
+    "the-library/alicante-lifecoaches.md",
+    "the-library/dare-to-lead-the-advice-trap.md",
     "notes/write to remember.md",
     "notes/blogroll.md",
     "notes/speech act.md",
-    "the-library/het-kruis-van-tegelen.md",
-    "notes/colophon.md",
-    "notes/2020 in music.md",
-    "notes/2019 in music.md",
-    "notes/2018 in music.md",
-    "notes/2017 in music.md"
+    "the-library/het-kruis-van-tegelen.md"
   ]
 }
