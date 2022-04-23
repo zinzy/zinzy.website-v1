@@ -42,7 +42,7 @@ export default function Footer({ title }) {
               <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
               <span className="mx-1 mx-md-3">
                 <span className="d-none d-md-inline">IndieWeb</span>
-                <span className="d-md-none">🕸️</span>
+                <span className=""> 🕸  💍</span>
               </span>
               <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
             </div>
