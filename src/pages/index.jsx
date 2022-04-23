@@ -20,8 +20,8 @@ const IndexPage = ({data}) => {
             <section>
             <div className="row d-flex align-items-center">
               <div className="col-lg-8">
-              <h2 className="font-weight-normal">Hoi, I'm Zinzy Waleson, a designer and facilitator from Amsterdam.</h2>
-              <p className="lead mt-4 mb-0">I combine my skills in design, research, strategy, and leadership to build digital products. Currently, I manage product and design at <a href="/leeruniek">Leeruniek</a>, where I work to be a catalyst for better design thinking.</p>
+              <h2 className="font-weight-normal">Hoi, I'm Zinzy Waleson, a designer, facilitator, and linguist from Amsterdam.</h2>
+              <p className="lead mt-4 mb-0">I combine my skills in design, research, strategy, and leadership to build digital products. Currently, I manage product and design at <a href="/leeruniek">Leeruniek</a>, where I'm a catalyst for better design thinking.</p>
               </div>
               <div className="d-none d-lg-block col-3 offset-1">
                 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1649240297/me/FullSizeRender_copy_y5whli.jpg" alt="" />

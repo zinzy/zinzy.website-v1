@@ -62,7 +62,7 @@ const NotesIndex = ({data}) => {
                     <li key={node.slug}>
                       <a href={`/${node.slug}`}>
                         <div className="">
-                          <div className="font-weight-bold">{node.frontmatter.title}</div>  
+                          <h6>{node.frontmatter.title}</h6>
                           <div className="text-muted small mt-3">
                             <div>{node.parent.changeTime}</div>
                           </div>  

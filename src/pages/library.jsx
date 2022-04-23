@@ -76,7 +76,7 @@ const LibraryPage = ({data}) => {
     
                     <a href={`/${node.slug}/`}>
                       <div className="">
-                        <div className="font-weight-bold">{node.frontmatter.title}</div>  
+                        <h6>{node.frontmatter.title}</h6>
                         <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
                       </div> 
                     </a> 
@@ -84,7 +84,7 @@ const LibraryPage = ({data}) => {
                   : 
                   
                   <div className="">
-                    <div className="font-weight-bold">{node.frontmatter.title}</div> 
+                  <h6>{node.frontmatter.title}</h6>
                         <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
                   </div> 
                   }
@@ -104,7 +104,7 @@ const LibraryPage = ({data}) => {
     
                     <a href={`/${node.slug}/`}>
                       <div className="">
-                        <div className="font-weight-bold">{node.frontmatter.title}</div>  
+                        <h6>{node.frontmatter.title}</h6>
                         <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
                       </div> 
                     </a> 
@@ -112,7 +112,7 @@ const LibraryPage = ({data}) => {
                   : 
                   
                   <div className="">
-                    <div className="font-weight-bold">{node.frontmatter.title}</div> 
+                  <h6>{node.frontmatter.title}</h6>
                         <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
                   </div> 
                   }
