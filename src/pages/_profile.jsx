@@ -11,7 +11,26 @@ const ProfilePage = ({data}) => {
 
   return (
     <Layout>
-      <title>About Zinzy Nev Geene</title>
+      <title>About Zinzy Waleson</title>
+
+
+        <section>
+          <h2>About me</h2>
+          <p>I'm a designer, linguist, and facilitator living and working in Amsterdam, where I build digital products and resonant queer spaces.</p>
+        </section>
+
+        <section className="mt-10">
+          cdscds
+        </section>
+
+
+
+        <div className="mt-10">a</div>
+        <div className="mt-10">a</div>
+        <div className="mt-10">a</div>
+        <div className="mt-10">a</div>
+
+
 
         <section className="">
           <div className="row"> 

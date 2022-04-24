@@ -34,25 +34,21 @@ export default function Header({ title }) {
 
       <header>
 
+        <ThemeToggler>
+            {({ theme, toggleTheme }) => ( 
+            <Form id="theme">
+              <Form.Check 
+                type="switch"
+                id="custom-switch"
+                label=""
+                checked={theme === 'dark'}
+                onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+              />
+            </Form>
+            )}
+        </ThemeToggler>
 
-
-         
-
-      <ThemeToggler>
-          {({ theme, toggleTheme }) => ( 
-          <Form id="theme">
-            <Form.Check 
-              type="switch"
-              id="custom-switch"
-              label=""
-              checked={theme === 'dark'}
-              onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-            />
-          </Form>
-          )}
-      </ThemeToggler>
-
-      </header>
+        </header>
 
       {/* <header id="header">
         <div className="">

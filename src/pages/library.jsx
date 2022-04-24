@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import Form from 'react-bootstrap/Form'
+import { Link } from "gatsby"
 
 // markup
 const LibraryPage = ({data}) => {  
@@ -26,7 +27,7 @@ const LibraryPage = ({data}) => {
 
           <div className="">
             <div className="">
-              <h2 className="header-link-switch">Library <span className="text-light"> | </span> <a href="/antilibrary" className="text-light">Antilibrary</a></h2>
+              <h2 className="header-link-switch">Library <span className="text-light"> | </span><Link to="/antilibrary" className="text-light">Antilibrary</Link></h2>
               <p>A collection of more or less opinionated reviews of and thoughts on the things I read, listen to, and watch.</p>
             </div>
           </div>  

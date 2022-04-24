@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/blogroll.md",
+            "file": "notes/colophon.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/blogroll.md",
+                "file": "notes/colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0b9bd6cb1e60ab7a",
   "lastOpenFiles": [
+    "notes/colophon.md",
+    "changelog/2022-04-23-building-to-last.md",
+    "changelog/2022-04-16-are-you-sisters.md",
     "notes/blogroll.md",
     "notes/work.md",
     "notes/is the pope gay.md",
     "changelog/reply-2022-04-20-radiolab-null.md",
     "changelog/reply-2022-04-10-nyc-rent-cost.md",
     "the-library/radiolab.md",
-    "the-library/alicante-lifecoaches.md",
-    "the-library/dare-to-lead-the-advice-trap.md",
-    "notes/write to remember.md",
-    "notes/speech act.md"
+    "the-library/alicante-lifecoaches.md"
   ]
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 // markup
 const AntilibraryPage = ({data}) => {  
@@ -19,12 +20,13 @@ const AntilibraryPage = ({data}) => {
       
       <section>
 
-        <div className="row">
-          <div className="col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+        <div className="">
+          <div className="">
 
-      <div className="row">
-          <div className="col-lg-8">
-            <h2 className="header-link-switch"><a href="/library" className="text-light">Library</a> <span className="text-light"> | </span> Antilibrary</h2>
+      <div className="">
+          <div className="">
+            <h2 className="header-link-switch">
+              <Link to="/library" className="text-light">Library</Link> <span className="text-light"> | </span> Antilibrary</h2>
             <p>A collection of things I want to read, watch, listen to at some point in the future.</p>
           </div>
         </div>  

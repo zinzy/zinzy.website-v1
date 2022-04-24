@@ -18,7 +18,7 @@ const NotesIndex = ({data}) => {
                 <h2>Notes</h2>
                 <p>I maintain this space to link and think. You'll find soft stances, lived experiences, and critical notes on the things I hold dear. Its contents are subject to change.</p>
               </div>
-              <div className="mt-3">
+              <div className="mt-3 d-flex justify-content-end">
               <Form>
                 <Form.Check 
                   type="switch"

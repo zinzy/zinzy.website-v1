@@ -34,12 +34,12 @@ export default function ChangelogPage({data}) {
               onChange={changeEvent => setValue(changeEvent.target.value)}
             />
             <div className="row small text-muted">
-              <div className="col-6">Just the big picture</div>
+              <div className="col-6">Big picture</div>
               <div className="col-6 text-end">TMI</div>
             </div>
           </div>
 
-          <ul class="list-unstyled changelog mt-5">
+          <ul class="list-unstyled changelog mt-10">
           {
             data.allMdx.nodes.map(node => (
               <li key={node.slug} className={node.frontmatter.detailLevel <= value ? `d-block`: `d-none`}>
@@ -47,13 +47,13 @@ export default function ChangelogPage({data}) {
               <div className="row h-entry">
  
                 <div className="col-1">
-                  <div className="timeline">
+                  <div className="timeline mt-1">
                     <FaClock />  
                     <div className="line"></div>
                   </div>
                 </div>
                 <div className="col-11">
-                <div className="date dt-published mb-3 mb-lg-0">{node.frontmatter.date}</div> 
+                <div className="date dt-published mb-3 mb-lg-0 mt-1">{node.frontmatter.date}</div> 
                   <span className="badge">
                   <span>
                   {(() => { 
@@ -80,17 +80,17 @@ export default function ChangelogPage({data}) {
                     {(() => { 
                       switch (node.frontmatter.category) { 
                         case 'Bookmark': return ( 
-                          <Link className="u-bookmark-of" to={node.frontmatter.bookmarkOf}>
+                          <Link className="u-bookmark-of h6" to={node.frontmatter.bookmarkOf}>
                             {node.frontmatter.title}
                           </Link>
                         ) 
                         case 'Like': return ( 
-                          <Link className="u-like-of" to={node.frontmatter.likeOf}>
+                          <Link className="u-like-of h6" to={node.frontmatter.likeOf}>
                             {node.frontmatter.title}
                           </Link>
                         ) 
                         case 'Reply': return ( 
-                          <Link className="u-in-reply-to" to={node.frontmatter.replyTo}>
+                          <Link className="u-in-reply-to h6" to={node.frontmatter.replyTo}>
                             {node.frontmatter.title}
                           </Link>
                         )  

@@ -1,7 +1,7 @@
 ---
 title: "Building to last"
 excerpt: ""
-category: "Technical"
+category: "Update"
 date: "2022-04-23"
 what:
 detailLevel: "5"

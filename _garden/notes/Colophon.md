@@ -29,7 +29,7 @@ I like simple, no-fuss websites and I aim to keep things simple but no simpler. 
 
 - Looking to create an archive for my [[now]] page updates, I stumbled upon [Maggie Appleton](https://maggieappleton.com/now)'s setup and decided I liked it a lot. It's no secret to anyone in the digital gardening community that Maggie's work has been instrumental, and my website is certainly inspired by hers.
 - [Matthew Smith](https://matthewsmith.website/about)'s About page contains a really neat slider that determines how detailed the page's content is. I use this for my [[changelog]].
-- My general layout was inspired by [Piper Haywood](https://piperhaywood.com/)'s website, the way it looked in April 2022.
+- The website's footer was inspired by [Chad Mazzola](https://chad.is/)'s personal site
 - If you feel like I'm doing something that originated in your head or in the head of someone you know, tell me! You're probably right.
 
 
@@ -38,7 +38,7 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 
 
 ### To do    
-- ~~Update site automatically with content from Obsidian~~
+- [ ] ~~Update site automatically with content from Obsidian~~
 - [ ] ~~Dropbox integration~~
 - [ ] ~~Then archive with appropriate routing~~
 - [ ] ~~Show updated date as relative to actual time and not build time~~
@@ -73,10 +73,13 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Figure out why page flashes on load
 - [ ] Remove unnecessary Javascript
 - [ ] Minimize project size
-- [ ] Stop retaining scroll position 
+- [x] Stop retaining scroll position  (2022-04-24)
 - [ ] Micropub 
 - [ ] Extended spacing utilities
 - [ ] Webmentions
 - [ ] siteconfig data
 - [ ] correct `title`s 
 - [ ] Contact form
+- [x] Vertical alignment of mobile switch labels (2022-04-24)
+- [x] include fallback font weight (2022-04-24)
+- [ ] Favicon
