@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0b9bd6cb1e60ab7a",
+        "id": "016d32fdf78a75b8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/colophon.md",
+            "file": "weeknotes/weeknotes #4.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/colophon.md",
+                "file": "weeknotes/weeknotes #4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0b9bd6cb1e60ab7a",
+  "active": "016d32fdf78a75b8",
   "lastOpenFiles": [
-    "notes/colophon.md",
+    "weeknotes/weeknotes #4.md",
+    "changelog/mentoring-adplist.md",
     "changelog/2022-04-23-building-to-last.md",
+    "the-library/just-melvin-just-evil.md",
+    "the-library/minari.md",
+    "notes/colophon.md",
     "changelog/2022-04-16-are-you-sisters.md",
     "notes/blogroll.md",
     "notes/work.md",
-    "notes/is the pope gay.md",
-    "changelog/reply-2022-04-20-radiolab-null.md",
-    "changelog/reply-2022-04-10-nyc-rent-cost.md",
-    "the-library/radiolab.md",
-    "the-library/alicante-lifecoaches.md"
+    "notes/is the pope gay.md"
   ]
 }
