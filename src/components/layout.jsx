@@ -36,7 +36,6 @@ export default function Layout({ children }) {
           <div className="col-8 col-md-8">
             <ul className=""> 
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/playlist">Playlist</Link></li>  
               <li><Link to="/colophon">Colophon</Link></li>
             </ul>
           </div>

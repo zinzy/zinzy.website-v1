@@ -68,7 +68,7 @@ const LibraryPage = ({data}) => {
 
         {
           fruit == "All" ? (
-            <ul class="masonry masonry-breakout mt-5">    
+            <ul class="masonry masonry-breakout-large mt-5">    
             {
               appPosts.map(node => (
                 <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
