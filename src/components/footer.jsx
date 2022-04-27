@@ -37,6 +37,14 @@ export default function Footer({ title }) {
         <h3 className="h6 mb-0"><Link to="/changelog">4 — Changelog</Link></h3>
         <p className="">Highlights, accomplishments, learnings, and personal milestones</p>
       </div>   
+      <div className="col-12 col-md-6">
+        <h3 className="h6 mb-0"><Link to="/mentoring">5 — Mentoring</Link></h3>
+        <p className="">I offer remote mentoring to designers and product managers</p>
+      </div>   
+      <div className="col-12 col-md-6">
+        <h3 className="h6 mb-0"><Link to="/playlist">6 — Playlist</Link></h3>
+        <p className="">What I'm listening to now, as well as notes on my library management</p>
+      </div>   
     </div>
 </footer>  
  

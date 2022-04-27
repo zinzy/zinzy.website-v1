@@ -63,6 +63,9 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [x] Make slugs case-insensitive (2022-04-18) 
 - [x] Detail slider for changelog (2022-04-18)
 - [x] Last.fm feed (2022-04-18)
+- [x] Stop retaining scroll position  (2022-04-24)
+- [x] Vertical alignment of mobile switch labels (2022-04-24)
+- [x] include fallback font weight (2022-04-24)
 - [ ] Note list sorted descending by updated date
 - [ ] Search
 - [ ] Upgrade to Gatsby 4 and fix plugins 
@@ -73,13 +76,11 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Figure out why page flashes on load
 - [ ] Remove unnecessary Javascript
 - [ ] Minimize project size
-- [x] Stop retaining scroll position  (2022-04-24)
 - [ ] Micropub 
 - [ ] Extended spacing utilities
 - [ ] Webmentions
 - [ ] siteconfig data
 - [ ] correct `title`s 
 - [ ] Contact form
-- [x] Vertical alignment of mobile switch labels (2022-04-24)
-- [x] include fallback font weight (2022-04-24)
 - [ ] Favicon
+- [ ] Obsidian links use <Link/> component

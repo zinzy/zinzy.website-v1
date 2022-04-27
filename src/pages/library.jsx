@@ -68,19 +68,20 @@ const LibraryPage = ({data}) => {
 
         {
           fruit == "All" ? (
-            <ul class="masonry mt-5">    
+            <ul class="masonry masonry-breakout mt-5">    
             {
               appPosts.map(node => (
                 <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
     
                   {node.frontmatter.listingOnly == null ? 
-    
-                    <a href={`/${node.slug}/`}>
+
+
+                    <Link to={`/${node.slug}`}>
                       <div className="">
                         <h6>{node.frontmatter.title}</h6>
                         <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
                       </div> 
-                    </a> 
+                    </Link> 
     
                   : 
                   
@@ -96,19 +97,19 @@ const LibraryPage = ({data}) => {
             </ul>
           )
             : 
-            <ul class="masonry mt-5">    
+            <ul class="masonry masonry-breakout-large mt-5">    
             {
               appPosts.filter(node => node.frontmatter.category == fruit).map(node => (
                 <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
     
                   {node.frontmatter.listingOnly == null ? 
-    
-                    <a href={`/${node.slug}/`}>
-                      <div className="">
-                        <h6>{node.frontmatter.title}</h6>
-                        <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
-                      </div> 
-                    </a> 
+
+                    <Link to={`/${node.slug}`}>
+                    <div className="">
+                      <h6>{node.frontmatter.title}</h6>
+                      <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
+                    </div> 
+                    </Link> 
     
                   : 
                   

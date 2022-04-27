@@ -32,12 +32,12 @@ If I've learnt one thing in life, it's that "I just see what's in the cupboards 
 - [Heardle](https://heardle.app): I already [[heardle|wrote about it]], but it deserves a mention here as well. I love Heardle, because it reminds me of great songs and because I find delight in being able to recognize them instantly. Knowing I'm not the only one, I think I am very good at it. : I never thought I'd get into a derivative of the Dutch 90s show "Lingo" as much as I do, but Wordle has become a daily routine for me.
 
 
-### Friends
+### People I hold dear
 - [Annelie Wambeek](https://www.anneliewambeek.com/)
 - [Max Kuzma](https://maxwellkuzma.com)
 - [Patrick Flores](https://www.realphototexas.com/)
 - [Patrick "Pickles" Weston](http://patrickfweston.com)  
-
+- [Sauci Bosner](https://saucibosner.com/)
 
 ### People on the web
 This is a growing list of people whose websites I visit from time to time.

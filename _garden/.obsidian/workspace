@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "changelog/2020-11-01-leeruniek.md",
+            "file": "notes/mentoring.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "changelog/2020-11-01-leeruniek.md",
+                "file": "notes/mentoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "d5e9077783d4d165",
   "lastOpenFiles": [
-    "changelog/2020-11-01-leeruniek.md",
     "notes/mentoring.md",
-    "notes/visual-literacy.md",
-    "weeknotes/weeknotes #4.md",
-    "changelog/mentoring-adplist.md",
-    "changelog/2022-04-23-building-to-last.md",
-    "the-library/just-melvin-just-evil.md",
-    "the-library/minari.md",
     "notes/colophon.md",
-    "changelog/2022-04-16-are-you-sisters.md"
+    "notes/faq.md",
+    "the-library/schindlers-list.md",
+    "the-library/the-undoing.md",
+    "the-library/severance.md",
+    "the-library/posttraumatic stress disorder and racial trauma.md",
+    "the-library/silence-of-the-lambs.md",
+    "notes/blogroll.md",
+    "the-library/the-dark-knight.md"
   ]
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Form from 'react-bootstrap/Form'
+import { Link } from "gatsby"
 
 const NotesIndex = ({data}) => {   
  
@@ -43,7 +44,7 @@ const NotesIndex = ({data}) => {
                           {edges.map(( { node } ) => {
                             return (
                               <li key={node.slug}>
-                                <a href={`/${node.slug}`}>{node.frontmatter.title}</a>
+                                <Link to={`/${node.slug}`}>{node.frontmatter.title}</Link> 
                               </li>
                             )    
                           })}
@@ -56,18 +57,19 @@ const NotesIndex = ({data}) => {
               </div>
             :
             <div>
-            <ul class="masonry mt-5">  
+            <ul class="masonry masonry-breakout-large mt-5">  
                 {
                   data.default.nodes.map(node => (
                     <li key={node.slug}>
-                      <a href={`/${node.slug}`}>
+
+                      <Link to={`/${node.slug}`}>
                         <div className="">
                           <h6>{node.frontmatter.title}</h6>
                           <div className="text-muted small mt-3">
                             <div>{node.parent.changeTime}</div>
                           </div>  
                         </div>  
-                      </a>
+                      </Link>  
                     </li>
                   ))
                 }
