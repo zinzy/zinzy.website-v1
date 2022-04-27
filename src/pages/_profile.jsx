@@ -19,8 +19,7 @@ const ProfilePage = ({data}) => {
           <p>I'm a designer, linguist, and facilitator living and working in Amsterdam, where I build digital products and resonant queer spaces.</p>
         </section>
 
-        <section className="mt-10">
-          cdscds
+        <section className="mt-10">cdcd
         </section>
 
 

@@ -120,6 +120,8 @@ section {
 }
 
 
+
+
 .content-list {
     list-style-type: none;
     margin: 0;
@@ -540,6 +542,12 @@ strong {
         color: $gray-600;
         text-decoration: none;
         font-family: $font-default;
+        &[target="_blank"] { 
+            &:after {
+                content: '';
+                margin-left:0;
+            }
+        } 
     }
     ul {
         padding: 0;
@@ -550,6 +558,9 @@ strong {
             display: inline-block;
             margin-left: 1rem;
         }
+    }
+    svg {
+        fill: $gray-600;
     }
 } 
 
@@ -1121,6 +1132,12 @@ strong {
         color: $gray-700 !important;
         a {
         color: $gray-700 !important;
+        }
+    }
+
+    .footer-bottom {
+        svg {
+            fill: $gray-600;
         }
     }
 

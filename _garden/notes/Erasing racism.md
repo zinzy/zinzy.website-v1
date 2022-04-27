@@ -21,4 +21,4 @@ I experience first-hand what it means to not see yourself reflected in the thing
 You'll find that I quite intentionally use the term "ethnicity" where other people might use "race". I think we should [[stop saying race]].
 
 ### Examples
-- I've been thinking about [[erasing racism in riverdale]]
+- I've been thinking about [[erasing racism in riverdale|erasing racism in 'Riverdale']]
