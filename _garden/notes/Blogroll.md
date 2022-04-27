@@ -99,3 +99,4 @@ This is a growing list of people whose websites I visit from time to time.
 - https://personalsit.es/personalsit.es
 - https://macwright.com/
 - https://www.powerlanguage.co.uk/
+- https://www.khartnett.com/

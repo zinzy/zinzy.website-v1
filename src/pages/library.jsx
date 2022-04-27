@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form'
 import { Link } from "gatsby"
 
 // markup
-const LibraryPage = ({data}) => {  
+const LibraryPage = ({data}) => {   
    
   const [appPosts, setAppPosts] = React.useState(data.allMdx.nodes); 
   const fruits = ["All", "Listen", "Read", "Watch"];
@@ -105,7 +105,7 @@ const LibraryPage = ({data}) => {
                   {node.frontmatter.listingOnly == null ? 
 
                     <Link to={`/${node.slug}`}>
-                    <div className="">
+                    <div className=""> 
                       <h6>{node.frontmatter.title}</h6>
                       <div className="text-muted small mt-3">{node.frontmatter.subcategory}</div>  
                     </div> 
@@ -151,6 +151,7 @@ query LibraryQuery {
           subcategory  
           listingOnly
           slug
+          thumb 
         }
         parent {
           ... on File {

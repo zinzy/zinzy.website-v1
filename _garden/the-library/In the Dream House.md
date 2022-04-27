@@ -4,7 +4,8 @@ excerpt: "A beautiful memoir about the hidden truths of lesbian partner abuse"
 slug: in-the-dream-house
 category: "Read"
 subcategory: "Book"
-date: 2019-12-11
+date: "2019-12-11"
+thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/in-the-dream-house_a8botl.jpg"
 tags:
  - book
  - queerdom

@@ -5,8 +5,7 @@ excerpt: "What this book does really well is present a form that distorts and co
 slug: vallen-is-als-vliegen
 category: "Read"
 subcategory: "Book"
-growthStage: "Seedling" 
-featuredImage: https://res.cloudinary.com/dbi2zounq/image/upload/v1631177256/titles/vallen-is-als-vliegen_f14nky.png
+thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/vallen-is-als-vliegen_qew0ol.jpg"
 tags:
  - memoir
  - trauma

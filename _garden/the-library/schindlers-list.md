@@ -4,6 +4,7 @@ slug: schindlers-list
 excerpt: ""
 category: "Watch"
 subcategory: "Film"
+thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048793/Digital%20garden/media/schindlers-list_uymex9.jpg"
 date: 2017-04-01
 ---
 _Schindler's List_ is most fun to watch when you do it with two Jews: its biggest fan, and a specialist in cultural analysis. This is the privileged life I live with Anja and her mother.
