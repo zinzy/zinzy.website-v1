@@ -50,7 +50,7 @@ export default function PageTemplate({ data: { mdx } }) {
                             <li key={ref.slug}>
                               <a href={`/${ref.slug}`}>
                                 <div className="">
-                                  <div className="font-weight-bold">{ref.frontmatter.title}</div> 
+                                  <h6 className="m-0 p-0">{ref.frontmatter.title}</h6>
                                   <div className="">{ref.frontmatter.excerpt}</div> 
                                   <div className="text-muted small mt-3">{ref.parent.changeTime}</div>  
                                 </div>  

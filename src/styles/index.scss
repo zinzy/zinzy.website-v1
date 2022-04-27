@@ -692,7 +692,10 @@ a[target="_blank"] {
 }
 
 .masonry { /* Masonry container */ 
-    @media screen and (min-width: 768px) {
+    -webkit-column-count: 2;
+    -moz-column-count:2;
+    column-count: 2;
+    @media screen and (min-width: 500px) {
         -webkit-column-count: 2;
         -moz-column-count:2;
         column-count: 2;
@@ -702,14 +705,31 @@ a[target="_blank"] {
         -moz-column-count:3;
         column-count: 3; 
     }
+    @media screen and (min-width: 1400px) { 
+        position: relative; 
+        width: 80vw;
+        left: calc(-1 * (80vw - 100%) / 2);
+        -webkit-column-count: 5;
+        -moz-column-count:5;
+        column-count: 5; 
+        padding-top: 5rem;
+    }
+    @media screen and (min-width: 1600px) { 
+        width: 70vw;
+        left: calc(-1 * (70vw - 100%) / 2);
+        -webkit-column-count: 6;
+        -moz-column-count:6;
+        column-count: 6;  
+    }
     margin: 1.5em;
     padding: 0;
     margin: 0;
     list-style-type:none;
-    color: $gray-700;
+    color: $gray-700; 
     a {
         font-weight: normal;
         color: $gray-700;
+        font-family: $font-default;
     }
     li {
         padding: 10px;

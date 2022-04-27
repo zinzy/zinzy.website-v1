@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "016d32fdf78a75b8",
+        "id": "d5e9077783d4d165",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "weeknotes/weeknotes #4.md",
+            "file": "changelog/2020-11-01-leeruniek.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weeknotes/weeknotes #4.md",
+                "file": "changelog/2020-11-01-leeruniek.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "016d32fdf78a75b8",
+  "active": "d5e9077783d4d165",
   "lastOpenFiles": [
+    "changelog/2020-11-01-leeruniek.md",
+    "notes/mentoring.md",
+    "notes/visual-literacy.md",
     "weeknotes/weeknotes #4.md",
     "changelog/mentoring-adplist.md",
     "changelog/2022-04-23-building-to-last.md",
     "the-library/just-melvin-just-evil.md",
     "the-library/minari.md",
     "notes/colophon.md",
-    "changelog/2022-04-16-are-you-sisters.md",
-    "notes/blogroll.md",
-    "notes/work.md",
-    "notes/is the pope gay.md"
+    "changelog/2022-04-16-are-you-sisters.md"
   ]
 }
