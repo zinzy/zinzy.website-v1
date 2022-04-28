@@ -696,7 +696,17 @@ a[target="_blank"] {
         vertical-align: super;
         font-size: 50%;
     }
-}  
+} 
+
+
+figure {
+    margin-bottom: 2rem;
+    figcaption {
+        font-size: 80%;
+        color: $gray-700;
+        margin-top: 1rem;
+    }
+}
 
 
 .theme-toggler {
