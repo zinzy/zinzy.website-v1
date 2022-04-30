@@ -6,7 +6,7 @@ category: "Read"
 subcategory: "Book"
 growthStage: "Sprout"
 listingOnly: 
-cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/her-body-and-other-parties_l5hnb4.jpg"
+featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/her-body-and-other-parties_l5hnb4.jpg"
 date: 2018-08-01
 tags:
  - novel

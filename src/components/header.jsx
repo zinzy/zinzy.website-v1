@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Helmet } from "react-helmet"  
 import siteConfig from "../../gatsby-config"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
-import { MdOutlineLightMode, MdOutlineWbTwilight } from "react-icons/md";
-import DropdownButton from 'react-bootstrap/DropdownButton'
 import Form from 'react-bootstrap/Form'
 
 export default function Header({ title }) { 
- 
-  const [checked, setChecked] = useState(false);
-
 
   return (
     <>

@@ -1,10 +1,9 @@
 import * as React from "react" 
-import { graphql } from 'gatsby'
 import Layout from "../components/layout"
   
 
 // markup
-const ErrorPage = ({data}) => {
+const ErrorPage = () => {
 
   return (
     <Layout>

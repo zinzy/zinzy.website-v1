@@ -6,14 +6,7 @@ import { Link } from "gatsby"
 // markup
 const AntilibraryPage = ({data}) => {  
    
-  const [appPosts, setAppPosts] = React.useState(data.allMdx.nodes); 
- 
-  const toggle = event => {
-    setAppPosts(
-      event.target.checked ? data.allMdx.nodes.filter(post => post.frontmatter.listingOnly == null) : data.allMdx.nodes
-    );
-  }; 
- 
+  const appPosts = React.useState(data.allMdx.nodes); 
 
   return (
     <Layout> 

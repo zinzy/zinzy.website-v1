@@ -5,7 +5,7 @@ slug: bloodlands
 category: "Read"
 subcategory: "Book"
 date: "2022-04-28"
-cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/in-the-dream-house_a8botl.jpg"
+featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/in-the-dream-house_a8botl.jpg"
 tags:
  - book
  - history
