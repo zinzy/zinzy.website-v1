@@ -4,7 +4,7 @@ excerpt: "When I think of going deaf I think of the other option in the thought 
 slug: sound-of-metal
 category: "Watch"
 subcategory: "Film"
-cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/sound-of-metal_wesowu.jpg"
+featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/sound-of-metal_wesowu.jpg"
 date: 2021-07-01
 tags:
  - film

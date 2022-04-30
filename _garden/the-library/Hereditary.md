@@ -4,7 +4,7 @@ slug: hereditary
 excerpt: ""
 category: "Watch"
 subcategory: "Film"
-cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048793/Digital%20garden/media/hereditary_cbdu3g.jpg"
+featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048793/Digital%20garden/media/hereditary_cbdu3g.jpg"
 date: 2018-12-01
 tags:
  - film

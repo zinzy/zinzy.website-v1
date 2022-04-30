@@ -4,7 +4,7 @@ excerpt: "A movie"
 slug: promising-young-woman
 category: "Watch"
 subcategory: "Film"
-cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/promising-young-woman_ed8cz0.jpg"
+featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/promising-young-woman_ed8cz0.jpg"
 date: 2021-03-01
 tags:
  - film

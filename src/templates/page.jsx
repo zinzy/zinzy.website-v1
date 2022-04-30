@@ -69,7 +69,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM D, YYYY") 
         category
         subcategory
-        cover
         growthStage
       }
       timeToRead 
