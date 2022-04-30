@@ -33,7 +33,6 @@
     "gatsby-remark-double-brackets-link": "^0.1.11",
     "gatsby-remark-double-parenthesis-link": "^0.1.5",
     "gatsby-remark-external-links": "0.0.4",
-    "gatsby-remark-images": "^6.13.0",
     "gatsby-source-dropbox": "^0.2.3",
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-source-lastfm": "^0.1.2",

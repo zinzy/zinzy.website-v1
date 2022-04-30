@@ -4,7 +4,7 @@ excerpt: "The first film that made me feel like someone was actually giving birt
 slug: pieces-of-a-woman
 category: "Watch"
 subcategory: "Film"
-featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/pieces-of-a-woman_rupu2u.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/pieces-of-a-woman_rupu2u.jpg"
 growthStage: "Sprout"
 date: 2021-02-01
 tags:

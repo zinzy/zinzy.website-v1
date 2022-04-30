@@ -10,7 +10,7 @@ export default function Footer({ title }) {
 
   <div className="h-card mb-5">
     <h2 className="h6"><Link to="/">Hoi, I'm <span className="p-name">Zinzy Waleson</span></Link></h2>
-    <p>I'm a researcher, designer, linguist, and facilitator living and working in <span className="p-locality">Amsterdam</span>, where I build digital products and resonant queer spaces. <a rel="me" href="https://www.zinzy.website" class="u-url">Zinzy.website</a> is a digital garden: a growing collection of loosely-related notes on a wide variety of subjects, maintained in public. Send me an <a href="mailto:zinzy@pm.me">email</a>.</p>
+    <p>I'm a researcher, designer, linguist, and facilitator living and working in <span className="p-locality">Amsterdam</span>, where I build digital products and resonant queer spaces. <a rel="me" href="https://www.zinzy.website" class="u-url">Zinzy.website</a> is a digital garden: a growing collection of loosely-related notes on a wide variety of subjects, maintained in public.</p>
   </div>
 
     {/* <div className="my-5">

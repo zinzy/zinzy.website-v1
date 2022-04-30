@@ -5,7 +5,7 @@ slug: nomadland
 category: "Watch"
 subcategory: "Film"
 date: 2021-06-01
-featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048795/Digital%20garden/media/nomadland_ebf4xs.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048795/Digital%20garden/media/nomadland_ebf4xs.jpg"
 tags:
  - film
  - consumerism

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { GatsbyImage } from "gatsby-plugin-image"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import Form from 'react-bootstrap/Form'
-import { Link } from "gatsby" 
+import { Link } from "gatsby"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 // markup
 const LibraryPage = ({data}) => {   
@@ -15,7 +15,7 @@ const LibraryPage = ({data}) => {
  
   const toggle = event => {
     setAppPosts(
-      event.target.checked ? data.allMdx.nodes.filter(post => post.frontmatter.listingOnly === null) : data.allMdx.nodes
+      event.target.checked ? data.allMdx.nodes.filter(post => post.frontmatter.listingOnly == null) : data.allMdx.nodes
     );
   }; 
 
@@ -71,13 +71,13 @@ const LibraryPage = ({data}) => {
 
 
         {
-          fruit === "All" ? (
+          fruit == "All" ? (
             <ul class="masonry masonry-breakout-large mt-5">    
             {
               appPosts.map(node => (
-                <li key={node.slug} className={node.frontmatter.listingOnly === null ? ``: `listing-only`}> 
+                <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
     
-                  {node.frontmatter.listingOnly === null ? 
+                  {node.frontmatter.listingOnly == null ? 
 
 
                     <Link to={`/${node.slug}`}>
@@ -103,10 +103,10 @@ const LibraryPage = ({data}) => {
             : 
             <ul class="masonry masonry-breakout-large mt-5">    
             {
-              appPosts.filter(node => node.frontmatter.category === fruit).map(node => (
-                <li key={node.slug} className={node.frontmatter.listingOnly === null ? ``: `listing-only`}> 
+              appPosts.filter(node => node.frontmatter.category == fruit).map(node => (
+                <li key={node.slug} className={node.frontmatter.listingOnly == null ? ``: `listing-only`}> 
     
-                  {node.frontmatter.listingOnly === null ? 
+                  {node.frontmatter.listingOnly == null ? 
 
                     <Link to={`/${node.slug}`}>
                     <div className=""> 

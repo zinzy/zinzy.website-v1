@@ -6,7 +6,7 @@ category: "Watch"
 subcategory: "Series"
 date: "2022-04-23"
 listingOnly: true
-featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/the-undoing_uhswzi.jpg"
+cover: https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/the-undoing_uhswzi.jpg
 tags:
  - series
 ---

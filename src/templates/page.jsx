@@ -69,7 +69,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM D, YYYY") 
         category
         subcategory
-        featuredImage
+        cover
         growthStage
       }
       timeToRead 

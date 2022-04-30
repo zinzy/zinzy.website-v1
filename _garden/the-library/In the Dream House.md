@@ -5,7 +5,7 @@ slug: in-the-dream-house
 category: "Read"
 subcategory: "Book"
 date: "2019-12-11"
-featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/in-the-dream-house_a8botl.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/in-the-dream-house_a8botl.jpg"
 tags:
  - book
  - queerdom

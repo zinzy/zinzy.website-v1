@@ -5,7 +5,7 @@ excerpt: "Notes on why we give advice, how bad it often is, and what we can do a
 category: "Listen"
 subcategory: "Podcast"
 date: "2021-09-23"
-featuredImage: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/dare-to-lead_sieg7r.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/dare-to-lead_sieg7r.jpg"
 listingOnly:
 tags:
  - podcast

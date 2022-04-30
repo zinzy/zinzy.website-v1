@@ -4,9 +4,9 @@ module.exports = {
     title: "zinzy.website",
     micropub_endpoint: "https://zinzy-endpoint.herokuapp.com/micropub"
   },
-  plugins: [ 
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,  
+  plugins: [
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp", 
     {
       resolve: `gatsby-plugin-mdx`,
       options: { 
@@ -14,14 +14,8 @@ module.exports = {
         defaultLayouts: {
           default: require.resolve("./src/templates/page.jsx"), 
         },
-        gatsbyRemarkPlugins: [ 
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1035,
-              sizeByPixelDensity: true,
-            },
-          },
+        gatsbyRemarkPlugins: [
+          "gatsby-plugin-image",
           {
             resolve: `gatsby-remark-double-brackets-link`, 
             options: {
@@ -113,6 +107,5 @@ module.exports = {
       },
       __key: "antilibrary",
     }, 
-    `gatsby-plugin-image`, 
   ],
 };
