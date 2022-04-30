@@ -84,3 +84,4 @@ This website doesn't track those who visit it. I have no idea if you're reading 
 - [ ] Contact form
 - [ ] Favicon
 - [ ] Obsidian links use <Link/> component
+- [ ] High-contrast mode
