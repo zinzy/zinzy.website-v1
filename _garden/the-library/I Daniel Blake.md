@@ -4,7 +4,7 @@ excerpt: "I will never look the same at a can of pasta sauce ever again"
 slug: i-daniel-blake
 category: "Watch"
 subcategory: "Film"
-thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048795/Digital%20garden/media/i-daniel-blake_c70axw.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048795/Digital%20garden/media/i-daniel-blake_c70axw.jpg"
 date: 2021-07-01
 tags:
  - film

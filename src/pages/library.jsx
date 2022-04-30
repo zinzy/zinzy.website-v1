@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import Form from 'react-bootstrap/Form'
 import { Link } from "gatsby"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 // markup
 const LibraryPage = ({data}) => {   
@@ -10,12 +11,15 @@ const LibraryPage = ({data}) => {
   const [appPosts, setAppPosts] = React.useState(data.allMdx.nodes); 
   const fruits = ["All", "Listen", "Read", "Watch"];
   const [fruit, setFruit] = useState("All");
+
  
   const toggle = event => {
     setAppPosts(
       event.target.checked ? data.allMdx.nodes.filter(post => post.frontmatter.listingOnly == null) : data.allMdx.nodes
     );
   }; 
+
+ 
 
   return (
     <Layout> 
@@ -151,7 +155,6 @@ query LibraryQuery {
           subcategory  
           listingOnly
           slug
-          thumb 
         }
         parent {
           ... on File {

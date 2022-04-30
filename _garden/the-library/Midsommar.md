@@ -4,7 +4,7 @@ excerpt: ""
 category: "Watch"
 subcategory: "Film"
 date: "2019-07-14"
-thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048793/Digital%20garden/media/midsommar_ddr1qc.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048793/Digital%20garden/media/midsommar_ddr1qc.jpg"
 listingOnly: false
 ---
 I saw _Midsommar_ in a theatre in the Summer of 2019. Florence Pugh might be my favorite actress of her generation. The way she grieves, cry-stumbling over her own coughs, and the way her face moves kept me glued to the screen. 

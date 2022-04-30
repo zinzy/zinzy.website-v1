@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { FaClock, FaHandshake, FaPencilAlt, FaComment, FaHeart, FaMicrophoneAlt } from "react-icons/fa"
-import { BiCoffeeTogo, BiNews, BiCodeAlt } from "react-icons/bi"
-import { BsGearWideConnected,BsBookmarkFill } from "react-icons/bs";
+import { BiCalendarEvent, BiCoffeeTogo, BiNews, BiCodeAlt } from "react-icons/bi"
+import { BsBookmarkFill } from "react-icons/bs";
 import { useState } from 'react';
 import RangeSlider from 'react-bootstrap-range-slider';
 
@@ -67,6 +67,7 @@ export default function ChangelogPage({data}) {
                       case 'Podcast': return ( <span className="icon"><FaMicrophoneAlt /> Spoke on </span>  ) 
                       case 'Joined': return ( <span className="icon"><FaHandshake /> Joined </span>  ) 
                       case 'Left': return ( <span className="icon"><FaHandshake /> Left</span>  ) 
+                      case 'RSVP': return ( <span className="icon"><BiCalendarEvent /> Is attending </span>  ) 
                       default: return ( <span className="icon"><BiNews /> Update</span> )  
                     } 
                   })()} 

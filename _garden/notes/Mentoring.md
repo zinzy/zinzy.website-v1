@@ -31,4 +31,3 @@ These days, you can find me on [ADPList](https://adplist.org/mentors/zinzy-nev-g
 > Every major step forward in my life so far has been inspired and encouraged by the mentors I’ve been fortunate enough to have. I believe that hopes, dreams, and advice are best shared in ongoing, personal relationships, and it’s important to me to make myself available as a mentor to others."
 > 
 >  — Diana on her original [/mentoring page](https://github.com/dianakimball/mentoring-is)
-

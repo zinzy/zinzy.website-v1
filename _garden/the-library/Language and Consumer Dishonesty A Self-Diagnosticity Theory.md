@@ -4,7 +4,7 @@ excerpt: "How does foreign language inﬂuence consumer dishonesty?"
 slug: language-and-consumer-dishonesty
 category: "Read"
 subcategory: "Paper"
-thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/language-and-consumer-dishonesty_uvmse9.png"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/language-and-consumer-dishonesty_uvmse9.png"
 date: 2021-08-01
 tags:
  - linguistics

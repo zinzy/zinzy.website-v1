@@ -21,3 +21,10 @@ tags:
 </figure>
 
 
+
+<figure>
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1651167653/Picture%20of%20the%20week/2022%20week%209.png"/>
+<figcaption>Week 9, 2022</figcaption>
+</figure>
+
+

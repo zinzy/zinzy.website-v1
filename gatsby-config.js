@@ -5,26 +5,17 @@ module.exports = {
     micropub_endpoint: "https://zinzy-endpoint.herokuapp.com/micropub"
   },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap", 
     "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-dark-mode",
-    {
-      resolve: "gatsby-source-lastfm",
-      options: {
-        api_key: '65f42e91d1664077fdd470c5ce5e7813',
-        username: 'zinzywaleson',
-        limit: 10, // the maximum number of playbacks to pull in
-      },
-    },
+    "gatsby-transformer-sharp", 
     {
       resolve: `gatsby-plugin-mdx`,
       options: { 
         extensions: [`.mdx`, `.md`],
+        defaultLayouts: {
+          default: require.resolve("./src/templates/page.jsx"), 
+        },
         gatsbyRemarkPlugins: [
+          "gatsby-plugin-image",
           {
             resolve: `gatsby-remark-double-brackets-link`, 
             options: {
@@ -39,7 +30,7 @@ module.exports = {
               rel: "noopener noreferrer"
             },
           },
-        ], 
+        ],  
       },
     },    
     {
@@ -48,6 +39,18 @@ module.exports = {
         types: ["Mdx", "MarkdownRemark"], // or ["MarkdownRemark"] (or both)
       },
     },
+    "gatsby-plugin-sass", 
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",  
+    "gatsby-plugin-dark-mode",
+    {
+      resolve: "gatsby-source-lastfm",
+      options: {
+        api_key: '65f42e91d1664077fdd470c5ce5e7813',
+        username: 'zinzywaleson',
+        limit: 10, // the maximum number of playbacks to pull in
+      },
+    }, 
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -103,6 +106,6 @@ module.exports = {
         path: "./_garden/antilibrary",
       },
       __key: "antilibrary",
-    },
+    }, 
   ],
 };

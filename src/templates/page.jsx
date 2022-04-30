@@ -4,34 +4,20 @@ import Helmet from "react-helmet"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"  
-import Tippy from '@tippyjs/react';
-import { Link } from "gatsby"
 
-export default function PageTemplate({ data: { mdx } }) {
 
-  // const featuredImg = mdx.frontmatter.featuredImage 
-  // const linkingHere = mdx.inboundReferences.nodes;
-
-  // console.log('refs', linkingHere)
-
+export default function PageTemplate({data: { mdx } }) { 
   return (
     <> 
-      <Helmet> 
-        {/* <meta
-          name="twitter:image"
-          content={`https://pbs.twimg.com/profile_images/1227765372608057344/daNn331w_400x400.jpg`}
-        /> */}
+      <Helmet>  
       </Helmet>
       <Layout>
-          <article className="page">
-          {/* <div className="col-lg-3">
-              <img className={featuredImg != null ? `rounded img-fluid` : `d-none`} src={mdx.frontmatter.featuredImage} alt="{ mdx.frontmatter.title }" />
-          </div> */}
+
+          <article className="page"> 
           <div className="">
             <div>
               <header className="">
-                <h2 className="">{mdx.frontmatter.title}</h2> 
-                {/* <p className="lead">{mdx.frontmatter.excerpt}</p> */}
+                <h2 className="">{mdx.frontmatter.title}</h2>  
               </header>
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
@@ -83,7 +69,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM D, YYYY") 
         category
         subcategory
-        thumb
+        cover
         growthStage
       }
       timeToRead 

@@ -6,7 +6,7 @@ category: "Watch"
 subcategory: "Film"
 mediatype: "Film"
 date: 1998-01-01
-thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048793/Digital%20garden/media/titanic_y9dvgt.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048793/Digital%20garden/media/titanic_y9dvgt.jpg"
 tags:
  - film
 ---

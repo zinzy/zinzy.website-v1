@@ -5,7 +5,7 @@ slug: sound-of-metal
 category: "Watch"
 subcategory: "Series"
 date: 2020-12-01
-thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/the-fall_jfox9l.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/the-fall_jfox9l.jpg"
 tags:
  - television
  - whodunit

@@ -12,45 +12,12 @@ $gray-100: #F0F0F7;
 $white: #fff;
 
 
-$font-default: "NeueHaasGroteskText Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+$font-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 "Segoe UI Symbol";
-$font-bold: "NeueHaasGroteskText Pro Md", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+$font-bold: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-"Segoe UI Symbol";
-
-
-
-
-
-@font-face {
-    font-family: 'NeueHaasGroteskText Pro';
-    src: url('../fonts/NHaasGroteskTXPro-55Rg.eot');
-    src: url('../fonts/NHaasGroteskTXPro-55Rg.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/NHaasGroteskTXPro-55Rg.woff2') format('woff2'),
-        url('../fonts/NHaasGroteskTXPro-55Rg.woff') format('woff'),
-        url('../fonts/NHaasGroteskTXPro-55Rg.ttf') format('truetype'),
-        url('../fonts/NHaasGroteskTXPro-55Rg.svg#NHaasGroteskTXPro-55Rg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'NeueHaasGroteskText Pro Md';
-    src: url('../fonts/NHaasGroteskTXPro-65Md.eot');
-    src: url('../fonts/NHaasGroteskTXPro-65Md.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/NHaasGroteskTXPro-65Md.woff2') format('woff2'),
-        url('../fonts/NHaasGroteskTXPro-65Md.woff') format('woff'),
-        url('../fonts/NHaasGroteskTXPro-65Md.ttf') format('truetype'),
-        url('../fonts/NHaasGroteskTXPro-65Md.svg#NHaasGroteskTXPro-65Md') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
+"Segoe UI Symbol"; 
 
 
 body, html {
@@ -72,9 +39,6 @@ body {
     -webkit-font-feature-settings: "kern","liga","clig","calt";
     font-feature-settings: "kern","liga","clig","calt";
     word-wrap: break-word; 
-    // @media screen and (min-width: 992px) {
-    //     padding: 0;
-    // }
 }
 
 
@@ -140,7 +104,7 @@ section {
 
 a { 
     color: $black;
-    font-family: $font-bold;
+    font-weight: 500;
     text-decoration: none;
     &:hover {
         color: $black;
@@ -149,7 +113,7 @@ a {
 }
 
 strong, bold {
-    font-family: $font-bold;
+    font-weight: 500;
 }
  
 
@@ -405,7 +369,7 @@ mark {
 
  h1, h2, h3, h4, h5, h6,
  .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: $font-bold;
+    font-weight: 500;
     //  font-size: 130%;
      font-weight: 500;
      color: $black !important;  
@@ -417,6 +381,10 @@ mark {
 
  h1 {
      font-size: 1.4rem;
+ }
+
+ h6, .h6 {
+     font-size: 100%;
  }
  
 
@@ -477,6 +445,14 @@ mark {
             display: inline-block;
             margin-left: 1rem;
         }
+    }
+ }
+
+
+ .draft {
+     margin: 100px 0;
+    .flex-grow-1 {
+        height: 1px;
     }
  }
 
@@ -629,7 +605,7 @@ blockquote {
     display: inline-block !important;
     font-weight: normal; 
     border-radius: 20px;
-    font-family: $font-bold;
+    font-weight: 500;
     padding: .3rem .6rem;
     .icon {
         svg {

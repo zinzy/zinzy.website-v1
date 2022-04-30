@@ -4,7 +4,7 @@ excerpt: "Just when I thought I was out... They pull me back in"
 slug: riverdale
 category: "Watch"
 subcategory: "Series"
-thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048792/Digital%20garden/media/riverdale_k2kz56.webp"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048796/Digital%20garden/media/in-the-dream-house_a8botl.jpg"
 date: 2021-07-01
 tags:
  - television

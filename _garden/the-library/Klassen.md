@@ -4,7 +4,7 @@ excerpt: "A documentary on the experiences of Dutch pupils"
 slug: klassen
 category: "Watch"
 subcategory: "Series"
-thumb: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/klassen_iuapka.jpg"
+cover: "https://res.cloudinary.com/dbi2zounq/image/upload/v1651048794/Digital%20garden/media/klassen_iuapka.jpg"
 date: 2020-12-01
 tags:
  - documentary
