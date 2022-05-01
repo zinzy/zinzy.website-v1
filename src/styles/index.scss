@@ -34,6 +34,7 @@ Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 
 
 body, html {
+    scroll-behavior: smooth;
     font-size: 16px;
     @media screen and (min-width: 1200px) {
         font-size: 19px;
@@ -52,10 +53,12 @@ body {
     -webkit-font-feature-settings: "kern","liga","clig","calt";
     font-feature-settings: "kern","liga","clig","calt";
     word-wrap: break-word; 
+}
+
+.wrapper { 
     padding: 10%;
     @media screen and (min-width: 1200px) {
-        padding: 0;
-        margin: 200px 0;
+        padding: 200px 0;
     } 
 }
 
@@ -80,6 +83,10 @@ main {
     @media screen and (min-width: 1800px) {
         margin-top: 300px;
     } 
+    a {
+        font-weight: normal;
+        border: 0;
+    }
 }
 
 section {

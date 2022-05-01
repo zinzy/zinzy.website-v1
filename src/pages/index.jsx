@@ -127,17 +127,15 @@ const IndexPage = ({data}) => {
           <h2>Information</h2>
         </div>
         <div className="col-md-9 offset-md-1 h-card">
-          <div className="row">
-            <div className="col-8">
               <div className="row">
-                <div className="col-6">
+                <div className="col-md-6">
                   <ul className="list-unstyled mb-0"> 
                     <li><Link to="/now">Now</Link></li>
                     <li><Link to="/mentoring">Mentoring</Link></li>
                     <li><Link to="/how-i-work">How I work</Link></li>
                   </ul>
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                   <ul className="list-unstyled">
                     <li><Link to="/colophon">Colophon</Link></li>
                     <li><Link to="/colophon">Changelog</Link></li>
@@ -146,15 +144,6 @@ const IndexPage = ({data}) => {
                   </ul>
                 </div>
               </div> 
-            </div>
-            <div className="col-4">
-              <ul className="list-unstyled">
-              <li><a href="mailto:zinzy@pm.me">Email</a></li>
-              <li><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a href="https://github.com/zinzy" target="_blank" rel="noopener noreferrer">Github</a></li>
-            </ul>
-            </div>
-          </div>
         </div>
       </section>
  

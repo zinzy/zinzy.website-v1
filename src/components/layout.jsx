@@ -9,7 +9,8 @@ const shortcodes = { ImpliedReader, Draft }
 
 export default function Layout({ children }) { 
   return ( 
-    <div className="">   
+    <div id="top">   
+      <div className="wrapper">
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">   
@@ -23,6 +24,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </div> 
+      </div>
     </div>
   )
 }
