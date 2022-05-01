@@ -21,7 +21,7 @@ export default function ChangelogPage({data}) {
     <Layout>
 
       <div className="row">
-        <div className="col-md-2">
+        <div className="col-md-2 mb-5">
           <Link to="/"><BsArrowLeft/></Link>
         </div>
         <div className="col-md-9 offset-md-1">
@@ -36,7 +36,7 @@ export default function ChangelogPage({data}) {
 
                 <div className="row h-entry">
  
-                  <div className="col-1">
+                  <div className="col-2 col-md-1">
                     <div className="timeline">
                       {node.frontmatter.rsvp ? <RSVP/> : '' }
                       {node.frontmatter.bookmarkOf ? <Bookmark/> : '' }
@@ -46,7 +46,7 @@ export default function ChangelogPage({data}) {
                       <div className="line"></div>
                     </div>
                   </div>
-                  <div className="col-11 pb-4 mt-1"> 
+                  <div className="col-10 col-md-11 pb-4 mt-1"> 
                     <div>{node.frontmatter.rsvp ? <span>RSVP'd {node.frontmatter.rsvp} to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.bookmarkOf ? <span>Bookmarked <a href={node.frontmatter.bookmarkOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.likeOf ? <span>Liked <a href={node.frontmatter.likeOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>

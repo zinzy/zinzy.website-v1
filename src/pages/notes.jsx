@@ -8,7 +8,7 @@ const NotesIndex = ({data}) => {
   return (
     <Layout>
         <div className="row">
-        <div className="col-md-2">
+        <div className="col-md-2 mb-5">
           <Link to="/"><BsArrowLeft/></Link>
         </div>
         <div className="col-md-9 offset-md-1">

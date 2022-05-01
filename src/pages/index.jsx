@@ -20,7 +20,7 @@ const IndexPage = ({data}) => {
 
       <section className="row">
         <div className="col-md-2">
-          <h2>Hoi</h2>
+          <h2 className="mb-5">Hoi</h2>
         </div>
         <div className="col-md-9 offset-md-1 h-card">
           <p>I'm <span className="p-name">Zinzy Waleson</span>, a designer and facilitator from <span className="p-locality">Amsterdam</span>. I build digital products and resonant queer spaces. <a rel="me" href="https://www.zinzy.website" class="u-url">Zinzy.website</a> is a digital garden: a growing collection of loosely-related notes on a wide variety of subjects, maintained in public.</p>
@@ -29,7 +29,7 @@ const IndexPage = ({data}) => {
 
       <section className="row mt-10">
         <div className="col-md-2">
-          <h2>Changelog</h2>
+          <h2 className="mb-5">Changelog</h2>
         </div>
         <div className="col-md-9 offset-md-1 h-card">
           <ul className="changelog list-unstyled">
@@ -40,7 +40,7 @@ const IndexPage = ({data}) => {
 
                 <div className="row h-entry">
  
-                  <div className="col-1">
+                  <div className="col-2 col-md-1">
                     <div className="timeline">
                       {node.frontmatter.rsvp ? <RSVP/> : '' }
                       {node.frontmatter.bookmarkOf ? <Bookmark/> : '' }
@@ -50,7 +50,7 @@ const IndexPage = ({data}) => {
                       <div className="line"></div>
                     </div>
                   </div>
-                  <div className="col-11 pb-4 mt-1"> 
+                  <div className="col-10 col-md-11 pb-4 mt-1"> 
                     <div>{node.frontmatter.rsvp ? <span>RSVP'd {node.frontmatter.rsvp} to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.bookmarkOf ? <span>Bookmarked <a href={node.frontmatter.bookmarkOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.likeOf ? <span>Liked <a href={node.frontmatter.likeOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
@@ -84,7 +84,7 @@ const IndexPage = ({data}) => {
 
       <section className="row mt-10">
         <div className="col-md-2">
-          <h2>Notes</h2>
+          <h2 className="mb-5">Notes</h2>
         </div>
         <div className="col-md-9 offset-md-1 h-card">
           <p className="d-inline">I keep notes so that I can link and think. They contain soft stances, lived experiences, and critical notes on the things I hold dear. Its contents are subject to change. Try </p>
@@ -104,7 +104,7 @@ const IndexPage = ({data}) => {
 
       <section className="row mt-10">
         <div className="col-md-2">
-          <h2>Library</h2>
+          <h2 className="mb-5">Library</h2>
         </div>
         <div className="col-md-9 offset-md-1 h-card">
           <p className="d-inline">I keep a list of things I listen to, watch, or read, and sometimes share some thoughts on how I interpreted or appreciate a story. Try </p>
