@@ -1,123 +1,81 @@
 import * as React from "react" 
 import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
+import Bookmark from "../components/icons/Bookmark"
+import Like from "../components/icons/Like"
+import Note from "../components/icons/Note"
+import Reply from "../components/icons/Reply"
+import RSVP from "../components/icons/RSVP"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { FaClock, FaHandshake, FaPencilAlt, FaComment, FaHeart, FaMicrophoneAlt } from "react-icons/fa"
 import { BiCalendarEvent, BiCoffeeTogo, BiNews, BiCodeAlt } from "react-icons/bi"
-import { BsBookmarkFill } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { useState } from 'react';
 import RangeSlider from 'react-bootstrap-range-slider';
 
 // markup
-export default function ChangelogPage({data}) {
-
-  const [ value, setValue ] = useState(3);  
+export default function ChangelogPage({data}) { 
 
   return (
     <Layout>
-      
-      <div className="">
-        <div className="">
 
+      <div className="row">
+        <div className="col-md-2">
+          <Link to="/"><BsArrowLeft/></Link>
+        </div>
+        <div className="col-md-9 offset-md-1">
 
-        <h2>Changelog</h2> 
+          <h2>Changelog</h2>
 
-          <div className="my-5">
-            <RangeSlider
-              value={value}
-              tooltip="off"
-              min="1"
-              max="5"
-              step="1"
-              variant='secondary'
-              onChange={changeEvent => setValue(changeEvent.target.value)}
-            />
-            <div className="row small text-muted">
-              <div className="col-6">Big picture</div>
-              <div className="col-6 text-end">TMI</div>
-            </div>
-          </div>
-
-          <ul class="list-unstyled changelog mt-10">
+        <ul className="changelog list-unstyled mt-10">
           {
             data.allMdx.nodes.map(node => (
-              <li key={node.slug} className={node.frontmatter.detailLevel <= value ? `d-block`: `d-none`}>
+              <li>
+                <article key={node.slug} className="h-entry">
 
-              <div className="row h-entry">
+                <div className="row h-entry">
  
-                <div className="col-1">
-                  <div className="timeline mt-1">
-                    <FaClock />  
-                    <div className="line"></div>
-                  </div>
-                </div>
-                <div className="col-11">
-                <div className="date dt-published mb-3 mb-lg-0 mt-1">{node.frontmatter.date}</div> 
-                  <span className="badge">
-                  <span>
-                  {(() => { 
-                    switch (node.frontmatter.category) { 
-                      case 'Technical': return ( <span className="icon"><BiCodeAlt /> Updated website</span> )  
-                      case 'Bookmark': return ( <span className="icon"><BsBookmarkFill /> Bookmark</span>  ) 
-                      case 'Reply': return ( <span className="icon"><FaComment /> Replied to </span>  ) 
-                      case 'Like': return ( <span className="icon"><FaHeart /> Like</span>  )  
-                      case 'Mentor': return ( <span className="icon"><BiCoffeeTogo /> Mentoring</span>  ) 
-                      case 'Writer': return ( <span className="icon"><FaPencilAlt /> Published an essay </span>  ) 
-                      case 'Podcast': return ( <span className="icon"><FaMicrophoneAlt /> Spoke on </span>  ) 
-                      case 'Joined': return ( <span className="icon"><FaHandshake /> Joined </span>  ) 
-                      case 'Left': return ( <span className="icon"><FaHandshake /> Left</span>  ) 
-                      case 'RSVP': return ( <span className="icon"><BiCalendarEvent /> Is attending </span>  ) 
-                      default: return ( <span className="icon"><BiNews /> Update</span> )  
-                    } 
-                  })()} 
-                  </span> 
-                  
-                  <span className="what">{node.frontmatter.what}</span>
-
-                  </span> 
-                  <div className="mt-3 mb-5"> 
-
-                    {(() => { 
-                      switch (node.frontmatter.category) { 
-                        case 'Bookmark': return ( 
-                          <Link className="u-bookmark-of h6" to={node.frontmatter.bookmarkOf}>
-                            {node.frontmatter.title}
-                          </Link>
-                        ) 
-                        case 'Like': return ( 
-                          <Link className="u-like-of h6" to={node.frontmatter.likeOf}>
-                            {node.frontmatter.title}
-                          </Link>
-                        ) 
-                        case 'Reply': return ( 
-                          <Link className="u-in-reply-to h6" to={node.frontmatter.replyTo}>
-                            {node.frontmatter.title}
-                          </Link>
-                        )  
-                        default: return ( null )  
-                      } 
-                    })()} 
-
-                    <div className="p-content">
-                      <MDXProvider>
-                        <MDXRenderer>
-                            {node.body}
-                        </MDXRenderer>
-                      </MDXProvider>
+                  <div className="col-1">
+                    <div className="timeline">
+                      {node.frontmatter.rsvp ? <RSVP/> : '' }
+                      {node.frontmatter.bookmarkOf ? <Bookmark/> : '' }
+                      {node.frontmatter.likeOf ? <Like/> : '' }
+                      {node.frontmatter.replyTo && node.frontmatter.rsvp == null ? <Reply/> : '' }
+                      {node.frontmatter.replyTo == null && node.frontmatter.bookmarkOf == null && node.frontmatter.likeOf == null && node.frontmatter.rsvp == null ? <Note/> : '' }
+                      <div className="line"></div>
                     </div>
- 
                   </div>
-                </div>   
-              </div>  
+                  <div className="col-11 pb-4 mt-1"> 
+                    <div>{node.frontmatter.rsvp ? <span>RSVP'd {node.frontmatter.rsvp} to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
+                    <div>{node.frontmatter.bookmarkOf ? <span>Bookmarked <a href={node.frontmatter.bookmarkOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
+                    <div>{node.frontmatter.likeOf ? <span>Liked <a href={node.frontmatter.likeOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
+                    <div>{node.frontmatter.replyTo && node.frontmatter.rsvp == null ? <span>Replied to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
+
+                  <div className="dt-published small text-muted">{node.frontmatter.date}</div> 
+ 
+                    <div className="mt-3"> 
+                      <div className="p-content">
+                        <MDXProvider>
+                          <MDXRenderer>
+                              {node.body}
+                          </MDXRenderer>
+                        </MDXProvider>
+                      </div>
+
+                    </div>
+                  </div>   
+                  </div>    
+              </article>
               </li>
             ))
           }
           </ul>
         </div>
       </div>
-  
-  
+
+
+    
     </Layout>
   )
 }

@@ -101,3 +101,4 @@ This is a growing list of people whose websites I visit from time to time.
 - https://www.powerlanguage.co.uk/
 - https://www.khartnett.com
 - https://david.shanske.com/
+- https://jkphl.is/

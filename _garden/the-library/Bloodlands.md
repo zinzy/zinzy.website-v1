@@ -1,5 +1,6 @@
 --- 
-title: "Timothy Snyder" 
+title: "Bloodlands" 
+author: "Timothy Snyder"
 excerpt: ""
 slug: bloodlands
 category: "Read"

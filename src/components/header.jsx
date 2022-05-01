@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Helmet } from "react-helmet"  
 import siteConfig from "../../gatsby-config"
+import { Link } from 'gatsby'
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { MdOutlineLightMode, MdOutlineWbTwilight } from "react-icons/md";
 import DropdownButton from 'react-bootstrap/DropdownButton'
@@ -24,9 +25,10 @@ export default function Header({ title }) {
             (title ? ` : ${title}` : "")}
         </title>
  
-      </Helmet> 
+      </Helmet>  
 
-      <header>
+
+      {/* <header>
 
         <ThemeToggler>
             {({ theme, toggleTheme }) => ( 
@@ -42,7 +44,7 @@ export default function Header({ title }) {
             )}
         </ThemeToggler>
 
-        </header>
+        </header> */}
 
       {/* <header id="header">
         <div className="">

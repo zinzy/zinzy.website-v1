@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "weeknotes/weeknotes #5.md",
+            "file": "the-library/russian doll.md",
             "mode": "source",
             "source": false
           }
@@ -69,9 +69,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weeknotes/weeknotes #5.md",
+                "file": "the-library/russian doll.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -84,20 +84,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "d5e9077783d4d165",
   "lastOpenFiles": [
-    "weeknotes/weeknotes #5.md",
-    "the-library/coda.md",
-    "the-library/city-of-god.md",
-    "the-library/Bloodlands.md",
-    "the-library/minari.md",
-    "the-library/hereditary.md",
-    "the-library/dare-to-lead-the-advice-trap.md",
-    "the-library/exit-through-the-gift-shop.md",
-    "the-library/gummo.md",
-    "the-library/her body and other parties.md"
+    "the-library/russian doll.md",
+    "the-library/bloodlands.md",
+    "changelog/rsvp-2022-04-30-homebrew-london.md",
+    "changelog/like-2022-05-01-tollwerk-farbsystem.md",
+    "changelog/2022-04-30.md",
+    "changelog/2022-04-23.md",
+    "changelog/2022-04-16-0928.md",
+    "changelog/2022-04-16.md",
+    "changelog/2022-04-02.md",
+    "changelog/2021-09-12.md"
   ]
 }

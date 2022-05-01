@@ -1,9 +1,10 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Helmet from "react-helmet"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"  
+import { BsArrowLeft } from "react-icons/bs";
 
 
 export default function PageTemplate({data: { mdx } }) { 
@@ -13,15 +14,19 @@ export default function PageTemplate({data: { mdx } }) {
       </Helmet>
       <Layout>
 
-          <article className="page"> 
-          <div className="">
-            <div>
-              <header className="">
-                <h2 className="">{mdx.frontmatter.title}</h2>  
+      <article className="row">
+        <div className="col-md-2">
+          <Link to="/"><BsArrowLeft/></Link>
+        </div>
+        <div className="col-md-9 offset-md-1">
+
+        <header className="">
+                <h2>{mdx.frontmatter.title}</h2>  
               </header>
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
               </MDXProvider> 
+
               <footer className="">
                 <div className="text-muted">
                   <div>Updated on {mdx.parent.changeTime}</div> 
@@ -30,15 +35,13 @@ export default function PageTemplate({data: { mdx } }) {
 
                 {mdx.inboundReferences.length > 0 ?  
                   <div className="references">
-                    <h6>Pages linking here</h6>
-                    <ul class="masonry masonry-page mt-3">   
+                    <div className="text-muted">Pages linking here</div>
+                    <ul class="list-unstyled">   
                           {mdx.inboundReferences.map(ref => (
                             <li key={ref.slug}>
                               <a href={`/${ref.slug}`}>
                                 <div className="">
                                   <h6 className="m-0 p-0">{ref.frontmatter.title}</h6>
-                                  <div className="">{ref.frontmatter.excerpt}</div> 
-                                  <div className="text-muted small mt-3">{ref.parent.changeTime}</div>  
                                 </div>  
                                 </a>
                             </li>
@@ -47,11 +50,9 @@ export default function PageTemplate({data: { mdx } }) {
                   </div>
                 : ""} 
               </footer>
+        </div>
+      </article>
 
-               
-            </div> 
-          </div>
-        </article>
       </Layout>
     </>
   )
