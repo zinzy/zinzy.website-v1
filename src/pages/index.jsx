@@ -123,21 +123,21 @@ const IndexPage = ({data}) => {
 
 
       <section className="row mt-10">
-        <div className="col-4 col-md-2">
+        <div className="col-md-2">
           <h2>Information</h2>
         </div>
-        <div className="col-8 col-md-9 offset-md-1 h-card">
+        <div className="col-md-9 offset-md-1 h-card">
           <div className="row">
-            <div className="col-6 col-md-8">
+            <div className="col-8">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-6">
                   <ul className="list-unstyled mb-0"> 
                     <li><Link to="/now">Now</Link></li>
                     <li><Link to="/mentoring">Mentoring</Link></li>
                     <li><Link to="/how-i-work">How I work</Link></li>
                   </ul>
                 </div>
-                <div className="col-md-6">
+                <div className="col-6">
                   <ul className="list-unstyled">
                     <li><Link to="/colophon">Colophon</Link></li>
                     <li><Link to="/colophon">Changelog</Link></li>
@@ -147,7 +147,7 @@ const IndexPage = ({data}) => {
                 </div>
               </div> 
             </div>
-            <div className="col-6 col-md-4">
+            <div className="col-4">
               <ul className="list-unstyled">
               <li><a href="mailto:zinzy@pm.me">Email</a></li>
               <li><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
