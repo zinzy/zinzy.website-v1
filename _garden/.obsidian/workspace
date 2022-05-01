@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "the-library/russian doll.md",
+            "file": "notes/implementing micropub.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-library/russian doll.md",
+                "file": "notes/implementing micropub.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -84,19 +84,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "d5e9077783d4d165",
   "lastOpenFiles": [
+    "notes/implementing micropub.md",
+    "().md",
+    "notes/2015 in music.md",
     "the-library/russian doll.md",
     "the-library/bloodlands.md",
     "changelog/rsvp-2022-04-30-homebrew-london.md",
     "changelog/like-2022-05-01-tollwerk-farbsystem.md",
     "changelog/2022-04-30.md",
     "changelog/2022-04-23.md",
-    "changelog/2022-04-16-0928.md",
-    "changelog/2022-04-16.md",
-    "changelog/2022-04-02.md",
-    "changelog/2021-09-12.md"
+    "changelog/2022-04-16-0928.md"
   ]
 }

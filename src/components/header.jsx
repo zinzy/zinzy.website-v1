@@ -22,9 +22,10 @@ export default function Header({ title }) {
         </title>
 
         <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
+
+        <link rel="micropub" href="https://zinzy.website/micropub/main"/>
         <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
-        <link rel="micropub" href="https://zinzy-indieauth.herokuapp.com/micropub" />
- 
+
       </Helmet>  
 
 
