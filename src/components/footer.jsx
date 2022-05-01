@@ -16,7 +16,7 @@ export default function Footer({ title }) {
   <div className="col-lg-9 offset-lg-1">
     <div className="row">
       <div className="col-lg-6">
-        <p>© 2004-2022 Zinzy Waleson</p>
+        <p>© 2004-2022 <a href="mailto:zinzy@pm.me" rel="me">Zinzy Waleson</a></p>
       </div>
       <div className="col-lg-6 text-lg-end">
         <div className="">
