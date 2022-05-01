@@ -46,7 +46,7 @@ export default function ChangelogPage({data}) {
                       <div className="line"></div>
                     </div>
                   </div>
-                  <div className="col-10 col-md-11 pb-4 mt-1"> 
+                  <div className="col-10 col-md-11 pb-4"> 
                     <div>{node.frontmatter.rsvp ? <span>RSVP'd {node.frontmatter.rsvp} to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.bookmarkOf ? <span>Bookmarked <a href={node.frontmatter.bookmarkOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.likeOf ? <span>Liked <a href={node.frontmatter.likeOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>

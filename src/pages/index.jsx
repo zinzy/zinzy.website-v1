@@ -50,7 +50,7 @@ const IndexPage = ({data}) => {
                       <div className="line"></div>
                     </div>
                   </div>
-                  <div className="col-10 col-md-11 pb-4 mt-1"> 
+                  <div className="col-10 col-md-11 pb-4"> 
                     <div>{node.frontmatter.rsvp ? <span>RSVP'd {node.frontmatter.rsvp} to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.bookmarkOf ? <span>Bookmarked <a href={node.frontmatter.bookmarkOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
                     <div>{node.frontmatter.likeOf ? <span>Liked <a href={node.frontmatter.likeOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
@@ -138,7 +138,6 @@ const IndexPage = ({data}) => {
                 <div className="col-md-6">
                   <ul className="list-unstyled">
                     <li><Link to="/colophon">Colophon</Link></li>
-                    <li><Link to="/colophon">Changelog</Link></li>
                     <li><Link to="/faq">FAQ</Link></li>
                     <li><Link to="/playlist">Playlist</Link></li>
                   </ul>
