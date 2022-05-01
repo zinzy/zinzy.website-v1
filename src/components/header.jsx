@@ -22,8 +22,8 @@ export default function Header({ title }) {
         </title>
  
         {/* Micropub  */}
-        <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
-        <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
+        <link rel="authorization_endpoint" href="https://github-indieauth.herokuapp.com/auth"/>
+        <link rel="token_endpoint" href="https://github-indieauth.herokuapp.com/token"/>
         <link rel="micropub" href="https://zinzy-indieauth.herokuapp.com/micropub" />
  
       </Helmet>  
