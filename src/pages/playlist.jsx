@@ -1,6 +1,11 @@
-import * as React from "react" 
-import { graphql } from 'gatsby'
+import * as React from "react"   
+ 
+import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
+import Clock from "../components/icons/Clock"
+import { BsArrowLeft } from "react-icons/bs";
+import { MDXProvider } from "@mdx-js/react"
+import { MDXRenderer } from "gatsby-plugin-mdx" 
   
 
 // markup
@@ -13,22 +18,21 @@ const PlaylistPage = ({data}) => {
     <Layout>
 
 
-      <div className="">
-        <div className="">
-
-        <div className="">
+    <div className="row">
+        <div className="col-md-2 mb-5">
+          <Link to="/"><BsArrowLeft/></Link>
+        </div>
+    <div className="col-md-9 offset-md-1">
           <h2>Playlist</h2> 
           <p>I enjoy archiving the new tracks I find, the ones I listen to most, as well as the phases that exist in my listening history. Since 2017, I create a new discovery playlist for each month, and next to Spotify's annual <em>Your Top Songs</em> playlists I create my own for the calendar year. Eventually, I chronicle my years into playlists that denote a particular season of my life.</p>
           <a href="https://open.spotify.com/user/zinzy_/playlists" target="_blank" rel="noopener noreferrer" className="btn">My Seasons of Life playlists</a>
-        </div>
 
-
-        <div className="mt-5">
+          <div className="mt-5">
           <h3>Recent tracks</h3>
         </div>
 
 
-        <ul class="playlist list-unstyled mt-3">
+        <ul class="playlist list-unstyled mt-10">
           {
             listeningHistory.map(node => (
               <li key={node.id}>   
@@ -47,11 +51,9 @@ const PlaylistPage = ({data}) => {
             ))
           }
           </ul>
-        </div>
-      </div>  
-
-
-  
+    </div>
+  </div>
+ 
     </Layout>
   )
 }

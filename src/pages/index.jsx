@@ -142,6 +142,7 @@ const IndexPage = ({data}) => {
                     <li><Link to="/colophon">Colophon</Link></li>
                     <li><Link to="/colophon">Changelog</Link></li>
                     <li><Link to="/faq">FAQ</Link></li>
+                    <li><Link to="/playlist">Playlist</Link></li>
                   </ul>
                 </div>
               </div> 
