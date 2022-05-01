@@ -26,6 +26,7 @@
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-mdx": "^2.13.0",
+    "gatsby-plugin-no-javascript": "^2.0.5",
     "gatsby-plugin-react-helmet": "^4.13.0",
     "gatsby-plugin-sass": "^4.13.0",
     "gatsby-plugin-sharp": "^3.13.0",

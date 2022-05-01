@@ -107,5 +107,6 @@ module.exports = {
       },
       __key: "antilibrary",
     }, 
+    `gatsby-plugin-no-javascript`
   ],
 };
