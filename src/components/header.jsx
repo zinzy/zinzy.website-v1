@@ -20,10 +20,11 @@ export default function Header({ title }) {
           {(siteConfig.siteMetadata.title || "Zinzy Waleson") +
             (title ? ` : ${title}` : "")}
         </title>
-
+ 
+        {/* Micropub  */}
         <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
         <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
-        <link rel="micropub" href="https://www.zinzy.website/micropub"/>
+        <link rel="micropub" href="https://zinzy-indieauth.herokuapp.com/micropub" />
  
       </Helmet>  
 
