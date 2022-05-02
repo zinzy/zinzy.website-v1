@@ -36,7 +36,7 @@ export default function NowPage({data}) {
                       <div className="line"></div>
                     </div>
                   </div>
-                  <div className="col-10 col-md-11 pb-5 mt-1"> 
+                  <div className="col-10 col-md-11 pb-5"> 
                     <h3>{node.frontmatter.title}</h3>
                   <div className="dt-published small text-muted">{node.frontmatter.date}</div> 
  

@@ -13,3 +13,5 @@ tags:
 _Russian Doll_ is the answer to the prayers of all people wishing Natasha Lyonne's character in _Orange is the New Black_ would get a spin-off, only 100 times better. 
 
 My favorite thing, at the time of writing I'm four episodes into season 2, is how she misuses Jewish phrases. 
+
+- I didn't get the ending of season 2. I also feel like what was at stake wasn't all that clear to me. 
