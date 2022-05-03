@@ -15,8 +15,8 @@ export default function Footer({ title }) {
     <ul className="list-inline">
       <li className="list-inline-item"><Link to="#top">Back to top</Link></li>
       <li className="list-inline-item"><a href="mailto:zinzy@pm.me">Email</a></li>
-      <li className="list-inline-item"><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-      <li className="list-inline-item"><a href="https://github.com/zinzy" target="_blank" rel="noopener noreferrer">Github</a></li> 
+      <li className="list-inline-item"><a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer me">LinkedIn</a></li>
+      <li className="list-inline-item"><a href="https://github.com/zinzy" target="_blank" rel="noopener noreferrer me">Github</a></li> 
     </ul></div>
     <div className="col-md-6 text-md-end">
 
