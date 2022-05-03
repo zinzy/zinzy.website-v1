@@ -132,7 +132,7 @@ const IndexPage = ({data}) => {
                   <ul className="list-unstyled mb-0"> 
                     <li><Link to="/now">Now</Link></li>
                     <li><Link to="/mentoring">Mentoring</Link></li>
-                    <li><Link to="/how-i-work">How I work</Link></li>
+                    <li><Link to="/work">How I work</Link></li>
                   </ul>
                 </div>
                 <div className="col-md-6">
