@@ -47,10 +47,10 @@ export default function ChangelogPage({data}) {
                     </div>
                   </div>
                   <div className="col-10 col-md-11 pb-4"> 
-                    <div>{node.frontmatter.rsvp ? <span>RSVP'd {node.frontmatter.rsvp} to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
-                    <div>{node.frontmatter.bookmarkOf ? <span>Bookmarked <a href={node.frontmatter.bookmarkOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
-                    <div>{node.frontmatter.likeOf ? <span>Liked <a href={node.frontmatter.likeOf} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
-                    <div>{node.frontmatter.replyTo && node.frontmatter.rsvp == null ? <span>Replied to <a href={node.frontmatter.replyTo} target="_blank">{node.frontmatter.title}</a></span> : ''}</div>
+                    <div>{node.frontmatter.rsvp ? <span>RSVP'd <span className="p-rsvp">{node.frontmatter.rsvp}</span> to <a href={node.frontmatter.replyTo} target="_blank" className="u-in-reply-to">{node.frontmatter.title}</a></span> : ''}</div>
+                    <div>{node.frontmatter.bookmarkOf ? <span>Bookmarked <a href={node.frontmatter.bookmarkOf} target="_blank" className="u-bookmark-of">{node.frontmatter.title}</a></span> : ''}</div>
+                    <div>{node.frontmatter.likeOf ? <span>Liked <a href={node.frontmatter.likeOf} target="_blank" className="u-like-of">{node.frontmatter.title}</a></span> : ''}</div>
+                    <div>{node.frontmatter.replyTo && node.frontmatter.rsvp == null ? <span>Replied to <a href={node.frontmatter.replyTo} target="_blank" className="u-in-reply-to">{node.frontmatter.title}</a></span> : ''}</div>
 
                   <div className="dt-published small text-muted">{node.frontmatter.date}</div> 
  
