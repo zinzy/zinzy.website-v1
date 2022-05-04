@@ -23,7 +23,8 @@ export default function Header({ title }) {
 
         <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
 
-        <link rel="micropub" href="https://zinzy.website/micropub/main"/>
+        {/* <link rel="micropub" href="https://zinzy.website/micropub/main"/> */}
+        <link rel="micropub" href="https://zinzys-micropub-endpoint.herokuapp.com/"/>
         <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
 
       </Helmet>  
