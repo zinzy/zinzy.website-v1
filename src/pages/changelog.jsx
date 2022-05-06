@@ -28,7 +28,7 @@ export default function ChangelogPage({data}) {
         <div className="col-md-9 offset-md-1">
 
           <h2>Changelog</h2>
-
+{/* 
                   {data.allMdx.nodes.map((node, i) => (
                       <ChangelogItem
                           key={i}
@@ -37,7 +37,7 @@ export default function ChangelogPage({data}) {
                           date={node.frontmatter.date}
                       />
                     ))}
-
+ */}
 
 
         <ul className="changelog list-unstyled mt-10">
