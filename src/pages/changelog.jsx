@@ -1,6 +1,7 @@
 import * as React from "react" 
 import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
+import ChangelogItem from "../components/ChangelogItem"
 import Bookmark from "../components/icons/Bookmark"
 import Like from "../components/icons/Like"
 import Note from "../components/icons/Note"
@@ -27,6 +28,17 @@ export default function ChangelogPage({data}) {
         <div className="col-md-9 offset-md-1">
 
           <h2>Changelog</h2>
+
+                  {data.allMdx.nodes.map((node, i) => (
+                      <ChangelogItem
+                          key={i}
+                          slug={node.slug}
+                          title={node.frontmatter.title}
+                          date={node.frontmatter.date}
+                      />
+                    ))}
+
+
 
         <ul className="changelog list-unstyled mt-10">
           {

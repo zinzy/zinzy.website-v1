@@ -21,10 +21,9 @@ export default function Header({ title }) {
             (title ? ` : ${title}` : "")}
         </title>
 
-        <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
-
-        <link rel="micropub" href="https://zinzy.website/micropub/main"/>
-        <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
+        <link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+        <link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+        <link href="https://barryfrost.com/micropub" rel="micropub"/>
 
       </Helmet>  
 
