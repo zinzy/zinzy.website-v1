@@ -164,7 +164,6 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /:title
       content-type: post 
   - scope:
       path: ""

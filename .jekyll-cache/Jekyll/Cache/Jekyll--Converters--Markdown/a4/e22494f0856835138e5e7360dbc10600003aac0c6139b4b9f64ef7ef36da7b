@@ -1,0 +1,30 @@
+I"<style>
+.date-content a {
+    text-decoration: none;
+    color: #4183c4;
+}
+
+.date-content a:hover {
+    text-decoration: underline;
+    color: #4183c4;
+}
+</style>
+
+<main>
+    
+    
+    
+      <h3 id="07-May-2022">07-May-2022</h3>
+          
+            <li id="date-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/2022/05/07/2022-05-07-10-30.html">2022-05-07T10:30</a></li>
+          
+            <li id="date-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/2022/05/07/2022-05-07-10-03.html">2022-05-07T10:03</a></li>
+          
+            <li id="date-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/2022/05/07/2022-05-07-10-02.html">2022-05-07T10:02</a></li>
+          
+    
+    
+        <br />
+        <br />
+</main>
+:ET
