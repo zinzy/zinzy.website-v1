@@ -4,12 +4,10 @@ excerpt: "On why the book is never 'better' than the film"
 category: "Media"
 date: "2022-04-23"
 ---  
-<ImpliedReader>People who see a difference between literature and other forms of storytelling in terms of quality, analytical depth, and cultural, historical, or political relevance</ImpliedReader>
+Implied reader: People who see a difference between literature and other forms of storytelling in terms of quality, analytical depth, and cultural, historical, or political relevance
 
 In our household, we have a few ground rules about how we communicate with other humans. We don't pretend butter is gross, we [[stop saying race|don't say "race"]], and we don't think books are, by default, better than their film adaptations. 
 
-
-<Draft/>
 
 From Wikipedia:
 
