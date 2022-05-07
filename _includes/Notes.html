@@ -7,7 +7,7 @@
 <ul class="list-unstyled">
     {%- for item in site.notes limit: include.limit -%}
         <li>
-            <a href="{{item.slug}}">{{ item.title }}</a>
+            <a href="{{item.url}}">{{ item.title }}</a>
         </li>
     {%- endfor -%}
 </ul> 
