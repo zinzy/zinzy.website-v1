@@ -1,508 +1,546 @@
-<!-------------------------------------------------------------------------------------
-*
-* MIT License
-* Copyright (c) 2020 Raghuveer S
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in all
-* copies or substantial portions of the Software.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*
------------------------------------------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Knowledge Continuum" property="og:site_name"/>
-    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
-    <meta content="http://localhost:4000/about/" property="article:author"><meta content="Changelog" property="og:title">
-    <meta content="article" property="og:type">
-    <meta content="http://localhost:4000/changelog" property="og:url"><title>Zinzy Waleson</title>
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
-  </head>
-  <body>
-    <div class="container">
-      <div class = "box"><head>
-          <link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
-          <link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
-          <link href="https://www.zinzy.website/micropub/main" rel="micropub"/>
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-          <link href="/assets/css/styles.css" rel="stylesheet" media="all" class="default" />
-        </head>
-        <div class="container">
+  <meta charset="UTF-8">
+
+  <link rel="canonical" href="/changelog" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="My digital garden">
+
+  <meta property="og:site_name" content="My digital garden">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="/styles.css">
+
+  
+  <meta property="og:description" content="My digital garden"/>
+  
+
+  
+  <meta property="og:title" content="Changelog">
+  <meta property="og:type" content="article">
+  
+
+  
+
+  <meta property="og:url" content="/changelog" />
+
+  
+
+  <title>
+    
+      Changelog &mdash; My digital garden
+    
+  </title>
+</head>
+  <body> 
+    <main><div class="back">
+  <a href="/">
+    <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_203_71)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 6.42906C20 6.61849 19.9247 6.80016 19.7908 6.93411C19.6569 7.06805 19.4752 7.1433 19.2858 7.1433L2.43969 7.1433L6.93512 11.6373C7.06923 11.7714 7.14458 11.9533 7.14458 12.143C7.14458 12.3327 7.06923 12.5146 6.93512 12.6487C6.801 12.7828 6.6191 12.8581 6.42944 12.8581C6.23977 12.8581 6.05787 12.7828 5.92375 12.6487L0.209834 6.93474C0.143319 6.8684 0.0905476 6.78958 0.0545407 6.70281C0.0185338 6.61603 -5.10207e-07 6.52301 -5.06101e-07 6.42906C-5.01994e-07 6.33511 0.0185338 6.24209 0.0545407 6.15532C0.0905477 6.06854 0.143319 5.98973 0.209834 5.92338L5.92376 0.20946C6.05787 0.0753444 6.23977 -6.05947e-07 6.42944 -5.93188e-07C6.61911 -5.80429e-07 6.801 0.0753444 6.93512 0.20946C7.06923 0.343575 7.14458 0.525474 7.14458 0.715142C7.14458 0.904809 7.06923 1.08671 6.93512 1.22082L2.43969 5.71482L19.2858 5.71482C19.4752 5.71482 19.6569 5.79007 19.7908 5.92402C19.9247 6.05797 20 6.23963 20 6.42906V6.42906Z" fill="black"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_203_71">
+    <rect width="20" height="13" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+  </a>
+</div><section>
+    <h2>Changelog</h2><ul class="changelog">
+  <li>
           <div class="row">
-            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-              <section>
-                <div class="row">
-                  <div class="col-md-3 mb-5 mb-md-0"><a href="/"><svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_203_71)">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 6.42906C20 6.61849 19.9247 6.80016 19.7908 6.93411C19.6569 7.06805 19.4752 7.1433 19.2858 7.1433L2.43969 7.1433L6.93512 11.6373C7.06923 11.7714 7.14458 11.9533 7.14458 12.143C7.14458 12.3327 7.06923 12.5146 6.93512 12.6487C6.801 12.7828 6.6191 12.8581 6.42944 12.8581C6.23977 12.8581 6.05787 12.7828 5.92375 12.6487L0.209834 6.93474C0.143319 6.8684 0.0905476 6.78958 0.0545407 6.70281C0.0185338 6.61603 -5.10207e-07 6.52301 -5.06101e-07 6.42906C-5.01994e-07 6.33511 0.0185338 6.24209 0.0545407 6.15532C0.0905477 6.06854 0.143319 5.98973 0.209834 5.92338L5.92376 0.20946C6.05787 0.0753444 6.23977 -6.05947e-07 6.42944 -5.93188e-07C6.61911 -5.80429e-07 6.801 0.0753444 6.93512 0.20946C7.06923 0.343575 7.14458 0.525474 7.14458 0.715142C7.14458 0.904809 7.06923 1.08671 6.93512 1.22082L2.43969 5.71482L19.2858 5.71482C19.4752 5.71482 19.6569 5.79007 19.7908 5.92402C19.9247 6.05797 20 6.23963 20 6.42906V6.42906Z" fill="black"/>
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_203_71">
-                            <rect width="20" height="13" fill="white"/>
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </a></div>
-                  <div class="col-md-9">
-                    <h2>Changelog</h2>
-                    <div class="mt-5">
-                      <ul class="changelog">
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.0019 29.6064C21.401 29.9202 21.8997 30.0543 22.3907 29.9799C22.8816 29.9055 23.3255 29.6284 23.6269 29.2084C23.8684 28.8689 23.9995 28.4545 24 28.0283V23.6843H25.125C27.8175 23.6843 30 21.3863 30 18.5522V5.13206C30 2.29803 27.8175 0 25.125 0H4.875C2.1825 0 0 2.29803 0 5.13206V18.5522C0 21.3883 2.1825 23.6843 4.875 23.6843H13.4812L21.0019 29.6064V29.6064ZM22.125 28.0003H22.1194H22.125Z" fill="#54B5F9"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">May 3, 2022 08:12</div>
-                              <div class="mt-3 pb-4">
-                                <div>Replied to <a href="http://deborahbrown.eu/2022/05/01/hallo-welt">My IndieWebCamp experience</a></div>
-                                <div class="mt-3">
-                                  <p>Great work on setting up your first personal website, Deborah, and welcome to the IndieWeb! Watching my personal Internet heroes help you wade into the waters of independent web publishing was so refreshing for me. Not all corners of the Internet are welcoming to new faces, but I hope you had as great a time as I had at our first <a href="https://indieweb.org/2022/D%C3%BCsseldorf">IndieWebCamp</a>!</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 10.1917V9.79434C0 5.00501 2.96016 0.920023 6.99609 0.133449C9.61523 -0.386595 12.3867 0.631567 14.2969 2.86865L15 3.68948L15.6504 2.86865C17.6133 0.631567 20.332 -0.386595 23.0039 0.133449C27.041 0.920023 30 5.00501 30 9.79434V10.1917C30 13.0352 28.9922 15.7553 27.2109 17.6944L16.623 29.2532C16.1836 29.7328 15.6035 30 15 30C14.3965 30 13.8164 29.7328 13.377 29.2532L2.78848 17.6944C1.00957 15.7553 0 13.0352 0 10.1917Z" fill="#EB5CD5"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">May 1, 2022 08:30</div>
-                              <div class="mt-3 pb-4">
-                                <div>Liked <a href="https://tollwerk.de/projekte/tipps-techniken-inklusiv-barrierefrei/barrierefreie-kontraste#praxis-beispiel-das-farbsystem-dieser-website">Tollwerk Farbsystem</a></div>
-                                <div class="mt-3">
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 30, 2022 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>As the lines between the nature of what I publish here begin to slowly blur, I want to remind myself:</p>
-                                  <ul>
-                                    <li>Any temporal information is usually best stored in the Changelog</li>
-                                    <li>While any note on a topic, however big or small and however vague of detailed, should be in Notes</li>
-                                    <li>And any note the main subject of which is a title of sorts should go in the Library</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="15" cy="15" r="15" fill="#EF7F55"/>
-                                    <path d="M20.7255 13.6821H16.3178V9.27467C16.3178 7.57511 13.682 7.57511 13.682 9.27467V13.6821H9.27438C7.57521 13.6821 7.57521 16.3179 9.27438 16.3179H13.682V20.7253C13.682 22.4249 16.3178 22.4249 16.3178 20.7253V16.3179H20.7255C22.4248 16.3179 22.4248 13.6821 20.7255 13.6821Z" fill="white"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 30, 2022 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div>RSVP'd yes to <a href="https://events.indieweb.org/2022/05/homebrew-website-club-europe-london-UX313bltNQOm">Homebrew Website Club Europe</a></div>
-                                <div class="mt-3">
-                                  <p>RSVP'd to my first-ever Homebrew get-together on May 4th. I'm curious to see who will be there, and a tad nervous about not being dorky enough. A while ago I made the distinction between Anja and myself by saying she's a full-on dork, and I'm a dork with a hint of cool because I'm in IT, and then she rolled her eyes at me by using her eyes and, really, her entire head.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 23, 2022 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>I've been thinking about ways to make this website smaller, and to make it so that it can exist for years to come. I don't know if Gatsby is such a great solution for that.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.0019 29.6064C21.401 29.9202 21.8997 30.0543 22.3907 29.9799C22.8816 29.9055 23.3255 29.6284 23.6269 29.2084C23.8684 28.8689 23.9995 28.4545 24 28.0283V23.6843H25.125C27.8175 23.6843 30 21.3863 30 18.5522V5.13206C30 2.29803 27.8175 0 25.125 0H4.875C2.1825 0 0 2.29803 0 5.13206V18.5522C0 21.3883 2.1825 23.6843 4.875 23.6843H13.4812L21.0019 29.6064V29.6064ZM22.125 28.0003H22.1194H22.125Z" fill="#54B5F9"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 20, 2022 19:21</div>
-                              <div class="mt-3 pb-4">
-                                <div>Replied to <a href="https://www.wnycstudios.org/podcasts/radiolab/articles/null">Radiolab episode 'NULL'</a></div>
-                                <div class="mt-3">
-                                  <p>One of the most endearing aspects of working with engineers is the disappointment in their faces every time they learn that a problem was produced by their own typo. I can't imagine how the person responsible for the typo at the DMV must feel.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.0019 29.6064C21.401 29.9202 21.8997 30.0543 22.3907 29.9799C22.8816 29.9055 23.3255 29.6284 23.6269 29.2084C23.8684 28.8689 23.9995 28.4545 24 28.0283V23.6843H25.125C27.8175 23.6843 30 21.3863 30 18.5522V5.13206C30 2.29803 27.8175 0 25.125 0H4.875C2.1825 0 0 2.29803 0 5.13206V18.5522C0 21.3883 2.1825 23.6843 4.875 23.6843H13.4812L21.0019 29.6064V29.6064ZM22.125 28.0003H22.1194H22.125Z" fill="#54B5F9"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 16, 2022 22:34</div>
-                              <div class="mt-3 pb-4">
-                                <div>Replied to <a href="https://clarale.com/posts/indieweb-browsing">IndieWeb browsing</a></div>
-                                <div class="mt-3">
-                                  <p>Much like you, I very much enjoy browsing the IndieWeb using <a href="https://xn--sr8hvo.ws/">Indieweb webrings</a>. When I stumbled upon your post, and saw my website listed as one of your new finds, my heart skipped a beat. Since I don't make an effort to be found on the Internet, I forget people ever even find my website. I imagine this is what it must feel like to make contact again with another human after an apocalypse, divided by 1,000.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 16, 2022 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>I've begun updating the content of this site in Obsidian, which means I can now access my notes on my phone in a writing-friendly environment. I'd been using Working Copy before, but I'm not detail-oriented enough for that.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 16, 2022 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>Today, during my Saturday morning coffee run, I bumped into a Dutch-Sri Lankan acquaintance. My favorite barista took one look at us and said "are you sisters?" She then got embarrassed and immediately went on a lunch break. It was refreshing to experience such an event in the presence of another person of color.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 10.1917V9.79434C0 5.00501 2.96016 0.920023 6.99609 0.133449C9.61523 -0.386595 12.3867 0.631567 14.2969 2.86865L15 3.68948L15.6504 2.86865C17.6133 0.631567 20.332 -0.386595 23.0039 0.133449C27.041 0.920023 30 5.00501 30 9.79434V10.1917C30 13.0352 28.9922 15.7553 27.2109 17.6944L16.623 29.2532C16.1836 29.7328 15.6035 30 15 30C14.3965 30 13.8164 29.7328 13.377 29.2532L2.78848 17.6944C1.00957 15.7553 0 13.0352 0 10.1917Z" fill="#EB5CD5"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 15, 2022 20:38</div>
-                              <div class="mt-3 pb-4">
-                                <div>Liked <a href="https://taalunie.org/actueel/98/neske-beks-sommige-woorden-zijn-aan-mijn-schors-blijven-plakken">Neske Beks: 'Sommige woorden zijn aan mijn schors blijven plakken'</a></div>
-                                <div class="mt-3">
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 10.1917V9.79434C0 5.00501 2.96016 0.920023 6.99609 0.133449C9.61523 -0.386595 12.3867 0.631567 14.2969 2.86865L15 3.68948L15.6504 2.86865C17.6133 0.631567 20.332 -0.386595 23.0039 0.133449C27.041 0.920023 30 5.00501 30 9.79434V10.1917C30 13.0352 28.9922 15.7553 27.2109 17.6944L16.623 29.2532C16.1836 29.7328 15.6035 30 15 30C14.3965 30 13.8164 29.7328 13.377 29.2532L2.78848 17.6944C1.00957 15.7553 0 13.0352 0 10.1917Z" fill="#EB5CD5"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 13, 2022 09:29</div>
-                              <div class="mt-3 pb-4">
-                                <div>Liked <a href="https://www.trouw.nl/a-bcff6eff">Hoe je je aandacht terugverovert op de internetvampiers</a></div>
-                                <div class="mt-3">
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.0019 29.6064C21.401 29.9202 21.8997 30.0543 22.3907 29.9799C22.8816 29.9055 23.3255 29.6284 23.6269 29.2084C23.8684 28.8689 23.9995 28.4545 24 28.0283V23.6843H25.125C27.8175 23.6843 30 21.3863 30 18.5522V5.13206C30 2.29803 27.8175 0 25.125 0H4.875C2.1825 0 0 2.29803 0 5.13206V18.5522C0 21.3883 2.1825 23.6843 4.875 23.6843H13.4812L21.0019 29.6064V29.6064ZM22.125 28.0003H22.1194H22.125Z" fill="#54B5F9"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 10, 2022 19:21</div>
-                              <div class="mt-3 pb-4">
-                                <div>Replied to <a href="https://www.nytimes.com/2022/04/08/realestate/nyc-rent-cost.html">The New York Dream of Cheap Rent and No Roommates? It’s Over.</a></div>
-                                <div class="mt-3">
-                                  <p>I feel sorry for everyone who's in an unstable rental situation. These pictures remind me of Sannah Kvist's <a href="https://www.gessato.com/all-i-own-by-sannah-kvist/">All I Own</a>.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.0063 0C24.2698 0 24.5219 0.0594845 24.7625 0.178453C25.1406 0.350297 25.4414 0.621282 25.6648 0.991408C25.8883 1.36153 26 1.77132 26 2.22075V27.7792C26 28.2287 25.8883 28.6385 25.6648 29.0086C25.4414 29.3787 25.1406 29.6497 24.7625 29.8215C24.5448 29.9273 24.2927 29.9802 24.0063 29.9802C23.4563 29.9802 22.9807 29.7687 22.5797 29.3457L15 20.9385L7.42031 29.3457C7.00781 29.7819 6.53229 30 5.99375 30C5.73021 30 5.47813 29.9405 5.2375 29.8215C4.85938 29.6497 4.55859 29.3787 4.33516 29.0086C4.11172 28.6385 4 28.2287 4 27.7792V2.22075C4 1.77132 4.11172 1.36153 4.33516 0.991408C4.55859 0.621282 4.85938 0.350297 5.2375 0.178453C5.47813 0.0594845 5.73021 0 5.99375 0H24.0063Z" fill="#5FCA71"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 10, 2022 14:16</div>
-                              <div class="mt-3 pb-4">
-                                <div><a href="https://dr.amy.gy">dr.amy.gy</a></div>
-                                <div class="mt-3">
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.0063 0C24.2698 0 24.5219 0.0594845 24.7625 0.178453C25.1406 0.350297 25.4414 0.621282 25.6648 0.991408C25.8883 1.36153 26 1.77132 26 2.22075V27.7792C26 28.2287 25.8883 28.6385 25.6648 29.0086C25.4414 29.3787 25.1406 29.6497 24.7625 29.8215C24.5448 29.9273 24.2927 29.9802 24.0063 29.9802C23.4563 29.9802 22.9807 29.7687 22.5797 29.3457L15 20.9385L7.42031 29.3457C7.00781 29.7819 6.53229 30 5.99375 30C5.73021 30 5.47813 29.9405 5.2375 29.8215C4.85938 29.6497 4.55859 29.3787 4.33516 29.0086C4.11172 28.6385 4 28.2287 4 27.7792V2.22075C4 1.77132 4.11172 1.36153 4.33516 0.991408C4.55859 0.621282 4.85938 0.350297 5.2375 0.178453C5.47813 0.0594845 5.73021 0 5.99375 0H24.0063Z" fill="#5FCA71"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 10, 2022 13:07</div>
-                              <div class="mt-3 pb-4">
-                                <div><a href="https://silviamaggidesign.com">silviamaggi.com</a></div>
-                                <div class="mt-3">
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 2, 2022 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>I recently joined <a href="https://adplist.org/mentors/zinzy-nev-geene">ADPList</a> as one of their mentors. If you're a designer or beginning Product Manager looking to bounce ideas off of someone, or if you're interested in learning anything particular from my skill set, feel free to book a session.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">September 12, 2021 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>I've been messing around with Gatsby starters for a bit, and I'm ready to begin building things from scratch.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">November 1, 2020 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>Super stoked to announce that, after five years at Airtrade, I've joined the team of Leeruniek, a Dutch startup in education technology. As their new designer and UX strategist I hope to cultivate collaborative design thinking.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 9, 2020 08:13</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>I was invited to share my experience as a queer Catholic Afropean on Vine &amp; Fig's podcast <em>Tabard Inn</em>. <a href="https://vineandfig.co/podcast/tabard-inn/1/23/story-outspoken-student-feat-zinzy-nev-geene">Listen to the episode</a>.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="row">
-                            <div class="col-2 col-md-1">
-                              <div class="timeline">
-                                <div class="icon">
-                                  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#8792A4"/>
-                                  </svg>
-                                </div>
-                                <div class="line"></div>
-                              </div>
-                            </div>
-                            <div class="col-10 col-md-11">
-                              <div class="text-muted small">April 1, 2020 00:00</div>
-                              <div class="mt-3 pb-4">
-                                <div class="mt-3">
-                                  <p>I've joined the leadership team of <a href="https://www.vineandfig.co">Vine &amp; Fig</a>, an online international community for queer Catholics.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                       </div>
-                  </div>
-                </div>
-              </section>
-              <div id="copyright">
-                <p id="copyright-notice">© Zinzy Waleson. 2022</p>
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 10.1917V9.79434C0 5.00501 2.96016 0.920023 6.99609 0.133449C9.61523 -0.386595 12.3867 0.631567 14.2969 2.86865L15 3.68948L15.6504 2.86865C17.6133 0.631567 20.332 -0.386595 23.0039 0.133449C27.041 0.920023 30 5.00501 30 9.79434V10.1917C30 13.0352 28.9922 15.7553 27.2109 17.6944L16.623 29.2532C16.1836 29.7328 15.6035 30 15 30C14.3965 30 13.8164 29.7328 13.377 29.2532L2.78848 17.6944C1.00957 15.7553 0 13.0352 0 10.1917Z" fill="#EB5CD5"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Load KaTeX --></body>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">May 11, 2022 20:15</div>
+                  <div class="mt-3 pb-4">
+                      
+                      
+                      <div>Liked <a href="https://bigother.com/2010/01/22/look-at-this-fucking-writer-roxane-gay/">Look at this fucking writer: Roxane Gay</a></div>
+                       
+                      <div class="mt-3">
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4.80025 13.5252L10.3558 20.4977C10.6074 20.8127 10.7547 21.2355 10.7681 21.6811C10.7814 22.1268 10.6598 22.5623 10.4278 22.9C10.1957 23.2377 9.87041 23.4527 9.51722 23.5017C9.16402 23.5506 8.80916 23.43 8.52396 23.1639L8.36646 22.9921L0.412792 13.0098C0.174144 12.7109 0.0290352 12.3142 0.00391099 11.8922C-0.0212132 11.4702 0.0753203 11.0509 0.275918 10.7107L0.412792 10.5131L8.36646 0.528414C8.61667 0.208589 8.95445 0.0202196 9.31127 0.00153544C9.66809 -0.0171487 10.0172 0.135252 10.2878 0.427808C10.5583 0.720365 10.7301 1.13116 10.7681 1.57682C10.8062 2.02248 10.7077 2.46962 10.4927 2.8275L10.3558 3.02517L4.80025 9.99537H15.4689C19.2429 9.99543 22.8688 11.8383 25.5794 15.134C28.2901 18.4297 29.8727 22.9197 29.9925 27.6538L30 28.2351C30 28.7032 29.8518 29.1521 29.5881 29.4831C29.3244 29.8141 28.9667 30 28.5938 30C28.2208 30 27.8631 29.8141 27.5994 29.4831C27.3357 29.1521 27.1875 28.7032 27.1875 28.2351C27.1876 24.428 26.0115 20.7692 23.9065 18.0281C21.8014 15.2869 18.9315 13.6771 15.9001 13.537L15.4689 13.5252H4.80025L10.3558 20.4977L4.80025 13.5252Z" fill="#3E4857"/>
+  </svg>
+  
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">May 3, 2022 08:12</div>
+                  <div class="mt-3 pb-4">
+                      
+                      <div>Replied to <a href="http://deborahbrown.eu/2022/05/01/hallo-welt">My IndieWebCamp experience</a></div>
+                      
+                       
+                      <div class="mt-3"><p>Great work on setting up your first personal website, Deborah, and welcome to the IndieWeb! Watching my personal Internet heroes help you wade into the waters of independent web publishing was so refreshing for me. Not all corners of the Internet are welcoming to new faces, but I hope you had as great a time as I had at our first <a href="https://indieweb.org/2022/D%C3%BCsseldorf">IndieWebCamp</a>!</p>
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 10.1917V9.79434C0 5.00501 2.96016 0.920023 6.99609 0.133449C9.61523 -0.386595 12.3867 0.631567 14.2969 2.86865L15 3.68948L15.6504 2.86865C17.6133 0.631567 20.332 -0.386595 23.0039 0.133449C27.041 0.920023 30 5.00501 30 9.79434V10.1917C30 13.0352 28.9922 15.7553 27.2109 17.6944L16.623 29.2532C16.1836 29.7328 15.6035 30 15 30C14.3965 30 13.8164 29.7328 13.377 29.2532L2.78848 17.6944C1.00957 15.7553 0 13.0352 0 10.1917Z" fill="#EB5CD5"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">May 1, 2022 08:30</div>
+                  <div class="mt-3 pb-4">
+                      
+                      
+                      <div>Liked <a href="https://tollwerk.de/projekte/tipps-techniken-inklusiv-barrierefrei/barrierefreie-kontraste#praxis-beispiel-das-farbsystem-dieser-website">Tollwerk Farbsystem</a></div>
+                       
+                      <div class="mt-3">
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 28.8C0 29.4638 0.53625 30 1.2 30H28.8C29.4638 30 30 29.4638 30 28.8V13.05H0V28.8ZM28.8 2.7H22.5V0.3C22.5 0.135 22.365 0 22.2 0H20.1C19.935 0 19.8 0.135 19.8 0.3V2.7H10.2V0.3C10.2 0.135 10.065 0 9.9 0H7.8C7.635 0 7.5 0.135 7.5 0.3V2.7H1.2C0.53625 2.7 0 3.23625 0 3.9V10.5H30V3.9C30 3.23625 29.4638 2.7 28.8 2.7Z" fill="black"/>
+  </svg>
+  
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 30, 2022 00:00</div>
+                  <div class="mt-3 pb-4">
+                      
+                      
+                      
+                      <div>RSVP'd yes to <a href="https://events.indieweb.org/2022/05/homebrew-website-club-europe-london-UX313bltNQOm">Homebrew Website Club Europe</a></div> 
+                      <div class="mt-3"><p>RSVP’d to my first-ever Homebrew get-together on May 4th. I’m curious to see who will be there, and a tad nervous about not being dorky enough. A while ago I made the distinction between Anja and myself by saying she’s a full-on dork, and I’m a dork with a hint of cool because I’m in IT, and then she rolled her eyes at me by using her eyes and, really, her entire head.</p>
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4.80025 13.5252L10.3558 20.4977C10.6074 20.8127 10.7547 21.2355 10.7681 21.6811C10.7814 22.1268 10.6598 22.5623 10.4278 22.9C10.1957 23.2377 9.87041 23.4527 9.51722 23.5017C9.16402 23.5506 8.80916 23.43 8.52396 23.1639L8.36646 22.9921L0.412792 13.0098C0.174144 12.7109 0.0290352 12.3142 0.00391099 11.8922C-0.0212132 11.4702 0.0753203 11.0509 0.275918 10.7107L0.412792 10.5131L8.36646 0.528414C8.61667 0.208589 8.95445 0.0202196 9.31127 0.00153544C9.66809 -0.0171487 10.0172 0.135252 10.2878 0.427808C10.5583 0.720365 10.7301 1.13116 10.7681 1.57682C10.8062 2.02248 10.7077 2.46962 10.4927 2.8275L10.3558 3.02517L4.80025 9.99537H15.4689C19.2429 9.99543 22.8688 11.8383 25.5794 15.134C28.2901 18.4297 29.8727 22.9197 29.9925 27.6538L30 28.2351C30 28.7032 29.8518 29.1521 29.5881 29.4831C29.3244 29.8141 28.9667 30 28.5938 30C28.2208 30 27.8631 29.8141 27.5994 29.4831C27.3357 29.1521 27.1875 28.7032 27.1875 28.2351C27.1876 24.428 26.0115 20.7692 23.9065 18.0281C21.8014 15.2869 18.9315 13.6771 15.9001 13.537L15.4689 13.5252H4.80025L10.3558 20.4977L4.80025 13.5252Z" fill="#3E4857"/>
+  </svg>
+  
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 20, 2022 19:21</div>
+                  <div class="mt-3 pb-4">
+                      
+                      <div>Replied to <a href="https://www.wnycstudios.org/podcasts/radiolab/articles/null">Radiolab episode 'NULL'</a></div>
+                      
+                       
+                      <div class="mt-3"><p>One of the most endearing aspects of working with engineers is the disappointment in their faces every time they learn that a problem was produced by their own typo. I can’t imagine how the person responsible for the typo at the DMV must feel.</p>
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4.80025 13.5252L10.3558 20.4977C10.6074 20.8127 10.7547 21.2355 10.7681 21.6811C10.7814 22.1268 10.6598 22.5623 10.4278 22.9C10.1957 23.2377 9.87041 23.4527 9.51722 23.5017C9.16402 23.5506 8.80916 23.43 8.52396 23.1639L8.36646 22.9921L0.412792 13.0098C0.174144 12.7109 0.0290352 12.3142 0.00391099 11.8922C-0.0212132 11.4702 0.0753203 11.0509 0.275918 10.7107L0.412792 10.5131L8.36646 0.528414C8.61667 0.208589 8.95445 0.0202196 9.31127 0.00153544C9.66809 -0.0171487 10.0172 0.135252 10.2878 0.427808C10.5583 0.720365 10.7301 1.13116 10.7681 1.57682C10.8062 2.02248 10.7077 2.46962 10.4927 2.8275L10.3558 3.02517L4.80025 9.99537H15.4689C19.2429 9.99543 22.8688 11.8383 25.5794 15.134C28.2901 18.4297 29.8727 22.9197 29.9925 27.6538L30 28.2351C30 28.7032 29.8518 29.1521 29.5881 29.4831C29.3244 29.8141 28.9667 30 28.5938 30C28.2208 30 27.8631 29.8141 27.5994 29.4831C27.3357 29.1521 27.1875 28.7032 27.1875 28.2351C27.1876 24.428 26.0115 20.7692 23.9065 18.0281C21.8014 15.2869 18.9315 13.6771 15.9001 13.537L15.4689 13.5252H4.80025L10.3558 20.4977L4.80025 13.5252Z" fill="#3E4857"/>
+  </svg>
+  
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 16, 2022 22:34</div>
+                  <div class="mt-3 pb-4">
+                      
+                      <div>Replied to <a href="https://clarale.com/posts/indieweb-browsing">IndieWeb browsing</a></div>
+                      
+                       
+                      <div class="mt-3"><p>Much like you, I very much enjoy browsing the IndieWeb using <a href="https://xn--sr8hvo.ws/">Indieweb webrings</a>. When I stumbled upon your post, and saw my website listed as one of your new finds, my heart skipped a beat. Since I don’t make an effort to be found on the Internet, I forget people ever even find my website. I imagine this is what it must feel like to make contact again with another human after an apocalypse, divided by 1,000.</p>
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#3E4857"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 16, 2022 00:00</div>
+                  <div class="mt-3 pb-4">
+                      
+                      
+                      
+                       
+                      <div class="mt-3"><p>Today, during my Saturday morning coffee run, I bumped into a Dutch-Sri Lankan acquaintance. My favorite barista took one look at us and said “are you sisters?” She then got embarrassed and immediately went on a lunch break. It was refreshing to experience such an event in the presence of another person of color.</p>
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 10.1917V9.79434C0 5.00501 2.96016 0.920023 6.99609 0.133449C9.61523 -0.386595 12.3867 0.631567 14.2969 2.86865L15 3.68948L15.6504 2.86865C17.6133 0.631567 20.332 -0.386595 23.0039 0.133449C27.041 0.920023 30 5.00501 30 9.79434V10.1917C30 13.0352 28.9922 15.7553 27.2109 17.6944L16.623 29.2532C16.1836 29.7328 15.6035 30 15 30C14.3965 30 13.8164 29.7328 13.377 29.2532L2.78848 17.6944C1.00957 15.7553 0 13.0352 0 10.1917Z" fill="#EB5CD5"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 15, 2022 20:38</div>
+                  <div class="mt-3 pb-4">
+                      
+                      
+                      <div>Liked <a href="https://taalunie.org/actueel/98/neske-beks-sommige-woorden-zijn-aan-mijn-schors-blijven-plakken">Neske Beks: 'Sommige woorden zijn aan mijn schors blijven plakken'</a></div>
+                       
+                      <div class="mt-3">
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 10.1917V9.79434C0 5.00501 2.96016 0.920023 6.99609 0.133449C9.61523 -0.386595 12.3867 0.631567 14.2969 2.86865L15 3.68948L15.6504 2.86865C17.6133 0.631567 20.332 -0.386595 23.0039 0.133449C27.041 0.920023 30 5.00501 30 9.79434V10.1917C30 13.0352 28.9922 15.7553 27.2109 17.6944L16.623 29.2532C16.1836 29.7328 15.6035 30 15 30C14.3965 30 13.8164 29.7328 13.377 29.2532L2.78848 17.6944C1.00957 15.7553 0 13.0352 0 10.1917Z" fill="#EB5CD5"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 13, 2022 09:29</div>
+                  <div class="mt-3 pb-4">
+                      
+                      
+                      <div>Liked <a href="https://www.trouw.nl/a-bcff6eff">Hoe je je aandacht terugverovert op de internetvampiers</a></div>
+                       
+                      <div class="mt-3">
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4.80025 13.5252L10.3558 20.4977C10.6074 20.8127 10.7547 21.2355 10.7681 21.6811C10.7814 22.1268 10.6598 22.5623 10.4278 22.9C10.1957 23.2377 9.87041 23.4527 9.51722 23.5017C9.16402 23.5506 8.80916 23.43 8.52396 23.1639L8.36646 22.9921L0.412792 13.0098C0.174144 12.7109 0.0290352 12.3142 0.00391099 11.8922C-0.0212132 11.4702 0.0753203 11.0509 0.275918 10.7107L0.412792 10.5131L8.36646 0.528414C8.61667 0.208589 8.95445 0.0202196 9.31127 0.00153544C9.66809 -0.0171487 10.0172 0.135252 10.2878 0.427808C10.5583 0.720365 10.7301 1.13116 10.7681 1.57682C10.8062 2.02248 10.7077 2.46962 10.4927 2.8275L10.3558 3.02517L4.80025 9.99537H15.4689C19.2429 9.99543 22.8688 11.8383 25.5794 15.134C28.2901 18.4297 29.8727 22.9197 29.9925 27.6538L30 28.2351C30 28.7032 29.8518 29.1521 29.5881 29.4831C29.3244 29.8141 28.9667 30 28.5938 30C28.2208 30 27.8631 29.8141 27.5994 29.4831C27.3357 29.1521 27.1875 28.7032 27.1875 28.2351C27.1876 24.428 26.0115 20.7692 23.9065 18.0281C21.8014 15.2869 18.9315 13.6771 15.9001 13.537L15.4689 13.5252H4.80025L10.3558 20.4977L4.80025 13.5252Z" fill="#3E4857"/>
+  </svg>
+  
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 10, 2022 19:21</div>
+                  <div class="mt-3 pb-4">
+                      
+                      <div>Replied to <a href="https://www.nytimes.com/2022/04/08/realestate/nyc-rent-cost.html">The New York Dream of Cheap Rent and No Roommates? It’s Over.</a></div>
+                      
+                       
+                      <div class="mt-3"><p>I feel sorry for everyone who’s in an unstable rental situation. These pictures remind me of Sannah Kvist’s <a href="https://www.gessato.com/all-i-own-by-sannah-kvist/">All I Own</a>.</p>
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24.0063 0C24.2698 0 24.5219 0.0594845 24.7625 0.178453C25.1406 0.350297 25.4414 0.621282 25.6648 0.991408C25.8883 1.36153 26 1.77132 26 2.22075V27.7792C26 28.2287 25.8883 28.6385 25.6648 29.0086C25.4414 29.3787 25.1406 29.6497 24.7625 29.8215C24.5448 29.9273 24.2927 29.9802 24.0063 29.9802C23.4563 29.9802 22.9807 29.7687 22.5797 29.3457L15 20.9385L7.42031 29.3457C7.00781 29.7819 6.53229 30 5.99375 30C5.73021 30 5.47813 29.9405 5.2375 29.8215C4.85938 29.6497 4.55859 29.3787 4.33516 29.0086C4.11172 28.6385 4 28.2287 4 27.7792V2.22075C4 1.77132 4.11172 1.36153 4.33516 0.991408C4.55859 0.621282 4.85938 0.350297 5.2375 0.178453C5.47813 0.0594845 5.73021 0 5.99375 0H24.0063Z" fill="#5FCA71"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 10, 2022 14:16</div>
+                  <div class="mt-3 pb-4">
+                      <div><a href="https://dr.amy.gy">dr.amy.gy</a></div>
+                      
+                      
+                       
+                      <div class="mt-3">
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24.0063 0C24.2698 0 24.5219 0.0594845 24.7625 0.178453C25.1406 0.350297 25.4414 0.621282 25.6648 0.991408C25.8883 1.36153 26 1.77132 26 2.22075V27.7792C26 28.2287 25.8883 28.6385 25.6648 29.0086C25.4414 29.3787 25.1406 29.6497 24.7625 29.8215C24.5448 29.9273 24.2927 29.9802 24.0063 29.9802C23.4563 29.9802 22.9807 29.7687 22.5797 29.3457L15 20.9385L7.42031 29.3457C7.00781 29.7819 6.53229 30 5.99375 30C5.73021 30 5.47813 29.9405 5.2375 29.8215C4.85938 29.6497 4.55859 29.3787 4.33516 29.0086C4.11172 28.6385 4 28.2287 4 27.7792V2.22075C4 1.77132 4.11172 1.36153 4.33516 0.991408C4.55859 0.621282 4.85938 0.350297 5.2375 0.178453C5.47813 0.0594845 5.73021 0 5.99375 0H24.0063Z" fill="#5FCA71"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 10, 2022 13:07</div>
+                  <div class="mt-3 pb-4">
+                      <div><a href="https://silviamaggidesign.com">silviamaggi.com</a></div>
+                      
+                      
+                       
+                      <div class="mt-3">
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li><li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          
+  <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00269 0.65848 4.5924 0 6.25 0H23.75C25.4076 0 26.9973 0.65848 28.1694 1.83058C29.3415 3.00269 30 4.5924 30 6.25V15H21.25C19.5924 15 18.0027 15.6585 16.8306 16.8306C15.6585 18.0027 15 19.5924 15 21.25V30H6.25C4.5924 30 3.00269 29.3415 1.83058 28.1694C0.65848 26.9973 0 25.4076 0 23.75V6.25ZM17.5 29.6475C18.3842 29.3374 19.1873 28.8324 19.85 28.17L28.17 19.8475C28.8312 19.1853 29.3353 18.3831 29.645 17.5H21.25C20.2554 17.5 19.3016 17.8951 18.5983 18.5983C17.8951 19.3016 17.5 20.2554 17.5 21.25V29.6475Z" fill="#3E4857"/>
+  </svg>
+                      </div>
+                      <div class="line"></div>
+                  </div> 
+
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">April 9, 2020 08:13</div>
+                  <div class="mt-3 pb-4">
+                      
+                      
+                      
+                       
+                      <div class="mt-3"><p>I was invited to share my experience as a queer Catholic Afropean on Vine &amp; Fig’s podcast <em>Tabard Inn</em>. <a href="https://vineandfig.co/podcast/tabard-inn/1/23/story-outspoken-student-feat-zinzy-nev-geene">Listen to the episode</a>.</p>
+</div>
+                  </div>
+              </div>
+          </div>  
+      </li></ul> </section></main>
+    <footer><footer>
+    <p>
+        <a href="/">Zinzy Waleson</a> is a designer and facilitator from Amsterdam. This personal site is part of the <a href="https://indieweb.org/User:Www.zinzy.website" target="_blank" rel="noopener noreferrer">IndieWeb</a>. You may reach her via 
+        <a href="mailto:zinzy@pm.me">email</a>,
+        <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, and
+        <a href="https://github.com/zinzy" target="_blank" rel="noopener noreferrer">Github</a>.
+
+    </p>
+</footer></footer>
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  /* content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  } */
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5zpx 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      iframe.src = event.target.href
+      iframe.onload = function() {
+        tooltipContentHtml = ''
+        tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+        tooltipContent.innerHTML = tooltipContentHtml
+
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('touchend', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('touchend', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
+
+  </body>
 </html>

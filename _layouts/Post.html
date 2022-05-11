@@ -1,23 +1,47 @@
 ---
+layout: default
 ---
 
-{%- include Header.html -%}
+<article>
+  <div>
+    <h2>{{ page.title }}</h2>
+    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
+      Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
+      {% endif %}
+    </time>
+  </div>
 
+  <div id="">
+    <content>
+      {{ content }}
+    </content>
 
-<section>
-    <div class="row">
-        <div class="col-md-3 mb-5 mb-md-0">
-            {%- include Back.html -%}
+    <div>
+      <h3>Notes mentioning this note</h3>
+      {% if page.backlinks.size > 0 %}
+      <div>
+      {% for backlink in page.backlinks %}
+        <div>
+        <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
+        <div>
+          {{ backlink.excerpt | strip_html | truncatewords: 20 }}</div>
         </div>
-        <div class="col-md-9">
-            <h2>{{page.title}}</h2>
-            <div class="mt-5">
-                {%- include Content.html -%}
-                {%- include Backlinks.html -%}
-                {%- include Related.html -%}
-            </div>
-        </div>
+      {% endfor %}
+      </div>
+      {% else %}
+
+      <div>
+        <p>
+          There are no notes linking to this note.
+        </p>
+      </div>
+      {% endif %}
     </div>
-</section>
+  </div>
+</article>
 
-{%- include Footer.html -%}
+<hr>
+
+<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
+
+{% include notes_graph.html %}

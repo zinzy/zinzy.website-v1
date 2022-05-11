@@ -1,23 +1,9 @@
----
----
-
-{%- include Header.html -%}
-
-
-<section>
-    <div class="row">
-        <div class="col-md-3 mb-5 mb-md-0">
-            {%- include Back.html -%}
-        </div>
-        <div class="col-md-9">
-            <h2>{{page.title}}</h2>
-            <div class="mt-5">
-                {%- include Content.html -%}
-                {%- include Backlinks.html -%}
-                {%- include Related.html -%}
-            </div>
-        </div>
-    </div>
-</section>
-
-{%- include Footer.html -%}
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body> 
+    <main>{{ content }}</main>
+    <footer>{% include footer.html %}</footer>
+    {% include link-previews.html wrapperQuerySelector="content" %}
+  </body>
+</html>

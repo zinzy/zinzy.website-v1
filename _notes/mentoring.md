@@ -6,7 +6,7 @@ date: "2014-01-28"
 tags:
  - career
 ---
-I reserve a portion of my time to remotely mentor designers and product managers. I do this because I find gratification in helping others navigate paths with which I'm familiar. An added bonus is that it helps me keep a pulse on how the tech industry is developing. I've been doing this since around 2012. <mark>You may schedule time with me via [ADPList](https://adplist.org/mentors/zinzy-nev-geene).</mark>
+I reserve a portion of my time to remotely mentor designers and product managers. I do this because I find gratification in helping others navigate paths with which I'm familiar. An added bonus is that it helps me keep a pulse on how the tech industry is developing. I've been doing this since around 2012. <mark>You may schedule time with me via <a href="https://adplist.org/mentors/zinzy-nev-geene" target="_blank">ADPList</a>".</mark>
 
 ### Me as a mentor
 Here's a short overview of who you'll be speaking with:

@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <ul class="dates">
+      <li>
+        <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="dt-published">{% if page.type != 'pages' %}
+        Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}{% endif %}
+        </time>
+      </li>
+      <li>
+        <time>Created on {{ page.date| date: "%B %-d, %Y" }}</time>
+      </li>
+    </ul>
+  </header>
+  <div>
+    <content>
+      {{ content }}
+    </content>
+
+    <hr class="big">
+
+ 
+    <div class="backlinks">
+      <h3>Notes mentioning this note</h3>
+      {% if page.backlinks.size > 0 %}
+      <ul class="">
+      {% for backlink in page.backlinks %}
+        <li>
+          <a href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
+          <div>{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div>
+        </li>
+      {% endfor %}
+      </div>
+      {% else %}
+
+      <div style="font-size: 0.9em">
+        <p>
+          There are no notes linking to this note.
+        </p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</article>
+
+<!-- <hr>
+
+<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
+
+{% include notes_graph.html %} -->

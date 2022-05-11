@@ -1,94 +1,14 @@
+---
+layout: default
+---
 
-{%- include Header.html -%}
+{% include header.html %}
+<main>{{ content }}</main> 
 
-
-<section>
-    <div class="row">
-        <div class="col-md-3">
-            <h2>Hoi</h2>
-        </div>
-        <div class="col-md-9">
-            {{site.user.bio}} 
-        </div>
-    </div>
-</section>
-
-<!-- <section>
-    <div class="row">
-        <div class="col-md-3">
-            <h2>Posts</h2>
-        </div>
-        <div class="col-md-9">
-            <ul class="list-unstyled">
-                {%- for item in site.posts -%}
-                    <li>
-                        <a href="{{item.url}}">{{ item.title }}</a>
-                    </li>
-                {%- endfor -%}
-            </ul> 
-        </div>
-    </div>
-</section> -->
+<hr class="big">
 
 <section>
-    <div class="row">
-        <div class="col-md-3">
-            <h2>Changelog</h2>
-        </div>
-        <div class="col-md-9">
-            {%- include Changelog.html limit="3" -%}
-
-            <div class="mt-3"><a href="/changelog" class="btn">Changelog</a></div>
-        </div>
-    </div>
+    <h2>Changelog</h2>
+    {%- include Changelog.html limit="3" -%}
+    <a href="/changelog" class="button">All updates →</a>
 </section>
-
-<section>
-    <div class="row">
-        <div class="col-md-3">
-            <h2>Notes</h2>
-        </div>
-        <div class="col-md-9">
-            <p>I keep notes so that I can link and think. They contain soft stances, lived experiences, and critical notes on the things I hold dear. Its contents are subject to change. Why don't you try:</p>
-            {%- include Notes.html limit="3" display="list-style-sentence" -%}
-
-            <div class="mt-3"><a href="/notes" class="btn">Notes</a></div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="row">
-        <div class="col-md-3">
-            <h2>Library</h2>
-        </div>
-        <div class="col-md-9">
-            <p>I keep a list of things I listen to, watch, or read, and sometimes share some thoughts on how I interpreted or appreciate a story. You can start with these:</p>
-            {%- include Library.html limit="3" -%}
-
-            <div class="mt-3"><a href="/library" class="btn">Library</a></div>
-        </div>
-    </div>
-</section>
-
-
-<section>
-    <div class="row">
-        <div class="col-md-3">
-            <h2>Connect</h2>
-        </div>
-        <div class="col-md-9">
-            <p>I'm not on social media, but you can find me on:</p>
-            <ul class="list-unstyled">
-                <li><a href="mailto:zinzy@pm.me" rel="me">email</a></li>
-                <li><a href="https://github.com/zinzy" target="_blank" rel="me noopener noreferrer">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/zinzy" target="_blank" rel="me noopener noreferrer">LinkedIn</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-
-
-
-{%- include Footer.html -%}

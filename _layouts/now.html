@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{%- include Back.html -%}
+<h2>{{page.title}}</h2>
+{{ content }}
+
+<section class="now">
+    {% assign sorted = site.now | sort: 'date' | reverse %}
+    {%- for item in sorted  limit: 1 -%} 
+        <article> 
+            <h3>{{ item.title}}</h3>          
+            <div class="date">
+                <time>{{ item.date | date: "%B %-d, %Y" }}</time>
+            </div> 
+            {{ item.content }} 
+        </article>
+    {%- endfor -%}
+</section>
+
+<hr class="big">
+
+<section class="now then">
+    <h3>Then</h3>
+    <div class="space-t">
+        {% assign sorted = site.now | sort: 'date' | reverse %}
+    {%- for item in sorted  offset:1 -%} 
+        <article>       
+            <h3>{{ item.title}}</h3>          
+            <div class="dt-published">{{ item.date | date: "%B %-d, %Y" }}</div> 
+            {{ item.content }} 
+        </article>
+    {%- endfor -%}
+    </div>
+</section>

@@ -1,9 +1,0 @@
-I"l<p>This is a journal, note a guide.</p>
-
-<h3 id="may-1-2022">May 1, 2022</h3>
-<ul>
-  <li>Back when my website ran on Jekyll, I used <a href="https://kodfabrik.se/">Pelle Wessman</a>'s <a href="https://github.com/voxpelli/webpage-micropub-to-github"><code class="highlighter-rouge">webpage-micropub-to-github</code></a>. I expect I won't be able to use that for Gatsby, although I'm slowly exploring what a micropub endpoint actually means, and how much different a Jekyll one would be from any other static site generator.</li>
-  <li>Every time I attempt to set up Micropub, I sense that there is more to it than adding a <code class="highlighter-rouge">rel="micropub"</code> and <code class="highlighter-rouge">rel="token_endpoint"</code> to my <code class="highlighter-rouge">&lt;head&gt;</code>, but I'm having trouble figuring out what that is.</li>
-  <li>While I already knew about <a href="https://micropub.rocks">Micropub.rocks</a>, I'm now using it to give myself an overview of 1) what I'm supposed to be able to do with Micropub, and what error codes are involved in the implementation issues I've been having.</li>
-</ul>
-:ET

@@ -1,46 +1,40 @@
-{%- comment -%}
-*
-* MIT License
-* Copyright (c) 2020 Raghuveer
-{%- endcomment -%}
-
 <ul class="changelog">
-    {% assign sorted = site.changelog | reverse %}
-    {%- for item in sorted | reverse limit: include.limit  -%}
+  {% assign sorted = site.posts | sort: 'date' | reverse %}
+  {%- for item in sorted | limit: include.limit  -%}
 
-        <li>
-            <div class="row">
-                <div class="col-2 col-md-1"> 
-                    <div class="timeline">
-                        <div class="icon">
-                            {% if item.bookmark-of %}
-                                {%- include icons/Bookmark.html -%}
-                            {% elsif item.reply-to and item.rsvp == null %}
-                                {%- include icons/Reply.html -%}
-                            {% elsif item.like-of %}
-                                {%- include icons/Like.html -%}
-                            {% elsif item.rsvp %}
-                                {%- include icons/RSVP.html -%}
-                            {% elsif item.reply-to == null and item.bookmark-of == null and item.rsvp == null and item.like-of == null  %}
-                                {%- include icons/Note.html -%}
-                            {% endif %}
-                        </div>
-                        <div class="line"></div>
-                    </div> 
+      <li>
+          <div class="row">
+              <div class="col-2 col-md-1"> 
+                  <div class="timeline">
+                      <div class="icon">
+                          {% if item.bookmark-of %}
+                              {%- include icons/Bookmark.html -%}
+                          {% elsif item.reply-to and item.rsvp == null %}
+                              {%- include icons/Reply.html -%}
+                          {% elsif item.like-of %}
+                              {%- include icons/Like.html -%}
+                          {% elsif item.rsvp %}
+                              {%- include icons/RSVP.html -%}
+                          {% elsif item.reply-to == null and item.bookmark-of == null and item.rsvp == null and item.like-of == null  %}
+                              {%- include icons/Note.html -%}
+                          {% endif %}
+                      </div>
+                      <div class="line"></div>
+                  </div> 
 
-                     
-                </div>
-                <div class="col-10 col-md-11">
-                    <div class="text-muted small">{{ item.date | date: "%B %-d, %Y %H:%M" }}</div>
-                    <div class="mt-3 pb-4">
-                        {% if item.bookmark-of %}<div><a href="{{ item.bookmark-of }}">{{ item.title }}</a></div>{% endif %}
-                        {% if item.reply-to and item.rsvp == null %}<div>Replied to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}
-                        {% if item.like-of %}<div>Liked <a href="{{ item.like-of }}">{{ item.title }}</a></div>{% endif %}
-                        {% if item.rsvp %}<div>RSVP'd {{ item.rsvp }} to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %} 
-                        {% if item.content %}<div class="mt-3">{{ item.content }}</div>{% endif %}
-                    </div>
-                </div>
-            </div>  
-        </li>
-    {%- endfor -%}
+                   
+              </div>
+              <div class="col-10 col-md-11">
+                  <div class="dt-published">{{ item.date | date: "%B %-d, %Y %H:%M" }}</div>
+                  <div class="mt-3 pb-4">
+                      {% if item.bookmark-of %}<div><a href="{{ item.bookmark-of }}">{{ item.title }}</a></div>{% endif %}
+                      {% if item.reply-to and item.rsvp == null %}<div>Replied to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}
+                      {% if item.like-of %}<div>Liked <a href="{{ item.like-of }}">{{ item.title }}</a></div>{% endif %}
+                      {% if item.rsvp %}<div>RSVP'd {{ item.rsvp }} to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %} 
+                      {% if item.content %}<div class="mt-3">{{ item.content }}</div>{% endif %}
+                  </div>
+              </div>
+          </div>  
+      </li>
+  {%- endfor -%}
 </ul> 

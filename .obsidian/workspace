@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "53b7a8d480ec5758",
+    "type": "split",
+    "children": [
+      {
+        "id": "94f01aa433c277a7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2022-05-11-20-15.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d89e0b7c6c3b53d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "51932287ade1bf97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ef3c8f62ce12998",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "33a67c6f2b1c6bd9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39f917607eab86bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4786d809b8cca43d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c3a4fb9abd7241e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2022-05-11-20-15.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "94f01aa433c277a7",
+  "lastOpenFiles": [
+    "_posts/2022-05-11-20-15.md",
+    "_notes/The Staircase.md",
+    "_notes/reading.md",
+    "_notes/mentoring.md",
+    "_now/now-2022-05-11.md",
+    "_notes/buddhism.md",
+    "_notes/amsterdam.md",
+    "_notes/visual-literacy.md",
+    "_notes/quiet queer spaces.md",
+    "_library/2doc-dunya.md"
+  ]
+}
