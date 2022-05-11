@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-05-11-20-15.md",
+            "file": "_posts/week-2020-14.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-05-11-20-15.md",
+                "file": "_posts/week-2020-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "94f01aa433c277a7",
   "lastOpenFiles": [
+    "_posts/week-2020-14.md",
     "_posts/2022-05-11-20-15.md",
     "_notes/The Staircase.md",
     "_notes/reading.md",
@@ -97,7 +98,6 @@
     "_notes/buddhism.md",
     "_notes/amsterdam.md",
     "_notes/visual-literacy.md",
-    "_notes/quiet queer spaces.md",
-    "_library/2doc-dunya.md"
+    "_notes/quiet queer spaces.md"
   ]
 }

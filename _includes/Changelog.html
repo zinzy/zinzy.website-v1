@@ -25,14 +25,14 @@
                    
               </div>
               <div class="col-10 col-md-11">
-                  <div class="dt-published">{{ item.date | date: "%B %-d, %Y %H:%M" }}</div>
-                  <div class="mt-3 pb-4">
-                      {% if item.bookmark-of %}<div><a href="{{ item.bookmark-of }}">{{ item.title }}</a></div>{% endif %}
-                      {% if item.reply-to and item.rsvp == null %}<div>Replied to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}
-                      {% if item.like-of %}<div>Liked <a href="{{ item.like-of }}">{{ item.title }}</a></div>{% endif %}
-                      {% if item.rsvp %}<div>RSVP'd {{ item.rsvp }} to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %} 
-                      {% if item.content %}<div class="mt-3">{{ item.content }}</div>{% endif %}
+                  <div class="dt-published date"><time>{{ item.date | date: "%B %-d, %Y %H:%M" }}</time></div>
+                  <div>
+                      {% if item.bookmark-of %}<div class="mb-4"><a href="{{ item.bookmark-of }}">{{ item.title }}</a></div>{% endif %}
+                      {% if item.reply-to and item.rsvp == null %}<div class="mb-4">Replied to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}
+                      {% if item.like-of %}<div class="mb-4">Liked <a href="{{ item.like-of }}">{{ item.title }}</a></div>{% endif %}
+                      {% if item.rsvp %}<div class="mb-4">RSVP'd {{ item.rsvp }} to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}  
                   </div>
+                  {% if item.content %}<div class="">{{ item.content }}</div>{% endif %}
               </div>
           </div>  
       </li>
