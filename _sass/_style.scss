@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6,
   font-size: 100%;
   font-weight: normal;
   line-height: 165%;
+  margin-top: 0;
 }
 
 h1 { 
@@ -162,11 +163,11 @@ hr {
 article {
   margin-bottom: 100px;
   header {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     .dates { 
-      list-style-type: none;
-      margin: 0;
+      list-style-type: none; 
       padding: 0;
+      margin: 0;
       time { 
         color: $gray-600;
         font-size: 90%; 

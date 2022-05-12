@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/week-2020-14.md",
+            "file": "_now/now-2022-05-11.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39f917607eab86bd",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/week-2020-14.md",
+                "file": "_now/now-2022-05-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +90,12 @@
   },
   "active": "94f01aa433c277a7",
   "lastOpenFiles": [
+    "_now/now-2022-05-11.md",
     "_posts/week-2020-14.md",
     "_posts/2022-05-11-20-15.md",
     "_notes/The Staircase.md",
     "_notes/reading.md",
     "_notes/mentoring.md",
-    "_now/now-2022-05-11.md",
     "_notes/buddhism.md",
     "_notes/amsterdam.md",
     "_notes/visual-literacy.md",

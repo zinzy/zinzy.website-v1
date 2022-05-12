@@ -9,10 +9,11 @@ layout: default
     {% assign sorted = site.now | sort: 'date' | reverse %}
     {%- for item in sorted  limit: 1 -%} 
         <article> 
-            <h3>{{ item.title}}</h3>          
-            <div class="date">
-                <time>{{ item.date | date: "%B %-d, %Y" }}</time>
-            </div> 
+            <header>
+                <div class="date  dt-published">
+                    <time>{{ item.date | date: "%B %-d, %Y" }}</time>
+                </div> 
+            </header>
             {{ item.content }} 
         </article>
     {%- endfor -%}
@@ -22,14 +23,15 @@ layout: default
 
 <section class="now then">
     <h3>Then</h3>
-    <div class="space-t">
-        {% assign sorted = site.now | sort: 'date' | reverse %}
-    {%- for item in sorted  offset:1 -%} 
-        <article>       
-            <h3>{{ item.title}}</h3>          
-            <div class="dt-published">{{ item.date | date: "%B %-d, %Y" }}</div> 
-            {{ item.content }} 
-        </article>
-    {%- endfor -%}
-    </div>
+    {% assign sorted = site.now | sort: 'date' | reverse %}
+{%- for item in sorted  offset:1 -%} 
+    <article>       
+        <header>
+            <div class="date dt-published">
+                <time>{{ item.date | date: "%B %-d, %Y" }}</time>
+            </div>  
+        </header>
+        {{ item.content }} 
+    </article>
+{%- endfor -%}
 </section>
