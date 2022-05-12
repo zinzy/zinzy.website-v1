@@ -8,7 +8,7 @@ layout: default
 <section>
     <h2>Changelog</h2> <ul class="changelog">
         {% assign sorted = site.posts | sort: 'date' | reverse %}
-        {%- for item in sorted | limit: include.limit  -%}
+        {%- for item in sorted  -%}
       
             <li>
                 <div class="row">
