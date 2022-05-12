@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="/styles.css">
 
   <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  <link rel="micropub" href="https://zinzy.website/micropub/main">
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 
   
   <meta property="og:description" content="Zinzy Waleson"/>
@@ -37,6 +39,7 @@
        &mdash; Zinzy Waleson
     
   </title>
+ 
 </head>
   <body> 
     <main>Look at this fucking writer: Roxane Gay;My IndieWebCamp experience;Tollwerk Farbsystem;Homebrew Website Club Europe;Radiolab episode &#39;NULL&#39;;IndieWeb browsing;09 28;Neske Beks: &#39;Sommige woorden zijn aan mijn schors blijven plakken&#39;;Hoe je je aandacht terugverovert op de internetvampiers;The New York Dream of Cheap Rent and No Roommates? It’s Over.;dr.amy.gy;silviamaggi.com;08 13;</main>
