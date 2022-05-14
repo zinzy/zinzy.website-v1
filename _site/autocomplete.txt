@@ -51,7 +51,7 @@
 
 
   <body> 
-    <main>Podcast &#39;Atlas&#39;;Look at this fucking writer: Roxane Gay;My IndieWebCamp experience;Tollwerk Farbsystem;Homebrew Website Club Europe;Radiolab episode &#39;NULL&#39;;IndieWeb browsing;09 28;Neske Beks: &#39;Sommige woorden zijn aan mijn schors blijven plakken&#39;;Hoe je je aandacht terugverovert op de internetvampiers;The New York Dream of Cheap Rent and No Roommates? It’s Over.;dr.amy.gy;silviamaggi.com;08 13;</main>
+    <main>12 13;Podcast &#39;Atlas&#39;;Look at this fucking writer: Roxane Gay;My IndieWebCamp experience;Tollwerk Farbsystem;Homebrew Website Club Europe;Radiolab episode &#39;NULL&#39;;IndieWeb browsing;09 28;Neske Beks: &#39;Sommige woorden zijn aan mijn schors blijven plakken&#39;;Hoe je je aandacht terugverovert op de internetvampiers;The New York Dream of Cheap Rent and No Roommates? It’s Over.;dr.amy.gy;silviamaggi.com;08 13;</main>
     <footer id="footer">
       <p>
           <a href="/">Zinzy Waleson</a> is a designer and facilitator from Amsterdam. This personal site was designed and built by hands and is part of the <a href="https://indieweb.org/User:Www.zinzy.website" target="_blank" rel="noopener noreferrer">IndieWeb</a>. You may reach her via 

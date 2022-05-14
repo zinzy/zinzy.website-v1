@@ -1,0 +1,87 @@
+I"$-<h3 id="about-this-website">About this website</h3>
+<p>zinzy.website is my personal site. A quiet corner of the Internet where I come to link and think. One may wonder, if I’m not selling anything or promoting myself, why this site needs to be here at all. Personal sites remind me of the days when sharing things online was an exploratory kind of goofing off, not personal branding or highlight reels.</p>
+
+<h3 id="principles">Principles</h3>
+<p>When it comes to publishing things online, I enjoy the idea of owning my data, making my own things, and learning while doing so. I appreciate IndieWeb <a href="https://indieweb.org/principles">principles</a> as well as the idea of the slow web. I like to think the Internet deserves to be liberated from our tendencies to turn things into a monolith. My aim with this space is to grow it incrementally and retroactively. I hope to have it be part of the long web. Here are a few IndieWeb principles that I find particularly important:</p>
+
+<ul>
+  <li><strong>Own your data</strong>: I enjoy having full control over where my data originates, partly because I’m a control nut and partly because I’m disappointed in all those services that stop existing and took my data with them.</li>
+  <li><strong>Longevity</strong>: I love visiting people’s personal sites that contain posts from the late 90s. I’m in the process of bundling parts of my online activity in this format so that it can continue to exist for a long time.</li>
+  <li><strong>Make what you need</strong>: I love to learn by solving my own problems. Building my own website and finding the tools to help me design it in a particular way is very satisfying.</li>
+  <li>🎉 <strong>Above all, have fun</strong>: the reason I’m not active on social media is that they really fail at making me happy. Rather than making me feel connected with people I care about, such platforms make me feel bad about myself, my choices, and achievements. I want to have fun on the Internet, and this website makes me do just that.</li>
+</ul>
+
+<h3 id="technology">Technology</h3>
+<ul>
+  <li>I use static site builder <a href="https://www.gatsbyjs.com/">GatsbyJS</a> to put together this website, publish the contents on <a href="https://github.com/zinzy/zinzy.website">Github</a>, and deploy it via <a href="https://www.netlify.com/">Netlify</a>.</li>
+  <li>I’m familiar enough with Gatsby to be able to use it, and unfamiliar enough that it takes me out of my comfort zone. Before this, I worked with <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://getkirby.com/">Kirby</a>, <a href="http://beta.staceyapp.com/">Stacey</a>, and <a href="https://wordpress.org/">Wordpress</a>.</li>
+  <li><a href="https://www.bhosted.nl/">bHosted</a> has been my trusted webhost since 2005.</li>
+</ul>
+
+<h3 id="design">Design</h3>
+<p>I like simple, no-fuss websites and I aim to keep things simple but no simpler. Whatever typeface you’re looking at is the font of your device’s system. While design of this website was created by yours truly, its interaction and visual design borrow from various fine folks on the Internet, not limited to:</p>
+
+<ul>
+  <li>Looking to create an archive for my <a class="internal-link" href="/now">now</a> page updates, I stumbled upon <a href="https://maggieappleton.com/now">Maggie Appleton</a>’s setup and decided I liked it a lot. It’s no secret to anyone in the digital gardening community that Maggie’s work has been instrumental, and my website is certainly inspired by hers.</li>
+  <li><a href="https://matthewsmith.website/about">Matthew Smith</a>’s About page contains a really neat slider that determines how detailed the page’s content is. I use this for my <a class="internal-link" href="/changelog">changelog</a>.</li>
+  <li>The website’s footer was inspired by <a href="https://chad.is/">Chad Mazzola</a>’s personal site</li>
+  <li>If you feel like I’m doing something that originated in your head or in the head of someone you know, tell me! You’re probably right.</li>
+</ul>
+
+<h3 id="tracking">Tracking</h3>
+<p>This website doesn’t track those who visit it. I have no idea if you’re reading this. Unless you tell me, I might not know you exist. I like it that way. I hope you do as well. Enjoy.</p>
+
+<h3 id="to-do">To do</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><del>Update site automatically with content from Obsidian</del></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><del>Dropbox integration</del></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><del>Then archive with appropriate routing</del></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><del>Show updated date as relative to actual time and not build time</del></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Indiewebify</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Responsive masonry for notes</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Weeknotes</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Update and creation dates
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Replies</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Bookmarks</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Mobile typography (2022-04-05)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Mobile-friendly bottom menu with webring (2022-04-06)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Library (2022-04-08)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Fix display of bidirectional links (2022-04-09)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Filter home note out of linked references (2022-04-09)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Dark mode (2022-04-09)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Inbound references (2022-04-09)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Antilibrary (2022-04-10)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Changelog with Indieweb post types (2022-04-10)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add ability to edit posts in Obsidian (2022-04-16)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Open external link in new tab with normal Markdown syntax (2022-04-16)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Library categories (2022-04-17)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Make slugs case-insensitive (2022-04-18)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Detail slider for changelog (2022-04-18)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Last.fm feed (2022-04-18)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Stop retaining scroll position  (2022-04-24)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Vertical alignment of mobile switch labels (2022-04-24)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />include fallback font weight (2022-04-24)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Note list sorted descending by updated date</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Search</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Upgrade to Gatsby 4 and fix plugins</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Refactor code</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Optional table of content</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Tippy URL tooltips</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Tippy note preview</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Figure out why page flashes on load</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Remove unnecessary Javascript</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Minimize project size</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Micropub</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Extended spacing utilities</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Webmentions</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />siteconfig data</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />correct <code class="language-plaintext highlighter-rouge">title</code>s</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Contact form</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Favicon</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Obsidian links use <link /> component</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />High-contrast mode</li>
+</ul>
+:ET

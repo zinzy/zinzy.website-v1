@@ -8,7 +8,7 @@ tags:
  - representation
  - media
 ---  
-When it comes to [[Erasing racism]], [[riverdale]] has proven a space that helped me further explore this topic. There are various reasons why one could argue that _Riverdale_ promotes diversity and inclusion:
+The hit television series _[[Riverdale]]_ is an interesting space to explore the topic of [[erasing racism]]. In light of the importance of [[visual literacy]] and the proven relevance of the show in popular culture, I'm using this page to share some unfinished thoughts.  There are various reasons why one could argue that _Riverdale_ promotes diversity and inclusion:
 
 - The series features multiple people of color who have their own plotline to a variety of degrees
 - The town's mayor is a Black woman
