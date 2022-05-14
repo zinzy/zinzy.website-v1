@@ -13,7 +13,7 @@ $white: #fff;
 
 
 $palette-blue: #54B5F9;  
-$palette-purple: #7861E7;  
+$palette-purple: #9d90ff;  
 $palette-pink: #EB5CD5;  
 $palette-orange: #EF7F55;  
 $palette-green: #5FCA71;  
@@ -44,7 +44,7 @@ body, html {
 body {
     font-size: 1rem;
     font-family: $font-default;  
-    color: $gray-800; 
+    color: $gray-700; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizelegibility;
@@ -70,12 +70,15 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-size: 100%;
-  font-weight: normal;
+  font-weight: 500;
+  color: $black;
   line-height: 165%;
-  margin-top: 0;
+  // margin-top: 0;
 }
 
 h1 { 
+  margin: 0;
+  padding: 0;
   a {
     line-height: 165%;
     border: 0;
@@ -108,9 +111,13 @@ header {
     position: relative;
     margin-top: 3rem;
     .icon {
+      display: none;
       position: absolute;
       left: -30px;
-      margin-top: 5px;
+      margin-top: 5px; 
+      @media screen and (min-width: 768px) {
+        display: block;
+      }
       @media screen and (min-width: 992px) {
         left: -50px;
       }
@@ -123,6 +130,9 @@ header {
 .now {
   article { 
     margin-top: 5rem;
+    header {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -174,6 +184,10 @@ article {
       }
     }
   }
+  h3 { margin-top: 3rem;}
+  h4 { margin-top: 2.5rem;}
+  h5 { margin: 2rem 0 0 0;}
+  h6 { margin-top: 1.5rem;}
 }
 
 time {
@@ -261,11 +275,10 @@ a {
   transition: background 300ms;
   // padding: 0 0.1em;
   text-decoration: none;
-  border-bottom: 1px solid $black;
+  font-weight: 500;
   color: $black;
   &:hover {
     color: $black;
-    background: $gray-100;
   }
   // &:after {
   //   position: relative;
@@ -300,4 +313,12 @@ nav {
 .invalid-link-brackets {
   color: #ccc;
   cursor: help;
+}
+
+
+mark {
+  background: rgb(255, 246, 168);
+  &:hover {
+    background: rgb(255, 240, 104) !important;
+  }
 }

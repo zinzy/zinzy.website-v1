@@ -3,38 +3,14 @@
   {%- for item in sorted | limit: include.limit  -%}
 
       <li>
-          <div class="row">
-              <div class="col-2 col-md-1"> 
-                  <div class="timeline">
-                      <div class="icon">
-                          {% if item.bookmark-of %}
-                              {%- include icons/Bookmark.html -%}
-                          {% elsif item.reply-to and item.rsvp == null %}
-                              {%- include icons/Reply.html -%}
-                          {% elsif item.like-of %}
-                              {%- include icons/Like.html -%}
-                          {% elsif item.rsvp %}
-                              {%- include icons/RSVP.html -%}
-                          {% elsif item.reply-to == null and item.bookmark-of == null and item.rsvp == null and item.like-of == null  %}
-                              {%- include icons/Note.html -%}
-                          {% endif %}
-                      </div>
-                      <div class="line"></div>
-                  </div> 
-
-                   
-              </div>
-              <div class="col-10 col-md-11">
-                  <div class="dt-published date"><time>{{ item.date | date: "%B %-d, %Y %H:%M" }}</time></div>
-                  <div>
-                      {% if item.bookmark-of %}<div class="mb-4"><a href="{{ item.bookmark-of }}">{{ item.title }}</a></div>{% endif %}
-                      {% if item.reply-to and item.rsvp == null %}<div class="mb-4">Replied to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}
-                      {% if item.like-of %}<div class="mb-4">Liked <a href="{{ item.like-of }}">{{ item.title }}</a></div>{% endif %}
-                      {% if item.rsvp %}<div class="mb-4">RSVP'd {{ item.rsvp }} to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}  
-                  </div>
-                  {% if item.content %}<div class="">{{ item.content }}</div>{% endif %}
-              </div>
-          </div>  
+        <div class="dt-published date"><time>{{ item.date | date: "%B %-d, %Y %H:%M" }}</time></div>
+        <div>
+            {% if item.bookmark-of %}<div class="mb-4">Bookmarked <a href="{{ item.bookmark-of }}">{{ item.title }}</a></div>{% endif %}
+            {% if item.reply-to and item.rsvp == null %}<div class="mb-4">Replied to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}
+            {% if item.like-of %}<div class="mb-4">Liked <a href="{{ item.like-of }}">{{ item.title }}</a></div>{% endif %}
+            {% if item.rsvp %}<div class="mb-4">RSVP'd {{ item.rsvp }} to <a href="{{ item.reply-to }}">{{ item.title }}</a></div>{% endif %}  
+        </div>
+        {% if item.content %}<div class="">{{ item.content }}</div>{% endif %}
       </li>
   {%- endfor -%}
 </ul> 

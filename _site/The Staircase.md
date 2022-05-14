@@ -1,1 +1,1 @@
-- best scenes are the focus griups
+- best scenes are the focus groups 

@@ -3,8 +3,7 @@ title: "Challah"
 excerpt: "How I've been making my challah" 
 date: "2022-04-02"
 category: "Recipe"
-tags:
- - recipes
+tags: recipes
 ---
 Since the beginning of my relationship with Anja I've been periodically baking challahs for shabbos. This page details the recipe I use, and how I've been refining it through the years.
 

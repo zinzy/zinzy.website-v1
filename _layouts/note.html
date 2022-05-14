@@ -18,14 +18,29 @@ layout: default
   </header>
   <div>
     <content>
+
+      {% if page.impliedreader %}
+        <strong>Implied reader: </strong>{{page.impliedreader}}
+        {% endif %}
+
       {{ content }}
     </content>
 
     <hr class="big">
 
- 
+    <!-- <p>Piles this note is in: 
+      {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>
+    {% endfor %}
+    </p> 
+
+     
+
+    <hr class=""> -->
+
     <div class="backlinks">
-      <h3>Notes mentioning this note</h3>
+      <h3>Notes linking here</h3>
       {% if page.backlinks.size > 0 %}
       <ul class="">
       {% for backlink in page.backlinks %}

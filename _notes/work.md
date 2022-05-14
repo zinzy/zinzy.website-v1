@@ -19,14 +19,7 @@ I transitioned to the role of Product & Design Manager to help make Leeruniek's 
 ##### December 2020 - April 2021
 I joined Leeruniek as a Design Strategist in their Product team, focusing on holistic product design, and establishing a UX practice. 
 
-----
-
 #### Airtrade
-
-<figure  className="portfolio">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1554/v1650692689/Digital%20garden/portfolio_propeller.png"/>
-<figcaption>Propeller Design System</figcaption>
-</figure>
 
 ##### 2017 - 2020
 As Lead Designer, I built a UX lab from scratch, as well as a design system powering over a dozen industry-leading travel brands. Being the company's first designer in-house was a challenge at times, but it did teach me volumes about building transparent stakeholder relationships. My proudest achievement at Airtrade was Propeller, a design system I built to power our white label tools as well as all other platforms in the company.
@@ -34,20 +27,7 @@ As Lead Designer, I built a UX lab from scratch, as well as a design system powe
 ##### 2015 - 2017
 I joined the company as a Lead Developer on one of their front-end teams. Early on, I began transitioning to design work, which was a natural fit for me. 
 
-----
-
 #### Studio Zinzy
-
-<figure  className="portfolio">
-<div className="row">
-<div className="col-md-6">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1268/v1650694135/Digital%20garden/portfolio_webtraining.png"/></div>
-<div className="col-md-6">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_979/v1650694136/Digital%20garden/portfolio_leo.png"/></div> 
-</div>
-<figcaption>Projects I worked on (and saved)</figcaption>
-</figure>
-
 Between 2007 and 2015 I ran my own one-person design studio. Exploring various creative disciplines and front-end development, I worked with artists, magazines, academia, journalists, health care professionals, both in large organisations and for local businesses, in teams of tech professionals and by myself.
 
 ### My background
