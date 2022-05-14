@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "673075e3747a7684",
+        "id": "83d77d6462f982b1",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_notes/Visual literacy.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Visual literacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "673075e3747a7684",
+  "active": "83d77d6462f982b1",
   "lastOpenFiles": [
+    "_notes/now-2021-09-13.md",
+    "_notes/now-2022-04-16.md",
+    "_notes/now-2022-05-11.md",
+    "_now/now-2022-05-11.md",
+    "_notes/Reading.md",
     "_notes/Visual literacy.md",
     "_notes/Catholicism.md",
     "_notes/Queer Catholics.md",
     "_notes/vine-and-fig.md",
-    "_notes/Work.md",
-    "_notes/Studio Zinzy.md",
-    "_notes/Leeruniek.md",
-    "_notes/Airtrade.md",
-    "_notes/Write to remember.md",
-    "_notes/Tossed pasta.md"
+    "_notes/Work.md"
   ]
 }
