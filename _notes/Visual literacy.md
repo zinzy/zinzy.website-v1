@@ -12,14 +12,10 @@ tags:
 ---  
 In our household, we have a few ground rules about how we communicate with other humans. We don't pretend butter is gross, we [[Stop saying race|don't say "race"]], and we don't think books are, by default, better than their film adaptations. 
 
+> Visual literacy is the ability to interpret, negotiate, and make meaning from information presented in the form of an image, extending the meaning of literacy, which commonly signifies interpretation of a written or printed text.
+> 
+> — [Wikipedia](https://en.wikipedia.org/wiki/Visual_literacy)
 
-<Draft/>
-
-From Wikipedia:
-
-> Visual literacy is the ability to [interpret](https://en.m.wikipedia.org/wiki/Interpreting "Interpreting"), negotiate, and make meaning from information presented in the form of an [image](https://en.m.wikipedia.org/wiki/Image "Image"), extending the meaning of [literacy](https://en.m.wikipedia.org/wiki/Literacy "Literacy"), which commonly signifies interpretation of a written or printed [text](https://en.m.wikipedia.org/wiki/Written_language "Written language").
-
----
 
 For further exploration
 - Stories we tell / stories we don't tell

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/vine-and-fig.md",
+            "file": "_notes/Visual literacy.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/vine-and-fig.md",
+                "file": "_notes/Visual literacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "673075e3747a7684",
   "lastOpenFiles": [
+    "_notes/Visual literacy.md",
+    "_notes/Catholicism.md",
+    "_notes/Queer Catholics.md",
     "_notes/vine-and-fig.md",
     "_notes/Work.md",
     "_notes/Studio Zinzy.md",
     "_notes/Leeruniek.md",
     "_notes/Airtrade.md",
     "_notes/Write to remember.md",
-    "_notes/Visual literacy.md",
-    "_notes/Tossed pasta.md",
-    "_notes/Stop saying race.md",
-    "_notes/Stereotypes.md"
+    "_notes/Tossed pasta.md"
   ]
 }

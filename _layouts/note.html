@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{%- include Back.html -%}
 <article>
   <header>
     <h1>{{ page.title }}</h1>
@@ -20,8 +21,10 @@ layout: default
     <content>
 
       {% if page.impliedreader %}
-        <strong>Implied reader: </strong>{{page.impliedreader}}
-        {% endif %}
+        <div class="implied-reader">
+          <h6>Implied reader: </h6>{{page.impliedreader}}
+        </div>
+      {% endif %}
 
       {{ content }}
     </content>
@@ -46,15 +49,15 @@ layout: default
       {% for backlink in page.backlinks %}
         <li>
           <a href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
-          <div>{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div>
+          <div>{{ backlink.excerpt | strip_html }}</div>
         </li>
       {% endfor %}
       </div>
       {% else %}
 
-      <div style="font-size: 0.9em">
+      <div>
         <p>
-          There are no notes linking to this note.
+          There are no notes linking to this note. Try the <a href="/now">now page</a> for some inspiration.
         </p>
       </div>
       {% endif %}
