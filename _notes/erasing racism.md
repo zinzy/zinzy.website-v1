@@ -18,7 +18,7 @@ My own perspectives and realities as a child of color played an insignificant pa
 I experience first-hand what it means to not see yourself reflected in the things that the world tells us matter most. Because of my background in literary studies, I enjoy using literary theory to make sense of the world around me. Studying fiction through the lens of intersectionality and critical race theory helps me better take care of myself.
 
 ### Terminology
-You'll find that I quite intentionally use the term "ethnicity" where other people might use "race". I think we should [[stop saying race]].
+You'll find that I quite intentionally use the term "ethnicity" where other people might use "race". I think we should [[Stop saying race]].
 
 ### Examples
-- I've been thinking about [[erasing racism in riverdale|erasing racism in 'Riverdale']]
+- I've been thinking about [[Erasing racism in riverdale|erasing racism in 'Riverdale']]

@@ -10,7 +10,7 @@ tags:
  - Media
  - Imagery
 ---  
-In our household, we have a few ground rules about how we communicate with other humans. We don't pretend butter is gross, we [[stop saying race|don't say "race"]], and we don't think books are, by default, better than their film adaptations. 
+In our household, we have a few ground rules about how we communicate with other humans. We don't pretend butter is gross, we [[Stop saying race|don't say "race"]], and we don't think books are, by default, better than their film adaptations. 
 
 
 <Draft/>

@@ -17,7 +17,7 @@ In this respect, I find the two definitions of "racism" that Oxford acknowledges
 
 The term "racism" has become such a red-hot concept, one we hardly allow ourselves to touch when we are pondering the effects that our words and actions may have on other people. We've become so accustomed to demonizing racism and racists that none of us will acknowledge that we may, in fact, behave in racist ways from time to time. The way language is entangled with this denial is a topic that I'm [[now|currently]] exploring.
 
-> "I'm not a racist" has become a [[speech act]]
+> "I'm not a racist" has become a [[Speech act]]
 
 This reality makes it all the more difficult for us to understand what racism actually is, how it traumatizes individuals and communities, and how using the term "race" perpetuates intergenerational hurt.
 

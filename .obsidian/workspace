@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_pages/contact.md",
+            "file": "_notes/vine-and-fig.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/contact.md",
+                "file": "_notes/vine-and-fig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "673075e3747a7684",
   "lastOpenFiles": [
-    "_pages/contact.md",
-    "_notes/faq.md",
-    "_notes/work.md",
-    "_notes/visual-literacy.md",
-    "_posts/2022-05-12-19-55.md",
-    "_now/now-2022-05-11.md",
-    "_posts/week-2020-14.md",
-    "_posts/2022-05-11-20-15.md",
-    "_notes/The Staircase.md",
-    "_notes/reading.md"
+    "_notes/vine-and-fig.md",
+    "_notes/Work.md",
+    "_notes/Studio Zinzy.md",
+    "_notes/Leeruniek.md",
+    "_notes/Airtrade.md",
+    "_notes/Write to remember.md",
+    "_notes/Visual literacy.md",
+    "_notes/Tossed pasta.md",
+    "_notes/Stop saying race.md",
+    "_notes/Stereotypes.md"
   ]
 }

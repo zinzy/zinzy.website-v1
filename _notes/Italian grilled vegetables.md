@@ -1,5 +1,5 @@
 ---
-title: "Grilled vegetable base"
+title: "Italian grilled vegetables"
 excerpt: "There is a casual combination of things I use to make a lot of things, and it's a quiet hit at dinner parties"
 category: "Recipe"
 date: "2022-04-12"

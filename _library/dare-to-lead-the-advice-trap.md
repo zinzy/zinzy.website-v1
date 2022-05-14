@@ -12,7 +12,7 @@ tags:
 ---
 For her podcast _Dare to Lead_, Brené Brown spoke with Michael Bungay Stanier, a specialist in change management and transforming company cultures. Anja told me about this episode.
 
-A few years ago, Bungay Stanier introduced the [[seven questions]], a set of prompts that can help people, particularly those in leadership positions, become better at helping others. 
+A few years ago, Bungay Stanier introduced the [[Seven questions]], a set of prompts that can help people, particularly those in leadership positions, become better at helping others. 
 
 People, Stanier suggests, are very keen on giving advice, so much so in fact that they do it even when advice isn’t what others need. He suggests that we stay curious longer, by making space for conversations to flow more openly around these seven questions:
 

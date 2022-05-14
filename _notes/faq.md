@@ -9,7 +9,7 @@ tags:
 ### Things you may want from me
 
 #### I'm thinking of moving into UX. Can we chat?
-Sure! Check out my [[mentoring]] page to see if I have any availability.
+Sure! Check out my [[Mentoring]] page to see if I have any availability.
 
 #### Can you help me with my personal brand / logo / website?
 No. While I enjoyed running my own design studio for eight years, my design efforts these days are geared towards tools that people use at work. I can tell you this, though [Squarespace](https://www.squarespace.com/) gives most individual website owners what they need, and if you're a one-person company you don't need a logo.

@@ -8,7 +8,7 @@ tags:
 ---
 
 ### Lived in
-- [[amsterdam]], the Netherlands 
+- [[Amsterdam]], the Netherlands 
 - Eindhoven, the Netherlands 
 - Haarlem, the Netherlands 
 - Roermond, the Netherlands
@@ -23,7 +23,7 @@ tags:
 - London, England
 - Linköping, Sweden
 - Lisbon, Portugal
-- [[paris]], France
+- [[Paris]], France
 - Rouen, France
 - Roubaix, France
 - Warsaw, Poland
@@ -31,7 +31,7 @@ tags:
 - Stockholm, Sweden
 
 ### Enjoy nationally
-- [[maastricht]]
+- [[Maastricht]]
 
 ### Want to visit 
 - Ao Island, Japan

@@ -3,5 +3,6 @@
   "livePreview": true,
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "_posts"
+  "newFileFolderPath": "_posts",
+  "alwaysUpdateLinks": true
 }

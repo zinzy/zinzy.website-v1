@@ -16,4 +16,4 @@ Aside from the fact that this movie's ending does justice to her character but n
 
 In our lesbian abode we often joke about how awful men can be, but I do genuinely hope that whoever is raising future men does better than our parents (and their parents and their parents) did for us.
 
-If anything, *Promising Young Woman* confirms to me how important the [[mens liberation movement]] really is to anything that requires introspection and humility of people in a dominant social group.
+If anything, *Promising Young Woman* confirms to me how important the [[mens-liberation-movement]] really is to anything that requires introspection and humility of people in a dominant social group.
