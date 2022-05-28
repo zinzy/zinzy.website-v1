@@ -33,7 +33,7 @@ for f in glob.iglob('content/*.md'):
   <meta name="description" content="Zinzy Waleson’s Personal Website">
   <meta name="author" content="Zinzy Waleson">
   <link rel="canonical" href="https://zinzy.website/"> 
- <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+ <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 ''')
