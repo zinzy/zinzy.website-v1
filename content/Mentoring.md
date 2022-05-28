@@ -1,0 +1,2 @@
+# Mentoring
+As a self-taught designer, nothing has been more instrumental to my growth than the access I've had to people who were where I wanted to go. In hopes of giving back to our community, I offer free mentoring sessions to (aspiring) designers and product managers. 

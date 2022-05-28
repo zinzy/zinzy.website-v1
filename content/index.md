@@ -26,3 +26,13 @@ Since March 2022 I've been a part of ADPList's international community of mentor
 
 ## Facilitation
 I moonlight as a queer Catholic facilitator. I'm part of the leadership team of <a href="https://vineandfig.co/" target="_blank" rel="noopener noreferrer">Vine & Fig</a>, an international community for queer Catholics. When not on hiatus, I host <a href="https://meetup.com/queersalon" target="_blank" rel="noopener noreferrer">Queer Salon</a> every last Sunday of the month in Amsterdam.
+
+## Itches
+Here's an incomplete list of things I'd like to add to this website:
+
+- Templating
+- Proper handling of frontmatter
+- Favicon
+- Dark mode
+- Digital garden
+- Changelog

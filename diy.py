@@ -23,7 +23,7 @@ for f in glob.iglob('content/*.md'):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Zinzy Waleson">
 
-  <link rel="canonical" href="https://frankchimero.com/">
+  <link rel="canonical" href="https://zinzy.website">
 
   <!-- Primary Meta Tags -->
   <title>Zinzy Waleson</title>
@@ -31,33 +31,7 @@ for f in glob.iglob('content/*.md'):
   <meta name="description" content="Zinzy Waleson’s Personal Website">
   <meta name="author" content="Zinzy Waleson">
   <link rel="canonical" href="https://zinzy.website/"> 
-  <style>
-    body {
-      padding: 10px;
-    }
-    @media screen and (min-width: 768px) {
-      body {
-        max-width: 600px;
-        margin: 100px auto; 
-      }
-    }
-    @media screen and (min-width: 992px) {
-      body {
-        max-width: 600px;
-        margin: 200px auto; 
-      }
-    }
-    section {
-      margin-top: 50px;
-    }
-    article {
-      margin-top: 30px;
-    }
-    footer {
-      font-size: 90%;
-      margin-top: 100px;
-    }
-  </style>
+ <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
 </head>
 <body>
 ''')

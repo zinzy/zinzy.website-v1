@@ -7,8 +7,12 @@
         "id": "e8cffeff11ea1920",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Index.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +88,10 @@
     "collapsed": true
   },
   "active": "e8cffeff11ea1920",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Index.md",
+    "Mentoring.md",
+    "Ali & Ava.md",
+    "Amsterdam.md"
+  ]
 }
