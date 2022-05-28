@@ -33,44 +33,47 @@ for f in glob.iglob('content/*.md'):
   <meta name="description" content="Zinzy Waleson’s Personal Website">
   <meta name="author" content="Zinzy Waleson">
   <link rel="canonical" href="https://zinzy.website/"> 
-<style>
-body {
-    padding: 20px;
-  }
-  @media screen and (min-width: 768px) {
-    body {
-      max-width: 600px;
-      margin: 100px auto; 
-    }
-  }
-  @media screen and (min-width: 992px) {
-    body {
-      max-width: 600px;
-      margin: 200px auto; 
-    }
-  }
-  section {
-    margin-top: 50px;
-  }
-  article {
-    margin-top: 30px;
-  }
-  footer {
-    font-size: 90%;
-    margin-top: 100px;
-  }
-  a {
-    color: blue;
-  }
-  a:hover {
-    color: deeppink;
-  }
-  a:visited {
-    color: blue;
-  }
-  a:visited:hover {
-    color: deeppink;
-  }</style>
+
+            <style>
+            body {
+                padding: 20px;
+              }
+              @media screen and (min-width: 768px) {
+                body {
+                  max-width: 600px;
+                  margin: 100px auto; 
+                }
+              }
+              @media screen and (min-width: 992px) {
+                body {
+                  max-width: 600px;
+                  margin: 200px auto; 
+                }
+              }
+              section {
+                margin-top: 50px;
+              }
+              article {
+                margin-top: 30px;
+              }
+              footer {
+                font-size: 90%;
+                margin-top: 100px;
+              }
+              a {
+                color: black;
+                text-decoration: none;
+                border-bottom: 1px solid rgb(84, 43, 255);
+              }
+              a:hover {
+                color: deeppink;
+              }
+              a:visited {
+                color: black;
+              }
+              a:visited:hover {
+                color: deeppink;
+              }</style>
 </head>
 <body>
 ''')
