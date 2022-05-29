@@ -26,6 +26,7 @@ for f in glob.iglob('content/*.md'):
   <meta name="author" content="Zinzy Waleson">
 
   <link rel="canonical" href="https://zinzy.website">
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 
   <!-- Primary Meta Tags -->
   <title>Zinzy Waleson</title>
@@ -81,7 +82,10 @@ for f in glob.iglob('content/*.md'):
         file.write(r'''
 
   <footer>
-    <a href="/">Zinzy.website</a> is the personal website of Zinzy Waleson. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
+    <p><a href="/">Zinzy.website</a> is the personal website of Zinzy Waleson. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. You may find Zinzy on 
+    <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>, 
+    <a href="https://github.com/zinzy" target="_blank" rel="me noopener noreferrer">Github</a> or
+    <a href="mailto:zinzy@pm.me" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
   </footer>
 </body>
 </html>''')

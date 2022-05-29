@@ -4,12 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "e8cffeff11ea1920",
+        "id": "be98dcf0c304fdf2",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "a8bea8ddcfde69c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "amsterdam.md",
+            "file": "changelog.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "amsterdam.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +101,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e8cffeff11ea1920",
+  "active": "be98dcf0c304fdf2",
   "lastOpenFiles": [
-    "amsterdam.md",
     "index.md",
-    "antilibrary.md",
-    "notes/leeruniek.md",
-    "notes/my name.md",
-    "notes/narrative.md",
+    "changelog.md",
+    "help.md",
+    "heardle.md",
+    "frittata.md",
+    "femtech.md",
     "faq.md",
-    "notes/femtech.md",
-    "notes/frittata.md",
-    "notes/picture of the week.md"
+    "i-took-a-picture.md",
+    "mentoring.md",
+    "mentoring 1.md"
   ]
 }

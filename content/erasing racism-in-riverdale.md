@@ -1,14 +1,5 @@
----
-title: "Erasing racism in 'Riverdale'"
-excerpt: "Exploring diversity and inclusion in the hit TV series"
-category: "Media"
-date: "2021-10-30"
-tags:
- - racism
- - representation
- - media
----  
-When it comes to [[erasing racism]], [[riverdale]] has proven a space that helped me further explore this topic. There are various reasons why one could argue that _Riverdale_ promotes diversity and inclusion:
+# Erasing racism in 'Riverdale'
+When it comes to [[erasing-racism]], [[riverdale]] has proven a space that helped me further explore this topic. There are various reasons why one could argue that _Riverdale_ promotes diversity and inclusion:
 
 - The series features multiple people of color who have their own plotline to a variety of degrees
 - The town's mayor is a Black woman

@@ -1,12 +1,12 @@
 # Hello, I'm Zinzy Waleson
-I am a designer and facilitator from [Amsterdam](/amsterdam). I combine my skills in research, strategy, design, and facilitation to show brands that caring for users is good for business. Primarily, I'm a people nerd. Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear.
+I am a designer and facilitator from [Amsterdam](/amsterdam). I combine my skills in research, strategy, design, and facilitation to show brands that caring for users is good for business. Primarily, I'm a people nerd. 
 
 ## Get in touch
 - Send me an <a href="mailto:zinzy@pm.me">email</a>
 - Connect with me on <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 ## About this space
-At the moment, this site serves as a playground to help me build my own <a href="https://jamstack.org/generators/" target="_blank" rel="noopener noreferrer">static site generator</a>. This <a href="https://brutalistwebsites.com/" target="_blank" rel="noopener noreferrer">website</a> is part of the <a href="https://indieweb.org/" target="_blank" rel="noopener noreferrer">IndieWeb</a>, a community of friendly geeks who appreciate autonomy, hand-made web pages, and digital creativity as much as I do. The weird-looking scavenger hunt vibe is not a bug, it's a feature.
+Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear. If you'd like to know more about why this website is the way it is, check [help](/help).
 
 ## Now
 <time>Last updated on Thursday May 26, 2022 at 17:38</time>
@@ -22,7 +22,7 @@ For fifteen years, I've been researching, designing, and building things for the
 Before Leeruniek I spent five years in travel technology at Airtrade, where I built a UX practice from the ground up, and where I built a design system catering to a dozen large travel brands. I cut my teeth in Studio Zinzy, which I led between 2008 and 2015, taking on freelance projects in academia, journalism, healthcare, and fine arts.
 
 ### Mentoring
-Since March 2022 I've been a part of ADPList's international community of mentors. At the moment, I'm available for mentoring on Tuesdays and Thursdays. You may book a free session with me via <a href="https://adplist.org/mentors/zinzy-nev-geene" target="_blank" rel="noopener noreferrer">ADPList</a>.
+Since March 2022 I've been a part of ADPList's international community of mentors. At the moment, I'm available for mentoring on Tuesdays and Thursdays. You may book a free session with me via <a href="https://adplist.org/mentors/zinzy-nev-geene" target="_blank" rel="noopener noreferrer">ADPList</a>, or learn more about  [how I mentor](/mentoring).
 
 ## Facilitation
 I moonlight as a queer Catholic facilitator. I'm part of the leadership team of <a href="https://vineandfig.co/" target="_blank" rel="noopener noreferrer">Vine & Fig</a>, an international community for queer Catholics. When not on hiatus, I host <a href="https://meetup.com/queersalon" target="_blank" rel="noopener noreferrer">Queer Salon</a> every last Sunday of the month in Amsterdam.
