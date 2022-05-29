@@ -1,5 +1,5 @@
-# Hello, I'm Zinzy Waleson 
-I'm a designer and facilitator from Amsterdam. I combine my skills in research, strategy, design, and facilitation to show brands that caring for users is good for business. Primarily, I'm a people nerd. Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear.
+# Hello, I'm Zinzy Waleson
+I'm a designer and facilitator from [Amsterdam](/amsterdam). I combine my skills in research, strategy, design, and facilitation to show brands that caring for users is good for business. Primarily, I'm a people nerd. Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear.
 
 ## Get in touch
 - Send me an <a href="mailto:zinzy@pm.me">email</a>

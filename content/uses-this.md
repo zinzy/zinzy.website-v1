@@ -1,9 +1,4 @@
----
-title: "Uses this"
-excerpt: ""
-category: ""
-date: ""
----
+# Uses this
 - Spatula
 - Dough cutter
 - Backpack
