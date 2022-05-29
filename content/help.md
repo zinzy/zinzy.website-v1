@@ -1,4 +1,5 @@
 # Help
+
 This site serves as a playground to help me build my own <a href="https://jamstack.org/generators/" target="_blank" rel="noopener noreferrer">static site generator</a>. This <a href="https://brutalistwebsites.com/" target="_blank" rel="noopener noreferrer">website</a> is part of the <a href="https://indieweb.org/" target="_blank" rel="noopener noreferrer">IndieWeb</a>, a community of friendly geeks who appreciate autonomy, hand-made web pages, and digital creativity as much as I do. The weird-looking scavenger hunt vibe is not a bug, it's a feature.
 
 ## What is this site meant to do?
@@ -6,3 +7,10 @@ This space is a personal website not in the modern sense of the world: it's not 
 
 ## Why does this site look... unfinished?
 I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. As a designer, my days are made up of making decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way Times New Roman in black looks against a white canvas.
+
+## What's important to you when it comes to maintaining this website?
+
+- I like [brutalist web design](https://brutalistwebsites.com/)
+- I'm an active part of the [IndieWeb](https://indieweb.org/) , a community of friendly geeks who appreciate autonomy, hand-made web pages, and digital creativity as much as I do
+- The things I do on this website seek to bridge the gap between the me you see on LinkedIn and the me you might see on an anonymous Blogspot in the early 00s. I hope that what you consume here helps you see who I am, rather than just the highlights I experience.
+- I like light-weight, simple ways of building websites. Currently, this file 
