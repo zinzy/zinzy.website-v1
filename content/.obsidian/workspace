@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "changelog.md",
+            "file": "help.md",
             "mode": "source",
             "source": false
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "help.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,11 +101,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "be98dcf0c304fdf2",
+  "active": "a8bea8ddcfde69c2",
   "lastOpenFiles": [
+    "help.md",
     "index.md",
     "changelog.md",
-    "help.md",
     "heardle.md",
     "frittata.md",
     "femtech.md",
