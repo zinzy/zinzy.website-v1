@@ -1,5 +1,5 @@
 # Amsterdam
-I live in Indische Buurt, the finest neighborhood in Amsterdam. I've been in the city since 2015. Like many people in this city, the fact that I wasn't born here only intensifies our love affair. Surprisingly enough, before I lived here, I despised the city. I suspect it has a lot to do with feeling like I couldn't belong.
+I live in Indische Buurt, the finest neighborhood in Amsterdam. I've been here since late 2015.
 
 ## Favorites 
 

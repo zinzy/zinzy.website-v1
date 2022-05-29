@@ -81,7 +81,7 @@ for f in glob.iglob('content/*.md'):
         file.write(r'''
 
   <footer>
-    Zinzy.website is the personal website of Zinzy Waleson. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
+    <a href="/">Zinzy.website</a> is the personal website of Zinzy Waleson. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
   </footer>
 </body>
 </html>''')
