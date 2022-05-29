@@ -78,14 +78,14 @@ for f in glob.iglob('content/*.md'):
 </head>
 <body>
 ''')
-        file.write(html)
+        file.write("<article class='h-entry'>" + html + "</article>")
         file.write(r'''
 
-  <footer>
-    <p><a href="/">Zinzy.website</a> is the personal website of Zinzy Waleson. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. You may find Zinzy on 
+  <footer class="h-card">
+    <p><a href="/" class="p-name u-url">Zinzy.website</a> is the personal website of Zinzy Waleson, a designer and facilitator in <span class="p-locality">Amsterdam</a>. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. You may find Zinzy on 
     <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>, 
     <a href="https://github.com/zinzy" target="_blank" rel="me noopener noreferrer">Github</a> or
-    <a href="mailto:zinzy@pm.me" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
+    <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
     <p>
       <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
       An IndieWeb Webring 🕸💍
