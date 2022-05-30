@@ -74,7 +74,11 @@ for f in glob.iglob('content/*.md'):
               }
               a:visited:hover {
                 color: deeppink;
-              }</style>
+              }
+              article h1 {
+                font-size: 2em;
+              }
+              </style>
 </head>
 <body>
 ''')
@@ -82,7 +86,7 @@ for f in glob.iglob('content/*.md'):
         file.write(r'''
 
   <footer class="h-card">
-    <p><a href="/" class="p-name u-url">Zinzy.website</a> is the personal website of Zinzy Waleson, a designer and facilitator in <span class="p-locality">Amsterdam</a>. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. You may find Zinzy on 
+    <p><a href="/" class="p-name u-url"><mark>Zinzy.website</mark></a> is the personal website of Zinzy Waleson, a designer and facilitator in <span class="p-locality">Amsterdam</a>. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. You may find Zinzy on 
     <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>, 
     <a href="https://github.com/zinzy" target="_blank" rel="me noopener noreferrer">Github</a> or
     <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
