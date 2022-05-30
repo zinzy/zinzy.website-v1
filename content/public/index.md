@@ -7,7 +7,7 @@ I am a designer, facilitator, and IndieWeb enthusiast from [Amsterdam](/amsterda
 I maintain a [/Now](/now) page to provide readers with a quick overview of what I'm focused on in life at the moment. If you're looking for a more detailed look into my life, check my [changelog](/changelog).
 
 ### Some things I'm actively working on
-- [Commit messages](commit-messages.md), a look into the hilariously quiet conversation we're all having with our computers
+- [Commit messages](commit-messages), a look into the hilariously quiet conversation we're all having with our computers
 - [Opinions](/opinions)
 
 ## About this space
