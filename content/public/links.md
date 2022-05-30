@@ -8,6 +8,7 @@ This page collects links found on the internet that are of any substance, catego
 - https://medium.com/@tariqkrim/drifting-c45102df9e3
 - https://www.wired.com/story/find-comfort-on-the-slow-web/amp
 - https://john-doe.neocities.org/
+- https://www.programiz.com/python-programming/datetime/strftime
 
 ## Product and design
 
