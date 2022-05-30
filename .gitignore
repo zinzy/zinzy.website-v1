@@ -2,5 +2,6 @@ node_modules/
 .cache/
 .env.*
 content/.obsidian/
-.get-pip.py
+get-pip.py
 content/private/
+.DS_Store
