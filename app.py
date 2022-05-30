@@ -45,7 +45,6 @@ for f in glob.iglob('content/public/*.md'):
             <style>
             body {
                 padding: 20px;
-                line-height: 140%;
               }
               @media screen and (min-width: 768px) {
                 body {
