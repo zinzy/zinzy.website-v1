@@ -6,6 +6,7 @@
       {
         "id": "be98dcf0c304fdf2",
         "type": "leaf",
+        "dimension": 35.507246376811594,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -20,10 +21,11 @@
       {
         "id": "c8746f12f52fcc42",
         "type": "leaf",
+        "dimension": 64.4927536231884,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "now.md",
+            "file": "second brain.md",
             "mode": "source",
             "source": false
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "45a251fcdf315bdc",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "second brain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "be98dcf0c304fdf2",
+  "active": "c8746f12f52fcc42",
   "lastOpenFiles": [
+    "second brain.md",
+    "standard dough.md",
+    "maastricht.md",
     "index.md",
     "now.md",
     "now-2022-04.md",
     "now-2021-09.md",
     "help.md",
     "bookmarks.md",
-    "changelog.md",
-    "heardle.md",
-    "frittata.md",
-    "femtech.md"
+    "changelog.md"
   ]
 }

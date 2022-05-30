@@ -1,9 +1,4 @@
----
-title: "Maastricht"
-excerpt: "I like to visit the capital of my province from time to time"
-date: "2021-08-23"
-category: "Lists"
----
+# Maastricht
 ### Shops
 - Adriaan de Smaakmaker
 
@@ -21,4 +16,5 @@ category: "Lists"
 - De Brandweerkantine
 
 ### Hotels
-- Maison Haas Hustinx
+- [Maison Haas Hustinx](https://www.haashustinx.nl/) is great if you're looking for a quiet, low-key luxurious stay
+- [The Dutch](https://www.hotelthedutch.com/) is a friendly and energetic place, fun for a short stay in the city

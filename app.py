@@ -7,7 +7,7 @@ import markdown
 if not os.path.exists('public'):
     os.mkdir('public')
 
-for f in glob.iglob('content/*.md'):
+for f in glob.iglob('content/public/*.md'):
     with open(f, 'r') as file:
         # post = frontmatter.loads(file.read())
         raw = file.read()

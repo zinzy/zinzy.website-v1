@@ -8,3 +8,4 @@ These are books, articles, films, podcasts, and other media artefacts that I wou
 - _Recreational Terror: Women and the Pleasures of Horror Film Viewing_ by Isabel Cristina Pinedo
 - _Van daar naar nu_ by Fedia Jacobs
 - _Wat je van bloed weet_ by Philip Huff
+- _How Buildings Learn_ by Stewart Bland

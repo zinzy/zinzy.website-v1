@@ -7,8 +7,8 @@ This is where I collect information about my projects, opinions, and things that
 
 I don't participate in social media, but you may send me an <a href="mailto:zinzy@pm.me">email</a> or connect with me on <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
 
-## Now
-I maintain a [/Now](/now) page to provide readers with a quick overview of what I'm focused on in life at the moment.
+## (Right) now
+I maintain a [/Now](/now) page to provide readers with a quick overview of what I'm focused on in life at the moment. If you're looking for a more detailed look into my life, check my [changelog](/changelog).
 
 ## About this space
 Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear. If you'd like to know more about why this website is the way it is, check [help](/help).
