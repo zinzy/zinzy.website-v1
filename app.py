@@ -4,8 +4,8 @@ import glob
 import markdown
 # import frontmatter
 
-if not os.path.exists('public'):
-    os.mkdir('public')
+if not os.path.exists('site'):
+    os.mkdir('site')
 
 for f in glob.iglob('content/public/*.md'):
     with open(f, 'r') as file:
