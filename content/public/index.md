@@ -6,6 +6,10 @@ I am a designer, facilitator, and IndieWeb enthusiast from [Amsterdam](/amsterda
 ## (Right) now
 I maintain a [/Now](/now) page to provide readers with a quick overview of what I'm focused on in life at the moment. If you're looking for a more detailed look into my life, check my [changelog](/changelog).
 
+### Some things I'm actively working on
+- [Commit messages](commit-messages.md), a look into the hilariously quiet conversation we're all having with our computers
+- [Opinions](/opinions)
+
 ## About this space
 Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear. If you'd like to know more about why this website is the way it is, check [help](/help).
 
