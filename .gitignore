@@ -4,3 +4,4 @@ public
 .env.*
 .content/obsidian/
 .get-pip.py
+.content/private
