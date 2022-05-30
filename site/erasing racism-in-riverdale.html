@@ -1,30 +1,4 @@
-#!/usr/bin/env python3
-import os
-import glob
-import markdown
-# import frontmatter 
-
-from datetime import datetime
-
-now = datetime.now()
-
-date_time = now.strftime("%A %B %d %Y, %H:%M:%S")
-print("year:", date_time)
-
-if not os.path.exists('site'):
-    os.mkdir('site')
-
-for f in glob.iglob('content/public/*.md'):
-    with open(f, 'r') as file:
-        # post = frontmatter.loads(file.read())
-        raw = file.read()
-        html = markdown.markdown(raw)
-
-    file_name = os.path.basename(f)
-    destination = os.path.join("site", os.path.splitext(file_name)[0] + ".html")
-
-    with open(destination, 'w') as file:
-        file.write(r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -92,9 +66,27 @@ for f in glob.iglob('content/public/*.md'):
               </style>
 </head>
 <body>
-''')  
-        file.write("<article class='h-entry'>" + html + "</article>")
-        file.write(r'''
+<article class='h-entry'><h1>Erasing racism in 'Riverdale'</h1>
+<p>When it comes to [[erasing-racism]], [[riverdale]] has proven a space that helped me further explore this topic. There are various reasons why one could argue that <em>Riverdale</em> promotes diversity and inclusion:</p>
+<ul>
+<li>The series features multiple people of color who have their own plotline to a variety of degrees</li>
+<li>The town's mayor is a Black woman</li>
+<li>One of the main four storylines is a member of the Latinx community</li>
+<li>Black people are portrayed in positions of skill and power</li>
+</ul>
+<p>I haven't done any reading into the series' background, but even without that it's clear that <em>Riverdale</em>, while full of references that only people of ages 25 and over would understand, is targeted at teenagers. In my experience, such series tend to hide behind sensitivity of the target audience when it comes to topics that perpetuate exclusion in our cultures. <em>Riverdale</em> accommodates a number of elements that speak to this. I divide them into two categories: the erasure of race, and the erasure of racism. </p>
+<p>There are numerous elements in <em>Riverdale</em> that point to this:</p>
+<ul>
+<li>Various boys of color on the American football team are reduced to sidekicks, helping hands, and athletic bodies who don't have much else going for them</li>
+<li>Chuck Clayton, a character dominant in the first few seasons, is a Black athlete with his own storyline, but it fully revolves around the fact that he is a sexual predator</li>
+<li>The head of the only prominently-featured family of color, the Lodges, is a Latino drug kingpin</li>
+<li>One of the two Black fathers with more than one line of text is an overtly absent father</li>
+<li>The only Black mother is a mean, conniving, angry Black woman</li>
+<li>Most relationships with Black people are in the form of a rebound </li>
+<li>Success that young Black people have is because of their bodies (singing, athleticism) </li>
+</ul>
+<p>The abovementioned points are, to me, of limited significance to my argument. They do not erase racism, but rather erase ethnic diversity, and perpetuate ethnic stereotypes. There are two details in particular that truly indicate what <em>Riverdale</em> wants us to think about the harm that racism causes to individuals, communities, and societies.</p>
+<p>To be continued.</p></article>
 
   
   <footer class="h-card">
@@ -105,13 +97,11 @@ for f in glob.iglob('content/public/*.md'):
     <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
   </footer>
 </body>
-</html>''') 
-        file.write("<p>Last updated on " + str(date_time) + "</p>")
-        file.write(r'''
+</html><p>Last updated on Monday May 30 2022, 22:34:57</p>
           <hr/>
           <p>
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
             An IndieWeb Webring 🕸💍
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
           </p>
-          ''')
+          

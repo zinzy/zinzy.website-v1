@@ -1,30 +1,4 @@
-#!/usr/bin/env python3
-import os
-import glob
-import markdown
-# import frontmatter 
-
-from datetime import datetime
-
-now = datetime.now()
-
-date_time = now.strftime("%A %B %d %Y, %H:%M:%S")
-print("year:", date_time)
-
-if not os.path.exists('site'):
-    os.mkdir('site')
-
-for f in glob.iglob('content/public/*.md'):
-    with open(f, 'r') as file:
-        # post = frontmatter.loads(file.read())
-        raw = file.read()
-        html = markdown.markdown(raw)
-
-    file_name = os.path.basename(f)
-    destination = os.path.join("site", os.path.splitext(file_name)[0] + ".html")
-
-    with open(destination, 'w') as file:
-        file.write(r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -92,9 +66,19 @@ for f in glob.iglob('content/public/*.md'):
               </style>
 </head>
 <body>
-''')  
-        file.write("<article class='h-entry'>" + html + "</article>")
-        file.write(r'''
+<article class='h-entry'><h1>Erasing racism</h1>
+<p>My partner Anja is currently enrolled in a M.Ed program with a focus on multimedia storytelling, and one of her papers dealt with the inclusion of race in the storylines of a popular television series. While the book exiles non-white men and women to the margins of the margins, the television series incorporates many different racial backgrounds in the series. This, Anja argued, creates the false understanding that the series is inclusive, and more inclusive than the book, at that. Through a close reading she argued that the opposite is the case: White narratives and voices still dominate the plot.</p>
+<p>Thanks to the many conversations we've had on the topic, I now, too, have a keen eye for seeing this habit in many pieces of fictions I read or watch. This is a humble attempt to track some of this.</p>
+<h3>Background</h3>
+<p>The erasure of identities is of significance to my own life. As a Black child I grew up in a White environment, surrounded by narratives supporting the complexity and worthiness of that environment. The main characters, the archetypes in my environment had complex lives, they could thrive, fail and learn, fall in love, and gather sympathy along the way.</p>
+<p>My own perspectives and realities as a child of color played an insignificant part in the stories that helped form my character and my understanding of myself. In short: I hardly ever saw myself reflected in the stories that were presented to me at home, in school, in books, and on television. As an adult, I meet this absence on a daily basis.</p>
+<p>I experience first-hand what it means to not see yourself reflected in the things that the world tells us matter most. Because of my background in literary studies, I enjoy using literary theory to make sense of the world around me. Studying fiction through the lens of intersectionality and critical race theory helps me better take care of myself.</p>
+<h3>Terminology</h3>
+<p>You'll find that I quite intentionally use the term "ethnicity" where other people might use "race". I think we should [[stop saying race]].</p>
+<h3>Examples</h3>
+<ul>
+<li>I've been thinking about [[erasing racism-in-riverdale|erasing racism in 'Riverdale']]</li>
+</ul></article>
 
   
   <footer class="h-card">
@@ -105,13 +89,11 @@ for f in glob.iglob('content/public/*.md'):
     <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
   </footer>
 </body>
-</html>''') 
-        file.write("<p>Last updated on " + str(date_time) + "</p>")
-        file.write(r'''
+</html><p>Last updated on Monday May 30 2022, 22:34:57</p>
           <hr/>
           <p>
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
             An IndieWeb Webring 🕸💍
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
           </p>
-          ''')
+          

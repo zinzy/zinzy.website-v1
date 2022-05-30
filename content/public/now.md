@@ -8,5 +8,5 @@
 - Thoroughly enjoying mentoring on ADPList.
 
 ## Then
-- [Now, April 2022](now-2022-04)
-- [Now, September 2021](now-2021-09) 
+- [Now: April 2022](now-2022-04)
+- [Now: September 2021](now-2021-09) 

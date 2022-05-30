@@ -1,30 +1,4 @@
-#!/usr/bin/env python3
-import os
-import glob
-import markdown
-# import frontmatter 
-
-from datetime import datetime
-
-now = datetime.now()
-
-date_time = now.strftime("%A %B %d %Y, %H:%M:%S")
-print("year:", date_time)
-
-if not os.path.exists('site'):
-    os.mkdir('site')
-
-for f in glob.iglob('content/public/*.md'):
-    with open(f, 'r') as file:
-        # post = frontmatter.loads(file.read())
-        raw = file.read()
-        html = markdown.markdown(raw)
-
-    file_name = os.path.basename(f)
-    destination = os.path.join("site", os.path.splitext(file_name)[0] + ".html")
-
-    with open(destination, 'w') as file:
-        file.write(r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -92,9 +66,20 @@ for f in glob.iglob('content/public/*.md'):
               </style>
 </head>
 <body>
-''')  
-        file.write("<article class='h-entry'>" + html + "</article>")
-        file.write(r'''
+<article class='h-entry'><h1>Now</h1>
+<p><time>Last updated on Thursday May 26, 2022 at 17:38</time></p>
+<ul>
+<li>I'm at <a href="/leeruniek">Leeruniek</a> building a sustainable design and product practice</li>
+<li>Reading Zadie Smith's <em>On Beauty</em>, enjoying it so far</li>
+<li>Building a sustainable meditation practice by engaging in daily unguided sessions (which, as it turns out, is a lot more relaxing than finding the perfect guided meditation on the perfect app)</li>
+<li>Training my product management muscle by having difficult internal conversations about priorities</li>
+<li>Thoroughly enjoying mentoring on ADPList.</li>
+</ul>
+<h2>Then</h2>
+<ul>
+<li><a href="now-2022-04">Now: April 2022</a></li>
+<li><a href="now-2021-09">Now: September 2021</a> </li>
+</ul></article>
 
   
   <footer class="h-card">
@@ -105,13 +90,11 @@ for f in glob.iglob('content/public/*.md'):
     <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
   </footer>
 </body>
-</html>''') 
-        file.write("<p>Last updated on " + str(date_time) + "</p>")
-        file.write(r'''
+</html><p>Last updated on Monday May 30 2022, 22:34:57</p>
           <hr/>
           <p>
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
             An IndieWeb Webring 🕸💍
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
           </p>
-          ''')
+          

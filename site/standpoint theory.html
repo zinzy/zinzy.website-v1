@@ -1,30 +1,4 @@
-#!/usr/bin/env python3
-import os
-import glob
-import markdown
-# import frontmatter 
-
-from datetime import datetime
-
-now = datetime.now()
-
-date_time = now.strftime("%A %B %d %Y, %H:%M:%S")
-print("year:", date_time)
-
-if not os.path.exists('site'):
-    os.mkdir('site')
-
-for f in glob.iglob('content/public/*.md'):
-    with open(f, 'r') as file:
-        # post = frontmatter.loads(file.read())
-        raw = file.read()
-        html = markdown.markdown(raw)
-
-    file_name = os.path.basename(f)
-    destination = os.path.join("site", os.path.splitext(file_name)[0] + ".html")
-
-    with open(destination, 'w') as file:
-        file.write(r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -92,9 +66,13 @@ for f in glob.iglob('content/public/*.md'):
               </style>
 </head>
 <body>
-''')  
-        file.write("<article class='h-entry'>" + html + "</article>")
-        file.write(r'''
+<article class='h-entry'><hr />
+<p>title: "Standpoint Theory" 
+excerpt: "Standpoint Theory challenges the misconception of objectivity and scientific neutrality."
+category: "Society"
+date: "2015-07-23"</p>
+<hr />
+<p>Standpoint Theory challenges the misconception of objectivity and scientific neutrality. I first got acquainted with this concept while studying theology.</p></article>
 
   
   <footer class="h-card">
@@ -105,13 +83,11 @@ for f in glob.iglob('content/public/*.md'):
     <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
   </footer>
 </body>
-</html>''') 
-        file.write("<p>Last updated on " + str(date_time) + "</p>")
-        file.write(r'''
+</html><p>Last updated on Monday May 30 2022, 22:34:57</p>
           <hr/>
           <p>
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
             An IndieWeb Webring 🕸💍
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
           </p>
-          ''')
+          
