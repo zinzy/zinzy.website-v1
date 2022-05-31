@@ -140,7 +140,10 @@ By Xenia Avezov
 	- Centralize internal insights
 
 ### The Power of Saying No
+By Ilse Blom
 
+- The ROI of UXR is becoming more clear, but the questions are outweighing the velocity of research
+- Saying no can help: it's difficult because we're human and we're researchers 
 
 ### Share The Power: Using Rapid Research to empower your teammates to gather and share customer insights
 
