@@ -9,6 +9,7 @@ These are the notes I took during the [UXinsight Festival 2022](https://uxinsigh
 
 ### Being in possible futures?
 by [Sarah Pink](/sarah-pink)
+
 - Didn't use slides, doesn't like them on a big screen when she's not there in person, will show video and images of projects
 - Trailer "Digital Energy Futures"
 	- Automatically charging devices
@@ -62,6 +63,7 @@ by [Sarah Pink](/sarah-pink)
 
 ### Leverage Secondary Research in your Practice
 By Xenia Avezov
+
 - Why and how, not just to enrich career but to get a fuller data set
 - Chronically underused in UXR/tech
 - Better understand context
