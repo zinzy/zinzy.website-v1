@@ -144,6 +144,15 @@ By Ilse Blom
 
 - The ROI of UXR is becoming more clear, but the questions are outweighing the velocity of research
 - Saying no can help: it's difficult because we're human and we're researchers 
+- If we deliver insights, others need to act
+- UXR mission > vission > goal
+	- Why do we exist?
+	- Where are we heading as a team?
+	- How to progress in that direction?
+	- Mission can last forever, vision is 2-3 years
+- Team workshop:
+	- What were we most proud of in the last year?
+	- Wouldn't it be fantastic if...
 
 ### Share The Power: Using Rapid Research to empower your teammates to gather and share customer insights
 
