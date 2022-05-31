@@ -8,7 +8,7 @@ These are the notes I took during the [UXinsight Festival 2022](https://uxinsigh
 ### Intro
 
 ### Being in possible futures?
-by [Sarah Pink](/sarah-pink)
+by [Sarah Pink](sarah-pink.md)
 
 - Didn't use slides, doesn't like them on a big screen when she's not there in person, will show video and images of projects
 - Trailer "Digital Energy Futures"
@@ -61,8 +61,13 @@ by [Sarah Pink](/sarah-pink)
 		- Damn that's interesting, research method design
 		- We don't use the same method again
 
+#### Thoughts afterwards
+
+- What's the value of saying "future"? Wouldn't "solution space" be enough? Or is that too focused on working towards evaluative research, and is the focus here more exploratory
+
+
 ### Leverage Secondary Research in your Practice
-By Xenia Avezov
+By [Xenia Avezov](xenia-avezov.md)
 
 - Why and how, not just to enrich career but to get a fuller data set
 - Chronically underused in UXR/tech
@@ -153,8 +158,11 @@ By Ilse Blom
 - Team workshop:
 	- What were we most proud of in the last year?
 	- Wouldn't it be fantastic if...
+- Mission: "We as UXR team help product teams understand and empathize with the needs and experience of their users so they can develop..."
 
 ### Share The Power: Using Rapid Research to empower your teammates to gather and share customer insights
+
+- 
 
 ### How to Make UX Research Accessible for Neurodivergent UX Professionals
 

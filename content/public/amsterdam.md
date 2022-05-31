@@ -10,10 +10,8 @@ I live in Indische Buurt, the finest neighborhood in Amsterdam. I've been here s
 - Duikelman, cooking supplies
 - [Java Bookshop](http://www.javabookshop.nl)
 
-### Lunch
+### Lunch & dining
 - The Cottage
-
-### Dining
 - [Sazanka](https://www.okura.nl/dine-and-drink/teppanyaki-restaurant-sazanka/), teppanyaki
 - [Undercover Amsterdam](https://www.undercoveramsterdam.com), omakase and sushi 
 

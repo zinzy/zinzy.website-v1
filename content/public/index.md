@@ -8,11 +8,11 @@ I maintain a [/Now](/now) page to provide readers with a quick overview of what 
 
 ### Some things I'm actively working on
 - [Commit messages](commit-messages), a look into the hilariously quiet conversation we're all having with our computers
-- [Opinions](/opinions)
-- I'm attending [UXinsight Festival 2022](uxinsight-festival-2022) today
+- [Opinions](private/opinions.md)
+- I'm attending [UXinsight Festival 2022](uxinsight-festival-2022) and keeping notes
 
 ## About this space
-Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear. If you'd like to know more about why this website is the way it is, check [help](/help).
+Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear. If you'd like to know more about why this website is the way it is, check [start](/start).
 
 ## About my work
 I'm a people nerd. For fifteen years, I've been researching, designing, and building things for the Internet. Having gained experience with brands large and small and solutions for consumers as well as businesses, I've come to specialize in building tools that help people solve problems at work. At the moment, I'm a happy member of the tribe at <a href="https://leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>, a scale-up in educational technology. If you're curious, you can [read more about my work](/work).

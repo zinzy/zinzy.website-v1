@@ -1,4 +1,4 @@
-# Help
+# Start
 
 This site serves as a playground to help me solve my own problems. The weird-looking scavenger hunt vibe is not a bug, it's a feature.
 
