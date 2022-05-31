@@ -139,6 +139,7 @@ By Xenia Avezov
 
 ### The Power of Saying No
 
+
 ### Share The Power: Using Rapid Research to empower your teammates to gather and share customer insights
 
 ### How to Make UX Research Accessible for Neurodivergent UX Professionals

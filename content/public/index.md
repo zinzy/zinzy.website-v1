@@ -9,7 +9,7 @@ I maintain a [/Now](/now) page to provide readers with a quick overview of what 
 ### Some things I'm actively working on
 - [Commit messages](commit-messages), a look into the hilariously quiet conversation we're all having with our computers
 - [Opinions](/opinions)
-- I'm attending [UXinsight Festival 2022](/uxinsight-festival-2022) today
+- I'm attending [UXinsight Festival 2022](uxinsight-festival-2022.md) today
 
 ## About this space
 Thank you for visiting my personal website. I come here to link and think, share soft stances, lived experiences, and critical notes on the things I hold dear. If you'd like to know more about why this website is the way it is, check [help](/help).
