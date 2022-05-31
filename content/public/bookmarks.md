@@ -1,5 +1,7 @@
 # Bookmarks
 
+In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to visit from time to time.
+
 - http://zavidova.com/
 - [https://www.internethistorypodcast.com](https://www.internethistorypodcast.com/
 - [Parimal Satyal](https://neustadt.fr](https://neustadt.fr/)
@@ -7,8 +9,6 @@
 - [https://anders.unix.se](https://anders.unix.se/)
 - https://laurakalbag.com/
 - https://yesterweb.org/
-
-In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to visit from time to time.
 
 - [Ana Rodrigues](https://ohhelloana.blog)
 - [Andy Matuschak](https://notes.andymatuschak.org/)

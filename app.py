@@ -72,6 +72,7 @@ for f in glob.iglob('content/public/*.md'):
                 color: black;
                 text-decoration: none;
                 border-bottom: 1px solid rgb(84, 43, 255);
+                padding-bottom: -2px;
               }
               a:hover {
                 color: deeppink;
@@ -88,6 +89,11 @@ for f in glob.iglob('content/public/*.md'):
               img {
                 max-width: 100%;
                 height: auto;
+              }
+              blockquote {
+                border-left: 1px solid gray;
+                padding-left: 1rem;
+                margin-left: 0;
               }
               </style>
 </head>
