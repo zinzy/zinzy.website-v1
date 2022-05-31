@@ -8,7 +8,7 @@ from datetime import datetime
 
 now = datetime.now()
 
-date_time = now.strftime("%A %B %d %Y, %H:%M:%S")
+date_time = now.strftime("%A %B %d, %Y, %H:%M:%S")
 print("year:", date_time)
 
 if not os.path.exists('site'):
@@ -68,16 +68,13 @@ for f in glob.iglob('content/public/*.md'):
                 margin-top: 100px;
               }
               a {
-                color: black;
-                text-decoration: none;
-                border-bottom: 1px solid rgb(84, 43, 255);
-                padding-bottom: -2px;
+                color: rgb(84, 43, 255);
               }
               a:hover {
                 color: deeppink;
               }
               a:visited {
-                color: black;
+                color: rgb(84, 43, 255);
               }
               a:visited:hover {
                 color: deeppink;
@@ -111,7 +108,7 @@ for f in glob.iglob('content/public/*.md'):
   </footer>
 </body>
 </html>''') 
-        file.write("<p>Last updated on " + str(date_time) + "</p>")
+        file.write("<p>Last update: " + str(date_time) + "</p>")
         file.write(r'''
           <hr/>
           <p>

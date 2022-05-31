@@ -16,7 +16,7 @@ Maybe. On occasion, I write Scripture reflections or essays about queer Catholic
 ### Things about me
 
 #### You call yourself a Product & Design Manager. Are you a designer or a product manager?
-Both, but mostly I like to call myself a designer who manages product. I don't see myself ever moving into product management that doesn't involve design expertise. For companies such as [[Leeruniek]], combining these two roles is a great fit, and I can see the same for many other start-ups and scale-ups.
+Both, but mostly I like to call myself a designer who manages product. I don't see myself ever moving into product management that doesn't involve design expertise. For companies such as [[leeruniek 1]], combining these two roles is a great fit, and I can see the same for many other start-ups and scale-ups.
 
  
 

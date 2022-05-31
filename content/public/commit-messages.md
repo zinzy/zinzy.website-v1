@@ -9,3 +9,4 @@ When I'm working with a new framework or programming language, I sometimes feel 
 - [Annuleer heel de kutzooi maar](https://github.com/willemLegend27/EDS-Assignment-5/commit/92841e40ef3d59e6805c41892c156546ee5cb690) by willemLegend27 ("Just cancel the whole fucking thing")
 - [Yesssss its even responsive](https://github.com/MaggieAppleton/maggieappleton.com/commit/d4cca461cc8bc0f2a8598c800e0f147ceeebe90f) by Maggie Appleton
 - [had one goddamn charachter wrong, oh my god help me](https://github.com/vivyir/script-repo/commit/97e7a9358ddb4bf5717a8d31da7b17bacecda2e6) by Vivian
+- [People have zero knowledge of the language they translate to ffs](https://github.com/EaW-Team/equestria_dev/commit/77ff3cdf27d3d28cdd0d8b7463164300b5f23800) by MonAx

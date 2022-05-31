@@ -81,45 +81,23 @@ Labs](https://fortelabs.co/blog/basboverview/)
 
 Helps](https://www.teamsupport.com/blog/bug-tracking-customer-support-software-help)
 
-- [Creating a Feature Request Process for B2B Product and Customer
+- [Creating a Feature Request Process for B2B Product and Customer Success Teams](https://www.mindtheproduct.com/creating-a-feature-request-process-for-b2b-product-and-customer-success-teams/)
 
-Success
+- [How to prioritize bugs? A simplified approach! - Usersnap](https://usersnap.com/blog/prioritize-bugs/)
 
-Tea](https://www.mindtheproduct.com/creating-a-feature-request-process-for-b2b-product-and-customer-success-teams/)
+- [Product owner vs. product manager | productboard](https://www.productboard.com/blog/product-owner-vs-product-manager/)
 
-- [How to prioritize bugs? A simplified approach! -
+- [The Principles of Service Design Thinking - Building Better Services | Interaction Design Foundation](https://www.interaction-design.org/literature/article/the-principles-of-service-design-thinking-building-better-services)
 
-Usersnap](https://usersnap.com/blog/prioritize-bugs/)
-
-- [Product owner vs. product manager |
-
-productboard](https://www.productboard.com/blog/product-owner-vs-product-manager/)
-
-- [The Principles of Service Design Thinking - Building Better
-
-Services |
-
-Inte](https://www.interaction-design.org/literature/article/the-principles-of-service-design-thinking-building-better-services)
-
-- [Service design: the high impact customer experience discipline -
-
-Liveworkst](https://www.liveworkstudio.com/monthly-magazines/service-design-the-high-impact-customer-experience-discipline/)
+- [Service design: the high impact customer experience discipline - Liveworkst](https://www.liveworkstudio.com/monthly-magazines/service-design-the-high-impact-customer-experience-discipline/)
 
 - [The Way of the Support Pro](https://supportops.co/manifesto/)
 
-- [Designing Great Customer Services ::
+- [Designing Great Customer Services :: UXmatters](https://www.uxmatters.com/mt/archives/2015/06/designing-great-customer-services.php)
 
-UXmatters](https://www.uxmatters.com/mt/archives/2015/06/designing-great-customer-services.php)
+- [Let’s talk about designing Customer Support Experience | by Konrad Marzec](https://uxdesign.cc/lets-talk-about-designing-customer-support-experience-91f81879f3c0)
 
-- [Let’s talk about designing Customer Support Experience | by Konrad
-
-Marzec
-
-|](https://uxdesign.cc/lets-talk-about-designing-customer-support-experience-91f81879f3c0)
-
-- [OCPD: Signs, Symptoms, &
-
-Treatments](https://www.choosingtherapy.com/obsessive-compulsive-personality-disorder/)
+- [OCPD: Signs, Symptoms, & Treatments](https://www.choosingtherapy.com/obsessive-compulsive-personality-disorder/)
 
 - [Episode 23: Your Lists & List Making Habits Are Making You Less
 

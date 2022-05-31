@@ -5,7 +5,7 @@ I'm a digital designer with about 15 years of experience crafting web products f
 ### Where I've been
 
 #### Leeruniek
-I currently enjoy full-time employment at [[Leeruniek]], a start-up in education technology.
+I currently enjoy full-time employment at [[leeruniek 1]], a start-up in education technology.
 
 ##### May 2021 - now
 I transitioned to the role of Product & Design Manager to help make Leeruniek's product more sustainably user-centered. This job, the title of which I invented out of necessity, turns out to be a delightful, user-forward way of making a product. My team is focused on fortifying the foundation of our dashboard, and responding well to the education industry's changing focus. Helping crucial workers during the pandemic has been one of the most gratifying things I've done.
