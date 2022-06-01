@@ -178,19 +178,49 @@ By Ilse Blom
 Jacob Harbord
 
 - Lack of explicit thinking about process of value creation leads to reduced satisfaction about value of research projects
-- 
+- How to measure value of research
+	- Making better decisions
+	- We need to be agnostic about how we make those decisions
+	- Method doens't matter: as long as the decisions are better
+- Has framework alternative to Double Diamond:
+	- Don't organize decisions in linear, time-based way
+	- Matrix: specific/general - tactical/strategic
+- Decisions: use limited information to move projects forward
+- Types of deciders:
+	- Busy deciders: high-level recommendations with just enough details to build credibility
+	- Involved practitioner: powerful insights and contextual understanding
+	- Enthusiastic learner: need consumer understanding, would benefit from training
+	- Sceptical avoider: research shouldn't influence their own work too much
+- Tailor work to stakeholder perspective, and expand scope of research functions
+- Value:
+	- Insight (primary research)
+	- Hindsight (data mining; for Busy Deciders and Sceptical Avoiders)
+	- Foresight (always strategic; trends and futures)
+	- Orientation (immersion; to build user centricity)
+	- Operations (democratisation)
+- What's next:
+	- Evaluate your research functions (how does your research contribute to what stakeholders need?)
+	- Develop a diverse range of methods
+	- 
 
 ### The Customer Insights Core: first steps of strategic research at Glovo by UXR & Data
-
+- Step 0: agency model (UXR and PA separate)
+- Step 1: embedded model (embedded on a product team level)
 
 ### How to Tackle Research Complexity: Approaching Nuanced and Complex Findings in a TL;DR World
+By [Wendi Chong](wendi-chong)
 
+- How can we have more impact?
+- How can we be more strategic in our work?
+- If we're producing research insights that are easy to digest we might not be doing the most impactful work
 
 ### Too Good to be True: Benefits and Pitfalls of Using Stories to Communicate User Research
 
 
 ### Lunch talk – Hitting the User Research Maturity Wall: how to avoid research stagnation
+By Tom Hayes
 
+- If we're the most senior person in the organization for UX, how do we lean on others around us
 
 ### Start a career in games user research
 
@@ -200,7 +230,5 @@ Jacob Harbord
 
 ### Conducting Research on UX Researchers: Research Bookmark contributes to Scaling Global UX Research practice
 
-
-
-
 ## Further exploration
+- [Applications for Leeruniek](uxinsight-festival-2022-takeaways.md)

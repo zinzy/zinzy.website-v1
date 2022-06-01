@@ -9,7 +9,6 @@ from datetime import datetime
 now = datetime.now()
 
 date_time = now.strftime("%A %B %d, %Y, %H:%M:%S")
-print("year:", date_time)
 
 if not os.path.exists('site'):
     os.mkdir('site')
@@ -68,16 +67,16 @@ for f in glob.iglob('content/public/*.md'):
                 margin-top: 100px;
               }
               a {
-                color: rgb(84, 43, 255);
+                color: black;
               }
               a:hover {
-                color: deeppink;
-              }
-              a:visited {
                 color: rgb(84, 43, 255);
               }
+              a:visited {
+                color: black;
+              }
               a:visited:hover {
-                color: deeppink;
+                color: rgb(84, 43, 255);
               }
               article h1 {
                 font-size: 2em;
