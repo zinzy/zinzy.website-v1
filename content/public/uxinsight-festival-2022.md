@@ -175,7 +175,10 @@ By Ilse Blom
 
 
 ### Creating Value: What, Who, & How?
+Jacob Harbord
 
+- Lack of explicit thinking about process of value creation leads to reduced satisfaction about value of research projects
+- 
 
 ### The Customer Insights Core: first steps of strategic research at Glovo by UXR & Data
 

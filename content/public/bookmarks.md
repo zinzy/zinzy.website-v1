@@ -3,6 +3,7 @@
 In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to visit from time to time.
 
 ## People
+- [Amy Hupe](https://amyhupe.co.uk/)
 - [Ana Rodrigues](https://ohhelloana.blog)
 - [Anders Jensen-Urstad](https://anders.unix.se/) 
 - [Andy Matuschak](https://notes.andymatuschak.org/)

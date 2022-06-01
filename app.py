@@ -117,3 +117,8 @@ for f in glob.iglob('content/public/*.md'):
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
           </p>
           ''')
+        file.write(r'''
+          <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
+                                <script src="https://yesterweb.org/js/widget.js"></script>
+                                
+          ''')

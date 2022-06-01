@@ -5,7 +5,7 @@ I am a designer, facilitator, and IndieWeb enthusiast from [Amsterdam](/amsterda
 
 ## Contact me
 - I don't participate in social media, but
-- I quite like receiving [emails](mailto:zinzy@pm.me)
+- I quite like receiving [emails](mailto:zinzy@pm.me) from kind strangers
 - Feel free to connect with me on <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 ## Start
