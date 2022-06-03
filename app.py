@@ -67,16 +67,16 @@ for f in glob.iglob('content/public/*.md'):
                 margin-top: 100px;
               }
               a {
-                color: black;
+                color: rgb(84, 43, 255);
               }
               a:hover {
-                color: rgb(84, 43, 255);
-              }
-              a:visited {
                 color: black;
               }
-              a:visited:hover {
+              a:visited {
                 color: rgb(84, 43, 255);
+              }
+              a:visited:hover {
+                color: black;
               }
               article h1 {
                 font-size: 2em;

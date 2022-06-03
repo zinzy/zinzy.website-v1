@@ -10,3 +10,4 @@ Inspired by the good [Elliott Cost](https://elliott.computer/pages/opinion/) I m
 - White isn't a color unless it's a skin color
 - The fact that murder is punished more harshly than inflicting deep, complex trauma upon a person is odd, because it implies that the grief people might feel about your death is more important than you grieving the life you could've had if you hadn't been traumatized
 - In its most rudimentary form, Twitter would be a list of opinions taking the form of a microblog. No following, no followers. 
+- _Halloween_ is the best horror movie franchise, in the very first place because of the blatant disregard the films have for one another.
