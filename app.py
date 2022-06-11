@@ -67,16 +67,16 @@ for f in glob.iglob('content/public/*.md'):
                 margin-top: 100px;
               }
               a {
-                color: rgb(84, 43, 255);
+                color: blue;
               }
               a:hover {
-                color: black;
+                color: blue;
               }
               a:visited {
-                color: rgb(84, 43, 255);
+                color: blue;
               }
               a:visited:hover {
-                color: black;
+                color: blue;
               }
               article h1 {
                 font-size: 2em;
@@ -115,9 +115,4 @@ for f in glob.iglob('content/public/*.md'):
             An IndieWeb Webring 🕸💍
             <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
           </p>
-          ''')
-        file.write(r'''
-          <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-                                <script src="https://yesterweb.org/js/widget.js"></script>
-                                
           ''')

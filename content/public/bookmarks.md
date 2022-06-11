@@ -35,6 +35,7 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 - [Parimal Satyal](https://neustadt.fr](https://neustadt.fr/) 
 - [Patrick Rhone](https://www.patrickrhone.net)
 - [Patrick "Pickles" Weston](http://patrickfweston.com) 
+- [Richard Stallman](https://stallman.org/)
 - [Ru Singh](https://rusingh.com)
 - [Salim Virani](https://salimvirani.com)  
 - [Savannah Million](http://savannahmillion.com)
@@ -55,3 +56,6 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 
 ## Media
 - [Internet History Podcast](https://www.internethistorypodcast.com) 
+
+## Crafts
+- [Needle 'n Thread](https://www.needlenthread.com/tips-techniques#tntlessons)
