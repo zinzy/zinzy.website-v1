@@ -2,7 +2,7 @@
 Welcome to my home on the Internet. I'm Zinzy, a designer, facilitator, and Indieweb enthusiast from [Amsterdam](/amsterdam). This decidedly awkward-looking personal site is where I come to link and think, and where I collect information about my projects, opinions, and things that catch my attention.
 
 ## Contact
-- [Email](zinzy@pm.me)
+- [Email](mailto:zinzy@pm.me)
 - [LinkedIn](https://www.linkedin.com/in/zinzy/)
 
 ## Nice to have you here
