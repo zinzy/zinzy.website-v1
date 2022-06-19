@@ -24,7 +24,7 @@ Here's an incomplete list of things I'd like to add to this website:
 - Templating
 - Proper handling of frontmatter
 - Favicon
-- Dark mode
+- [x] Dark mode
 - Digital garden
 - Changelog
 - External links open in new tab without Javascript
