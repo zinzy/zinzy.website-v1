@@ -41,7 +41,15 @@ for f in glob.iglob('content/public/*.md'):
   <meta name="author" content="Zinzy Waleson">
   <link rel="canonical" href="https://zinzy.website/"> 
 
-            <style>
+            <style> 
+
+                @media (prefers-color-scheme: dark) {
+                  html { background: #1c1c1c; color: white; }
+                  a { color: #8e8e8e; }
+                  a:visited { color: #8e8e8e; }
+                  a:active { color: #8e8e8e; }
+                }
+
             body {
                 padding: 20px;
               }
@@ -65,19 +73,7 @@ for f in glob.iglob('content/public/*.md'):
               }
               footer {
                 margin-top: 100px;
-              }
-              a {
-                color: blue;
-              }
-              a:hover {
-                color: blue;
-              }
-              a:visited {
-                color: blue;
-              }
-              a:visited:hover {
-                color: blue;
-              }
+              } 
               article h1 {
                 font-size: 2em;
               }
@@ -90,6 +86,7 @@ for f in glob.iglob('content/public/*.md'):
                 padding-left: 1rem;
                 margin-left: 0;
               }
+
               </style>
 </head>
 <body>
@@ -100,7 +97,7 @@ for f in glob.iglob('content/public/*.md'):
   
   <footer class="h-card">
   <hr/>
-    <p><a href="/" class="u-url"><mark>Zinzy.website</mark></a> is the personal website of <span class="p-name">Zinzy Waleson</span>, a designer and facilitator in <span class="p-locality">Amsterdam</a>. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. You may find Zinzy on 
+    <p><a href="/" class="u-url">Zinzy.website</a> is the personal website of <span class="p-name">Zinzy Waleson</span>, a designer and facilitator in <span class="p-locality">Amsterdam</a>. All the content on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. You may find Zinzy on 
     <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>, 
     <a href="https://github.com/zinzy" target="_blank" rel="me noopener noreferrer">Github</a> or
     <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
