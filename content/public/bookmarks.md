@@ -32,7 +32,7 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 - [Levi Wintering](http://leviwintering.com)  
 - [Max Kuzma](https://maxwellkuzma.com)
 - [Maxime Vaillancourt](https://maximevaillancourt.com) 
-- [Parimal Satyal](https://neustadt.fr](https://neustadt.fr/) 
+- [Parimal Satyal](https://neustadt.fr/) 
 - [Patrick Rhone](https://www.patrickrhone.net)
 - [Patrick "Pickles" Weston](http://patrickfweston.com) 
 - [Richard Stallman](https://stallman.org/)

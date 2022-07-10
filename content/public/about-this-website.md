@@ -1,12 +1,19 @@
-# Start
+# About this website
 
-This site serves as a playground to help me solve my own problems. The weird-looking scavenger hunt vibe is not a bug, it's a feature.
+## What is this?
+This is a personal website in the nostalgic sense of the world: not a polished, coherent, professional highlight reel of who I am. Rather my digital living room
 
-## What is this site meant to do?
+- A playground to help me solve my own problems. 
+- A personal website 
+
+## Why?
 This space is a personal website not in the modern sense of the world: it's not a polished, coherent, professional highlight reel of who I am. It's very much a traditional personal site: my digital living room, where I get to play, experiment, start, and stop. I love that part of the Internet, where things are a bit weird, and where people get to share more of themselves than the limits to which large platforms confine them.
 
 ## Why does this site look... unfinished?
 I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. As a designer, my days are made up of making decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way Times New Roman in black looks against a white canvas.
+
+The weird-looking scavenger hunt vibe is not a bug, it's a feature.
+- I enjoy the way its minimalism foregrounds the things my professional ego wants from a personal site
 
 ## What's important to you when it comes to maintaining this website?
 

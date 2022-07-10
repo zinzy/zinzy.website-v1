@@ -49,6 +49,7 @@ I live in Indische Buurt, the finest neighborhood in Amsterdam. I've been here s
 
 ## Fun facts
 - Sometimes in the morning when you're biking to work, you might find that the air in Amsterdam smells like dark chocolate powder. It's most likely the [chocolate factory in Zaandam](https://www.theguardian.com/cities/2015/oct/07/smell-amsterdam-cannabis-odour-mappers-kate-mclean).
+- When I'm abroad and I smell the scent of weed, I am hit with a bout of strong nostalgia for the city. When I'm home and I smell it, I feel disdain. 
 
 ## Why Amsterdam works for me
 To my surprise, when Dutch people from outside of the city tell me about Amsterdam, they usually assume I'm here for the culture and proximity to commercial innovation. Having grown up in the South of the Netherlands as a queer person of color, I've become intimately familiar with what it means to be The Other. Next to Rotterdam, Amsterdam is the only place in the country that doesn't further cultivate that feeling. It's been a healing experience for me to call this city home.

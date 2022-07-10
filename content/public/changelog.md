@@ -1,6 +1,15 @@
 # Changelog
 This is a file containing time-bound updates on this website. It's a collection of untitled notes, likes, and such. Hopefully, once I've learnt more about Python, I can actually generate a list of posts.
 
+
+July 6, 2022
+- [The Origin of Vibes](https://www.theatlantic.com/ideas/archive/2022/07/origin-vibes-charisma-emotional-politics/661469/)
+- [Waarom zijn we zo snel boos op elkaar?](https://www.trouw.nl/a-bb0f61bd)
+
+
+#### Thursday June 23, 2022
+- **06:48:** someone referred to true crime fans as murder muffins [a few weeks ago on Twitter](https://twitter.com/randyshart/status/1533898248674750464), and I can't get over the word
+
 #### Sunday June 19, 2022
 - **11:40:** I've combined my GTD trigger list and projects list for one big hierarchical overview of my areas of responsibility. I'm curious to see if this'll give me peace of mind about "where things belong".
 

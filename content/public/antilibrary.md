@@ -16,3 +16,8 @@ These are books, articles, films, podcasts, and other media artefacts that I wou
 - 'The Beautiful Risk of Education', Biesta
 - 'How To Make A Slave'
 - 'The Hebrew Bible: Feminist and Intersectional Perspectives'
+- [_On Not Knowing: How to Love and Other Essays_](https://bookshop.org/a/12476/9780226751351), by Emily Ogden
+
+## Films
+- _Good Luck to You, Leo Grande_
+- 

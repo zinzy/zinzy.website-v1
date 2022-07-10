@@ -101,6 +101,7 @@ for f in glob.iglob('content/public/*.md'):
     <a href="https://www.linkedin.com/in/zinzy/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>, 
     <a href="https://github.com/zinzy" target="_blank" rel="me noopener noreferrer">Github</a> or
     <a href="mailto:zinzy@pm.me" class="u-email" target="_blank" rel="me noopener noreferrer">Email</a>.</p>
+
   </footer>
 </body>
 </html>''') 
@@ -108,8 +109,11 @@ for f in glob.iglob('content/public/*.md'):
         file.write(r'''
           <hr/>
           <p>
-            <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-            An IndieWeb Webring 🕸💍
-            <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+            <span>
+              <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
+              An IndieWeb Webring 🕸💍
+              <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+            </span> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+            <span>Check all my <a href="/webrings">webrings</a>.
           </p>
           ''')
